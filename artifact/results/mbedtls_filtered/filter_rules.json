@@ -1,0 +1,59 @@
+{
+  "label": "production_focused_filtered_mbedtls",
+  "purpose": "Remove obvious non-production, cleanup-only, and symmetric/hash/configuration noise before reviewing Mbed TLS candidates.",
+  "kept_paths": [
+    "/library/",
+    "/include/"
+  ],
+  "excluded_path_fragments": [
+    "/tests/",
+    "/test/",
+    "/programs/",
+    "/examples/",
+    "/fuzz/",
+    "/benchmark/",
+    "/docs/",
+    "/scripts/",
+    "/configs/"
+  ],
+  "r04_cleanup_or_utility_terms": [
+    "free",
+    "cleanup",
+    "reset",
+    "zeroize",
+    "deinit",
+    "destroy",
+    "close",
+    "exit",
+    "printf",
+    "snprintf",
+    "debug",
+    "init",
+    "setup",
+    "calloc",
+    "malloc"
+  ],
+  "r01_symmetric_hash_or_config_terms": [
+    "aes",
+    "sha",
+    "sha256",
+    "sha512",
+    "md",
+    "hmac",
+    "cmac",
+    "ccm",
+    "gcm",
+    "chacha",
+    "poly1305",
+    "psa_want",
+    "mbedtls_md",
+    "mbedtls_cipher",
+    "tls12_psk_to_ms",
+    "entropy",
+    "ctr_drbg",
+    "hash",
+    "digest",
+    "cipher"
+  ],
+  "important_note": "This is a source-filtered assisted triage view, not an independent human manual precision audit."
+}

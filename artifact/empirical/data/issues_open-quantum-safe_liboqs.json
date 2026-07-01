@@ -1,0 +1,2196 @@
+[
+  {
+    "repo": "open-quantum-safe/liboqs",
+    "number": 2301,
+    "title": "Subject: [Minor Bug/Suggestion] Reviewing KEM Implementation Strategy",
+    "state": "closed",
+    "created_at": "2025-10-19T18:27:06Z",
+    "url": "https://github.com/open-quantum-safe/liboqs/issues/2301",
+    "labels": []
+  },
+  {
+    "repo": "open-quantum-safe/liboqs",
+    "number": 2291,
+    "title": "Avoid duplicate CI runs in pull requests (push+PR tests)",
+    "state": "open",
+    "created_at": "2025-10-02T17:10:35Z",
+    "url": "https://github.com/open-quantum-safe/liboqs/issues/2291",
+    "labels": [
+      "focus"
+    ]
+  },
+  {
+    "repo": "open-quantum-safe/liboqs",
+    "number": 2192,
+    "title": "Include both variants FrodoKEM",
+    "state": "closed",
+    "created_at": "2025-07-04T13:34:48Z",
+    "url": "https://github.com/open-quantum-safe/liboqs/issues/2192",
+    "labels": [
+      "enhancement",
+      "help wanted",
+      "wishlist"
+    ]
+  },
+  {
+    "repo": "open-quantum-safe/liboqs",
+    "number": 2160,
+    "title": "Update speed tests to measure GPU performance for cuPQC code",
+    "state": "open",
+    "created_at": "2025-06-05T14:16:50Z",
+    "url": "https://github.com/open-quantum-safe/liboqs/issues/2160",
+    "labels": [
+      "help wanted",
+      "platform-specific"
+    ]
+  },
+  {
+    "repo": "open-quantum-safe/liboqs",
+    "number": 2154,
+    "title": "Add ability to derive/recreate a public key from a private key",
+    "state": "closed",
+    "created_at": "2025-06-02T17:21:31Z",
+    "url": "https://github.com/open-quantum-safe/liboqs/issues/2154",
+    "labels": []
+  },
+  {
+    "repo": "open-quantum-safe/liboqs",
+    "number": 2128,
+    "title": "Update ACVP vectors",
+    "state": "closed",
+    "created_at": "2025-04-25T15:43:44Z",
+    "url": "https://github.com/open-quantum-safe/liboqs/issues/2128",
+    "labels": [
+      "enhancement"
+    ]
+  },
+  {
+    "repo": "open-quantum-safe/liboqs",
+    "number": 2045,
+    "title": "Create a table of algorithm support levels",
+    "state": "closed",
+    "created_at": "2025-01-21T15:40:06Z",
+    "url": "https://github.com/open-quantum-safe/liboqs/issues/2045",
+    "labels": [
+      "documentation"
+    ]
+  },
+  {
+    "repo": "open-quantum-safe/liboqs",
+    "number": 2039,
+    "title": "liboqs usage of OpenSSL memory APIs disabled",
+    "state": "open",
+    "created_at": "2025-01-11T12:48:27Z",
+    "url": "https://github.com/open-quantum-safe/liboqs/issues/2039",
+    "labels": [
+      "bug"
+    ]
+  },
+  {
+    "repo": "open-quantum-safe/liboqs",
+    "number": 2032,
+    "title": "Supporting \"seed\" private key format",
+    "state": "closed",
+    "created_at": "2025-01-03T15:30:23Z",
+    "url": "https://github.com/open-quantum-safe/liboqs/issues/2032",
+    "labels": []
+  },
+  {
+    "repo": "open-quantum-safe/liboqs",
+    "number": 1995,
+    "title": "CROSS broken sigs validate ",
+    "state": "closed",
+    "created_at": "2024-11-19T13:17:37Z",
+    "url": "https://github.com/open-quantum-safe/liboqs/issues/1995",
+    "labels": []
+  },
+  {
+    "repo": "open-quantum-safe/liboqs",
+    "number": 1993,
+    "title": "Create version #defines",
+    "state": "closed",
+    "created_at": "2024-11-12T16:23:14Z",
+    "url": "https://github.com/open-quantum-safe/liboqs/issues/1993",
+    "labels": []
+  },
+  {
+    "repo": "open-quantum-safe/liboqs",
+    "number": 1989,
+    "title": "Drop Kyber support",
+    "state": "closed",
+    "created_at": "2024-11-12T14:52:42Z",
+    "url": "https://github.com/open-quantum-safe/liboqs/issues/1989",
+    "labels": [
+      "future-work"
+    ]
+  },
+  {
+    "repo": "open-quantum-safe/liboqs",
+    "number": 1967,
+    "title": "SPHINCS+ SHAKE aarch64 implementation is never enabled",
+    "state": "closed",
+    "created_at": "2024-10-29T20:19:18Z",
+    "url": "https://github.com/open-quantum-safe/liboqs/issues/1967",
+    "labels": [
+      "bug"
+    ]
+  },
+  {
+    "repo": "open-quantum-safe/liboqs",
+    "number": 1958,
+    "title": "Verification error in CROSS-RDSDPG-128-small",
+    "state": "closed",
+    "created_at": "2024-10-23T13:40:49Z",
+    "url": "https://github.com/open-quantum-safe/liboqs/issues/1958",
+    "labels": []
+  },
+  {
+    "repo": "open-quantum-safe/liboqs",
+    "number": 1946,
+    "title": "[Feature request] SQIsign",
+    "state": "open",
+    "created_at": "2024-10-07T20:58:01Z",
+    "url": "https://github.com/open-quantum-safe/liboqs/issues/1946",
+    "labels": [
+      "enhancement",
+      "help wanted"
+    ]
+  },
+  {
+    "repo": "open-quantum-safe/liboqs",
+    "number": 1945,
+    "title": "Correct openssl init functions to take build params into account",
+    "state": "open",
+    "created_at": "2024-10-04T14:19:12Z",
+    "url": "https://github.com/open-quantum-safe/liboqs/issues/1945",
+    "labels": []
+  },
+  {
+    "repo": "open-quantum-safe/liboqs",
+    "number": 1915,
+    "title": "Remove unsupported Kyber upstreams",
+    "state": "closed",
+    "created_at": "2024-09-06T05:58:56Z",
+    "url": "https://github.com/open-quantum-safe/liboqs/issues/1915",
+    "labels": []
+  },
+  {
+    "repo": "open-quantum-safe/liboqs",
+    "number": 1856,
+    "title": "Add GitHub Actions to automate project board management ",
+    "state": "closed",
+    "created_at": "2024-07-24T21:02:41Z",
+    "url": "https://github.com/open-quantum-safe/liboqs/issues/1856",
+    "labels": []
+  },
+  {
+    "repo": "open-quantum-safe/liboqs",
+    "number": 1851,
+    "title": "Add diagrams for minimal examples in wiki and liboqs documentation",
+    "state": "open",
+    "created_at": "2024-07-19T19:15:56Z",
+    "url": "https://github.com/open-quantum-safe/liboqs/issues/1851",
+    "labels": [
+      "enhancement",
+      "documentation",
+      "help wanted"
+    ]
+  },
+  {
+    "repo": "open-quantum-safe/liboqs",
+    "number": 1850,
+    "title": "Latest updates to ML-DSA are not implemented yet",
+    "state": "closed",
+    "created_at": "2024-07-19T17:55:15Z",
+    "url": "https://github.com/open-quantum-safe/liboqs/issues/1850",
+    "labels": []
+  },
+  {
+    "repo": "open-quantum-safe/liboqs",
+    "number": 1842,
+    "title": "Use OQS_*_set_callbacks instead of C_OR_NI_OR_ARM macros",
+    "state": "open",
+    "created_at": "2024-07-12T13:11:44Z",
+    "url": "https://github.com/open-quantum-safe/liboqs/issues/1842",
+    "labels": [
+      "refactor",
+      "good first issue"
+    ]
+  },
+  {
+    "repo": "open-quantum-safe/liboqs",
+    "number": 1840,
+    "title": "Define threat model for liboqs",
+    "state": "closed",
+    "created_at": "2024-07-11T15:45:13Z",
+    "url": "https://github.com/open-quantum-safe/liboqs/issues/1840",
+    "labels": [
+      "documentation"
+    ]
+  },
+  {
+    "repo": "open-quantum-safe/liboqs",
+    "number": 1795,
+    "title": "Move from CCI to GH CI",
+    "state": "closed",
+    "created_at": "2024-05-15T12:39:26Z",
+    "url": "https://github.com/open-quantum-safe/liboqs/issues/1795",
+    "labels": []
+  },
+  {
+    "repo": "open-quantum-safe/liboqs",
+    "number": 1742,
+    "title": "ninja_runtests failing",
+    "state": "closed",
+    "created_at": "2024-04-02T08:54:04Z",
+    "url": "https://github.com/open-quantum-safe/liboqs/issues/1742",
+    "labels": [
+      "bug"
+    ]
+  },
+  {
+    "repo": "open-quantum-safe/liboqs",
+    "number": 1706,
+    "title": "Add OpenSSF scorecard",
+    "state": "closed",
+    "created_at": "2024-02-26T10:07:38Z",
+    "url": "https://github.com/open-quantum-safe/liboqs/issues/1706",
+    "labels": []
+  },
+  {
+    "repo": "open-quantum-safe/liboqs",
+    "number": 1704,
+    "title": "Add tests for alias behaving identically to at least one baseline alg.",
+    "state": "closed",
+    "created_at": "2024-02-23T05:51:12Z",
+    "url": "https://github.com/open-quantum-safe/liboqs/issues/1704",
+    "labels": []
+  },
+  {
+    "repo": "open-quantum-safe/liboqs",
+    "number": 1703,
+    "title": "`filter_args` not correctly functioning",
+    "state": "closed",
+    "created_at": "2024-02-23T05:48:10Z",
+    "url": "https://github.com/open-quantum-safe/liboqs/issues/1703",
+    "labels": []
+  },
+  {
+    "repo": "open-quantum-safe/liboqs",
+    "number": 1624,
+    "title": "BIKE constant time tests failing",
+    "state": "closed",
+    "created_at": "2023-12-11T14:56:44Z",
+    "url": "https://github.com/open-quantum-safe/liboqs/issues/1624",
+    "labels": [
+      "help wanted"
+    ]
+  },
+  {
+    "repo": "open-quantum-safe/liboqs",
+    "number": 1521,
+    "title": "Update Kyber and Dilithium to FIPS versions",
+    "state": "closed",
+    "created_at": "2023-08-08T14:39:08Z",
+    "url": "https://github.com/open-quantum-safe/liboqs/issues/1521",
+    "labels": [
+      "enhancement"
+    ]
+  },
+  {
+    "repo": "open-quantum-safe/liboqs",
+    "number": 1488,
+    "title": "0.8.0rc1 MSVC 32-bit builds fail on Falcon with AVX",
+    "state": "closed",
+    "created_at": "2023-06-04T19:26:27Z",
+    "url": "https://github.com/open-quantum-safe/liboqs/issues/1488",
+    "labels": [
+      "bug",
+      "help wanted",
+      "platform-specific"
+    ]
+  },
+  {
+    "repo": "open-quantum-safe/liboqs",
+    "number": 1476,
+    "title": "Build SPHINCS on Windows",
+    "state": "closed",
+    "created_at": "2023-05-19T13:38:17Z",
+    "url": "https://github.com/open-quantum-safe/liboqs/issues/1476",
+    "labels": []
+  },
+  {
+    "repo": "open-quantum-safe/liboqs",
+    "number": 1462,
+    "title": "OpenSSL3 strict error checking causes downstream problems",
+    "state": "closed",
+    "created_at": "2023-05-16T06:07:48Z",
+    "url": "https://github.com/open-quantum-safe/liboqs/issues/1462",
+    "labels": []
+  },
+  {
+    "repo": "open-quantum-safe/liboqs",
+    "number": 1427,
+    "title": "Improve EVP_sha, EVP_aes calls when using OpenSSL3",
+    "state": "closed",
+    "created_at": "2023-04-04T05:57:39Z",
+    "url": "https://github.com/open-quantum-safe/liboqs/issues/1427",
+    "labels": []
+  },
+  {
+    "repo": "open-quantum-safe/liboqs",
+    "number": 1416,
+    "title": "RISC-V support",
+    "state": "open",
+    "created_at": "2023-03-15T09:06:44Z",
+    "url": "https://github.com/open-quantum-safe/liboqs/issues/1416",
+    "labels": [
+      "help wanted",
+      "platform-specific"
+    ]
+  },
+  {
+    "repo": "open-quantum-safe/liboqs",
+    "number": 1371,
+    "title": "some error when installing liboqs in windows Using MSYS2 and Mingw",
+    "state": "closed",
+    "created_at": "2023-01-28T13:26:20Z",
+    "url": "https://github.com/open-quantum-safe/liboqs/issues/1371",
+    "labels": []
+  },
+  {
+    "repo": "open-quantum-safe/liboqs",
+    "number": 1364,
+    "title": "About security audit",
+    "state": "closed",
+    "created_at": "2023-01-17T09:50:51Z",
+    "url": "https://github.com/open-quantum-safe/liboqs/issues/1364",
+    "labels": []
+  },
+  {
+    "repo": "open-quantum-safe/liboqs",
+    "number": 1338,
+    "title": "Segfault when running example_sig.c",
+    "state": "closed",
+    "created_at": "2023-01-03T12:54:06Z",
+    "url": "https://github.com/open-quantum-safe/liboqs/issues/1338",
+    "labels": []
+  },
+  {
+    "repo": "open-quantum-safe/liboqs",
+    "number": 1336,
+    "title": "CBOM for liboqs",
+    "state": "closed",
+    "created_at": "2022-12-20T16:21:06Z",
+    "url": "https://github.com/open-quantum-safe/liboqs/issues/1336",
+    "labels": []
+  },
+  {
+    "repo": "open-quantum-safe/liboqs",
+    "number": 1329,
+    "title": "Add NTRU prime back",
+    "state": "closed",
+    "created_at": "2022-12-12T10:11:27Z",
+    "url": "https://github.com/open-quantum-safe/liboqs/issues/1329",
+    "labels": []
+  },
+  {
+    "repo": "open-quantum-safe/liboqs",
+    "number": 1296,
+    "title": "Error when building liboqs on ARM (armeabi-v7a, Android 11, root)",
+    "state": "closed",
+    "created_at": "2022-08-24T10:57:53Z",
+    "url": "https://github.com/open-quantum-safe/liboqs/issues/1296",
+    "labels": []
+  },
+  {
+    "repo": "open-quantum-safe/liboqs",
+    "number": 1291,
+    "title": "Determining which port to use on test.quantumsafe.org",
+    "state": "closed",
+    "created_at": "2022-08-19T09:56:48Z",
+    "url": "https://github.com/open-quantum-safe/liboqs/issues/1291",
+    "labels": []
+  },
+  {
+    "repo": "open-quantum-safe/liboqs",
+    "number": 1245,
+    "title": "Classify algorithm status",
+    "state": "closed",
+    "created_at": "2022-07-03T10:30:20Z",
+    "url": "https://github.com/open-quantum-safe/liboqs/issues/1245",
+    "labels": []
+  },
+  {
+    "repo": "open-quantum-safe/liboqs",
+    "number": 1205,
+    "title": "Unable to Import a Post Quantum Certificate in PQ Chromium",
+    "state": "closed",
+    "created_at": "2022-04-27T16:35:36Z",
+    "url": "https://github.com/open-quantum-safe/liboqs/issues/1205",
+    "labels": []
+  },
+  {
+    "repo": "open-quantum-safe/liboqs",
+    "number": 1096,
+    "title": "test_style failed with 127 and test_spdx - assert False",
+    "state": "closed",
+    "created_at": "2021-09-27T03:59:04Z",
+    "url": "https://github.com/open-quantum-safe/liboqs/issues/1096",
+    "labels": []
+  },
+  {
+    "repo": "open-quantum-safe/liboqs",
+    "number": 1054,
+    "title": "State of platform specific optimizations",
+    "state": "closed",
+    "created_at": "2021-07-28T12:04:24Z",
+    "url": "https://github.com/open-quantum-safe/liboqs/issues/1054",
+    "labels": []
+  },
+  {
+    "repo": "open-quantum-safe/liboqs",
+    "number": 935,
+    "title": "Please provide compiled versions of LIBOQS",
+    "state": "closed",
+    "created_at": "2021-03-07T14:42:05Z",
+    "url": "https://github.com/open-quantum-safe/liboqs/issues/935",
+    "labels": []
+  },
+  {
+    "repo": "open-quantum-safe/liboqs",
+    "number": 814,
+    "title": "AES-NI ninja failure on cross-compiling - Ubuntu 18.04 - VirtualBox",
+    "state": "closed",
+    "created_at": "2020-08-19T09:34:19Z",
+    "url": "https://github.com/open-quantum-safe/liboqs/issues/814",
+    "labels": []
+  },
+  {
+    "repo": "open-quantum-safe/liboqs",
+    "number": 764,
+    "title": "saving returning bytes to .key or .pem file (Liboqs_python)",
+    "state": "closed",
+    "created_at": "2020-06-10T22:05:30Z",
+    "url": "https://github.com/open-quantum-safe/liboqs/issues/764",
+    "labels": []
+  },
+  {
+    "repo": "open-quantum-safe/liboqs",
+    "number": 763,
+    "title": "CMake ProjectConfig.cmake",
+    "state": "closed",
+    "created_at": "2020-06-08T13:01:08Z",
+    "url": "https://github.com/open-quantum-safe/liboqs/issues/763",
+    "labels": []
+  },
+  {
+    "repo": "open-quantum-safe/liboqs",
+    "number": 699,
+    "title": "Should we add XMSS?",
+    "state": "closed",
+    "created_at": "2020-04-02T17:26:32Z",
+    "url": "https://github.com/open-quantum-safe/liboqs/issues/699",
+    "labels": [
+      "question",
+      "future-work"
+    ]
+  },
+  {
+    "repo": "open-quantum-safe/liboqs",
+    "number": 668,
+    "title": "Understand the functionality of Dilithium2 or other algorithms",
+    "state": "closed",
+    "created_at": "2020-03-19T05:14:04Z",
+    "url": "https://github.com/open-quantum-safe/liboqs/issues/668",
+    "labels": []
+  },
+  {
+    "repo": "open-quantum-safe/liboqs",
+    "number": 659,
+    "title": "liboqs Compilation Error",
+    "state": "closed",
+    "created_at": "2020-03-12T19:58:18Z",
+    "url": "https://github.com/open-quantum-safe/liboqs/issues/659",
+    "labels": []
+  },
+  {
+    "repo": "open-quantum-safe/liboqs",
+    "number": 568,
+    "title": "Question: Cannot compile standard OpenSSL code using OpenSSL configured and installed",
+    "state": "closed",
+    "created_at": "2019-10-28T20:46:19Z",
+    "url": "https://github.com/open-quantum-safe/liboqs/issues/568",
+    "labels": []
+  },
+  {
+    "repo": "open-quantum-safe/liboqs",
+    "number": 416,
+    "title": "Ensure wiki documentation is up to date",
+    "state": "closed",
+    "created_at": "2018-10-10T02:26:33Z",
+    "url": "https://github.com/open-quantum-safe/liboqs/issues/416",
+    "labels": [
+      "documentation"
+    ]
+  },
+  {
+    "repo": "open-quantum-safe/liboqs",
+    "number": 359,
+    "title": "Error running make on master",
+    "state": "closed",
+    "created_at": "2018-09-05T13:50:34Z",
+    "url": "https://github.com/open-quantum-safe/liboqs/issues/359",
+    "labels": [
+      "bug"
+    ]
+  },
+  {
+    "repo": "open-quantum-safe/liboqs",
+    "number": 2341,
+    "title": "Discuss impact of PQClean wind-down",
+    "state": "open",
+    "created_at": "2026-01-08T16:15:18Z",
+    "url": "https://github.com/open-quantum-safe/liboqs/issues/2341",
+    "labels": [
+      "dependencies"
+    ]
+  },
+  {
+    "repo": "open-quantum-safe/liboqs",
+    "number": 2154,
+    "title": "Add ability to derive/recreate a public key from a private key",
+    "state": "closed",
+    "created_at": "2025-06-02T17:21:31Z",
+    "url": "https://github.com/open-quantum-safe/liboqs/issues/2154",
+    "labels": []
+  },
+  {
+    "repo": "open-quantum-safe/liboqs",
+    "number": 2147,
+    "title": "Compilation errors upon enabling HQC",
+    "state": "closed",
+    "created_at": "2025-05-30T04:36:28Z",
+    "url": "https://github.com/open-quantum-safe/liboqs/issues/2147",
+    "labels": []
+  },
+  {
+    "repo": "open-quantum-safe/liboqs",
+    "number": 2102,
+    "title": "Inter-operation between libOQS and BouncyCastle",
+    "state": "closed",
+    "created_at": "2025-03-16T19:52:59Z",
+    "url": "https://github.com/open-quantum-safe/liboqs/issues/2102",
+    "labels": [
+      "question",
+      "help wanted"
+    ]
+  },
+  {
+    "repo": "open-quantum-safe/liboqs",
+    "number": 2055,
+    "title": "cannot build lib without avx support",
+    "state": "closed",
+    "created_at": "2025-01-27T01:47:38Z",
+    "url": "https://github.com/open-quantum-safe/liboqs/issues/2055",
+    "labels": []
+  },
+  {
+    "repo": "open-quantum-safe/liboqs",
+    "number": 2045,
+    "title": "Create a table of algorithm support levels",
+    "state": "closed",
+    "created_at": "2025-01-21T15:40:06Z",
+    "url": "https://github.com/open-quantum-safe/liboqs/issues/2045",
+    "labels": [
+      "documentation"
+    ]
+  },
+  {
+    "repo": "open-quantum-safe/liboqs",
+    "number": 2035,
+    "title": "Add cf protection to assembler files",
+    "state": "open",
+    "created_at": "2025-01-07T13:10:53Z",
+    "url": "https://github.com/open-quantum-safe/liboqs/issues/2035",
+    "labels": [
+      "help wanted",
+      "future-work"
+    ]
+  },
+  {
+    "repo": "open-quantum-safe/liboqs",
+    "number": 1990,
+    "title": "Add warning in 0.12.0 release notes about planned dropping of Kyber support",
+    "state": "closed",
+    "created_at": "2024-11-12T16:14:58Z",
+    "url": "https://github.com/open-quantum-safe/liboqs/issues/1990",
+    "labels": []
+  },
+  {
+    "repo": "open-quantum-safe/liboqs",
+    "number": 1989,
+    "title": "Drop Kyber support",
+    "state": "closed",
+    "created_at": "2024-11-12T14:52:42Z",
+    "url": "https://github.com/open-quantum-safe/liboqs/issues/1989",
+    "labels": [
+      "future-work"
+    ]
+  },
+  {
+    "repo": "open-quantum-safe/liboqs",
+    "number": 1979,
+    "title": "-DOQS_MINIMAL_BUILD=\"OQS_ENABLE_KEM_kyber_512\" doesn't build",
+    "state": "closed",
+    "created_at": "2024-11-06T10:26:06Z",
+    "url": "https://github.com/open-quantum-safe/liboqs/issues/1979",
+    "labels": []
+  },
+  {
+    "repo": "open-quantum-safe/liboqs",
+    "number": 1951,
+    "title": "ML-KEM doesn't perform encapsulation key check",
+    "state": "closed",
+    "created_at": "2024-10-15T05:16:07Z",
+    "url": "https://github.com/open-quantum-safe/liboqs/issues/1951",
+    "labels": [
+      "enhancement",
+      "help wanted"
+    ]
+  },
+  {
+    "repo": "open-quantum-safe/liboqs",
+    "number": 1933,
+    "title": "Compilation error: <instantiation>:16:5: error: instruction requires: sha3",
+    "state": "closed",
+    "created_at": "2024-09-25T18:56:35Z",
+    "url": "https://github.com/open-quantum-safe/liboqs/issues/1933",
+    "labels": []
+  },
+  {
+    "repo": "open-quantum-safe/liboqs",
+    "number": 1915,
+    "title": "Remove unsupported Kyber upstreams",
+    "state": "closed",
+    "created_at": "2024-09-06T05:58:56Z",
+    "url": "https://github.com/open-quantum-safe/liboqs/issues/1915",
+    "labels": []
+  },
+  {
+    "repo": "open-quantum-safe/liboqs",
+    "number": 1894,
+    "title": "SLH-DSA: integrate final standard",
+    "state": "closed",
+    "created_at": "2024-08-15T14:22:46Z",
+    "url": "https://github.com/open-quantum-safe/liboqs/issues/1894",
+    "labels": [
+      "enhancement"
+    ]
+  },
+  {
+    "repo": "open-quantum-safe/liboqs",
+    "number": 1891,
+    "title": "ML-DSA: integrate final standard",
+    "state": "closed",
+    "created_at": "2024-08-13T15:44:06Z",
+    "url": "https://github.com/open-quantum-safe/liboqs/issues/1891",
+    "labels": []
+  },
+  {
+    "repo": "open-quantum-safe/liboqs",
+    "number": 1859,
+    "title": "Multi-threaded performance testing issues",
+    "state": "closed",
+    "created_at": "2024-07-25T08:31:55Z",
+    "url": "https://github.com/open-quantum-safe/liboqs/issues/1859",
+    "labels": []
+  },
+  {
+    "repo": "open-quantum-safe/liboqs",
+    "number": 1853,
+    "title": "Incorrect Order of z and d in NIST tests",
+    "state": "closed",
+    "created_at": "2024-07-23T12:35:58Z",
+    "url": "https://github.com/open-quantum-safe/liboqs/issues/1853",
+    "labels": []
+  },
+  {
+    "repo": "open-quantum-safe/liboqs",
+    "number": 1851,
+    "title": "Add diagrams for minimal examples in wiki and liboqs documentation",
+    "state": "open",
+    "created_at": "2024-07-19T19:15:56Z",
+    "url": "https://github.com/open-quantum-safe/liboqs/issues/1851",
+    "labels": [
+      "enhancement",
+      "documentation",
+      "help wanted"
+    ]
+  },
+  {
+    "repo": "open-quantum-safe/liboqs",
+    "number": 1850,
+    "title": "Latest updates to ML-DSA are not implemented yet",
+    "state": "closed",
+    "created_at": "2024-07-19T17:55:15Z",
+    "url": "https://github.com/open-quantum-safe/liboqs/issues/1850",
+    "labels": []
+  },
+  {
+    "repo": "open-quantum-safe/liboqs",
+    "number": 1847,
+    "title": "Running `cmake -LA` changes library configuration",
+    "state": "closed",
+    "created_at": "2024-07-18T19:59:48Z",
+    "url": "https://github.com/open-quantum-safe/liboqs/issues/1847",
+    "labels": [
+      "bug"
+    ]
+  },
+  {
+    "repo": "open-quantum-safe/liboqs",
+    "number": 1838,
+    "title": "Decode FORS indices similarly to WOTS",
+    "state": "closed",
+    "created_at": "2024-07-10T10:10:20Z",
+    "url": "https://github.com/open-quantum-safe/liboqs/issues/1838",
+    "labels": []
+  },
+  {
+    "repo": "open-quantum-safe/liboqs",
+    "number": 1807,
+    "title": "Extend constant-time testing",
+    "state": "open",
+    "created_at": "2024-06-05T11:35:15Z",
+    "url": "https://github.com/open-quantum-safe/liboqs/issues/1807",
+    "labels": [
+      "wishlist"
+    ]
+  },
+  {
+    "repo": "open-quantum-safe/liboqs",
+    "number": 1802,
+    "title": "Recreate public key from private",
+    "state": "closed",
+    "created_at": "2024-05-30T14:57:23Z",
+    "url": "https://github.com/open-quantum-safe/liboqs/issues/1802",
+    "labels": []
+  },
+  {
+    "repo": "open-quantum-safe/liboqs",
+    "number": 1645,
+    "title": "Further Kyber division fixes",
+    "state": "closed",
+    "created_at": "2023-12-30T15:50:06Z",
+    "url": "https://github.com/open-quantum-safe/liboqs/issues/1645",
+    "labels": []
+  },
+  {
+    "repo": "open-quantum-safe/liboqs",
+    "number": 1642,
+    "title": "Objects of target \"oqs\" referenced but is not an OBJECT library.",
+    "state": "closed",
+    "created_at": "2023-12-24T23:52:45Z",
+    "url": "https://github.com/open-quantum-safe/liboqs/issues/1642",
+    "labels": [
+      "question",
+      "help wanted"
+    ]
+  },
+  {
+    "repo": "open-quantum-safe/liboqs",
+    "number": 1639,
+    "title": "CI tooling for variable-time operations on some platforms",
+    "state": "open",
+    "created_at": "2023-12-21T16:18:11Z",
+    "url": "https://github.com/open-quantum-safe/liboqs/issues/1639",
+    "labels": [
+      "enhancement"
+    ]
+  },
+  {
+    "repo": "open-quantum-safe/liboqs",
+    "number": 1615,
+    "title": "unable to run example_kem.c",
+    "state": "closed",
+    "created_at": "2023-11-20T10:11:17Z",
+    "url": "https://github.com/open-quantum-safe/liboqs/issues/1615",
+    "labels": []
+  },
+  {
+    "repo": "open-quantum-safe/liboqs",
+    "number": 1591,
+    "title": "Falcon variable length signatures ",
+    "state": "closed",
+    "created_at": "2023-10-25T05:08:29Z",
+    "url": "https://github.com/open-quantum-safe/liboqs/issues/1591",
+    "labels": []
+  },
+  {
+    "repo": "open-quantum-safe/liboqs",
+    "number": 1584,
+    "title": "Improve granularity of copy_from_upstream",
+    "state": "closed",
+    "created_at": "2023-10-18T15:10:05Z",
+    "url": "https://github.com/open-quantum-safe/liboqs/issues/1584",
+    "labels": [
+      "enhancement"
+    ]
+  },
+  {
+    "repo": "open-quantum-safe/liboqs",
+    "number": 1540,
+    "title": "Environment-specific Classic McEliece constant-time leaks",
+    "state": "closed",
+    "created_at": "2023-09-07T21:19:04Z",
+    "url": "https://github.com/open-quantum-safe/liboqs/issues/1540",
+    "labels": [
+      "bug",
+      "help wanted"
+    ]
+  },
+  {
+    "repo": "open-quantum-safe/liboqs",
+    "number": 1521,
+    "title": "Update Kyber and Dilithium to FIPS versions",
+    "state": "closed",
+    "created_at": "2023-08-08T14:39:08Z",
+    "url": "https://github.com/open-quantum-safe/liboqs/issues/1521",
+    "labels": [
+      "enhancement"
+    ]
+  },
+  {
+    "repo": "open-quantum-safe/liboqs",
+    "number": 1466,
+    "title": "Integrate Kyber implementation from libjade",
+    "state": "closed",
+    "created_at": "2023-05-16T15:37:31Z",
+    "url": "https://github.com/open-quantum-safe/liboqs/issues/1466",
+    "labels": [
+      "enhancement"
+    ]
+  },
+  {
+    "repo": "open-quantum-safe/liboqs",
+    "number": 1437,
+    "title": "CC0 license is an obstacle",
+    "state": "closed",
+    "created_at": "2023-04-17T08:13:06Z",
+    "url": "https://github.com/open-quantum-safe/liboqs/issues/1437",
+    "labels": [
+      "enhancement"
+    ]
+  },
+  {
+    "repo": "open-quantum-safe/liboqs",
+    "number": 1402,
+    "title": "Pull Kyber update, update Kyber and Dilithium licenses",
+    "state": "closed",
+    "created_at": "2023-02-23T14:37:14Z",
+    "url": "https://github.com/open-quantum-safe/liboqs/issues/1402",
+    "labels": []
+  },
+  {
+    "repo": "open-quantum-safe/liboqs",
+    "number": 1388,
+    "title": "Licensing questions",
+    "state": "closed",
+    "created_at": "2023-02-13T17:09:53Z",
+    "url": "https://github.com/open-quantum-safe/liboqs/issues/1388",
+    "labels": []
+  },
+  {
+    "repo": "open-quantum-safe/liboqs",
+    "number": 1374,
+    "title": "BIKE not available in shared library ",
+    "state": "closed",
+    "created_at": "2023-01-29T23:17:02Z",
+    "url": "https://github.com/open-quantum-safe/liboqs/issues/1374",
+    "labels": []
+  },
+  {
+    "repo": "open-quantum-safe/liboqs",
+    "number": 1338,
+    "title": "Segfault when running example_sig.c",
+    "state": "closed",
+    "created_at": "2023-01-03T12:54:06Z",
+    "url": "https://github.com/open-quantum-safe/liboqs/issues/1338",
+    "labels": []
+  },
+  {
+    "repo": "open-quantum-safe/liboqs",
+    "number": 1329,
+    "title": "Add NTRU prime back",
+    "state": "closed",
+    "created_at": "2022-12-12T10:11:27Z",
+    "url": "https://github.com/open-quantum-safe/liboqs/issues/1329",
+    "labels": []
+  },
+  {
+    "repo": "open-quantum-safe/liboqs",
+    "number": 1320,
+    "title": "Update Kyber and Dilithium ARM code.",
+    "state": "closed",
+    "created_at": "2022-11-23T16:14:51Z",
+    "url": "https://github.com/open-quantum-safe/liboqs/issues/1320",
+    "labels": []
+  },
+  {
+    "repo": "open-quantum-safe/liboqs",
+    "number": 1309,
+    "title": "PKE",
+    "state": "closed",
+    "created_at": "2022-10-23T12:42:33Z",
+    "url": "https://github.com/open-quantum-safe/liboqs/issues/1309",
+    "labels": []
+  },
+  {
+    "repo": "open-quantum-safe/liboqs",
+    "number": 1302,
+    "title": "ValueError: byte string too long , Node js and python combine ",
+    "state": "closed",
+    "created_at": "2022-09-07T04:26:17Z",
+    "url": "https://github.com/open-quantum-safe/liboqs/issues/1302",
+    "labels": []
+  },
+  {
+    "repo": "open-quantum-safe/liboqs",
+    "number": 1301,
+    "title": "Kyber1024 encapsulation causes shared secret to get mangled",
+    "state": "closed",
+    "created_at": "2022-09-02T20:09:05Z",
+    "url": "https://github.com/open-quantum-safe/liboqs/issues/1301",
+    "labels": []
+  },
+  {
+    "repo": "open-quantum-safe/liboqs",
+    "number": 1291,
+    "title": "Determining which port to use on test.quantumsafe.org",
+    "state": "closed",
+    "created_at": "2022-08-19T09:56:48Z",
+    "url": "https://github.com/open-quantum-safe/liboqs/issues/1291",
+    "labels": []
+  },
+  {
+    "repo": "open-quantum-safe/liboqs",
+    "number": 1279,
+    "title": "Dilithium AVX failing constant time tests",
+    "state": "closed",
+    "created_at": "2022-08-05T02:02:46Z",
+    "url": "https://github.com/open-quantum-safe/liboqs/issues/1279",
+    "labels": []
+  },
+  {
+    "repo": "open-quantum-safe/liboqs",
+    "number": 1278,
+    "title": "Picnic failing constant time tests",
+    "state": "closed",
+    "created_at": "2022-08-05T01:34:40Z",
+    "url": "https://github.com/open-quantum-safe/liboqs/issues/1278",
+    "labels": []
+  },
+  {
+    "repo": "open-quantum-safe/liboqs",
+    "number": 1261,
+    "title": "Question:Do PQ-KEMs kyber and KEMs approved for 4th round , need Domain Separation for deriving multiple keys from shared secret?",
+    "state": "closed",
+    "created_at": "2022-07-25T10:06:34Z",
+    "url": "https://github.com/open-quantum-safe/liboqs/issues/1261",
+    "labels": []
+  },
+  {
+    "repo": "open-quantum-safe/liboqs",
+    "number": 1248,
+    "title": "Pull Kyber update to resolve scan-build failure",
+    "state": "closed",
+    "created_at": "2022-07-07T01:27:16Z",
+    "url": "https://github.com/open-quantum-safe/liboqs/issues/1248",
+    "labels": []
+  },
+  {
+    "repo": "open-quantum-safe/liboqs",
+    "number": 1245,
+    "title": "Classify algorithm status",
+    "state": "closed",
+    "created_at": "2022-07-03T10:30:20Z",
+    "url": "https://github.com/open-quantum-safe/liboqs/issues/1245",
+    "labels": []
+  },
+  {
+    "repo": "open-quantum-safe/liboqs",
+    "number": 1216,
+    "title": "DLL builds for windows",
+    "state": "closed",
+    "created_at": "2022-06-02T00:50:08Z",
+    "url": "https://github.com/open-quantum-safe/liboqs/issues/1216",
+    "labels": []
+  },
+  {
+    "repo": "open-quantum-safe/liboqs",
+    "number": 1206,
+    "title": "Adding a DeriveKeyPair functionality",
+    "state": "closed",
+    "created_at": "2022-04-27T21:30:19Z",
+    "url": "https://github.com/open-quantum-safe/liboqs/issues/1206",
+    "labels": [
+      "enhancement",
+      "good first issue"
+    ]
+  },
+  {
+    "repo": "open-quantum-safe/liboqs",
+    "number": 1201,
+    "title": "OQS_DIST_BUILD with strange results on M1",
+    "state": "closed",
+    "created_at": "2022-04-18T08:37:59Z",
+    "url": "https://github.com/open-quantum-safe/liboqs/issues/1201",
+    "labels": []
+  },
+  {
+    "repo": "open-quantum-safe/liboqs",
+    "number": 1197,
+    "title": "Problem building liboqs from source: argument list too long",
+    "state": "closed",
+    "created_at": "2022-03-17T15:52:26Z",
+    "url": "https://github.com/open-quantum-safe/liboqs/issues/1197",
+    "labels": []
+  },
+  {
+    "repo": "open-quantum-safe/liboqs",
+    "number": 1187,
+    "title": "Constant time checks for Kyber on AVX2 failing",
+    "state": "closed",
+    "created_at": "2022-02-07T14:57:01Z",
+    "url": "https://github.com/open-quantum-safe/liboqs/issues/1187",
+    "labels": []
+  },
+  {
+    "repo": "open-quantum-safe/liboqs",
+    "number": 1185,
+    "title": "Adding a build variable to specify armv8 version",
+    "state": "open",
+    "created_at": "2022-02-02T15:33:11Z",
+    "url": "https://github.com/open-quantum-safe/liboqs/issues/1185",
+    "labels": [
+      "enhancement",
+      "help wanted",
+      "platform-specific"
+    ]
+  },
+  {
+    "repo": "open-quantum-safe/liboqs",
+    "number": 1164,
+    "title": "Build failures with gcc on Apple M1",
+    "state": "closed",
+    "created_at": "2021-12-21T19:07:36Z",
+    "url": "https://github.com/open-quantum-safe/liboqs/issues/1164",
+    "labels": [
+      "bug"
+    ]
+  },
+  {
+    "repo": "open-quantum-safe/liboqs",
+    "number": 1146,
+    "title": "OQS_DIST_BUILD not working for aarch64",
+    "state": "closed",
+    "created_at": "2021-12-07T06:58:31Z",
+    "url": "https://github.com/open-quantum-safe/liboqs/issues/1146",
+    "labels": []
+  },
+  {
+    "repo": "open-quantum-safe/liboqs",
+    "number": 1125,
+    "title": "GCC 11 throws `mismatched bound` errors on arm64",
+    "state": "closed",
+    "created_at": "2021-11-17T12:13:34Z",
+    "url": "https://github.com/open-quantum-safe/liboqs/issues/1125",
+    "labels": []
+  },
+  {
+    "repo": "open-quantum-safe/liboqs",
+    "number": 1059,
+    "title": "Cross-compiling for `avr32-gcc`",
+    "state": "closed",
+    "created_at": "2021-07-30T08:53:38Z",
+    "url": "https://github.com/open-quantum-safe/liboqs/issues/1059",
+    "labels": []
+  },
+  {
+    "repo": "open-quantum-safe/liboqs",
+    "number": 1035,
+    "title": "Many schemes fail to compile with GCC 11.1.0",
+    "state": "closed",
+    "created_at": "2021-06-25T07:02:41Z",
+    "url": "https://github.com/open-quantum-safe/liboqs/issues/1035",
+    "labels": []
+  },
+  {
+    "repo": "open-quantum-safe/liboqs",
+    "number": 1012,
+    "title": "Correct claimed NIST level for Kyber768_90s",
+    "state": "closed",
+    "created_at": "2021-06-04T05:02:30Z",
+    "url": "https://github.com/open-quantum-safe/liboqs/issues/1012",
+    "labels": []
+  },
+  {
+    "repo": "open-quantum-safe/liboqs",
+    "number": 2437,
+    "title": "API hygiene: OQS_STATUS enum vs mlkem-native return values + accel branches missing on *_derand variants",
+    "state": "open",
+    "created_at": "2026-05-19T14:57:06Z",
+    "url": "https://github.com/open-quantum-safe/liboqs/issues/2437",
+    "labels": []
+  },
+  {
+    "repo": "open-quantum-safe/liboqs",
+    "number": 2418,
+    "title": "cryptobox pqc support",
+    "state": "closed",
+    "created_at": "2026-05-08T22:40:20Z",
+    "url": "https://github.com/open-quantum-safe/liboqs/issues/2418",
+    "labels": []
+  },
+  {
+    "repo": "open-quantum-safe/liboqs",
+    "number": 2324,
+    "title": "`#define p 761` conflicts with Termux variant of Android NDK, preventing build for Termux",
+    "state": "closed",
+    "created_at": "2025-11-20T08:42:47Z",
+    "url": "https://github.com/open-quantum-safe/liboqs/issues/2324",
+    "labels": []
+  },
+  {
+    "repo": "open-quantum-safe/liboqs",
+    "number": 2321,
+    "title": "Typo/Logic Error in OQS_SIG_STFL_secret_key_new for LMS configurations",
+    "state": "closed",
+    "created_at": "2025-11-13T09:14:54Z",
+    "url": "https://github.com/open-quantum-safe/liboqs/issues/2321",
+    "labels": [
+      "bug"
+    ]
+  },
+  {
+    "repo": "open-quantum-safe/liboqs",
+    "number": 2318,
+    "title": "Any plans for a rewrite in pure Rust ?",
+    "state": "closed",
+    "created_at": "2025-11-08T17:20:05Z",
+    "url": "https://github.com/open-quantum-safe/liboqs/issues/2318",
+    "labels": []
+  },
+  {
+    "repo": "open-quantum-safe/liboqs",
+    "number": 2301,
+    "title": "Subject: [Minor Bug/Suggestion] Reviewing KEM Implementation Strategy",
+    "state": "closed",
+    "created_at": "2025-10-19T18:27:06Z",
+    "url": "https://github.com/open-quantum-safe/liboqs/issues/2301",
+    "labels": []
+  },
+  {
+    "repo": "open-quantum-safe/liboqs",
+    "number": 2192,
+    "title": "Include both variants FrodoKEM",
+    "state": "closed",
+    "created_at": "2025-07-04T13:34:48Z",
+    "url": "https://github.com/open-quantum-safe/liboqs/issues/2192",
+    "labels": [
+      "enhancement",
+      "help wanted",
+      "wishlist"
+    ]
+  },
+  {
+    "repo": "open-quantum-safe/liboqs",
+    "number": 2163,
+    "title": "Absence of explicit deletion from memory of intermediate values",
+    "state": "open",
+    "created_at": "2025-06-10T15:08:10Z",
+    "url": "https://github.com/open-quantum-safe/liboqs/issues/2163",
+    "labels": []
+  },
+  {
+    "repo": "open-quantum-safe/liboqs",
+    "number": 2132,
+    "title": "missing security advisory for reasons to disable HQC",
+    "state": "closed",
+    "created_at": "2025-05-03T20:06:10Z",
+    "url": "https://github.com/open-quantum-safe/liboqs/issues/2132",
+    "labels": []
+  },
+  {
+    "repo": "open-quantum-safe/liboqs",
+    "number": 2118,
+    "title": "Update HQC implementation to 2025/02/19 version",
+    "state": "open",
+    "created_at": "2025-04-01T14:40:36Z",
+    "url": "https://github.com/open-quantum-safe/liboqs/issues/2118",
+    "labels": [
+      "enhancement",
+      "focus"
+    ]
+  },
+  {
+    "repo": "open-quantum-safe/liboqs",
+    "number": 2102,
+    "title": "Inter-operation between libOQS and BouncyCastle",
+    "state": "closed",
+    "created_at": "2025-03-16T19:52:59Z",
+    "url": "https://github.com/open-quantum-safe/liboqs/issues/2102",
+    "labels": [
+      "question",
+      "help wanted"
+    ]
+  },
+  {
+    "repo": "open-quantum-safe/liboqs",
+    "number": 2098,
+    "title": "Solicit more schemes from NIST signature on-ramp round 3",
+    "state": "open",
+    "created_at": "2025-03-07T18:33:33Z",
+    "url": "https://github.com/open-quantum-safe/liboqs/issues/2098",
+    "labels": [
+      "enhancement",
+      "wishlist"
+    ]
+  },
+  {
+    "repo": "open-quantum-safe/liboqs",
+    "number": 2047,
+    "title": "Possible Performance Degradation of HQC128 through Update to 2023-04-30 Submission",
+    "state": "closed",
+    "created_at": "2025-01-21T20:08:02Z",
+    "url": "https://github.com/open-quantum-safe/liboqs/issues/2047",
+    "labels": []
+  },
+  {
+    "repo": "open-quantum-safe/liboqs",
+    "number": 2032,
+    "title": "Supporting \"seed\" private key format",
+    "state": "closed",
+    "created_at": "2025-01-03T15:30:23Z",
+    "url": "https://github.com/open-quantum-safe/liboqs/issues/2032",
+    "labels": []
+  },
+  {
+    "repo": "open-quantum-safe/liboqs",
+    "number": 2028,
+    "title": "Add UOV sig alg",
+    "state": "closed",
+    "created_at": "2024-12-30T14:50:30Z",
+    "url": "https://github.com/open-quantum-safe/liboqs/issues/2028",
+    "labels": [
+      "enhancement",
+      "help wanted"
+    ]
+  },
+  {
+    "repo": "open-quantum-safe/liboqs",
+    "number": 1989,
+    "title": "Drop Kyber support",
+    "state": "closed",
+    "created_at": "2024-11-12T14:52:42Z",
+    "url": "https://github.com/open-quantum-safe/liboqs/issues/1989",
+    "labels": [
+      "future-work"
+    ]
+  },
+  {
+    "repo": "open-quantum-safe/liboqs",
+    "number": 1966,
+    "title": "LMS multi-tree signing crashes after first subtree is exhausted.",
+    "state": "closed",
+    "created_at": "2024-10-29T09:23:46Z",
+    "url": "https://github.com/open-quantum-safe/liboqs/issues/1966",
+    "labels": []
+  },
+  {
+    "repo": "open-quantum-safe/liboqs",
+    "number": 1946,
+    "title": "[Feature request] SQIsign",
+    "state": "open",
+    "created_at": "2024-10-07T20:58:01Z",
+    "url": "https://github.com/open-quantum-safe/liboqs/issues/1946",
+    "labels": [
+      "enhancement",
+      "help wanted"
+    ]
+  },
+  {
+    "repo": "open-quantum-safe/liboqs",
+    "number": 1931,
+    "title": "NIST CAVP validation of liboqs ML-DSA algorithm",
+    "state": "closed",
+    "created_at": "2024-09-20T16:18:19Z",
+    "url": "https://github.com/open-quantum-safe/liboqs/issues/1931",
+    "labels": [
+      "question"
+    ]
+  },
+  {
+    "repo": "open-quantum-safe/liboqs",
+    "number": 1917,
+    "title": "Support FIPS 205",
+    "state": "closed",
+    "created_at": "2024-09-10T10:49:25Z",
+    "url": "https://github.com/open-quantum-safe/liboqs/issues/1917",
+    "labels": [
+      "enhancement",
+      "help wanted"
+    ]
+  },
+  {
+    "repo": "open-quantum-safe/liboqs",
+    "number": 1915,
+    "title": "Remove unsupported Kyber upstreams",
+    "state": "closed",
+    "created_at": "2024-09-06T05:58:56Z",
+    "url": "https://github.com/open-quantum-safe/liboqs/issues/1915",
+    "labels": []
+  },
+  {
+    "repo": "open-quantum-safe/liboqs",
+    "number": 1894,
+    "title": "SLH-DSA: integrate final standard",
+    "state": "closed",
+    "created_at": "2024-08-15T14:22:46Z",
+    "url": "https://github.com/open-quantum-safe/liboqs/issues/1894",
+    "labels": [
+      "enhancement"
+    ]
+  },
+  {
+    "repo": "open-quantum-safe/liboqs",
+    "number": 1891,
+    "title": "ML-DSA: integrate final standard",
+    "state": "closed",
+    "created_at": "2024-08-13T15:44:06Z",
+    "url": "https://github.com/open-quantum-safe/liboqs/issues/1891",
+    "labels": []
+  },
+  {
+    "repo": "open-quantum-safe/liboqs",
+    "number": 1850,
+    "title": "Latest updates to ML-DSA are not implemented yet",
+    "state": "closed",
+    "created_at": "2024-07-19T17:55:15Z",
+    "url": "https://github.com/open-quantum-safe/liboqs/issues/1850",
+    "labels": []
+  },
+  {
+    "repo": "open-quantum-safe/liboqs",
+    "number": 1807,
+    "title": "Extend constant-time testing",
+    "state": "open",
+    "created_at": "2024-06-05T11:35:15Z",
+    "url": "https://github.com/open-quantum-safe/liboqs/issues/1807",
+    "labels": [
+      "wishlist"
+    ]
+  },
+  {
+    "repo": "open-quantum-safe/liboqs",
+    "number": 1802,
+    "title": "Recreate public key from private",
+    "state": "closed",
+    "created_at": "2024-05-30T14:57:23Z",
+    "url": "https://github.com/open-quantum-safe/liboqs/issues/1802",
+    "labels": []
+  },
+  {
+    "repo": "open-quantum-safe/liboqs",
+    "number": 1761,
+    "title": "Valgrind Massif Tool Breaks During Verify Operation of Falcon Algorithms on Raspberry Pi",
+    "state": "open",
+    "created_at": "2024-04-22T23:01:53Z",
+    "url": "https://github.com/open-quantum-safe/liboqs/issues/1761",
+    "labels": [
+      "wontfix"
+    ]
+  },
+  {
+    "repo": "open-quantum-safe/liboqs",
+    "number": 1750,
+    "title": "Return value from OQS_randombytes",
+    "state": "open",
+    "created_at": "2024-04-05T13:07:09Z",
+    "url": "https://github.com/open-quantum-safe/liboqs/issues/1750",
+    "labels": []
+  },
+  {
+    "repo": "open-quantum-safe/liboqs",
+    "number": 1616,
+    "title": "version problem",
+    "state": "closed",
+    "created_at": "2023-11-27T13:28:07Z",
+    "url": "https://github.com/open-quantum-safe/liboqs/issues/1616",
+    "labels": []
+  },
+  {
+    "repo": "open-quantum-safe/liboqs",
+    "number": 1596,
+    "title": "Update HQC AVX2 implementation",
+    "state": "closed",
+    "created_at": "2023-10-30T16:06:23Z",
+    "url": "https://github.com/open-quantum-safe/liboqs/issues/1596",
+    "labels": [
+      "enhancement"
+    ]
+  },
+  {
+    "repo": "open-quantum-safe/liboqs",
+    "number": 1591,
+    "title": "Falcon variable length signatures ",
+    "state": "closed",
+    "created_at": "2023-10-25T05:08:29Z",
+    "url": "https://github.com/open-quantum-safe/liboqs/issues/1591",
+    "labels": []
+  },
+  {
+    "repo": "open-quantum-safe/liboqs",
+    "number": 1561,
+    "title": "Falcon-1024 KATs differ from upstream",
+    "state": "closed",
+    "created_at": "2023-09-26T18:14:03Z",
+    "url": "https://github.com/open-quantum-safe/liboqs/issues/1561",
+    "labels": [
+      "bug"
+    ]
+  },
+  {
+    "repo": "open-quantum-safe/liboqs",
+    "number": 1521,
+    "title": "Update Kyber and Dilithium to FIPS versions",
+    "state": "closed",
+    "created_at": "2023-08-08T14:39:08Z",
+    "url": "https://github.com/open-quantum-safe/liboqs/issues/1521",
+    "labels": [
+      "enhancement"
+    ]
+  },
+  {
+    "repo": "open-quantum-safe/liboqs",
+    "number": 1416,
+    "title": "RISC-V support",
+    "state": "open",
+    "created_at": "2023-03-15T09:06:44Z",
+    "url": "https://github.com/open-quantum-safe/liboqs/issues/1416",
+    "labels": [
+      "help wanted",
+      "platform-specific"
+    ]
+  },
+  {
+    "repo": "open-quantum-safe/liboqs",
+    "number": 1401,
+    "title": "Is there a method to display the public key of signatures?",
+    "state": "closed",
+    "created_at": "2023-01-19T13:07:35Z",
+    "url": "https://github.com/open-quantum-safe/liboqs/issues/1401",
+    "labels": []
+  },
+  {
+    "repo": "open-quantum-safe/liboqs",
+    "number": 1336,
+    "title": "CBOM for liboqs",
+    "state": "closed",
+    "created_at": "2022-12-20T16:21:06Z",
+    "url": "https://github.com/open-quantum-safe/liboqs/issues/1336",
+    "labels": []
+  },
+  {
+    "repo": "open-quantum-safe/liboqs",
+    "number": 1317,
+    "title": "Remove NTRU-Prime, Saber, Rainbow, and Picnic.",
+    "state": "closed",
+    "created_at": "2022-11-23T16:10:05Z",
+    "url": "https://github.com/open-quantum-safe/liboqs/issues/1317",
+    "labels": []
+  },
+  {
+    "repo": "open-quantum-safe/liboqs",
+    "number": 1303,
+    "title": "Signature length miscalculation of Falcon & Picnic Families - Python Wrapper",
+    "state": "closed",
+    "created_at": "2022-09-13T19:46:23Z",
+    "url": "https://github.com/open-quantum-safe/liboqs/issues/1303",
+    "labels": []
+  },
+  {
+    "repo": "open-quantum-safe/liboqs",
+    "number": 1245,
+    "title": "Classify algorithm status",
+    "state": "closed",
+    "created_at": "2022-07-03T10:30:20Z",
+    "url": "https://github.com/open-quantum-safe/liboqs/issues/1245",
+    "labels": []
+  },
+  {
+    "repo": "open-quantum-safe/liboqs",
+    "number": 1215,
+    "title": "Add fuzzing testing",
+    "state": "closed",
+    "created_at": "2022-05-25T12:49:38Z",
+    "url": "https://github.com/open-quantum-safe/liboqs/issues/1215",
+    "labels": [
+      "enhancement"
+    ]
+  },
+  {
+    "repo": "open-quantum-safe/liboqs",
+    "number": 1192,
+    "title": "Rainbow update",
+    "state": "closed",
+    "created_at": "2022-03-03T08:27:03Z",
+    "url": "https://github.com/open-quantum-safe/liboqs/issues/1192",
+    "labels": []
+  },
+  {
+    "repo": "open-quantum-safe/liboqs",
+    "number": 995,
+    "title": "Known non-constant time behaviour in HQC",
+    "state": "closed",
+    "created_at": "2021-05-06T21:31:56Z",
+    "url": "https://github.com/open-quantum-safe/liboqs/issues/995",
+    "labels": []
+  },
+  {
+    "repo": "open-quantum-safe/liboqs",
+    "number": 935,
+    "title": "Please provide compiled versions of LIBOQS",
+    "state": "closed",
+    "created_at": "2021-03-07T14:42:05Z",
+    "url": "https://github.com/open-quantum-safe/liboqs/issues/935",
+    "labels": []
+  },
+  {
+    "repo": "open-quantum-safe/liboqs",
+    "number": 910,
+    "title": "Establish interop with Circl and other implementations",
+    "state": "closed",
+    "created_at": "2021-02-12T05:45:39Z",
+    "url": "https://github.com/open-quantum-safe/liboqs/issues/910",
+    "labels": [
+      "enhancement",
+      "future-work"
+    ]
+  },
+  {
+    "repo": "open-quantum-safe/liboqs",
+    "number": 895,
+    "title": "Infinite loop if call to OpenSSL function RAND_bytes() fails",
+    "state": "closed",
+    "created_at": "2021-02-04T15:11:28Z",
+    "url": "https://github.com/open-quantum-safe/liboqs/issues/895",
+    "labels": []
+  },
+  {
+    "repo": "open-quantum-safe/liboqs",
+    "number": 892,
+    "title": "Take stock of all algorithms",
+    "state": "closed",
+    "created_at": "2021-02-03T17:10:35Z",
+    "url": "https://github.com/open-quantum-safe/liboqs/issues/892",
+    "labels": []
+  },
+  {
+    "repo": "open-quantum-safe/liboqs",
+    "number": 507,
+    "title": "Key Format",
+    "state": "closed",
+    "created_at": "2019-06-28T21:38:28Z",
+    "url": "https://github.com/open-quantum-safe/liboqs/issues/507",
+    "labels": []
+  },
+  {
+    "repo": "open-quantum-safe/liboqs",
+    "number": 351,
+    "title": "Udpade qtesla with new 08-27-2018 package",
+    "state": "closed",
+    "created_at": "2018-08-29T20:14:47Z",
+    "url": "https://github.com/open-quantum-safe/liboqs/issues/351",
+    "labels": []
+  },
+  {
+    "repo": "open-quantum-safe/liboqs",
+    "number": 304,
+    "title": "Third-party libraries to be included in OQS",
+    "state": "closed",
+    "created_at": "2018-07-10T11:15:01Z",
+    "url": "https://github.com/open-quantum-safe/liboqs/issues/304",
+    "labels": [
+      "question"
+    ]
+  },
+  {
+    "repo": "open-quantum-safe/liboqs",
+    "number": 2437,
+    "title": "API hygiene: OQS_STATUS enum vs mlkem-native return values + accel branches missing on *_derand variants",
+    "state": "open",
+    "created_at": "2026-05-19T14:57:06Z",
+    "url": "https://github.com/open-quantum-safe/liboqs/issues/2437",
+    "labels": []
+  },
+  {
+    "repo": "open-quantum-safe/liboqs",
+    "number": 2388,
+    "title": "Mismatched CUDA symbol names in ML-KEM keypair_derand and encaps_derand paths",
+    "state": "closed",
+    "created_at": "2026-03-25T16:40:09Z",
+    "url": "https://github.com/open-quantum-safe/liboqs/issues/2388",
+    "labels": []
+  },
+  {
+    "repo": "open-quantum-safe/liboqs",
+    "number": 2318,
+    "title": "Any plans for a rewrite in pure Rust ?",
+    "state": "closed",
+    "created_at": "2025-11-08T17:20:05Z",
+    "url": "https://github.com/open-quantum-safe/liboqs/issues/2318",
+    "labels": []
+  },
+  {
+    "repo": "open-quantum-safe/liboqs",
+    "number": 2267,
+    "title": "Check CUDA code for correctness before next release",
+    "state": "closed",
+    "created_at": "2025-09-12T15:53:10Z",
+    "url": "https://github.com/open-quantum-safe/liboqs/issues/2267",
+    "labels": []
+  },
+  {
+    "repo": "open-quantum-safe/liboqs",
+    "number": 2257,
+    "title": "ICICLE ML-KEM missing derandomized encapsulation",
+    "state": "closed",
+    "created_at": "2025-08-29T16:11:57Z",
+    "url": "https://github.com/open-quantum-safe/liboqs/issues/2257",
+    "labels": []
+  },
+  {
+    "repo": "open-quantum-safe/liboqs",
+    "number": 2249,
+    "title": "License information for ML-KEM is not up-to-date",
+    "state": "closed",
+    "created_at": "2025-08-19T18:51:33Z",
+    "url": "https://github.com/open-quantum-safe/liboqs/issues/2249",
+    "labels": []
+  },
+  {
+    "repo": "open-quantum-safe/liboqs",
+    "number": 2209,
+    "title": "docs: Private vs Secret key terminology",
+    "state": "closed",
+    "created_at": "2025-07-18T12:34:59Z",
+    "url": "https://github.com/open-quantum-safe/liboqs/issues/2209",
+    "labels": []
+  },
+  {
+    "repo": "open-quantum-safe/liboqs",
+    "number": 2203,
+    "title": "Swap SLH-DSA with SPHINCS+ in the standard algorithms list",
+    "state": "closed",
+    "created_at": "2025-07-15T20:16:57Z",
+    "url": "https://github.com/open-quantum-safe/liboqs/issues/2203",
+    "labels": []
+  },
+  {
+    "repo": "open-quantum-safe/liboqs",
+    "number": 2197,
+    "title": "Further ACVP tests for ML-KEM",
+    "state": "open",
+    "created_at": "2025-07-08T03:59:29Z",
+    "url": "https://github.com/open-quantum-safe/liboqs/issues/2197",
+    "labels": []
+  },
+  {
+    "repo": "open-quantum-safe/liboqs",
+    "number": 2184,
+    "title": "Set up tooling to monitor upstream repositories",
+    "state": "open",
+    "created_at": "2025-06-27T17:34:07Z",
+    "url": "https://github.com/open-quantum-safe/liboqs/issues/2184",
+    "labels": []
+  },
+  {
+    "repo": "open-quantum-safe/liboqs",
+    "number": 2163,
+    "title": "Absence of explicit deletion from memory of intermediate values",
+    "state": "open",
+    "created_at": "2025-06-10T15:08:10Z",
+    "url": "https://github.com/open-quantum-safe/liboqs/issues/2163",
+    "labels": []
+  },
+  {
+    "repo": "open-quantum-safe/liboqs",
+    "number": 2161,
+    "title": "Constant-time tests failing for ML-KEM-1024",
+    "state": "closed",
+    "created_at": "2025-06-09T20:54:13Z",
+    "url": "https://github.com/open-quantum-safe/liboqs/issues/2161",
+    "labels": []
+  },
+  {
+    "repo": "open-quantum-safe/liboqs",
+    "number": 2160,
+    "title": "Update speed tests to measure GPU performance for cuPQC code",
+    "state": "open",
+    "created_at": "2025-06-05T14:16:50Z",
+    "url": "https://github.com/open-quantum-safe/liboqs/issues/2160",
+    "labels": [
+      "help wanted",
+      "platform-specific"
+    ]
+  },
+  {
+    "repo": "open-quantum-safe/liboqs",
+    "number": 2156,
+    "title": "Deprecate and remove Dilithium",
+    "state": "closed",
+    "created_at": "2025-06-02T20:19:13Z",
+    "url": "https://github.com/open-quantum-safe/liboqs/issues/2156",
+    "labels": []
+  },
+  {
+    "repo": "open-quantum-safe/liboqs",
+    "number": 2154,
+    "title": "Add ability to derive/recreate a public key from a private key",
+    "state": "closed",
+    "created_at": "2025-06-02T17:21:31Z",
+    "url": "https://github.com/open-quantum-safe/liboqs/issues/2154",
+    "labels": []
+  },
+  {
+    "repo": "open-quantum-safe/liboqs",
+    "number": 2147,
+    "title": "Compilation errors upon enabling HQC",
+    "state": "closed",
+    "created_at": "2025-05-30T04:36:28Z",
+    "url": "https://github.com/open-quantum-safe/liboqs/issues/2147",
+    "labels": []
+  },
+  {
+    "repo": "open-quantum-safe/liboqs",
+    "number": 2135,
+    "title": "Adding a DeriveEncapsulation functionality",
+    "state": "closed",
+    "created_at": "2025-05-06T09:59:23Z",
+    "url": "https://github.com/open-quantum-safe/liboqs/issues/2135",
+    "labels": [
+      "enhancement",
+      "help wanted"
+    ]
+  },
+  {
+    "repo": "open-quantum-safe/liboqs",
+    "number": 2118,
+    "title": "Update HQC implementation to 2025/02/19 version",
+    "state": "open",
+    "created_at": "2025-04-01T14:40:36Z",
+    "url": "https://github.com/open-quantum-safe/liboqs/issues/2118",
+    "labels": [
+      "enhancement",
+      "focus"
+    ]
+  },
+  {
+    "repo": "open-quantum-safe/liboqs",
+    "number": 2102,
+    "title": "Inter-operation between libOQS and BouncyCastle",
+    "state": "closed",
+    "created_at": "2025-03-16T19:52:59Z",
+    "url": "https://github.com/open-quantum-safe/liboqs/issues/2102",
+    "labels": [
+      "question",
+      "help wanted"
+    ]
+  },
+  {
+    "repo": "open-quantum-safe/liboqs",
+    "number": 2096,
+    "title": "Integrate FIPS202 AArch64 assembly from mlkem-native?",
+    "state": "open",
+    "created_at": "2025-03-05T13:19:07Z",
+    "url": "https://github.com/open-quantum-safe/liboqs/issues/2096",
+    "labels": [
+      "enhancement"
+    ]
+  },
+  {
+    "repo": "open-quantum-safe/liboqs",
+    "number": 2088,
+    "title": "Build option for FIPS 140 relevant checks (ML-KEM PCT)",
+    "state": "open",
+    "created_at": "2025-02-26T08:29:52Z",
+    "url": "https://github.com/open-quantum-safe/liboqs/issues/2088",
+    "labels": [
+      "enhancement",
+      "wishlist"
+    ]
+  },
+  {
+    "repo": "open-quantum-safe/liboqs",
+    "number": 2084,
+    "title": "Update ML-KEM implementation with additional intermediate zeroized buffers (mlkem-native#763)",
+    "state": "closed",
+    "created_at": "2025-02-24T10:20:16Z",
+    "url": "https://github.com/open-quantum-safe/liboqs/issues/2084",
+    "labels": []
+  },
+  {
+    "repo": "open-quantum-safe/liboqs",
+    "number": 2067,
+    "title": "OpenSSL 3.3.0 with OQS Provider: ML-KEM Algorithms Not Supported Correctly",
+    "state": "closed",
+    "created_at": "2025-02-06T14:48:42Z",
+    "url": "https://github.com/open-quantum-safe/liboqs/issues/2067",
+    "labels": []
+  },
+  {
+    "repo": "open-quantum-safe/liboqs",
+    "number": 2060,
+    "title": "Extended API for More Efficient Key Validation",
+    "state": "open",
+    "created_at": "2025-01-29T12:52:14Z",
+    "url": "https://github.com/open-quantum-safe/liboqs/issues/2060",
+    "labels": [
+      "enhancement",
+      "wishlist"
+    ]
+  },
+  {
+    "repo": "open-quantum-safe/liboqs",
+    "number": 2053,
+    "title": "Move cuPQC ML-KEM upstream away from personal repo",
+    "state": "closed",
+    "created_at": "2025-01-24T18:15:25Z",
+    "url": "https://github.com/open-quantum-safe/liboqs/issues/2053",
+    "labels": []
+  },
+  {
+    "repo": "open-quantum-safe/liboqs",
+    "number": 2049,
+    "title": "Use of 'internal' procedures for testing of FIPS algorithms",
+    "state": "closed",
+    "created_at": "2025-01-23T08:56:25Z",
+    "url": "https://github.com/open-quantum-safe/liboqs/issues/2049",
+    "labels": [
+      "enhancement"
+    ]
+  },
+  {
+    "repo": "open-quantum-safe/liboqs",
+    "number": 2045,
+    "title": "Create a table of algorithm support levels",
+    "state": "closed",
+    "created_at": "2025-01-21T15:40:06Z",
+    "url": "https://github.com/open-quantum-safe/liboqs/issues/2045",
+    "labels": [
+      "documentation"
+    ]
+  },
+  {
+    "repo": "open-quantum-safe/liboqs",
+    "number": 2035,
+    "title": "Add cf protection to assembler files",
+    "state": "open",
+    "created_at": "2025-01-07T13:10:53Z",
+    "url": "https://github.com/open-quantum-safe/liboqs/issues/2035",
+    "labels": [
+      "help wanted",
+      "future-work"
+    ]
+  },
+  {
+    "repo": "open-quantum-safe/liboqs",
+    "number": 2032,
+    "title": "Supporting \"seed\" private key format",
+    "state": "closed",
+    "created_at": "2025-01-03T15:30:23Z",
+    "url": "https://github.com/open-quantum-safe/liboqs/issues/2032",
+    "labels": []
+  },
+  {
+    "repo": "open-quantum-safe/liboqs",
+    "number": 2024,
+    "title": "Add Wycheproof test vectors",
+    "state": "closed",
+    "created_at": "2024-12-19T15:15:42Z",
+    "url": "https://github.com/open-quantum-safe/liboqs/issues/2024",
+    "labels": [
+      "enhancement",
+      "future-work"
+    ]
+  },
+  {
+    "repo": "open-quantum-safe/liboqs",
+    "number": 2003,
+    "title": "Support derivation of KEM key pairs",
+    "state": "closed",
+    "created_at": "2024-11-20T16:20:20Z",
+    "url": "https://github.com/open-quantum-safe/liboqs/issues/2003",
+    "labels": []
+  },
+  {
+    "repo": "open-quantum-safe/liboqs",
+    "number": 1996,
+    "title": "Update ML-KEM alg_version to \"FIPS203\"",
+    "state": "closed",
+    "created_at": "2024-11-19T15:07:42Z",
+    "url": "https://github.com/open-quantum-safe/liboqs/issues/1996",
+    "labels": [
+      "good first issue"
+    ]
+  },
+  {
+    "repo": "open-quantum-safe/liboqs",
+    "number": 1989,
+    "title": "Drop Kyber support",
+    "state": "closed",
+    "created_at": "2024-11-12T14:52:42Z",
+    "url": "https://github.com/open-quantum-safe/liboqs/issues/1989",
+    "labels": [
+      "future-work"
+    ]
+  },
+  {
+    "repo": "open-quantum-safe/liboqs",
+    "number": 1986,
+    "title": "9 tests fail: No such file or directory: 'build/tests/vectors_kem'",
+    "state": "closed",
+    "created_at": "2024-11-08T20:56:43Z",
+    "url": "https://github.com/open-quantum-safe/liboqs/issues/1986",
+    "labels": []
+  },
+  {
+    "repo": "open-quantum-safe/liboqs",
+    "number": 1985,
+    "title": "Support 64-byte seed form of ML-KEM private keys",
+    "state": "closed",
+    "created_at": "2024-11-08T19:11:54Z",
+    "url": "https://github.com/open-quantum-safe/liboqs/issues/1985",
+    "labels": [
+      "enhancement",
+      "help wanted"
+    ]
+  },
+  {
+    "repo": "open-quantum-safe/liboqs",
+    "number": 1951,
+    "title": "ML-KEM doesn't perform encapsulation key check",
+    "state": "closed",
+    "created_at": "2024-10-15T05:16:07Z",
+    "url": "https://github.com/open-quantum-safe/liboqs/issues/1951",
+    "labels": [
+      "enhancement",
+      "help wanted"
+    ]
+  },
+  {
+    "repo": "open-quantum-safe/liboqs",
+    "number": 1941,
+    "title": "'ninja run_tests' fails due to memory leak",
+    "state": "closed",
+    "created_at": "2024-09-29T04:14:13Z",
+    "url": "https://github.com/open-quantum-safe/liboqs/issues/1941",
+    "labels": []
+  },
+  {
+    "repo": "open-quantum-safe/liboqs",
+    "number": 1931,
+    "title": "NIST CAVP validation of liboqs ML-DSA algorithm",
+    "state": "closed",
+    "created_at": "2024-09-20T16:18:19Z",
+    "url": "https://github.com/open-quantum-safe/liboqs/issues/1931",
+    "labels": [
+      "question"
+    ]
+  },
+  {
+    "repo": "open-quantum-safe/liboqs",
+    "number": 1915,
+    "title": "Remove unsupported Kyber upstreams",
+    "state": "closed",
+    "created_at": "2024-09-06T05:58:56Z",
+    "url": "https://github.com/open-quantum-safe/liboqs/issues/1915",
+    "labels": []
+  },
+  {
+    "repo": "open-quantum-safe/liboqs",
+    "number": 1894,
+    "title": "SLH-DSA: integrate final standard",
+    "state": "closed",
+    "created_at": "2024-08-15T14:22:46Z",
+    "url": "https://github.com/open-quantum-safe/liboqs/issues/1894",
+    "labels": [
+      "enhancement"
+    ]
+  },
+  {
+    "repo": "open-quantum-safe/liboqs",
+    "number": 1891,
+    "title": "ML-DSA: integrate final standard",
+    "state": "closed",
+    "created_at": "2024-08-13T15:44:06Z",
+    "url": "https://github.com/open-quantum-safe/liboqs/issues/1891",
+    "labels": []
+  },
+  {
+    "repo": "open-quantum-safe/liboqs",
+    "number": 1853,
+    "title": "Incorrect Order of z and d in NIST tests",
+    "state": "closed",
+    "created_at": "2024-07-23T12:35:58Z",
+    "url": "https://github.com/open-quantum-safe/liboqs/issues/1853",
+    "labels": []
+  },
+  {
+    "repo": "open-quantum-safe/liboqs",
+    "number": 1850,
+    "title": "Latest updates to ML-DSA are not implemented yet",
+    "state": "closed",
+    "created_at": "2024-07-19T17:55:15Z",
+    "url": "https://github.com/open-quantum-safe/liboqs/issues/1850",
+    "labels": []
+  },
+  {
+    "repo": "open-quantum-safe/liboqs",
+    "number": 1838,
+    "title": "Decode FORS indices similarly to WOTS",
+    "state": "closed",
+    "created_at": "2024-07-10T10:10:20Z",
+    "url": "https://github.com/open-quantum-safe/liboqs/issues/1838",
+    "labels": []
+  },
+  {
+    "repo": "open-quantum-safe/liboqs",
+    "number": 1807,
+    "title": "Extend constant-time testing",
+    "state": "open",
+    "created_at": "2024-06-05T11:35:15Z",
+    "url": "https://github.com/open-quantum-safe/liboqs/issues/1807",
+    "labels": [
+      "wishlist"
+    ]
+  },
+  {
+    "repo": "open-quantum-safe/liboqs",
+    "number": 1802,
+    "title": "Recreate public key from private",
+    "state": "closed",
+    "created_at": "2024-05-30T14:57:23Z",
+    "url": "https://github.com/open-quantum-safe/liboqs/issues/1802",
+    "labels": []
+  },
+  {
+    "repo": "open-quantum-safe/liboqs",
+    "number": 1797,
+    "title": "ML-DSA macro definition error",
+    "state": "closed",
+    "created_at": "2024-05-20T07:10:38Z",
+    "url": "https://github.com/open-quantum-safe/liboqs/issues/1797",
+    "labels": []
+  },
+  {
+    "repo": "open-quantum-safe/liboqs",
+    "number": 1767,
+    "title": "API header file for ml_kem and ml_dsa seems to contains the wrong function names",
+    "state": "closed",
+    "created_at": "2024-04-24T12:44:13Z",
+    "url": "https://github.com/open-quantum-safe/liboqs/issues/1767",
+    "labels": []
+  },
+  {
+    "repo": "open-quantum-safe/liboqs",
+    "number": 1749,
+    "title": "Windows build with \"-DBUILD_SHARED_LIBS=ON\"",
+    "state": "closed",
+    "created_at": "2024-04-05T07:09:36Z",
+    "url": "https://github.com/open-quantum-safe/liboqs/issues/1749",
+    "labels": []
+  },
+  {
+    "repo": "open-quantum-safe/liboqs",
+    "number": 1742,
+    "title": "ninja_runtests failing",
+    "state": "closed",
+    "created_at": "2024-04-02T08:54:04Z",
+    "url": "https://github.com/open-quantum-safe/liboqs/issues/1742",
+    "labels": [
+      "bug"
+    ]
+  },
+  {
+    "repo": "open-quantum-safe/liboqs",
+    "number": 1740,
+    "title": "Add more test vectors for ML-KEM",
+    "state": "closed",
+    "created_at": "2024-03-28T18:02:25Z",
+    "url": "https://github.com/open-quantum-safe/liboqs/issues/1740",
+    "labels": [
+      "enhancement",
+      "good first issue"
+    ]
+  },
+  {
+    "repo": "open-quantum-safe/liboqs",
+    "number": 1584,
+    "title": "Improve granularity of copy_from_upstream",
+    "state": "closed",
+    "created_at": "2023-10-18T15:10:05Z",
+    "url": "https://github.com/open-quantum-safe/liboqs/issues/1584",
+    "labels": [
+      "enhancement"
+    ]
+  },
+  {
+    "repo": "open-quantum-safe/liboqs",
+    "number": 1521,
+    "title": "Update Kyber and Dilithium to FIPS versions",
+    "state": "closed",
+    "created_at": "2023-08-08T14:39:08Z",
+    "url": "https://github.com/open-quantum-safe/liboqs/issues/1521",
+    "labels": [
+      "enhancement"
+    ]
+  },
+  {
+    "repo": "open-quantum-safe/liboqs",
+    "number": 1416,
+    "title": "RISC-V support",
+    "state": "open",
+    "created_at": "2023-03-15T09:06:44Z",
+    "url": "https://github.com/open-quantum-safe/liboqs/issues/1416",
+    "labels": [
+      "help wanted",
+      "platform-specific"
+    ]
+  },
+  {
+    "repo": "open-quantum-safe/liboqs",
+    "number": 1215,
+    "title": "Add fuzzing testing",
+    "state": "closed",
+    "created_at": "2022-05-25T12:49:38Z",
+    "url": "https://github.com/open-quantum-safe/liboqs/issues/1215",
+    "labels": [
+      "enhancement"
+    ]
+  },
+  {
+    "repo": "open-quantum-safe/liboqs",
+    "number": 1206,
+    "title": "Adding a DeriveKeyPair functionality",
+    "state": "closed",
+    "created_at": "2022-04-27T21:30:19Z",
+    "url": "https://github.com/open-quantum-safe/liboqs/issues/1206",
+    "labels": [
+      "enhancement",
+      "good first issue"
+    ]
+  }
+]

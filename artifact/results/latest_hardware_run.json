@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0",
+  "mode": "hardware_capture",
+  "timestamp_utc": "2026-06-29T12:23:35.682923Z",
+  "started_utc": "2026-06-29T12:22:15.369047Z",
+  "duration_seconds": 80.314,
+  "command": "run_hardware_capture.py --port COM8 --skip-paired --failure-timeout 30",
+  "port": "COM8",
+  "baud": 115200,
+  "requested_tasks": {
+    "failure_reproduction": true,
+    "paired_trials": false
+  },
+  "overall_status": "PASS",
+  "failure_reproduction": {
+    "status": "PASS",
+    "crash_log_ok": true,
+    "success_log_ok": true,
+    "crash_signature": "Guru Meditation Error",
+    "success_signature": "[FAILURE_REPRO] TEST PASSED",
+    "status_file": "artifact/results/failure_reproduction_status.json",
+    "crash_log": "artifact/embedded/failure_reproduction/results/tiny_stack_crash.log",
+    "success_log": "artifact/embedded/failure_reproduction/results/large_stack_success.log"
+  },
+  "paired_trials": {
+    "status": "PASS",
+    "rows": 100,
+    "mode": "hardware_serial_paired_trials",
+    "status_file": "artifact/results/differential_status.json",
+    "csv": "artifact/results/paired_trials.csv"
+  },
+  "notes": [
+    "This file is generated automatically by run_hardware_capture.py.",
+    "A PASS failure-reproduction run means the 8 KB task crashed and the 96 KB task completed.",
+    "When --skip-paired is used, paired-trial rows are read from the existing differential status file if available."
+  ]
+}

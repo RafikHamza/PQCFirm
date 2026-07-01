@@ -1,0 +1,400 @@
+[
+  {
+    "repo": "aws/s2n-tls",
+    "number": 5557,
+    "title": "Regression test for test duration",
+    "state": "open",
+    "created_at": "2025-10-13T17:58:40Z",
+    "url": "https://github.com/aws/s2n-tls/issues/5557",
+    "labels": [
+      "priority/medium",
+      "size/medium"
+    ]
+  },
+  {
+    "repo": "aws/s2n-tls",
+    "number": 5432,
+    "title": "Add secp384r1_mlkem-1024 integ test",
+    "state": "closed",
+    "created_at": "2025-07-21T19:02:48Z",
+    "url": "https://github.com/aws/s2n-tls/issues/5432",
+    "labels": []
+  },
+  {
+    "repo": "aws/s2n-tls",
+    "number": 3032,
+    "title": "Combinatorial Test Framework of all supported TLS Features",
+    "state": "open",
+    "created_at": "2021-09-02T21:01:57Z",
+    "url": "https://github.com/aws/s2n-tls/issues/3032",
+    "labels": [
+      "type/test",
+      "priority/medium",
+      "size/large",
+      "status/needs_test",
+      "s2n-core"
+    ]
+  },
+  {
+    "repo": "aws/s2n-tls",
+    "number": 1977,
+    "title": "s2n should have a --list-capabilities commandline flag",
+    "state": "closed",
+    "created_at": "2020-06-02T23:57:04Z",
+    "url": "https://github.com/aws/s2n-tls/issues/1977",
+    "labels": []
+  },
+  {
+    "repo": "aws/s2n-tls",
+    "number": 1700,
+    "title": "Support (TLS 1.3) Config Preferences on Connections",
+    "state": "closed",
+    "created_at": "2020-03-20T20:27:03Z",
+    "url": "https://github.com/aws/s2n-tls/issues/1700",
+    "labels": [
+      "type/tls_1.3"
+    ]
+  },
+  {
+    "repo": "aws/s2n-tls",
+    "number": 1486,
+    "title": "Post-Quantum Algorithm Benchmarking Tool",
+    "state": "closed",
+    "created_at": "2020-01-28T18:23:52Z",
+    "url": "https://github.com/aws/s2n-tls/issues/1486",
+    "labels": [
+      "type/performance",
+      "type/post-quantum",
+      "type/benchmark"
+    ]
+  },
+  {
+    "repo": "aws/s2n-tls",
+    "number": 1254,
+    "title": "Round 2 NIST submissions",
+    "state": "closed",
+    "created_at": "2019-11-13T23:06:37Z",
+    "url": "https://github.com/aws/s2n-tls/issues/1254",
+    "labels": [
+      "type/post-quantum"
+    ]
+  },
+  {
+    "repo": "aws/s2n-tls",
+    "number": 992,
+    "title": "Readme for ./pq-crypto Directory",
+    "state": "closed",
+    "created_at": "2019-03-19T00:00:57Z",
+    "url": "https://github.com/aws/s2n-tls/issues/992",
+    "labels": [
+      "type/docs",
+      "type/post-quantum"
+    ]
+  },
+  {
+    "repo": "aws/s2n-tls",
+    "number": 976,
+    "title": "Question about implementation of key generation",
+    "state": "closed",
+    "created_at": "2019-03-04T16:37:05Z",
+    "url": "https://github.com/aws/s2n-tls/issues/976",
+    "labels": [
+      "type/question"
+    ]
+  },
+  {
+    "repo": "aws/s2n-tls",
+    "number": 904,
+    "title": "Support Post-Quantum key exchange algorithms",
+    "state": "closed",
+    "created_at": "2018-11-02T00:43:50Z",
+    "url": "https://github.com/aws/s2n-tls/issues/904",
+    "labels": [
+      "type/post-quantum"
+    ]
+  },
+  {
+    "repo": "aws/s2n-tls",
+    "number": 5762,
+    "title": "Duplicate feature flags",
+    "state": "open",
+    "created_at": "2026-02-26T21:35:03Z",
+    "url": "https://github.com/aws/s2n-tls/issues/5762",
+    "labels": [
+      "priority/medium",
+      "size/small"
+    ]
+  },
+  {
+    "repo": "aws/s2n-tls",
+    "number": 5699,
+    "title": "Remove dependencies on Kyber",
+    "state": "closed",
+    "created_at": "2026-01-13T18:13:18Z",
+    "url": "https://github.com/aws/s2n-tls/issues/5699",
+    "labels": []
+  },
+  {
+    "repo": "aws/s2n-tls",
+    "number": 5086,
+    "title": "Update KMS PQ integration test to assert ML-KEM",
+    "state": "open",
+    "created_at": "2025-02-05T18:10:27Z",
+    "url": "https://github.com/aws/s2n-tls/issues/5086",
+    "labels": [
+      "good first issue",
+      "priority/low",
+      "size/xsmall",
+      "priority/tracking"
+    ]
+  },
+  {
+    "repo": "aws/s2n-tls",
+    "number": 4813,
+    "title": "Remove usages of s2n_pq_is_enabled()",
+    "state": "open",
+    "created_at": "2024-10-01T18:12:48Z",
+    "url": "https://github.com/aws/s2n-tls/issues/4813",
+    "labels": [
+      "priority/low",
+      "size/small",
+      "type/post-quantum",
+      "s2n-core"
+    ]
+  },
+  {
+    "repo": "aws/s2n-tls",
+    "number": 4710,
+    "title": "-Wcast-qual not enabled in cmake file",
+    "state": "closed",
+    "created_at": "2024-08-15T23:21:25Z",
+    "url": "https://github.com/aws/s2n-tls/issues/4710",
+    "labels": [
+      "priority/low",
+      "size/small",
+      "status/blocked"
+    ]
+  },
+  {
+    "repo": "aws/s2n-tls",
+    "number": 4700,
+    "title": "Connecting to KMS endpoint with s2nc by using PQ-ciphers",
+    "state": "closed",
+    "created_at": "2024-08-09T10:21:14Z",
+    "url": "https://github.com/aws/s2n-tls/issues/4700",
+    "labels": []
+  },
+  {
+    "repo": "aws/s2n-tls",
+    "number": 4633,
+    "title": "Cmake find_package crypto picking the wrong libcrypto",
+    "state": "open",
+    "created_at": "2024-06-26T23:36:36Z",
+    "url": "https://github.com/aws/s2n-tls/issues/4633",
+    "labels": [
+      "priority/low",
+      "size/small",
+      "s2n-core"
+    ]
+  },
+  {
+    "repo": "aws/s2n-tls",
+    "number": 4280,
+    "title": "FreeBSD + qemu seeing slow aead_aes test",
+    "state": "closed",
+    "created_at": "2023-11-06T22:49:23Z",
+    "url": "https://github.com/aws/s2n-tls/issues/4280",
+    "labels": [
+      "priority/low",
+      "size/medium",
+      "s2n-core"
+    ]
+  },
+  {
+    "repo": "aws/s2n-tls",
+    "number": 4123,
+    "title": "Add Getter for negotiated SupportedGroup name",
+    "state": "closed",
+    "created_at": "2023-07-28T20:58:32Z",
+    "url": "https://github.com/aws/s2n-tls/issues/4123",
+    "labels": [
+      "priority/low",
+      "size/medium",
+      "type/api",
+      "type/post-quantum",
+      "s2n-core"
+    ]
+  },
+  {
+    "repo": "aws/s2n-tls",
+    "number": 3331,
+    "title": " build error with gcc-12",
+    "state": "closed",
+    "created_at": "2022-05-25T09:41:01Z",
+    "url": "https://github.com/aws/s2n-tls/issues/3331",
+    "labels": []
+  },
+  {
+    "repo": "aws/s2n-tls",
+    "number": 3258,
+    "title": "pq_handshake V2 test unexpected cipher negotiated for PQ_TLS_1_0_2020_12",
+    "state": "closed",
+    "created_at": "2022-03-30T21:56:24Z",
+    "url": "https://github.com/aws/s2n-tls/issues/3258",
+    "labels": [
+      "s2n-core"
+    ]
+  },
+  {
+    "repo": "aws/s2n-tls",
+    "number": 3218,
+    "title": "s2n_pq_kem_kat_test takes very long and can be unreliable",
+    "state": "closed",
+    "created_at": "2022-03-02T17:37:54Z",
+    "url": "https://github.com/aws/s2n-tls/issues/3218",
+    "labels": [
+      "type/optimization"
+    ]
+  },
+  {
+    "repo": "aws/s2n-tls",
+    "number": 3203,
+    "title": "S2N libcrypto interning fails",
+    "state": "closed",
+    "created_at": "2022-02-18T21:54:42Z",
+    "url": "https://github.com/aws/s2n-tls/issues/3203",
+    "labels": []
+  },
+  {
+    "repo": "aws/s2n-tls",
+    "number": 3115,
+    "title": "Reduce s2n-tls binary size",
+    "state": "open",
+    "created_at": "2021-11-03T21:41:45Z",
+    "url": "https://github.com/aws/s2n-tls/issues/3115",
+    "labels": [
+      "priority/low",
+      "size/large",
+      "type/platform_support",
+      "type/optimization",
+      "s2n-core"
+    ]
+  },
+  {
+    "repo": "aws/s2n-tls",
+    "number": 2989,
+    "title": "pq-crypto/kyber_90s_r2/ntt.c fails to build with gcc 11 with -Werror",
+    "state": "closed",
+    "created_at": "2021-08-03T17:19:00Z",
+    "url": "https://github.com/aws/s2n-tls/issues/2989",
+    "labels": [
+      "type/post-quantum"
+    ]
+  },
+  {
+    "repo": "aws/s2n-tls",
+    "number": 1787,
+    "title": "PQ Ciphers do not work on Android",
+    "state": "closed",
+    "created_at": "2020-04-16T19:52:58Z",
+    "url": "https://github.com/aws/s2n-tls/issues/1787",
+    "labels": [
+      "type/platform_support",
+      "type/post-quantum"
+    ]
+  },
+  {
+    "repo": "aws/s2n-tls",
+    "number": 1254,
+    "title": "Round 2 NIST submissions",
+    "state": "closed",
+    "created_at": "2019-11-13T23:06:37Z",
+    "url": "https://github.com/aws/s2n-tls/issues/1254",
+    "labels": [
+      "type/post-quantum"
+    ]
+  },
+  {
+    "repo": "aws/s2n-tls",
+    "number": 1031,
+    "title": "Add new Build with newer Compiler Versions",
+    "state": "closed",
+    "created_at": "2019-04-10T16:59:55Z",
+    "url": "https://github.com/aws/s2n-tls/issues/1031",
+    "labels": [
+      "type/build",
+      "type/static_analysis",
+      "s2n-core"
+    ]
+  },
+  {
+    "repo": "aws/s2n-tls",
+    "number": 904,
+    "title": "Support Post-Quantum key exchange algorithms",
+    "state": "closed",
+    "created_at": "2018-11-02T00:43:50Z",
+    "url": "https://github.com/aws/s2n-tls/issues/904",
+    "labels": [
+      "type/post-quantum"
+    ]
+  },
+  {
+    "repo": "aws/s2n-tls",
+    "number": 5699,
+    "title": "Remove dependencies on Kyber",
+    "state": "closed",
+    "created_at": "2026-01-13T18:13:18Z",
+    "url": "https://github.com/aws/s2n-tls/issues/5699",
+    "labels": []
+  },
+  {
+    "repo": "aws/s2n-tls",
+    "number": 5606,
+    "title": "Remove the length-prefixed logic for PQ key shares",
+    "state": "open",
+    "created_at": "2025-11-07T23:47:16Z",
+    "url": "https://github.com/aws/s2n-tls/issues/5606",
+    "labels": [
+      "priority/medium",
+      "size/medium"
+    ]
+  },
+  {
+    "repo": "aws/s2n-tls",
+    "number": 5557,
+    "title": "Regression test for test duration",
+    "state": "open",
+    "created_at": "2025-10-13T17:58:40Z",
+    "url": "https://github.com/aws/s2n-tls/issues/5557",
+    "labels": [
+      "priority/medium",
+      "size/medium"
+    ]
+  },
+  {
+    "repo": "aws/s2n-tls",
+    "number": 5377,
+    "title": "Validate s2n_kem_is_available()",
+    "state": "open",
+    "created_at": "2025-07-01T19:27:06Z",
+    "url": "https://github.com/aws/s2n-tls/issues/5377",
+    "labels": [
+      "priority/low",
+      "size/small"
+    ]
+  },
+  {
+    "repo": "aws/s2n-tls",
+    "number": 5086,
+    "title": "Update KMS PQ integration test to assert ML-KEM",
+    "state": "open",
+    "created_at": "2025-02-05T18:10:27Z",
+    "url": "https://github.com/aws/s2n-tls/issues/5086",
+    "labels": [
+      "good first issue",
+      "priority/low",
+      "size/xsmall",
+      "priority/tracking"
+    ]
+  }
+]

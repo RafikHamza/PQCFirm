@@ -1,0 +1,11 @@
+{
+  "status": "AVAILABLE",
+  "scope": "embedded/mbedtls/library",
+  "c_translation_units": 108,
+  "header_files": 59,
+  "c_and_header_files": 167,
+  "raw_c_source_lines": 132119,
+  "raw_header_lines": 20144,
+  "raw_c_and_header_lines": 152263,
+  "interpretation": "Raw physical line counts for the Mbed TLS library folder used as the large-library scan scope."
+}

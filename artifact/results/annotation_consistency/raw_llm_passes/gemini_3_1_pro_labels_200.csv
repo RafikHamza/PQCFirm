@@ -1,0 +1,201 @@
+coding_id,repo,commit_sha,commit_date,commit_url,commit_message,llm_label,confidence,short_reason,source_pass
+C001,wolfSSL/wolfssl,782787276cc5d14ae38dadebddb7144d7c2539a8,,,,D9,High,Algorithm renaming,gemini_3_1_pro
+C002,wolfSSL/wolfssl,2db2bedd5f032c7efde1510d9d1d05a6fd554c7a,,,,D9,High,General implementation fix,gemini_3_1_pro
+C003,open-quantum-safe/liboqs,f5a044874d13dd15f9c67b59e74a61836c40f97b,,,,D8,High,Build directory configuration,gemini_3_1_pro
+C004,open-quantum-safe/liboqs,9cf6171007ae07eefa6c7f43aed964d4587c0914,,,,D9,High,Documentation generation,gemini_3_1_pro
+C005,open-quantum-safe/liboqs,aeac3a441dd3d95821b04a26baae6f73013538d8,,,,D9,High,Pulling upstream implementation,gemini_3_1_pro
+C006,wolfSSL/wolfssl,5b268c08523d00013da9f8b27e3a130a29526ae4,,,,D4,Medium,Benchmark addition,gemini_3_1_pro
+C007,wolfSSL/wolfssl,074a3dbcc1712d5701ce6597f125c7a6deec59f5,,,,D9,Medium,Implementation logic fix,gemini_3_1_pro
+C008,wolfSSL/wolfssl,fc433b2596fec6d7c0b5e3c275ba5b872a22391c,,,,D9,High,Script refactoring,gemini_3_1_pro
+C009,aws/s2n-tls,0888bdcdd0361994486fe9ebacba4f47cbe020e7,,,,D9,High,Readme documentation addition,gemini_3_1_pro
+C010,wolfSSL/wolfssl,21484ec75afadee15485e272e307cbd77379e86a,,,,D8,High,ASM support for Linux kernel module build,gemini_3_1_pro
+C011,wolfSSL/wolfssl,bf074d2bb9e9a7d120ae0a57998aa76925b0bf3a,,,,D9,High,Finalizing implementation merge,gemini_3_1_pro
+C012,wolfSSL/wolfssl,ec958de64904d0f9bbb11dd90ad0f05e3f3cddc6,,,,D8,Medium,ASM generation script fix,gemini_3_1_pro
+C013,open-quantum-safe/liboqs,47612ee6d83231da92d5814fe5318e0512f06b41,,,,D9,High,Doxygen documentation update,gemini_3_1_pro
+C014,open-quantum-safe/liboqs,bd4d09da75e217a439e1f7790d7a064208c39d08,,,,D9,High,Upstream sync,gemini_3_1_pro
+C015,wolfSSL/wolfssl,794f0d8d19c4ebb854f373e929201036e8aaada2,,,,D6,High,Constant-time cleanup path,gemini_3_1_pro
+C016,wolfSSL/wolfssl,a0f6b779a5ebf91432383a2aa6b4845666e05854,,,,D1,High,Key length specification,gemini_3_1_pro
+C017,aws/s2n-tls,9fd38bd7b8c56fbcffa0fefbe2fe35c22269eecf,,,,D2,Medium,API configuration support addition,gemini_3_1_pro
+C018,open-quantum-safe/liboqs,982c762c242ef549c914891b47bf6e0ed6321f91,,,,D6,High,Constant-time fix from upstream,gemini_3_1_pro
+C019,openssl/openssl,c338c89d1616646fc34c90c48ebbac4ab691ed11,,,,D2,High,API aliases specification,gemini_3_1_pro
+C020,open-quantum-safe/liboqs,d93a431aaf9ac929f267901509e968a5727c053c,,,,D9,Medium,Algorithm addition,gemini_3_1_pro
+C021,open-quantum-safe/oqs-provider,31153f025458cd6025e6b1546636d8bcaf873195,,,,D9,High,Source file copies,gemini_3_1_pro
+C022,openssl/openssl,af841adf9fb0aedbc047ba8b59a5437ed21a89b8,,,,D9,High,Generated parameter decoders,gemini_3_1_pro
+C023,wolfSSL/wolfssl,4ff6f5f10c0ef1bee08b007f369ca60970838561,,,,D1,High,Out of bounds read buffer fix,gemini_3_1_pro
+C024,open-quantum-safe/oqs-provider,7b21bd3bf35ba5fec53d5e5ab20f071b8afcd8b8,,,,D9,High,Governance documentation,gemini_3_1_pro
+C025,open-quantum-safe/oqs-provider,075c60cef96352c8bf749fc8e2ec4236ad3422ab,,,,D2,High,Hybrid KEM support API,gemini_3_1_pro
+C026,wolfSSL/wolfssl,8ca790218cb5b258c6350c96a43ecd8ae685d2a4,,,,D9,High,Test keys update,gemini_3_1_pro
+C027,open-quantum-safe/liboqs,a44bd12ace9d18cace78ff7967e3f5e612a9c6f0,,,,D9,High,Branch merge,gemini_3_1_pro
+C028,wolfSSL/wolfssl,453404a864073f1689a0caf56d886624b4781af8,,,,D9,High,Test certificates update,gemini_3_1_pro
+C029,wolfSSL/wolfssl,969ad96deeb396747e96fdb71d5edeacea507806,,,,D9,High,Help string formatting and linter fix,gemini_3_1_pro
+C030,wolfSSL/wolfssl,ae0faa40cf6460f8640a47c9ce55c3abcdd04c2d,,,,D2,Medium,Curve name output for API usage,gemini_3_1_pro
+C031,wolfSSL/wolfssl,b41d46a15833616028c33487c3902e2c843cf740,,,,D9,High,Syntax correction,gemini_3_1_pro
+C032,wolfSSL/wolfssl,f4821eb0f4f49a04ed2ce6aa0b4541cb2f33794d,,,,D2,High,Codepoint integration for API,gemini_3_1_pro
+C033,openssl/openssl,0ef373bd34f3840d6d8b1aa90342244cb41c0f46,,,,D9,High,File renaming,gemini_3_1_pro
+C034,open-quantum-safe/oqs-provider,7dc61fe7049a3d6c63657e0628d9600220bbe6b4,,,,D8,High,Cross-compilation configuration,gemini_3_1_pro
+C035,wolfSSL/wolfssl,0983ea9a80fc2930cff419640e6c1e7b4a349e0f,,,,D5,Medium,Memory type management for storage,gemini_3_1_pro
+C036,wolfSSL/wolfssl,bfad5398b190da3f8e520e9075c29dc428ca37f0,,,,D8,High,MSVC compiler macro fix,gemini_3_1_pro
+C037,wolfSSL/wolfssl,f1fff73352fc6d43149af78a7411c75161905cf6,,,,D9,High,Readability formatting,gemini_3_1_pro
+C038,wolfSSL/wolfssl,f515916f6818e63bfe45017f31be04eaa0e740cd,,,,D8,High,CMake build system integration,gemini_3_1_pro
+C039,wolfSSL/wolfssl,56c20aeda0ddf5427f9e1b3112fec326db4a4401,,,,D1,Medium,Size define presence check,gemini_3_1_pro
+C040,wolfSSL/wolfssl,3fbbc7c1bbfbb15fb3fc1410b480176a99d07ed3,,,,D8,Medium,Implicit conversion compiler warning,gemini_3_1_pro
+C041,aws/s2n-tls,67124cb8d1071c81cd6e64976e4b69bd384ddd6d,,,,D9,High,Test case addition,gemini_3_1_pro
+C042,wolfSSL/wolfssl,a816f329cc47448089f5efdafb4b63d2d6eb74bb,,,,D8,Medium,STM32 platform support merge,gemini_3_1_pro
+C043,open-quantum-safe/liboqs,0ddce4e8b22e40858d10676a556148b26f2ad243,,,,D8,High,OpenSSL linking configuration,gemini_3_1_pro
+C044,wolfSSL/wolfssl,20ae10fd8c6358405af6cae90b486c807f16d63c,,,,D2,High,Dual algorithm implementation,gemini_3_1_pro
+C045,open-quantum-safe/oqs-provider,af20d054c06822555234f9b53e6b8b3a446bde17,,,,D8,High,Full project integration,gemini_3_1_pro
+C046,wolfSSL/wolfssl,7d42ddae486e5982f139c1a798480f8a12ed9c0f,,,,D2,High,Algorithm availability configuration,gemini_3_1_pro
+C047,open-quantum-safe/oqs-provider,d5dca7e9e8a17ae291c9d2abdd85286754cc5298,,,,D2,High,Default algorithm support removal,gemini_3_1_pro
+C048,open-quantum-safe/liboqs,769412623cc5b5ce936bdd3d60aad4d32e44a31f,,,,D9,High,Documentation generation update,gemini_3_1_pro
+C049,open-quantum-safe/liboqs,2297d7a56d4b51361c8f51e1008f83853c68a449,,,,D8,High,Dependency updates,gemini_3_1_pro
+C050,wolfSSL/wolfssl,05dc9f0449800c43ecc69d973306a7cc20351fd6,,,,D5,High,Memory leak fix during error handling,gemini_3_1_pro
+C051,openssl/openssl,7057138f0fb3fef022877bb85d0ea9131a01da46,,,,D8,High,FIPS macro definition,gemini_3_1_pro
+C052,wolfSSL/wolfssl,a2635be9e6d645e8d73da09789401fdcf06cc539,,,,D8,High,External implementation support configuration,gemini_3_1_pro
+C053,wolfSSL/wolfssl,f863513f3712daf5af88c2c0e324b69dfd6e1deb,,,,D4,High,Performance improvement,gemini_3_1_pro
+C054,open-quantum-safe/liboqs,416778ecc2cd246d02c5684486a7a2489a9d8fbf,,,,D8,High,CI pipeline trigger configuration,gemini_3_1_pro
+C055,wolfSSL/wolfssl,46f6320380b0667ffc152115ede225957f283da1,,,,D7,Medium,Pointer sanity check validation,gemini_3_1_pro
+C056,aws/s2n-tls,4d8243d90d0822d11dd3233fa0080df64dc198f1,,,,D9,High,Security policy addition,gemini_3_1_pro
+C057,open-quantum-safe/liboqs,045c08e18df761380b3a715f4333076a9b9e8b9c,,,,D9,High,Pull request merge,gemini_3_1_pro
+C058,open-quantum-safe/liboqs,b2ad3f97c3b80ed5a357be51b928876e9f84bd9a,,,,D6,High,Constant-time suppression file fix,gemini_3_1_pro
+C059,openssl/openssl,3f28cc6e63cdafdea08921abf12066ddfc68e6ec,,,,D9,High,Implementation testing,gemini_3_1_pro
+C060,openssl/openssl,4d3d1c9f014dfdef1b49823e3704bc2845ae73fe,,,,D1,Medium,Parameter length validation check,gemini_3_1_pro
+C061,wolfSSL/wolfssl,0780fd9719ea695d8bb32aa274c1039832e02270,,,,D2,Medium,RNG support provider addition,gemini_3_1_pro
+C062,open-quantum-safe/liboqs,5f28a2af5d4a8a638149c972516d4f5ef6e36c9c,,,,D9,High,Release candidate tag,gemini_3_1_pro
+C063,wolfSSL/wolfssl,76b1300adb17bc6efe24a3033020cd3ea71fc4fc,,,,D9,High,General implementation fixes,gemini_3_1_pro
+C064,open-quantum-safe/liboqs,c62031ee75b61c8d402f3d8e04e47300742ed8bb,,,,D2,High,API functionality inclusion,gemini_3_1_pro
+C065,wolfSSL/wolfssl,e2b642d4ab597f4b056f30d4d0406ce48aa0cab4,,,,D8,High,CMake build fixes,gemini_3_1_pro
+C066,wolfSSL/wolfssl,db6df887a61a01e72366b8ba1fdd35361cb32cd5,,,,D9,Medium,Security level constant correction,gemini_3_1_pro
+C067,open-quantum-safe/liboqs,9f308995972f07af5614eb1bf97668eaee157611,,,,D9,High,Contributors file update,gemini_3_1_pro
+C068,wolfSSL/wolfssl,4b00525e90b7db91971c429f13fbbc33d7403be1,,,,D8,High,Compiler conversion warning fix,gemini_3_1_pro
+C069,open-quantum-safe/oqs-provider,15e24d18211e65b7d220acac55d355e1e57f069b,,,,D9,High,Algorithm removal,gemini_3_1_pro
+C070,wolfSSL/wolfssl,3524ece54e58661add62980af941af249bcfd2f5,,,,D2,High,Key exchange API integration for multiple shares,gemini_3_1_pro
+C071,wolfSSL/wolfssl,ef925b8b3071325812a8021b7401dc4424f6225e,,,,D9,Medium,Macro parentheses formatting fix,gemini_3_1_pro
+C072,openssl/openssl,a2079b82ba9b78f8a9e76c2f3387c39c0b44d28a,,,,D4,Medium,Value barrier drop for optimization,gemini_3_1_pro
+C073,wolfSSL/wolfssl,00abce3474d564a0d01ee9cde7002c29acac9cf9,,,,D9,High,Pull request merge,gemini_3_1_pro
+C074,openssl/openssl,d20cbc90e48cdd2a56444fc5d6f244d36362cb49,,,,D7,Medium,Equality check handling fix,gemini_3_1_pro
+C075,wolfSSL/wolfssl,85dd923355525864837644df365c146dc42adbda,,,,D5,Medium,Software cleanup execution in Free routine,gemini_3_1_pro
+C076,openssl/openssl,bd8954bfe50b3271475099bcb53565bcb1763e81,,,,D7,Medium,Key check validation mechanism,gemini_3_1_pro
+C077,openssl/openssl,a0fc1ff3481375e710136bbd9a2c45cc8749875f,,,,D9,High,Trace functionality documentation update,gemini_3_1_pro
+C078,open-quantum-safe/liboqs,2e2ddb4e0493014694820471396984b30d59cf97,,,,D9,High,Upstream implementation update,gemini_3_1_pro
+C079,open-quantum-safe/liboqs,7c56bcb6ce356ef06189d80779c391b626ad3e00,,,,D9,High,Test vectors implementation,gemini_3_1_pro
+C080,aws/s2n-tls,ce0234e4116d05936c0847a1d3874f3851e44b3d,,,,D9,High,Feature probe test addition,gemini_3_1_pro
+C081,wolfSSL/wolfssl,8a89470422e757de56b03b4b0788247d25a54864,,,,D8,High,Zephyr OS integration fix,gemini_3_1_pro
+C082,wolfSSL/wolfssl,39d4832b0b75e4f18521d2841e38f38090adae02,,,,D9,High,Nightly implementation fixes,gemini_3_1_pro
+C083,wolfSSL/wolfssl,0b18e250edc1f96d17dbadbc8db3ac14ff9a67c9,,,,D9,High,Library version update merge,gemini_3_1_pro
+C084,wolfSSL/wolfssl,211742bfe05fd3af22b6da66ff7f58b4d09206ca,,,,D8,High,Thread dependency inclusion,gemini_3_1_pro
+C085,wolfSSL/wolfssl,e9292e301f620ff60d57caa253e71dbfc12bc6aa,,,,D5,High,Dynamic allocation API additions,gemini_3_1_pro
+C086,open-quantum-safe/liboqs,77524aea43dd11f138b15f37a67c139f868d8183,,,,D9,High,Backout pull request merge,gemini_3_1_pro
+C087,wolfSSL/wolfssl,5793f626ac33735fffdb7d3581fa069e7e550295,,,,D9,High,Implementation fixes merge,gemini_3_1_pro
+C088,open-quantum-safe/liboqs,095620786c11e14cbd3b50fc9d20ff79293727bb,,,,D9,High,Master branch merge,gemini_3_1_pro
+C089,open-quantum-safe/liboqs,326f5dca3d8889fcc9024ff1f7b954b3fd60aa98,,,,D8,High,Compilation fix,gemini_3_1_pro
+C090,open-quantum-safe/liboqs,795c1b7932d8e3d44277c7bb1c6c45d091cde1c7,,,,D9,High,PQClean algorithm addition,gemini_3_1_pro
+C091,wolfSSL/wolfssl,d6ecaaddbde6c3869858e0704b29ef10bbab6f88,,,,D9,High,Readme updates merge,gemini_3_1_pro
+C092,open-quantum-safe/liboqs,ab2c96a65e368f964a060c23ec0fddfcca51b740,,,,D9,High,Implementation replacement sync,gemini_3_1_pro
+C093,openssl/openssl,3b3680c63936a0c316d25f783eee7406bca1b320,,,,D4,Medium,Function pointers refactor for AVX2 optimization,gemini_3_1_pro
+C094,wolfSSL/wolfssl,80a04551cfe7a72e4ee4c110aac8562948440d86,,,,D9,High,Implementation fixes merge,gemini_3_1_pro
+C095,open-quantum-safe/liboqs,d9c214cc64315e527fd96fe7501203e07b15f7ec,,,,D9,High,Algorithm addition,gemini_3_1_pro
+C096,open-quantum-safe/oqs-provider,1aacc6ea00711abccb07d1d74d897ccb5ee3e3e9,,,,D2,High,Algorithm disabling,gemini_3_1_pro
+C097,wolfSSL/wolfssl,328822b447a0a60db17929299e6ac5de700b4bc8,,,,D9,High,Pull request merge,gemini_3_1_pro
+C098,wolfSSL/wolfssl,cceeb776f7d45252dc83986d0809a9b5a36d1059,,,,D2,Medium,OID autodetection implementation,gemini_3_1_pro
+C099,open-quantum-safe/liboqs,a822f0e62d4492afc2fd9d9d86308bb6abec351d,,,,D9,High,Algorithm sync update,gemini_3_1_pro
+C100,wolfSSL/wolfssl,bcf4dbe697ea3e86fed43c5d5ff472653279ea41,,,,D9,High,Feedback adjustments,gemini_3_1_pro
+C101,wolfSSL/wolfssl,3e3a00dafdc1aa5a917c481cf7a09ebc91ad0244,,,,D9,High,Implementation levels addition,gemini_3_1_pro
+C102,open-quantum-safe/liboqs,d14825a7559c72ddb74232fd58f6e34dbee22f71,,,,D9,High,Upstream pull,gemini_3_1_pro
+C103,open-quantum-safe/liboqs,1ed497ce64530397e52c4c4b1cbcf3dda634e2f8,,,,D9,High,Master branch merge,gemini_3_1_pro
+C104,open-quantum-safe/liboqs,9901a286cac06f6f9513baa8e2b800bd45b8e131,,,,D5,High,Explicit memset buffer zeroing memory safety,gemini_3_1_pro
+C105,wolfSSL/wolfssl,f6434cf712874446dcedbbdf3c7998daffb84dc2,,,,D8,High,CMake configuration merge,gemini_3_1_pro
+C106,open-quantum-safe/liboqs,37579e12f3ec2c4a249bd296d6384b870babeb01,,,,D9,High,Update KEMs pull request merge,gemini_3_1_pro
+C107,wolfSSL/wolfssl,4d259da60a5d57c443267aa2eab53ea712edc075,,,,D2,High,CryptoCb support framework API integration,gemini_3_1_pro
+C108,aws/s2n-tls,7268d0afc3db4b997f00a64005ccd244df0ce59d,,,,D9,High,Readme updates merge,gemini_3_1_pro
+C109,open-quantum-safe/oqs-provider,4bf202bdbe4a1c9dbb7e88ccd0636c9848d90afc,,,,D9,High,OID tables generation,gemini_3_1_pro
+C110,open-quantum-safe/oqs-provider,c71c2ada31dd42c7226add0e408c23b0b5a22832,,,,D2,Medium,Algorithm ID assignments update,gemini_3_1_pro
+C111,wolfSSL/wolfssl,80a63a3fce9e6931a3434217a8dc2c9e3bd81cef,,,,D9,High,Purge repository merge,gemini_3_1_pro
+C112,wolfSSL/wolfssl,da427efd89627f42c2d27636663b64c31f2ebcd1,,,,D8,High,Compiler warning fixes,gemini_3_1_pro
+C113,aws/s2n-tls,7bd4efbf42b9fe8584b8e80b213428d9a1c4ae1e,,,,D9,High,Fuzz test inclusion,gemini_3_1_pro
+C114,wolfSSL/wolfssl,7d3ee74a71f3314aca15cfab9df711cf72808bb3,,,,D4,High,CPU features usage for ASM optimization,gemini_3_1_pro
+C115,open-quantum-safe/oqs-provider,a8c001ec3a77e81bd9ee760c486b456dc0fb89eb,,,,D2,High,Hybrid key exchange interop updates,gemini_3_1_pro
+C116,wolfSSL/wolfssl,d620e937f04a97bf292507fd189c0b0d7c47dc1a,,,,D8,Medium,Macro protection syntax fix,gemini_3_1_pro
+C117,wolfSSL/wolfssl,5339fe0d9f1a155c617a534e3c8eb2d7d7ee6889,,,,D8,High,Disable compilation macro merge,gemini_3_1_pro
+C118,wolfSSL/wolfssl,7cd610bc45149b1661b81da68bdde85d84b6372d,,,,D9,High,Implementation algorithm fixes,gemini_3_1_pro
+C119,wolfSSL/wolfssl,2a2f9d5916a59ec0ffc65bfe3d482d537d4c4f8b,,,,D2,High,API compatibility,gemini_3_1_pro
+C120,wolfSSL/wolfssl,c7e054a7a76dfe035562f1cb4ea469036d21f1d4,,,,D9,High,Alg renaming to match drafting standards,gemini_3_1_pro
+C121,open-quantum-safe/liboqs,db08f12b5a96aa6582a82aac7f65cf8a4d8b231f,,,,D9,High,Version release,gemini_3_1_pro
+C122,openssl/openssl,4fc06921b7f3a5e2fe4caf74dfae5df37fb7824f,,,,D2,Medium,Parameter handling abstraction update,gemini_3_1_pro
+C123,open-quantum-safe/liboqs,38757741fc9461d963d3d3f9db5e983b31e63b24,,,,D2,High,New KEM API provision,gemini_3_1_pro
+C124,wolfSSL/wolfssl,c899f79cfab3b34e8bf8f94e747c235b3367ee02,,,,D2,High,Key share algorithm group ranking configuration,gemini_3_1_pro
+C125,wolfSSL/wolfssl,8e9e671a5aa10cdefa718c164d9b7527de82aa7c,,,,D9,High,Pull request merge,gemini_3_1_pro
+C126,open-quantum-safe/liboqs,255b836e47bb14a5e16bb159f5f8019f0553c206,,,,D9,High,Patch merge,gemini_3_1_pro
+C127,open-quantum-safe/liboqs,71c8b7cd536cfde0680e1f9a2142cb30b5afc4f6,,,,D9,High,Algorithm rename in datasheet,gemini_3_1_pro
+C128,wolfSSL/wolfssl,4551926dad0b505fcf7bced837a0fb78b6b3d6e8,,,,D9,High,Inverted logic fix,gemini_3_1_pro
+C129,openssl/openssl,e66097fc6687750ac792986a71375b23793766c2,,,,D7,High,Error reporting for parameter encapsulation,gemini_3_1_pro
+C130,open-quantum-safe/liboqs,f96d9c2fff709c43b20988a0733264537d023365,,,,D9,High,Revert commit functionality,gemini_3_1_pro
+C131,open-quantum-safe/liboqs,14d64d379def3a4745acb25a5a5c904bfbbf10f3,,,,D8,High,GCC compiler error resolution,gemini_3_1_pro
+C132,wolfSSL/wolfssl,f7ea8fca67e1249202c4fbe00bb8d43dd1609bd5,,,,D8,Medium,Variable type declaration compatibility,gemini_3_1_pro
+C133,wolfSSL/wolfssl,1e9607b65ea4cc8f3e71c03a79e59a2d3f37e268,,,,D8,Medium,Type cast warnings suppression,gemini_3_1_pro
+C134,wolfSSL/wolfssl,fb691fac94f079170a7fd90b75bb1cffa2a5846c,,,,D9,High,DER encoding merge,gemini_3_1_pro
+C135,wolfSSL/wolfssl,bbd2f6f8980106a6e9633effe7ec76a3cca22e2c,,,,D9,High,Regression testing bug fixes,gemini_3_1_pro
+C136,open-quantum-safe/oqs-provider,1bd2a1bcf797e349f5b9486c310f0870de87e6f1,,,,D9,High,Documentation and support adjustment,gemini_3_1_pro
+C137,open-quantum-safe/liboqs,bac716cc91c53529e3fad88e92ff9dfd19c04577,,,,D9,High,Documentation link addition,gemini_3_1_pro
+C138,open-quantum-safe/liboqs,3cb781fd4737c900ad755ee0bb9e1949d0f68955,,,,D8,High,Test package version update,gemini_3_1_pro
+C139,wolfSSL/wolfssl,035d4022fbdf8c7e9c55d8520e53f7077c13c938,,,,D9,High,Test additions and code cleanup,gemini_3_1_pro
+C140,open-quantum-safe/oqs-provider,bc399b79c7992a6652601fd127290633728e79ae,,,,D8,High,CI build dependency fixup,gemini_3_1_pro
+C141,open-quantum-safe/liboqs,003a8556955ce4707cb3f99d62caa9d27b751ad5,,,,D8,High,CMake target export and CI refactor,gemini_3_1_pro
+C142,wolfSSL/wolfssl,79787eaaa4e8ab1ef7df1b7c6d7be8b2c3542fa1,,,,D9,High,Groups list merge,gemini_3_1_pro
+C143,open-quantum-safe/liboqs,d9e025852e342eccd12529ff8cf595381612ace0,,,,D8,High,Windows platform compatibility,gemini_3_1_pro
+C144,wolfSSL/wolfssl,32a07a7f5a45baa322381037b30a35c575ee470d,,,,D8,High,Benchmark gating integration,gemini_3_1_pro
+C145,openssl/openssl,3bb06ce79806d7e725244dd62212ef935112b82c,,,,D2,High,Parameter name decoders structure adaptation,gemini_3_1_pro
+C146,openssl/openssl,318994a121daa479f9418514ccf0ac196792de3b,,,,D9,High,Private key format specification,gemini_3_1_pro
+C147,wolfSSL/wolfssl,ebeb95e47bd0323eebb12b63a98c0981a156ce42,,,,D1,Medium,Key size value initialization,gemini_3_1_pro
+C148,open-quantum-safe/liboqs,436917885d60687a4f1634e5be5894634ef80a97,,,,D8,High,Native dependency update,gemini_3_1_pro
+C149,open-quantum-safe/liboqs,a55b12eb25740921cd9197e314f95217c3c54bf5,,,,D8,Medium,Alpine OS execution fix,gemini_3_1_pro
+C150,wolfSSL/wolfssl,f16216e5b81af52d96ece7f2aaafe64f29bff790,,,,D2,High,API change for pre-hashed digest handling,gemini_3_1_pro
+C151,open-quantum-safe/oqs-provider,4fa4ab1fa470274585f8c1b8fda4b1456d474438,,,,D8,High,Debian package dependency configuration,gemini_3_1_pro
+C152,wolfSSL/wolfssl,f7afc47d98d799c989675c134c7bcf1d281f7375,,,,D4,High,ARM32 base instructions ASM configuration,gemini_3_1_pro
+C153,openssl/openssl,8a82e3a7548e6a7091fbb746dae2094590c4dd5a,,,,D9,High,Code layout formatting,gemini_3_1_pro
+C154,wolfSSL/wolfssl,b06458f9a483aa3d4daee3046ad06ae3c0332992,,,,D4,High,Heap hint for benchmark efficiency,gemini_3_1_pro
+C155,wolfSSL/wolfssl,be6888c589b075f524d49a4436ea6296f2aa9e97,,,,D9,High,TLS handshake protocol fixes,gemini_3_1_pro
+C156,open-quantum-safe/liboqs,83ec7c31451d02e5947f142645c992af44ebe4a2,,,,D9,High,Readme updates and renaming,gemini_3_1_pro
+C157,openssl/openssl,7d2d153f9d480cbd2a58aeb71d29db1b84026d93,,,,D9,High,TLS certificate test inclusion,gemini_3_1_pro
+C158,open-quantum-safe/oqs-provider,66ee77021b7ae35929e4659ac3f4b1e7642ddc67,,,,D8,High,Clang-format CI action relocation,gemini_3_1_pro
+C159,open-quantum-safe/liboqs,39fb613efcace1cea90d43ce715bde171b16144e,,,,D8,High,Autoconf defaults merge,gemini_3_1_pro
+C160,openssl/openssl,cd430bf5da18d56a9a4b59809756390b46d2f3dd,,,,D9,High,Self test implementation,gemini_3_1_pro
+C161,open-quantum-safe/liboqs,786141b06e7f450cb3395608fec30cc35ba11483,,,,D9,High,Branch merge,gemini_3_1_pro
+C162,openssl/openssl,8f74d8cee3630ede41a4dfa1a85c469d2200c58d,,,,D7,Medium,Initial secret state management,gemini_3_1_pro
+C163,wolfSSL/wolfssl,0ae0b31509c10e6b8f97f8fe86e38245811e395c,,,,D8,Medium,Configuration alterations,gemini_3_1_pro
+C164,wolfSSL/wolfssl,7699d9293585e654a56487ab129f2ed97c59f62a,,,,D1,High,Encrypt length calculation fix,gemini_3_1_pro
+C165,openssl/openssl,61d20724a667e22c0ae3e2d2b37844f775cd0e16,,,,D2,Medium,Parameter handling enhancement,gemini_3_1_pro
+C166,open-quantum-safe/liboqs,722ca648a13c052bf137e898ffbcfa81d17ccd4b,,,,D8,High,Compiler-time CPU extension detection,gemini_3_1_pro
+C167,open-quantum-safe/liboqs,4cc83e5fbec10be7aa75858616b6e9cc162b7d2c,,,,D2,High,Runtime detection API capability,gemini_3_1_pro
+C168,wolfSSL/wolfssl,040e2102a84d26c0e0bb350c228a90dec21769bf,,,,D9,High,Seed pkcs8 integration merge,gemini_3_1_pro
+C169,open-quantum-safe/liboqs,d0d0413dc9fff538296ab86bac492cb4bf54dedb,,,,D9,High,Release candidate creation,gemini_3_1_pro
+C170,wolfSSL/wolfssl,4f87a8980f0c2044d0418e9e48ad22044c429fb3,,,,D8,Medium,Big-endian platform byte order fix,gemini_3_1_pro
+C171,openssl/openssl,0f22d746628c0c5d2371dd89652137fbbeed6ed6,,,,D8,Medium,Macro typographical correction,gemini_3_1_pro
+C172,open-quantum-safe/liboqs,d8509387febc9e32466c86aab544d225d60c8e3c,,,,D9,High,Fuzz harness setup,gemini_3_1_pro
+C173,wolfSSL/wolfssl,e766b8f0afde58b965473df119e92ff9374b229e,,,,D9,Medium,Test update callback configuration,gemini_3_1_pro
+C174,open-quantum-safe/liboqs,d1b76908c2ba5e5b1d3e6eb017be979c7324428f,,,,D9,High,Key schedule pull request merge,gemini_3_1_pro
+C175,openssl/openssl,6a6ce4c1f3d3ceee77ad8787d9786d4af896b72d,,,,D9,High,Codec test inclusions,gemini_3_1_pro
+C176,open-quantum-safe/oqs-provider,8cee7f7f4c0fbbd9e3d357aeeb9fa8edc0433603,,,,D8,High,Linux CI build fixup,gemini_3_1_pro
+C177,openssl/openssl,653fc2189dc913404203edb674ce4bb45fe5e177,,,,D9,High,Implementation style polish,gemini_3_1_pro
+C178,open-quantum-safe/oqs-provider,c8cca2f8102805063db05071ec17acd453c4abc6,,,,D2,High,Algorithm selection bitstrength parameters,gemini_3_1_pro
+C179,open-quantum-safe/liboqs,d61d81c526da8bb62e363f5a75191689572151cb,,,,D6,High,Constant-time suppression addition,gemini_3_1_pro
+C180,openssl/openssl,29d14eeb2e71d212476d4f209f0c7976a1a28939,,,,D9,High,Internal header inclusions,gemini_3_1_pro
+C181,wolfSSL/wolfssl,cdbd19551e6a84d084b8943776410a19ed5dd8ac,,,,D5,Medium,Return state initialization in free allocation process,gemini_3_1_pro
+C182,openssl/openssl,89b5a9b8bcf6bfc6d210a8078c43e6f8f77c1377,,,,D9,High,Corruption facilitation test,gemini_3_1_pro
+C183,Mbed-TLS/mbedtls,a4aa89b16eb655999e45d873563e6712eece1c36,,,,D6,High,Projective coordinates leakage mitigation,gemini_3_1_pro
+C184,wolfSSL/wolfssl,cad2ebde04020f165aa7fa3dbf1bc27f50576a13,,,,D9,High,Regression testing validation,gemini_3_1_pro
+C185,openssl/openssl,fc585a277b17cff3ab8f43626869d4629e1f71f5,,,,D8,High,Win64 SEH unwind instruction support,gemini_3_1_pro
+C186,wolfSSL/wolfssl,0f72d2eafef144f3b6d8c8c7f25cc11ba5087ce0,,,,D9,High,Selftest functionality activation,gemini_3_1_pro
+C187,open-quantum-safe/liboqs,30edf7b9531e018079ea2dfccb8e23ad955d84e9,,,,D9,High,Test vector method additions,gemini_3_1_pro
+C188,open-quantum-safe/liboqs,077e32a94f39af02209dbbc680bf8a43b774b305,,,,D9,High,Fork repository merge,gemini_3_1_pro
+C189,openssl/openssl,0ba71c0a24b185780a96b2c257653f4dcd3446c8,,,,D5,High,Free allocation fix avoiding memory leak,gemini_3_1_pro
+C190,open-quantum-safe/liboqs,223ced1de7eab82ce3ef2eb91d1594d4a1e07c44,,,,D9,High,Remote tracking branch sync,gemini_3_1_pro
+C191,open-quantum-safe/oqs-provider,5fd47f991a8a04887d1313d287f7ba5ba5fbaefa,,,,D9,High,Config doc duplication removal,gemini_3_1_pro
+C192,wolfSSL/wolfssl,21be3776bd89fb4b5499aa90414c37af96623b39,,,,D2,High,C# wrapper API support,gemini_3_1_pro
+C193,open-quantum-safe/liboqs,1ae9cf6fe53b379c5e7cf40193c844f86a747810,,,,D8,High,Compiler directive chains and symbol names correct,gemini_3_1_pro
+C194,wolfSSL/wolfssl,994a1fbacca12946fad9914916b3c8d844340b58,,,,D9,High,Benchmark merge,gemini_3_1_pro
+C195,open-quantum-safe/liboqs,1d08c9d6ab696c9d50e36231447d56ddc05735d6,,,,D9,High,Upstream sync replacement,gemini_3_1_pro
+C196,wolfSSL/wolfssl,14ce7956f10a076a9798bfaa243659a56aefe4ac,,,,D9,High,Test coverage augment,gemini_3_1_pro
+C197,open-quantum-safe/liboqs,f761b06c3de3120c9b831d27edb66aee103eed56,,,,D4,High,Neon performance implementation addition,gemini_3_1_pro
+C198,aws/s2n-tls,9d8e90a3c1eaa4f001e9cdec07ff72732a994a3e,,,,D9,High,Implementation import sync,gemini_3_1_pro
+C199,openssl/openssl,d4f0bd379f94e086bf6ea4d72cffc699fa667d4f,,,,D9,High,Pairwise consistency testing update,gemini_3_1_pro
+C200,wolfSSL/wolfssl,65a1a6887747949ed148d8be3350b86ecff24fbc,,,,D6,High,Security hardening against fault attacks,gemini_3_1_pro

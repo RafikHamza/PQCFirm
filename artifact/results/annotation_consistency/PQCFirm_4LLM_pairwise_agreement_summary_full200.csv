@@ -1,0 +1,7 @@
+comparison,n,agreements,disagreements,agreement_rate,expected_agreement,cohen_kappa
+gemini vs gpt55,200,165,35,0.825,0.272725,0.759376
+gemini vs deepseek,200,150,50,0.75,0.3184,0.633216
+gemini vs claude,200,166,34,0.83,0.301875,0.756491
+gpt55 vs deepseek,200,158,42,0.79,0.276975,0.709554
+gpt55 vs claude,200,170,30,0.85,0.265875,0.795675
+deepseek vs claude,200,159,41,0.795,0.307525,0.70396

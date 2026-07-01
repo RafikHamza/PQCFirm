@@ -1,0 +1,13 @@
+{
+  "findings_total": 1805,
+  "audit_sample_size": 500,
+  "review_method": "llm_assisted_static_audit",
+  "human_audit_available": false,
+  "llm_assisted_audit_available": true,
+  "classified_rows": 306,
+  "tp": 216,
+  "fp": 90,
+  "review_rows": 194,
+  "assisted_precision": 0.7059,
+  "precision_claim_wording": "LLM-assisted precision estimate, not human manual audit"
+}

@@ -1,0 +1,688 @@
+[
+  {
+    "repo": "wolfSSL/wolfssl",
+    "number": 10287,
+    "title": "[Bug]: Handshake failure when ClientHello contains multiple PQC/hybrid key shares",
+    "state": "closed",
+    "created_at": "2026-04-23T10:04:41Z",
+    "url": "https://github.com/wolfSSL/wolfssl/issues/10287",
+    "labels": [
+      "bug"
+    ]
+  },
+  {
+    "repo": "wolfSSL/wolfssl",
+    "number": 8404,
+    "title": "[Bug]:  WolfSSL code references outdated OQS constants",
+    "state": "closed",
+    "created_at": "2025-01-31T10:03:42Z",
+    "url": "https://github.com/wolfSSL/wolfssl/issues/8404",
+    "labels": [
+      "bug"
+    ]
+  },
+  {
+    "repo": "wolfSSL/wolfssl",
+    "number": 8239,
+    "title": "Help Needed: wolfSSL Build Issue with Latest Version and Runtime Error with Dilithium Certificates",
+    "state": "closed",
+    "created_at": "2024-11-29T01:55:28Z",
+    "url": "https://github.com/wolfSSL/wolfssl/issues/8239",
+    "labels": []
+  },
+  {
+    "repo": "wolfSSL/wolfssl",
+    "number": 8142,
+    "title": "Hybrid Post Quantum Algorithms",
+    "state": "closed",
+    "created_at": "2024-11-03T15:41:51Z",
+    "url": "https://github.com/wolfSSL/wolfssl/issues/8142",
+    "labels": []
+  },
+  {
+    "repo": "wolfSSL/wolfssl",
+    "number": 7922,
+    "title": "Build options",
+    "state": "closed",
+    "created_at": "2024-08-29T16:26:08Z",
+    "url": "https://github.com/wolfSSL/wolfssl/issues/7922",
+    "labels": []
+  },
+  {
+    "repo": "wolfSSL/wolfssl",
+    "number": 7898,
+    "title": "Issues with DTLS 1.3 Handshake over SCTP in WolfSSL",
+    "state": "closed",
+    "created_at": "2024-08-24T18:55:05Z",
+    "url": "https://github.com/wolfSSL/wolfssl/issues/7898",
+    "labels": []
+  },
+  {
+    "repo": "wolfSSL/wolfssl",
+    "number": 7686,
+    "title": "[5.7.0] Unit.test failed on DTLS v1.3 during make test proccess",
+    "state": "closed",
+    "created_at": "2024-06-26T13:32:19Z",
+    "url": "https://github.com/wolfSSL/wolfssl/issues/7686",
+    "labels": []
+  },
+  {
+    "repo": "wolfSSL/wolfssl",
+    "number": 7668,
+    "title": "[Bug]: src/ssl.c:ProcessBuffer() different/broken behavior for same private key depending on PEM or ASN1 format",
+    "state": "closed",
+    "created_at": "2024-06-20T02:36:07Z",
+    "url": "https://github.com/wolfSSL/wolfssl/issues/7668",
+    "labels": [
+      "bug"
+    ]
+  },
+  {
+    "repo": "wolfSSL/wolfssl",
+    "number": 7640,
+    "title": "Improving wolfSSL integration with the Espressif ESP-IDF",
+    "state": "closed",
+    "created_at": "2024-06-13T09:01:08Z",
+    "url": "https://github.com/wolfSSL/wolfssl/issues/7640",
+    "labels": [
+      "help wanted",
+      "Feature Request"
+    ]
+  },
+  {
+    "repo": "wolfSSL/wolfssl",
+    "number": 7518,
+    "title": "Support for chrome and X25519Kyber512Draft00",
+    "state": "closed",
+    "created_at": "2024-05-09T19:13:39Z",
+    "url": "https://github.com/wolfSSL/wolfssl/issues/7518",
+    "labels": []
+  },
+  {
+    "repo": "wolfSSL/wolfssl",
+    "number": 7384,
+    "title": "DTLS1.3 and PQC not working as TLS1.3",
+    "state": "closed",
+    "created_at": "2024-04-02T13:32:40Z",
+    "url": "https://github.com/wolfSSL/wolfssl/issues/7384",
+    "labels": []
+  },
+  {
+    "repo": "wolfSSL/wolfssl",
+    "number": 7047,
+    "title": "[Bug]: TLS post-quantum cryptography crash (invalid memory free) when algorithm does not match",
+    "state": "closed",
+    "created_at": "2023-12-08T17:01:49Z",
+    "url": "https://github.com/wolfSSL/wolfssl/issues/7047",
+    "labels": [
+      "bug"
+    ]
+  },
+  {
+    "repo": "wolfSSL/wolfssl",
+    "number": 5479,
+    "title": "Doubt on using FALCON/Dilithium for TLS in the STM32f board",
+    "state": "closed",
+    "created_at": "2022-08-18T13:20:38Z",
+    "url": "https://github.com/wolfSSL/wolfssl/issues/5479",
+    "labels": []
+  },
+  {
+    "repo": "wolfSSL/wolfssl",
+    "number": 8404,
+    "title": "[Bug]:  WolfSSL code references outdated OQS constants",
+    "state": "closed",
+    "created_at": "2025-01-31T10:03:42Z",
+    "url": "https://github.com/wolfSSL/wolfssl/issues/8404",
+    "labels": [
+      "bug"
+    ]
+  },
+  {
+    "repo": "wolfSSL/wolfssl",
+    "number": 8374,
+    "title": "Unable to bring PQC to an Arduino sketch",
+    "state": "closed",
+    "created_at": "2025-01-24T15:30:13Z",
+    "url": "https://github.com/wolfSSL/wolfssl/issues/8374",
+    "labels": []
+  },
+  {
+    "repo": "wolfSSL/wolfssl",
+    "number": 8239,
+    "title": "Help Needed: wolfSSL Build Issue with Latest Version and Runtime Error with Dilithium Certificates",
+    "state": "closed",
+    "created_at": "2024-11-29T01:55:28Z",
+    "url": "https://github.com/wolfSSL/wolfssl/issues/8239",
+    "labels": []
+  },
+  {
+    "repo": "wolfSSL/wolfssl",
+    "number": 8178,
+    "title": "[Bug]: Missing Code for Supported Algorithms in Signature.h/Signature.c",
+    "state": "closed",
+    "created_at": "2024-11-12T17:03:09Z",
+    "url": "https://github.com/wolfSSL/wolfssl/issues/8178",
+    "labels": [
+      "bug"
+    ]
+  },
+  {
+    "repo": "wolfSSL/wolfssl",
+    "number": 8142,
+    "title": "Hybrid Post Quantum Algorithms",
+    "state": "closed",
+    "created_at": "2024-11-03T15:41:51Z",
+    "url": "https://github.com/wolfSSL/wolfssl/issues/8142",
+    "labels": []
+  },
+  {
+    "repo": "wolfSSL/wolfssl",
+    "number": 8131,
+    "title": "WolfSSL FIPS Windows MSYS",
+    "state": "closed",
+    "created_at": "2024-10-30T21:12:49Z",
+    "url": "https://github.com/wolfSSL/wolfssl/issues/8131",
+    "labels": []
+  },
+  {
+    "repo": "wolfSSL/wolfssl",
+    "number": 8124,
+    "title": "[Bug]: ARM ASM without crypto extensions doesn't compile",
+    "state": "closed",
+    "created_at": "2024-10-30T07:43:37Z",
+    "url": "https://github.com/wolfSSL/wolfssl/issues/8124",
+    "labels": [
+      "bug"
+    ]
+  },
+  {
+    "repo": "wolfSSL/wolfssl",
+    "number": 8041,
+    "title": "Typo in kyber.h header prevents using wc_MlKemKey_Decapsulate alias",
+    "state": "closed",
+    "created_at": "2024-10-04T09:21:59Z",
+    "url": "https://github.com/wolfSSL/wolfssl/issues/8041",
+    "labels": [
+      "bug"
+    ]
+  },
+  {
+    "repo": "wolfSSL/wolfssl",
+    "number": 8023,
+    "title": "[Bug]: Kyber (original) is not working",
+    "state": "closed",
+    "created_at": "2024-09-27T12:59:09Z",
+    "url": "https://github.com/wolfSSL/wolfssl/issues/8023",
+    "labels": [
+      "bug"
+    ]
+  },
+  {
+    "repo": "wolfSSL/wolfssl",
+    "number": 7969,
+    "title": "Using Custom user_settings.h with wolfSSL in HomeKit after Version Update",
+    "state": "closed",
+    "created_at": "2024-09-12T15:05:21Z",
+    "url": "https://github.com/wolfSSL/wolfssl/issues/7969",
+    "labels": []
+  },
+  {
+    "repo": "wolfSSL/wolfssl",
+    "number": 7922,
+    "title": "Build options",
+    "state": "closed",
+    "created_at": "2024-08-29T16:26:08Z",
+    "url": "https://github.com/wolfSSL/wolfssl/issues/7922",
+    "labels": []
+  },
+  {
+    "repo": "wolfSSL/wolfssl",
+    "number": 7898,
+    "title": "Issues with DTLS 1.3 Handshake over SCTP in WolfSSL",
+    "state": "closed",
+    "created_at": "2024-08-24T18:55:05Z",
+    "url": "https://github.com/wolfSSL/wolfssl/issues/7898",
+    "labels": []
+  },
+  {
+    "repo": "wolfSSL/wolfssl",
+    "number": 7885,
+    "title": "can't compile a project that uses wolfssl",
+    "state": "closed",
+    "created_at": "2024-08-19T23:04:23Z",
+    "url": "https://github.com/wolfSSL/wolfssl/issues/7885",
+    "labels": []
+  },
+  {
+    "repo": "wolfSSL/wolfssl",
+    "number": 7749,
+    "title": "Cannot build wolfssl with liboqs integration",
+    "state": "closed",
+    "created_at": "2024-07-13T12:58:03Z",
+    "url": "https://github.com/wolfSSL/wolfssl/issues/7749",
+    "labels": []
+  },
+  {
+    "repo": "wolfSSL/wolfssl",
+    "number": 7686,
+    "title": "[5.7.0] Unit.test failed on DTLS v1.3 during make test proccess",
+    "state": "closed",
+    "created_at": "2024-06-26T13:32:19Z",
+    "url": "https://github.com/wolfSSL/wolfssl/issues/7686",
+    "labels": []
+  },
+  {
+    "repo": "wolfSSL/wolfssl",
+    "number": 7668,
+    "title": "[Bug]: src/ssl.c:ProcessBuffer() different/broken behavior for same private key depending on PEM or ASN1 format",
+    "state": "closed",
+    "created_at": "2024-06-20T02:36:07Z",
+    "url": "https://github.com/wolfSSL/wolfssl/issues/7668",
+    "labels": [
+      "bug"
+    ]
+  },
+  {
+    "repo": "wolfSSL/wolfssl",
+    "number": 7640,
+    "title": "Improving wolfSSL integration with the Espressif ESP-IDF",
+    "state": "closed",
+    "created_at": "2024-06-13T09:01:08Z",
+    "url": "https://github.com/wolfSSL/wolfssl/issues/7640",
+    "labels": [
+      "help wanted",
+      "Feature Request"
+    ]
+  },
+  {
+    "repo": "wolfSSL/wolfssl",
+    "number": 7579,
+    "title": "error: api_kyber.h No such file",
+    "state": "closed",
+    "created_at": "2024-05-23T14:48:10Z",
+    "url": "https://github.com/wolfSSL/wolfssl/issues/7579",
+    "labels": []
+  },
+  {
+    "repo": "wolfSSL/wolfssl",
+    "number": 7518,
+    "title": "Support for chrome and X25519Kyber512Draft00",
+    "state": "closed",
+    "created_at": "2024-05-09T19:13:39Z",
+    "url": "https://github.com/wolfSSL/wolfssl/issues/7518",
+    "labels": []
+  },
+  {
+    "repo": "wolfSSL/wolfssl",
+    "number": 7427,
+    "title": "Both `--enable-lms` and `--enable-xmss`?",
+    "state": "closed",
+    "created_at": "2024-04-15T19:35:29Z",
+    "url": "https://github.com/wolfSSL/wolfssl/issues/7427",
+    "labels": []
+  },
+  {
+    "repo": "wolfSSL/wolfssl",
+    "number": 7425,
+    "title": "[Bug]: CMakeLists.txt is out of sync with latest `configure.ac`",
+    "state": "closed",
+    "created_at": "2024-04-15T12:43:45Z",
+    "url": "https://github.com/wolfSSL/wolfssl/issues/7425",
+    "labels": [
+      "bug"
+    ]
+  },
+  {
+    "repo": "wolfSSL/wolfssl",
+    "number": 7384,
+    "title": "DTLS1.3 and PQC not working as TLS1.3",
+    "state": "closed",
+    "created_at": "2024-04-02T13:32:40Z",
+    "url": "https://github.com/wolfSSL/wolfssl/issues/7384",
+    "labels": []
+  },
+  {
+    "repo": "wolfSSL/wolfssl",
+    "number": 6422,
+    "title": "heap corruption just by initializing structures",
+    "state": "closed",
+    "created_at": "2023-05-18T20:39:06Z",
+    "url": "https://github.com/wolfSSL/wolfssl/issues/6422",
+    "labels": [
+      "bug"
+    ]
+  },
+  {
+    "repo": "wolfSSL/wolfssl",
+    "number": 6023,
+    "title": "huge size compare to openssl 1.1",
+    "state": "closed",
+    "created_at": "2023-01-28T05:14:49Z",
+    "url": "https://github.com/wolfSSL/wolfssl/issues/6023",
+    "labels": []
+  },
+  {
+    "repo": "wolfSSL/wolfssl",
+    "number": 5479,
+    "title": "Doubt on using FALCON/Dilithium for TLS in the STM32f board",
+    "state": "closed",
+    "created_at": "2022-08-18T13:20:38Z",
+    "url": "https://github.com/wolfSSL/wolfssl/issues/5479",
+    "labels": []
+  },
+  {
+    "repo": "wolfSSL/wolfssl",
+    "number": 10409,
+    "title": "[Bug]: Missing ML-KEM Key Validation Function",
+    "state": "closed",
+    "created_at": "2026-05-06T14:45:29Z",
+    "url": "https://github.com/wolfSSL/wolfssl/issues/10409",
+    "labels": [
+      "Feature Request"
+    ]
+  },
+  {
+    "repo": "wolfSSL/wolfssl",
+    "number": 10287,
+    "title": "[Bug]: Handshake failure when ClientHello contains multiple PQC/hybrid key shares",
+    "state": "closed",
+    "created_at": "2026-04-23T10:04:41Z",
+    "url": "https://github.com/wolfSSL/wolfssl/issues/10287",
+    "labels": [
+      "bug"
+    ]
+  },
+  {
+    "repo": "wolfSSL/wolfssl",
+    "number": 9680,
+    "title": "Dilithium5/Kyber5 configuration on STM32",
+    "state": "closed",
+    "created_at": "2026-01-17T16:12:49Z",
+    "url": "https://github.com/wolfSSL/wolfssl/issues/9680",
+    "labels": [
+      "question"
+    ]
+  },
+  {
+    "repo": "wolfSSL/wolfssl",
+    "number": 9602,
+    "title": "[Bug]: The default type of the LmsParams.sig_len field is word16, which will overflow when using LMS_SHA256_M32_H5 and LMOTS_SHA256_N32_W1, level:8.",
+    "state": "closed",
+    "created_at": "2026-01-05T10:18:02Z",
+    "url": "https://github.com/wolfSSL/wolfssl/issues/9602",
+    "labels": [
+      "bug"
+    ]
+  },
+  {
+    "repo": "wolfSSL/wolfssl",
+    "number": 9347,
+    "title": "Issues while building wolfSSL with certain config options",
+    "state": "closed",
+    "created_at": "2025-10-25T17:36:47Z",
+    "url": "https://github.com/wolfSSL/wolfssl/issues/9347",
+    "labels": [
+      "bug"
+    ]
+  },
+  {
+    "repo": "wolfSSL/wolfssl",
+    "number": 9266,
+    "title": "[Bug]: Dtls 1.3  failing when Client Hello packet get fragmented",
+    "state": "closed",
+    "created_at": "2025-10-03T10:38:13Z",
+    "url": "https://github.com/wolfSSL/wolfssl/issues/9266",
+    "labels": [
+      "bug"
+    ]
+  },
+  {
+    "repo": "wolfSSL/wolfssl",
+    "number": 9214,
+    "title": "[Bug]: configure: error: Header file inconsistency detected -- error including wolfssl/openssl/aes.h.",
+    "state": "closed",
+    "created_at": "2025-09-18T06:08:50Z",
+    "url": "https://github.com/wolfSSL/wolfssl/issues/9214",
+    "labels": [
+      "bug"
+    ]
+  },
+  {
+    "repo": "wolfSSL/wolfssl",
+    "number": 8404,
+    "title": "[Bug]:  WolfSSL code references outdated OQS constants",
+    "state": "closed",
+    "created_at": "2025-01-31T10:03:42Z",
+    "url": "https://github.com/wolfSSL/wolfssl/issues/8404",
+    "labels": [
+      "bug"
+    ]
+  },
+  {
+    "repo": "wolfSSL/wolfssl",
+    "number": 8374,
+    "title": "Unable to bring PQC to an Arduino sketch",
+    "state": "closed",
+    "created_at": "2025-01-24T15:30:13Z",
+    "url": "https://github.com/wolfSSL/wolfssl/issues/8374",
+    "labels": []
+  },
+  {
+    "repo": "wolfSSL/wolfssl",
+    "number": 8239,
+    "title": "Help Needed: wolfSSL Build Issue with Latest Version and Runtime Error with Dilithium Certificates",
+    "state": "closed",
+    "created_at": "2024-11-29T01:55:28Z",
+    "url": "https://github.com/wolfSSL/wolfssl/issues/8239",
+    "labels": []
+  },
+  {
+    "repo": "wolfSSL/wolfssl",
+    "number": 7898,
+    "title": "Issues with DTLS 1.3 Handshake over SCTP in WolfSSL",
+    "state": "closed",
+    "created_at": "2024-08-24T18:55:05Z",
+    "url": "https://github.com/wolfSSL/wolfssl/issues/7898",
+    "labels": []
+  },
+  {
+    "repo": "wolfSSL/wolfssl",
+    "number": 7686,
+    "title": "[5.7.0] Unit.test failed on DTLS v1.3 during make test proccess",
+    "state": "closed",
+    "created_at": "2024-06-26T13:32:19Z",
+    "url": "https://github.com/wolfSSL/wolfssl/issues/7686",
+    "labels": []
+  },
+  {
+    "repo": "wolfSSL/wolfssl",
+    "number": 7668,
+    "title": "[Bug]: src/ssl.c:ProcessBuffer() different/broken behavior for same private key depending on PEM or ASN1 format",
+    "state": "closed",
+    "created_at": "2024-06-20T02:36:07Z",
+    "url": "https://github.com/wolfSSL/wolfssl/issues/7668",
+    "labels": [
+      "bug"
+    ]
+  },
+  {
+    "repo": "wolfSSL/wolfssl",
+    "number": 7579,
+    "title": "error: api_kyber.h No such file",
+    "state": "closed",
+    "created_at": "2024-05-23T14:48:10Z",
+    "url": "https://github.com/wolfSSL/wolfssl/issues/7579",
+    "labels": []
+  },
+  {
+    "repo": "wolfSSL/wolfssl",
+    "number": 7518,
+    "title": "Support for chrome and X25519Kyber512Draft00",
+    "state": "closed",
+    "created_at": "2024-05-09T19:13:39Z",
+    "url": "https://github.com/wolfSSL/wolfssl/issues/7518",
+    "labels": []
+  },
+  {
+    "repo": "wolfSSL/wolfssl",
+    "number": 7384,
+    "title": "DTLS1.3 and PQC not working as TLS1.3",
+    "state": "closed",
+    "created_at": "2024-04-02T13:32:40Z",
+    "url": "https://github.com/wolfSSL/wolfssl/issues/7384",
+    "labels": []
+  },
+  {
+    "repo": "wolfSSL/wolfssl",
+    "number": 7047,
+    "title": "[Bug]: TLS post-quantum cryptography crash (invalid memory free) when algorithm does not match",
+    "state": "closed",
+    "created_at": "2023-12-08T17:01:49Z",
+    "url": "https://github.com/wolfSSL/wolfssl/issues/7047",
+    "labels": [
+      "bug"
+    ]
+  },
+  {
+    "repo": "wolfSSL/wolfssl",
+    "number": 5906,
+    "title": "Help using TLS 1.3 in SGX LINUX example",
+    "state": "closed",
+    "created_at": "2022-12-16T23:14:26Z",
+    "url": "https://github.com/wolfSSL/wolfssl/issues/5906",
+    "labels": []
+  },
+  {
+    "repo": "wolfSSL/wolfssl",
+    "number": 5759,
+    "title": "undefined reference to `RAND_status' and few more",
+    "state": "closed",
+    "created_at": "2022-10-31T13:38:20Z",
+    "url": "https://github.com/wolfSSL/wolfssl/issues/5759",
+    "labels": []
+  },
+  {
+    "repo": "wolfSSL/wolfssl",
+    "number": 10411,
+    "title": "[Bug]: Memory Zeroization Bug in ML-KEM Key Cleanup",
+    "state": "closed",
+    "created_at": "2026-05-06T14:47:24Z",
+    "url": "https://github.com/wolfSSL/wolfssl/issues/10411",
+    "labels": []
+  },
+  {
+    "repo": "wolfSSL/wolfssl",
+    "number": 10409,
+    "title": "[Bug]: Missing ML-KEM Key Validation Function",
+    "state": "closed",
+    "created_at": "2026-05-06T14:45:29Z",
+    "url": "https://github.com/wolfSSL/wolfssl/issues/10409",
+    "labels": [
+      "Feature Request"
+    ]
+  },
+  {
+    "repo": "wolfSSL/wolfssl",
+    "number": 10385,
+    "title": "Feature: Add ML-KEM Key Basic Sanity Check",
+    "state": "closed",
+    "created_at": "2026-05-02T02:48:22Z",
+    "url": "https://github.com/wolfSSL/wolfssl/issues/10385",
+    "labels": [
+      "enhancement",
+      "Feature Request"
+    ]
+  },
+  {
+    "repo": "wolfSSL/wolfssl",
+    "number": 10315,
+    "title": "[Bug]: DTLS 1.3 handshake can fail with `HRR_COOKIE_ERROR` when certain packets are dropped",
+    "state": "open",
+    "created_at": "2026-04-26T20:42:13Z",
+    "url": "https://github.com/wolfSSL/wolfssl/issues/10315",
+    "labels": [
+      "bug"
+    ]
+  },
+  {
+    "repo": "wolfSSL/wolfssl",
+    "number": 10287,
+    "title": "[Bug]: Handshake failure when ClientHello contains multiple PQC/hybrid key shares",
+    "state": "closed",
+    "created_at": "2026-04-23T10:04:41Z",
+    "url": "https://github.com/wolfSSL/wolfssl/issues/10287",
+    "labels": [
+      "bug"
+    ]
+  },
+  {
+    "repo": "wolfSSL/wolfssl",
+    "number": 9680,
+    "title": "Dilithium5/Kyber5 configuration on STM32",
+    "state": "closed",
+    "created_at": "2026-01-17T16:12:49Z",
+    "url": "https://github.com/wolfSSL/wolfssl/issues/9680",
+    "labels": [
+      "question"
+    ]
+  },
+  {
+    "repo": "wolfSSL/wolfssl",
+    "number": 9266,
+    "title": "[Bug]: Dtls 1.3  failing when Client Hello packet get fragmented",
+    "state": "closed",
+    "created_at": "2025-10-03T10:38:13Z",
+    "url": "https://github.com/wolfSSL/wolfssl/issues/9266",
+    "labels": [
+      "bug"
+    ]
+  },
+  {
+    "repo": "wolfSSL/wolfssl",
+    "number": 8404,
+    "title": "[Bug]:  WolfSSL code references outdated OQS constants",
+    "state": "closed",
+    "created_at": "2025-01-31T10:03:42Z",
+    "url": "https://github.com/wolfSSL/wolfssl/issues/8404",
+    "labels": [
+      "bug"
+    ]
+  },
+  {
+    "repo": "wolfSSL/wolfssl",
+    "number": 8239,
+    "title": "Help Needed: wolfSSL Build Issue with Latest Version and Runtime Error with Dilithium Certificates",
+    "state": "closed",
+    "created_at": "2024-11-29T01:55:28Z",
+    "url": "https://github.com/wolfSSL/wolfssl/issues/8239",
+    "labels": []
+  },
+  {
+    "repo": "wolfSSL/wolfssl",
+    "number": 8142,
+    "title": "Hybrid Post Quantum Algorithms",
+    "state": "closed",
+    "created_at": "2024-11-03T15:41:51Z",
+    "url": "https://github.com/wolfSSL/wolfssl/issues/8142",
+    "labels": []
+  },
+  {
+    "repo": "wolfSSL/wolfssl",
+    "number": 7749,
+    "title": "Cannot build wolfssl with liboqs integration",
+    "state": "closed",
+    "created_at": "2024-07-13T12:58:03Z",
+    "url": "https://github.com/wolfSSL/wolfssl/issues/7749",
+    "labels": []
+  },
+  {
+    "repo": "wolfSSL/wolfssl",
+    "number": 7518,
+    "title": "Support for chrome and X25519Kyber512Draft00",
+    "state": "closed",
+    "created_at": "2024-05-09T19:13:39Z",
+    "url": "https://github.com/wolfSSL/wolfssl/issues/7518",
+    "labels": []
+  }
+]

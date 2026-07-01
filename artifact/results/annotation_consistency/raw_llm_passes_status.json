@@ -1,0 +1,25 @@
+{
+  "raw_llm_passes_included": true,
+  "passes": [
+    {
+      "source_pass": "gemini_3_1_pro",
+      "rows": 200,
+      "file": "results/annotation_consistency/raw_llm_passes/gemini_3_1_pro_labels_200.csv"
+    },
+    {
+      "source_pass": "gpt_5_5_high",
+      "rows": 200,
+      "file": "results/annotation_consistency/raw_llm_passes/gpt_5_5_high_labels_200.csv"
+    },
+    {
+      "source_pass": "deepseek_v4_pro",
+      "rows": 200,
+      "file": "results/annotation_consistency/raw_llm_passes/deepseek_v4_pro_labels_200.csv"
+    },
+    {
+      "source_pass": "claude_sonnet_4_6_max",
+      "rows": 200,
+      "file": "results/annotation_consistency/raw_llm_passes/claude_sonnet_4_6_max_labels_200.csv"
+    }
+  ]
+}

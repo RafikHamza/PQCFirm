@@ -1,0 +1,30 @@
+{
+  "codebase": "liboqs",
+  "status": "PASS",
+  "snapshot_path": "artifact/external_codebases/snapshots/liboqs",
+  "scan_roots": [
+    "src",
+    "tests"
+  ],
+  "source_files": 5712,
+  "raw_source_lines": 1107054,
+  "findings_total": 6686,
+  "rule_counts": {
+    "R01": 2216,
+    "R02": 108,
+    "R03": 2531,
+    "R04": 803,
+    "R05": 339,
+    "R06": 2,
+    "R07": 687
+  },
+  "audit_sample_size": 500,
+  "tp": 237,
+  "fp": 16,
+  "review_rows": 247,
+  "classified_rows": 253,
+  "assisted_precision": 0.9368,
+  "review_method": "deterministic_external_assisted_triage",
+  "claim_wording": "Optional external-codebase assisted triage with conservative REVIEW handling; not human manual audit and not production recall.",
+  "snapshot_ref": "aa294f56bd3bb902c8986202ce37a42e9f0f18cf"
+}

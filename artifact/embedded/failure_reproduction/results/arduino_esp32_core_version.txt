@@ -1,0 +1,1 @@
+CAPTURE REQUIRED: run `pio pkg list` in this project and paste Arduino-ESP32 package version here.

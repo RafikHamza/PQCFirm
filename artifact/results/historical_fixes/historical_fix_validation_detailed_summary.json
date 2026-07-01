@@ -1,0 +1,47 @@
+{
+  "total_candidates": 200,
+  "in_scope_candidates": 137,
+  "out_of_scope_candidates": 63,
+  "in_scope_any_hit": 113,
+  "in_scope_expected_rule_hit": 79,
+  "per_expected_rule": {
+    "R01": {
+      "total": 35,
+      "any_hit": 31,
+      "expected_hit": 24
+    },
+    "R05": {
+      "total": 36,
+      "any_hit": 28,
+      "expected_hit": 22
+    },
+    "R06": {
+      "total": 13,
+      "any_hit": 12,
+      "expected_hit": 0
+    },
+    "R03": {
+      "total": 6,
+      "any_hit": 2,
+      "expected_hit": 1
+    },
+    "R04": {
+      "total": 38,
+      "any_hit": 31,
+      "expected_hit": 26
+    },
+    "R02": {
+      "total": 9,
+      "any_hit": 9,
+      "expected_hit": 6
+    }
+  },
+  "out_of_scope_reason_counts": {
+    "Not a bug fix (refactoring, documentation, style, or feature commit).": 37,
+    "Build/toolchain issue or configuration mismatch, out of parser scope.": 20,
+    "Side-channel vulnerability; out of syntactic AST analyzer scope.": 1,
+    "Timing regression; requires dynamic analysis, out of static analyzer scope.": 2,
+    "Bug fix is not related to post-quantum cryptography migration.": 3
+  },
+  "interpretation": "Candidate-level parent-revision scan; not independently validated real-bug recall."
+}

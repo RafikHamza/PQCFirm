@@ -1,0 +1,201 @@
+coding_id,repo,commit_message,gemini_label,gpt55_label,deepseek_label,claude_label,majority_3plus_label,agreement_count_max
+C001,wolfSSL/wolfssl,Merge pull request #10497 from Frauschi/mldsa_rename,D9,D9,D9,D9,D9,4
+C002,wolfSSL/wolfssl,Merge pull request #8027 from SparkiDev/kyber_original_fix,D9,D9,D9,D9,D9,4
+C003,open-quantum-safe/liboqs,Ensure that building against liboqs build directory works (#2086),D8,D8,D8,D8,D8,4
+C004,open-quantum-safe/liboqs,Dilithium 3.1 update	 partially autogenerating docs (#923),D9,D9,D9,D9,D9,4
+C005,open-quantum-safe/liboqs,Pull new HQC implementation from upstream (#1585),D9,D9,D9,D9,D9,4
+C006,wolfSSL/wolfssl,Merge pull request #4960 from anhu/stm32_pq_bench,D4,D4,D4,D4,D4,4
+C007,wolfSSL/wolfssl,ML-KEM: derive secret fix,D9,D7,D9,D9,D9,3
+C008,wolfSSL/wolfssl,ASM files: generation script refactor output,D9,D9,D9,D9,D9,4
+C009,aws/s2n-tls,Add a readme for the post-quantum crypto directory,D9,D9,D9,D9,D9,4
+C010,wolfSSL/wolfssl,linuxkm: add asm support for Kyber.,D8,D8,D9,D4,NO_3PLUS_MAJORITY,2
+C011,wolfSSL/wolfssl,Merge pull request #7877 from SparkiDev/ml_dsa_ml_kem_final,D9,D9,D9,D9,D9,4
+C012,wolfSSL/wolfssl,ASM generation fixes,D8,D8,D8,D9,D8,3
+C013,open-quantum-safe/liboqs,Update sig_stfl Doxygen documentation (#2059),D9,D9,D9,D9,D9,4
+C014,open-quantum-safe/liboqs,Sync upstream with copy_from_upstram / pqcrystals pull (#891),D9,D9,D9,D9,D9,4
+C015,wolfSSL/wolfssl,src/pk.c: add missing 'keySz = padded_keySz' in _DH_compute_key() ct cleanup path.,D6,D1,D6,D6,D6,3
+C016,wolfSSL/wolfssl,-----BEGIN SPHINCS_SMALL_LEVEL1 PRIVATE KEY----- is the longest one at length 48,D1,D1,D1,D1,D1,4
+C017,aws/s2n-tls,feature: add support for configuring (but not yet using) ml-dsa certs (#5263),D2,D2,D8,D2,D2,3
+C018,open-quantum-safe/liboqs,Pull Kyber/ML-KEM CT-Fix from upstream,D6,D6,D6,D6,D6,4
+C019,openssl/openssl,Provide aliases to ML-DSA without dashes,D2,D2,D9,D2,D2,3
+C020,open-quantum-safe/liboqs,Add CROSS (#1881),D9,D8,D9,D9,D9,3
+C021,open-quantum-safe/oqs-provider,Add pristine copies of source files from OQS-OpenSSL3,D9,D9,D9,D9,D9,4
+C022,openssl/openssl,ml_kem kem: convert to using generated param decoders,D9,D2,D9,D2,NO_3PLUS_MAJORITY,2
+C023,wolfSSL/wolfssl,ML-KEM/Kyber: fix out of bouds read,D1,D1,D1,D1,D1,4
+C024,open-quantum-safe/oqs-provider,bring GOVERNANCE in line with liboqs [skip ci] (#342),D9,D9,D9,D9,D9,4
+C025,open-quantum-safe/oqs-provider,Hybrid KEM support (#16),D2,D2,D2,D2,D2,4
+C026,wolfSSL/wolfssl,certs_test.h is using raw dilithium keys,D9,D9,D9,D9,D9,4
+C027,open-quantum-safe/liboqs,Merge branch 'master' of https://github.com/open-quantum-safe/liboqs,D9,D9,D9,D9,D9,4
+C028,wolfSSL/wolfssl,Get the falcon keys into wolfssl/certs_test.h,D9,D9,D9,D9,D9,4
+C029,wolfSSL/wolfssl,examples/{client	server}/{client	server}.c: remove spurious commas in --pqc help strings	 and mollify clang-tidy bugprone-suspicious-missing-comma re --force-curve help strings. (#5480),D9,D9,D9,D9,D9,4
+C030,wolfSSL/wolfssl,Bugfix: wolfSSL_get_curve_name() will now print post-quantum group names.,D2,D2,D9,D2,D2,3
+C031,wolfSSL/wolfssl,src/ssl.c and src/ssl_load.c: fix syntax flubs in WOLFSSL_DILITHIUM_FIPS204_DRAFT paths.,D9,D8,D9,D8,NO_3PLUS_MAJORITY,2
+C032,wolfSSL/wolfssl,Merge pull request #8827 from SparkiDev/ml_kem_codepoints,D2,D2,D9,D2,D2,3
+C033,openssl/openssl,rename ml_dsa_sig.c to ml_dsa_sig.c.in,D9,D9,D9,D8,D9,3
+C034,open-quantum-safe/oqs-provider,Cross-compile to linux-aarch64 from linux-x64 in GitHub actions. (#253),D8,D8,D8,D8,D8,4
+C035,wolfSSL/wolfssl,pqc: fix memory type for shared secret storage server side,D5,D5,D5,D5,D5,4
+C036,wolfSSL/wolfssl,MSVC: replace UINT32_MAX with WOLFSSL_MAX_32BIT in dilithium.c,D8,D8,D8,D8,D8,4
+C037,wolfSSL/wolfssl,tests/api.c: fix readability-uppercase-literal-suffix in rfc9802_verify_one_cert(),D9,D9,D9,D9,D9,4
+C038,wolfSSL/wolfssl,Add liboqs integration to CMake build system (#5407),D8,D8,D8,D8,D8,4
+C039,wolfSSL/wolfssl,Rust wrapper: dilithium: remove unnecessary size define presence checks,D1,D9,D9,D9,D9,3
+C040,wolfSSL/wolfssl,Fix implicit conversion.,D8,D8,D9,D8,D8,3
+C041,aws/s2n-tls,Add more test cases for multiple certificates by name,D9,D9,D9,D9,D9,4
+C042,wolfSSL/wolfssl,Merge pull request #4856 from anhu/stm32u5,D8,D8,D8,D8,D8,4
+C043,open-quantum-safe/liboqs,Merge pull request #486 from dmjones/link-openssl,D8,D8,D8,D8,D8,4
+C044,wolfSSL/wolfssl,Merge pull request #8360 from philljj/dual_alg_mldsa,D2,D2,D2,D2,D2,4
+C045,open-quantum-safe/oqs-provider,Full OQS project integration (#1),D8,D8,D9,D9,NO_3PLUS_MAJORITY,2
+C046,wolfSSL/wolfssl,Kyber/ML-KEM: make both available,D2,D2,D2,D2,D2,4
+C047,open-quantum-safe/oqs-provider,remove default Kyber and Dilithium support (#603),D2,D2,D2,D2,D2,4
+C048,open-quantum-safe/liboqs,Adding multiple upstream support to doc generation (#1123),D9,D9,D9,D9,D9,4
+C049,open-quantum-safe/liboqs,Dependabot configuration and dependency updates (#2420),D8,D8,D8,D8,D8,4
+C050,wolfSSL/wolfssl,Fix memory leak in case of handshake error,D5,D5,D5,D5,D5,4
+C051,openssl/openssl,fips: defined for ML-KEM CASTs,D8,D8,D9,D9,NO_3PLUS_MAJORITY,2
+C052,wolfSSL/wolfssl,wolfCrypt support for external Kyber implementations (liboqs and pqm4),D8,D2,D2,D2,D2,3
+C053,wolfSSL/wolfssl,Kyber: Improve performance of C implementation,D4,D4,D4,D4,D4,4
+C054,open-quantum-safe/liboqs,Trigger liboqs-java and liboqs-rust downstream CI (#2021),D8,D8,D8,D8,D8,4
+C055,wolfSSL/wolfssl,Fix PQC hybrid KeyShare pointer sanity.,D7,D7,D7,D7,D7,4
+C056,aws/s2n-tls,Add Kyber Round 2 TLS Security Policy (#2138),D9,D9,D2,D2,NO_3PLUS_MAJORITY,2
+C057,open-quantum-safe/liboqs,Merge pull request #521 from open-quantum-safe/ds-sphincs,D9,D9,D9,D9,D9,4
+C058,open-quantum-safe/liboqs,Fix SPHINCS+ constant-time suppression files (#1480),D6,D6,D6,D6,D6,4
+C059,openssl/openssl,Test ML-DSA	 SLH-DSA	 and ML-KEM PCT implementations,D9,D9,D9,D9,D9,4
+C060,openssl/openssl,ml_dsa_kmgmt: check params against len and not pointers in ml_dsa_key_fromdata,D1,D7,D7,D7,D7,3
+C061,wolfSSL/wolfssl,liboqs: add RNG support for sphincs,D2,D2,D9,D9,NO_3PLUS_MAJORITY,2
+C062,open-quantum-safe/liboqs,liboqs 0.6.0-rc1,D9,D9,D9,D9,D9,4
+C063,wolfSSL/wolfssl,ML-KEM fixes,D9,D9,D9,D9,D9,4
+C064,open-quantum-safe/liboqs,Include DeriveEncapsulation functionality (Issue #2135) (#2221),D2,D2,D2,D9,D2,3
+C065,wolfSSL/wolfssl,WolfSSL Kyber and CMake fixes,D8,D8,D8,D8,D8,4
+C066,wolfSSL/wolfssl,Correct kyber levels. Was copy and paste error.,D9,D7,D7,D1,NO_3PLUS_MAJORITY,2
+C067,open-quantum-safe/liboqs,Merge pull request #539 from open-quantum-safe/vsoftco-update-contributors,D9,D9,D9,D9,D9,4
+C068,wolfSSL/wolfssl,Merge pull request #10407 from Frauschi/Wconversion,D8,D8,D8,D8,D8,4
+C069,open-quantum-safe/oqs-provider,Remove SPHINCS+ (#740),D9,D2,D2,D2,D2,3
+C070,wolfSSL/wolfssl,Fix PQC key exchange with multiple KEM key shares,D2,D2,D9,D2,D2,3
+C071,wolfSSL/wolfssl,wolfcrypt/src/wc_kyber_poly.c: fix bugprone-macro-parentheses for FROM_MSG_BIT.,D9,D8,D9,D9,D9,3
+C072,openssl/openssl,Drop value barrier from ML-DSA reduce_once,D4,D6,D4,D6,NO_3PLUS_MAJORITY,2
+C073,wolfSSL/wolfssl,Merge pull request #10310 from cconlon/d2iMLDSA,D9,D2,D2,D9,NO_3PLUS_MAJORITY,2
+C074,openssl/openssl,Fix ML-KEM key equality check when either unset,D7,D7,D7,D7,D7,4
+C075,wolfSSL/wolfssl,cryptocb: always run software cleanup in key Free functions,D5,D5,D5,D5,D5,4
+C076,openssl/openssl,ML-DSA: Change ossl_ml_dsa_key_public_from_private() to check that the,D7,D7,D7,D7,D7,4
+C077,openssl/openssl,Teach SSL_trace() about ML-DSA,D9,D9,D9,D9,D9,4
+C078,open-quantum-safe/liboqs,Update Kyber and Dilithium from upstream (#1316),D9,D9,D9,D9,D9,4
+C079,open-quantum-safe/liboqs,Test against all 100 KAT values (#1560),D9,D9,D9,D9,D9,4
+C080,aws/s2n-tls,Add ML-KEM Feature Probe and Test (#4823),D9,D8,D9,D9,D9,3
+C081,wolfSSL/wolfssl,Fix for liboqs on zephyr,D8,D8,D8,D8,D8,4
+C082,wolfSSL/wolfssl,Merge pull request #8207 from bigbrett/dilithium-nightly-fixes,D9,D9,D9,D8,D9,3
+C083,wolfSSL/wolfssl,Merge pull request #6576 from iyanmv/liboqs-1.8,D9,D8,D8,D8,D8,3
+C084,wolfSSL/wolfssl,liboqs depends on pthreads now,D8,D8,D8,D8,D8,4
+C085,wolfSSL/wolfssl,add _new/_delete API for ML-KEM/ML-DSA,D5,D2,D2,D5,NO_3PLUS_MAJORITY,2
+C086,open-quantum-safe/liboqs,Merge pull request #524 from open-quantum-safe/ds-backout-ledakem,D9,D2,D9,D9,D9,3
+C087,wolfSSL/wolfssl,Merge pull request #7677 from Laboratory-for-Safe-and-Secure-Systems/mldsa_fixes,D9,D9,D9,D9,D9,4
+C088,open-quantum-safe/liboqs,Merge branch 'master' of https://github.com/open-quantum-safe/liboqs,D9,D9,D9,D9,D9,4
+C089,open-quantum-safe/liboqs,Merge pull request #496 from open-quantum-safe/ds-aes-fix-compilation,D8,D8,D8,D8,D8,4
+C090,open-quantum-safe/liboqs,Add Falcon from PQClean (#660),D9,D9,D9,D9,D9,4
+C091,wolfSSL/wolfssl,Merge pull request #7740 from JacobBarthelmeh/readme,D9,D9,D9,D9,D9,4
+C092,open-quantum-safe/liboqs,Replace the Kyber768 implementation in liboqs master with PQClean's implementation (#466),D9,D9,D9,D9,D9,4
+C093,openssl/openssl,ML-DSA: Refactor to use function pointers for AVX2/scalar NTT,D4,D4,D9,D4,D4,3
+C094,wolfSSL/wolfssl,Merge pull request #10405 from SparkiDev/mlkem_fixes_1,D9,D9,D9,D9,D9,4
+C095,open-quantum-safe/liboqs,Add ML-DSA / FIPS 204 final (#1919),D9,D9,D9,D9,D9,4
+C096,open-quantum-safe/oqs-provider,Disable Kyber,D2,D2,D2,D2,D2,4
+C097,wolfSSL/wolfssl,Merge pull request #10047 from Frauschi/mldsa_no_ctx,D9,D2,D2,D2,D2,3
+C098,wolfSSL/wolfssl,gate dilithium OID autodetection on FIPS 204 draft mode,D2,D2,D8,D2,D2,3
+C099,open-quantum-safe/liboqs,PQClean / NTRU Prime update (#1039),D9,D9,D9,D9,D9,4
+C100,wolfSSL/wolfssl,Changes inspired by Feedback from Sean.,D9,D9,D9,D9,D9,4
+C101,wolfSSL/wolfssl,Dilithium/ML-DSA: Implementation of ML-DSA-44/65/87,D9,D9,D9,D9,D9,4
+C102,open-quantum-safe/liboqs,Pull Falcon updates from PQClean (#1523),D9,D9,D9,D9,D9,4
+C103,open-quantum-safe/liboqs,Merge branch 'master' of https://github.com/open-quantum-safe/liboqs,D9,D9,D9,D9,D9,4
+C104,open-quantum-safe/liboqs,Use explicit_memset if available. NetBSD has support for it: (#1872),D5,D6,D6,D6,D6,3
+C105,wolfSSL/wolfssl,Merge pull request #8639 from anhu/cmake_pq,D8,D8,D8,D8,D8,4
+C106,open-quantum-safe/liboqs,Merge pull request #491 from open-quantum-safe/ds-update-kems,D9,D9,D9,D9,D9,4
+C107,wolfSSL/wolfssl,PQC: CryptoCb support for KEM algorithm Kyber,D2,D2,D2,D2,D2,4
+C108,aws/s2n-tls,Merge pull request #1041 from andrewhop/readme,D9,D9,D9,D9,D9,4
+C109,open-quantum-safe/oqs-provider,Generate (also historical) (O)ID tables (#167),D9,D2,D9,D9,D9,3
+C110,open-quantum-safe/oqs-provider,update Falcon IDs (#125),D2,D2,D9,D2,D2,3
+C111,wolfSSL/wolfssl,Merge pull request #7924 from anhu/pqm4_purge,D9,D9,D9,D8,D9,3
+C112,wolfSSL/wolfssl,Add LMS	 XMSS and ML-DSA to Wconversion,D8,D8,D8,D8,D8,4
+C113,aws/s2n-tls,Add Kyber Round 3 Fuzz Tests (#2958),D9,D9,D9,D9,D9,4
+C114,wolfSSL/wolfssl,Aarch64 ASM: Use CPU features for more,D4,D4,D4,D4,D4,4
+C115,open-quantum-safe/oqs-provider,Update to ensure hybrid kex interop	 updates for OpenSSL master (#24),D2,D2,D2,D2,D2,4
+C116,wolfSSL/wolfssl,Merge pull request #8229 from bigbrett/pqc-macro-protection-quickfix,D8,D8,D9,D8,D8,3
+C117,wolfSSL/wolfssl,Merge pull request #6715 from anhu/WOLFSSL_NO_SPHINCS,D8,D2,D8,D8,D8,3
+C118,wolfSSL/wolfssl,Fixes for WolfSSL ML-DSA implementation,D9,D9,D9,D9,D9,4
+C119,wolfSSL/wolfssl,ML-KEM compatibility,D2,D2,D9,D2,D2,3
+C120,wolfSSL/wolfssl,Rename ML-KEM hybrids to match IETF Draft.,D9,D2,D2,D2,D2,3
+C121,open-quantum-safe/liboqs,liboqs 0.8.0 release,D9,D9,D9,D9,D9,4
+C122,openssl/openssl,ml-kem: update to use improved parameter handling,D2,D2,D2,D2,D2,4
+C123,open-quantum-safe/liboqs,Add new KEM API and SIKE (#295),D2,D2,D2,D2,D2,4
+C124,wolfSSL/wolfssl,Update key share group ranking algorithm,D2,D2,D2,D2,D2,4
+C125,wolfSSL/wolfssl,Merge pull request #8853 from JacobBarthelmeh/pqc,D9,D9,D9,D9,D9,4
+C126,open-quantum-safe/liboqs,Merge pull request #563 from open-quantum-safe/vsoftco-patch-1,D9,D9,D9,D9,D9,4
+C127,open-quantum-safe/liboqs,Rename algorithms in Dilithium datasheet,D9,D9,D9,D9,D9,4
+C128,wolfSSL/wolfssl,Fix inverted logic in Sphincs and Falcon,D9,D7,D7,D7,D7,3
+C129,openssl/openssl,s3_lib.c: Use illegal_parameter for failing encapsulation in ml_kem,D7,D7,D7,D7,D7,4
+C130,open-quantum-safe/liboqs,Revert 'Update Falcon to 20230207 (PQClean commit 96dfee95cc56207d1ec5e3a2df306d6614ad7c6c) (#1386)' (#1392),D9,D9,D9,D9,D9,4
+C131,open-quantum-safe/liboqs,Fix gcc 11 error for Kyber on arm64 (#1127),D8,D8,D8,D8,D8,4
+C132,wolfSSL/wolfssl,Explicitly declare dilithium_coeff_eta2[] as signed,D8,D8,D9,D8,D8,3
+C133,wolfSSL/wolfssl,Fixes for ML-DSA and LMS cast warnings and spelling errors.,D8,D8,D9,D8,D8,3
+C134,wolfSSL/wolfssl,Merge pull request #8947 from SparkiDev/mldsa_openssl_der,D9,D2,D2,D9,NO_3PLUS_MAJORITY,2
+C135,wolfSSL/wolfssl,Fixes from regression testing,D9,D9,D9,D9,D9,4
+C136,open-quantum-safe/oqs-provider,switch doc to release	 add backlevel liboqs support (#544),D9,D8,D8,D8,D8,3
+C137,open-quantum-safe/liboqs,Add section to CONFIGURE.md link (#1578),D9,D9,D9,D9,D9,4
+C138,open-quantum-safe/liboqs,Update pytest package version (#2408),D8,D8,D8,D8,D8,4
+C139,wolfSSL/wolfssl,dual alg: add ML-DSA test	 and misc cleanup.,D9,D9,D9,D9,D9,4
+C140,open-quantum-safe/oqs-provider,fixup! Point CI to liboqs 0.11.0,D8,D8,D8,D8,D8,4
+C141,open-quantum-safe/liboqs,Exported liboqs target in CMake and some CI refactoring. (#840),D8,D8,D8,D8,D8,4
+C142,wolfSSL/wolfssl,Merge pull request #4419 from anhu/set1_groups_list,D9,D2,D2,D2,D2,3
+C143,open-quantum-safe/liboqs,Support OpenSSL on Windows (#915),D8,D8,D8,D8,D8,4
+C144,wolfSSL/wolfssl,Merge pull request #6723 from anhu/bench_sphincs_gating,D8,D4,D4,D4,D4,3
+C145,openssl/openssl,ml-dsa: use TRIE & struct based param name decoders,D2,D2,D9,D2,D2,3
+C146,openssl/openssl,ASN.1 ML-KEM private key format,D9,D2,D2,D9,NO_3PLUS_MAJORITY,2
+C147,wolfSSL/wolfssl,Initialize Dilithium keyTypeTemp and keySizeTemp,D1,D7,D9,D7,NO_3PLUS_MAJORITY,2
+C148,open-quantum-safe/liboqs,Update mlkem-native to v1.1.0 (#2376),D8,D8,D8,D8,D8,4
+C149,open-quantum-safe/liboqs,Fix non-Dilithium-related execute failures on Alpine (#796),D8,D8,D8,D8,D8,4
+C150,wolfSSL/wolfssl,HashSLH-DSA APIs now take the pre-hashed digest	 not the raw message,D2,D2,D2,D2,D2,4
+C151,open-quantum-safe/oqs-provider,Force liboqs as a debian package dependency requirement only if it is not a static linked library. (#493),D8,D8,D8,D8,D8,4
+C152,wolfSSL/wolfssl,Kyber ARM32 ASM: add assembly using base instructions,D4,D4,D9,D4,D4,3
+C153,openssl/openssl,Deuglify ML-KEM code after reformat,D9,D9,D9,D9,D9,4
+C154,wolfSSL/wolfssl,use heap hint with dilithium benchmark,D4,D5,D5,D5,D5,3
+C155,wolfSSL/wolfssl,Fixes for Dilithium in TLS handshake,D9,D7,D9,D9,D9,3
+C156,open-quantum-safe/liboqs,Added SHA256 SPHINCS variants to README and removed references to nist-branch from algorithm datasheets.,D9,D9,D9,D9,D9,4
+C157,openssl/openssl,ML-DSA: Add TLS certificate test,D9,D9,D9,D9,D9,4
+C158,open-quantum-safe/oqs-provider,Move the clang-format check from CircleCI to GitHub actions. (#376),D8,D8,D8,D8,D8,4
+C159,open-quantum-safe/liboqs,Merge pull request #505 from open-quantum-safe/ds-default-autoconf,D8,D8,D9,D8,D8,3
+C160,openssl/openssl,ml-dsa(fips): add power up signature self tests for ML-DSA-65,D9,D9,D9,D9,D9,4
+C161,open-quantum-safe/liboqs,Merge branch 'ds-tests-in-threads' of https://github.com/open-quantum-safe/liboqs into ds-tests-in-threads,D9,D9,D9,D9,D9,4
+C162,openssl/openssl,If our server channel creates its own qrx	 set its initial secret,D7,D7,D6,D9,NO_3PLUS_MAJORITY,2
+C163,wolfSSL/wolfssl,The following config:,D8,D8,D8,D9,D8,3
+C164,wolfSSL/wolfssl,Merge pull request #4664 from anhu/Fix_ENCRYPT_LEN,D1,D1,D1,D1,D1,4
+C165,openssl/openssl,ml-dsa: update to use improved parameter handling,D2,D2,D2,D2,D2,4
+C166,open-quantum-safe/liboqs,Overhauled compiler-time CPU-extension detection. (#713),D8,D8,D8,D8,D8,4
+C167,open-quantum-safe/liboqs,Add OQS_SIG_STFL_keygen_and_sign_supported() for runtime detection (#2434),D2,D2,D2,D2,D2,4
+C168,wolfSSL/wolfssl,Merge pull request #9049 from kojiws/import_mldsa_seed_pkcs8_reapply,D9,D2,D2,D9,NO_3PLUS_MAJORITY,2
+C169,open-quantum-safe/liboqs,Create liboqs 0.12.0 release candidate 1 (#2006),D9,D9,D9,D9,D9,4
+C170,wolfSSL/wolfssl,ML-KEM/Kyber: fix for big-endian,D8,D8,D8,D8,D8,4
+C171,openssl/openssl,Fix ML-KEM/ML-DSA macro typo,D8,D8,D7,D9,NO_3PLUS_MAJORITY,2
+C172,open-quantum-safe/liboqs,tests: add fuzz harness for XMSS stateful signature verification (#2399) (#2400),D9,D9,D9,D9,D9,4
+C173,wolfSSL/wolfssl,Update the wolfCrypt test so that Dilithium init so that devID will get passed to hit callback paths when configured and that Dilithium will be retested in the callback section of the wolfCrypt test.,D9,D9,D9,D9,D9,4
+C174,open-quantum-safe/liboqs,Merge pull request #497 from open-quantum-safe/ds-aes-key-schedule,D9,D9,D9,D9,D9,4
+C175,openssl/openssl,added use IO::File	 15-test_ml_dsa_codecs.t,D9,D8,D9,D9,D9,3
+C176,open-quantum-safe/oqs-provider,fixup! Update linux CI to also build liboqs with -DOQS_LIBJADE_BUILD=OFF,D8,D8,D8,D8,D8,4
+C177,openssl/openssl,ML-KEM libcrypto implementation polish,D9,D9,D9,D9,D9,4
+C178,open-quantum-safe/oqs-provider,make algorithms selectable by liboqs bitstrength (#156),D2,D2,D2,D2,D2,4
+C179,open-quantum-safe/liboqs,Add constant time suppression for Falcon AVX2 (#1415),D6,D6,D6,D6,D6,4
+C180,openssl/openssl,ml-dsa: add more to internal header,D9,D9,D9,D9,D9,4
+C181,wolfSSL/wolfssl,Have ret initialized to 0 in wc_ecc_free() and wc_dilithium_free(),D5,D7,D7,D7,D7,3
+C182,openssl/openssl,Facilitate corruption in ML-DSA PCT,D9,D9,D9,D9,D9,4
+C183,Mbed-TLS/mbedtls,Fix leakage of projective coordinates in ECC,D6,D6,D6,D6,D6,4
+C184,wolfSSL/wolfssl,Regression testing fixes,D9,D9,D9,D9,D9,4
+C185,openssl/openssl,ML-DSA: Add Win64 SEH unwind support to AVX2 NTT functions,D8,D8,D8,D8,D8,4
+C186,wolfSSL/wolfssl,enable kyber and dilithium in selftest,D9,D9,D8,D9,D9,3
+C187,open-quantum-safe/liboqs,test OQS_SIG_sign methods in vectors_sig (#2350),D9,D9,D9,D9,D9,4
+C188,open-quantum-safe/liboqs,Merge commit from fork,D9,D9,D9,D9,D9,4
+C189,openssl/openssl,ssl/t1_lib.c: Free gix if sk_TLS_GROUP_IX_push() fails to avoid memory leak,D5,D5,D5,D5,D5,4
+C190,open-quantum-safe/liboqs,Merge remote-tracking branch 'oqs/master' into PQClean_Dilithium,D9,D9,D9,D9,D9,4
+C191,open-quantum-safe/oqs-provider,remove duplicate LIBOQS_BRANCH option in config doc (#274),D9,D9,D8,D9,D9,3
+C192,wolfSSL/wolfssl,add ML-KEM/ML-DSA support for C# wrapper,D2,D2,D2,D9,D2,3
+C193,open-quantum-safe/liboqs,fix: correct cuPQC ML-KEM derand symbol names and #if/#elif chains (#2396),D8,D8,D2,D8,D8,3
+C194,wolfSSL/wolfssl,Merge pull request #9970 from JacobBarthelmeh/bench,D9,D4,D4,D4,D4,3
+C195,open-quantum-safe/liboqs,Sync with PQClean (#817),D9,D9,D9,D9,D9,4
+C196,wolfSSL/wolfssl,Increase test coverage,D9,D9,D9,D9,D9,4
+C197,open-quantum-safe/liboqs,Pull Neon implementation of Falcon from PQClean (#1547),D4,D4,D9,D4,D4,3
+C198,aws/s2n-tls,Importing Kyber PQ KEM (#2056),D9,D9,D2,D9,D9,3
+C199,openssl/openssl,fips: add pairwise consistency test for ML-KEM key generation,D9,D9,D9,D9,D9,4
+C200,wolfSSL/wolfssl,ML-KEM/ML-DSA: harden against fault attacks,D6,D6,D6,D6,D6,4

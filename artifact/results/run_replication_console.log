@@ -1,0 +1,616 @@
+================================================================================
+PQCFIRM: STRENGTHENED ARTIFACT REPLICATION & CHECKING HARNESS
+================================================================================
+
+Executing ensure_mbedtls.py...
+------------------------------------------------------------
+[*] Mbed TLS source already available: D:\Downloads\PQCFirm_artifact_FINAL_doublechecked\artifact\embedded\mbedtls
+
+>>> PHASE 1: REGENERATING SOFTWARE-ACCESSIBLE RESULTS <<<
+
+Executing validate_benchmark_json.py...
+------------------------------------------------------------
+Checked 5 benchmark JSON files
+Issues found: 0
+Report: D:\Downloads\PQCFirm_artifact_FINAL_doublechecked\artifact\results\benchmark_data_quality_report.json
+
+Executing count_loc.py...
+------------------------------------------------------------
+Wrote LOC summary: D:\Downloads\PQCFirm_artifact_FINAL_doublechecked\artifact\results\loc_count.json
+Application-level benchmark raw source lines: 1715
+
+Executing count_mbedtls_scope.py...
+------------------------------------------------------------
+Mbed TLS library scope: 108 C translation units, 132119 raw C source lines
+Wrote scope summary: D:\Downloads\PQCFirm_artifact_FINAL_doublechecked\artifact\results\mbedtls_library_scope.json
+
+Executing auto_label.py...
+------------------------------------------------------------
+Loaded 1043 commits. Starting automated classification...
+
+Automated labeling complete!
+Saved labeled csv to: D:\Downloads\PQCFirm_artifact_FINAL_doublechecked\artifact\empirical\data\labeling_template.csv
+Saved statistics json to: D:\Downloads\PQCFirm_artifact_FINAL_doublechecked\artifact\empirical\data\taxonomy_statistics.json
+
+Category Distribution:
+  D1: Buffer/key-size mismatch            - Count: 66 (6.33%)
+  D2: API rigidity (non-crypto-agile)     - Count: 108 (10.35%)
+  D3: Stack overflow / exhaustion         - Count: 8 (0.77%)
+  D4: Timing regression                   - Count: 13 (1.25%)
+  D5: Memory fragmentation / OOM          - Count: 25 (2.4%)
+  D6: Side-channel exposure               - Count: 11 (1.05%)
+  D7: Error handling gaps                 - Count: 87 (8.34%)
+  D8: Build/toolchain incompatibility     - Count: 81 (7.77%)
+  D9: Other/Refactoring                   - Count: 644 (61.74%)
+
+Executing compute_llm_agreement.py...
+------------------------------------------------------------
+{
+  "n_items": 200,
+  "n_coders": 4,
+  "coder_columns": [
+    "gemini_label",
+    "gpt55_label",
+    "deepseek_label",
+    "claude_label"
+  ],
+  "all_four_agree": 130,
+  "all_four_agree_rate": 0.65,
+  "at_least_three_agree": 183,
+  "at_least_three_agree_rate": 0.915,
+  "no_3plus_majority": 17,
+  "two_two_ties": 12,
+  "fleiss_kappa": 0.727006232082945,
+  "pairwise": [
+    {
+      "comparison": "gemini_label vs gpt55_label",
+      "n": 200,
+      "agreements": 165,
+      "agreement_rate": 0.825,
+      "expected_agreement": 0.272725,
+      "cohen_kappa": 0.7593757519507751
+    },
+    {
+      "comparison": "gemini_label vs deepseek_label",
+      "n": 200,
+      "agreements": 150,
+      "agreement_rate": 0.75,
+      "expected_agreement": 0.3184,
+      "cohen_kappa": 0.6332159624413145
+    },
+    {
+      "comparison": "gemini_label vs claude_label",
+      "n": 200,
+      "agreements": 166,
+      "agreement_rate": 0.83,
+      "expected_agreement": 0.301875,
+      "cohen_kappa": 0.7564905998209489
+    },
+    {
+      "comparison": "gpt55_label vs deepseek_label",
+      "n": 200,
+      "agreements": 158,
+      "agreement_rate": 0.79,
+      "expected_agreement": 0.27697499999999997,
+      "cohen_kappa": 0.7095536115625325
+    },
+    {
+      "comparison": "gpt55_label vs claude_label",
+      "n": 200,
+      "agreements": 170,
+      "agreement_rate": 0.85,
+      "expected_agreement": 0.265875,
+      "cohen_kappa": 0.7956751234462796
+    },
+    {
+      "comparison": "deepseek_label vs claude_label",
+      "n": 200,
+      "agreements": 159,
+      "agreement_rate": 0.795,
+      "expected_agreement": 0.307525,
+      "cohen_kappa": 0.703960431784541
+    }
+  ],
+  "label_counts": {
+    "gemini_label": {
+      "D9": 99,
+      "D8": 43,
+      "D4": 8,
+      "D6": 6,
+      "D1": 6,
+      "D2": 26,
+      "D5": 7,
+      "D7": 5
+    },
+    "gpt55_label": {
+      "D9": 77,
+      "D8": 47,
+      "D4": 8,
+      "D7": 12,
+      "D1": 4,
+      "D2": 40,
+      "D6": 7,
+      "D5": 5
+    },
+    "deepseek_label": {
+      "D9": 103,
+      "D8": 37,
+      "D4": 6,
+      "D6": 8,
+      "D1": 3,
+      "D2": 29,
+      "D5": 5,
+      "D7": 9
+    },
+    "claude_label": {
+      "D9": 94,
+      "D8": 41,
+      "D4": 9,
+      "D6": 8,
+      "D1": 4,
+      "D2": 30,
+      "D5": 6,
+      "D7": 8
+    }
+  }
+}
+
+Executing mine_historical_fix_candidates.py...
+------------------------------------------------------------
+Prepared 200 historical fix candidates. These are candidates, not validated real-bug recall results.
+
+Executing evaluate_pqcfirm.py...
+------------------------------------------------------------
+Assisted ESP32-S3 review complete. Total Findings: 68, TPs: 67, Precision: 98.5%
+
+Executing evaluate_mbedtls.py...
+------------------------------------------------------------
+Wrote 500 rows to D:\Downloads\PQCFirm_artifact_FINAL_doublechecked\artifact\results\mbedtls_audit.csv
+Sample size: 500 findings
+  TP: 216
+  FP: 90
+  REVIEW: 194
+  Assisted precision (TP/(TP+FP)): 70.6% (216/306)
+Wrote status to D:\Downloads\PQCFirm_artifact_FINAL_doublechecked\artifact\results\mbedtls_audit_status.json
+
+Executing evaluate_mbedtls_filtered.py...
+------------------------------------------------------------
+Filtered Mbed TLS evaluation complete.
+  Raw findings: 1805
+  Filtered candidates: 1161 (35.7% reduction)
+  Audit sample: 500
+  TP: 226
+  FP: 0
+  REVIEW: 274
+  Assisted candidate precision/yield among TP/FP rows: 100.0% (226/226)
+  Integrity note: filtered assisted triage, not human manual audit and not production recall.
+  Source tree used for snippets: D:\Downloads\PQCFirm_artifact_FINAL_doublechecked\artifact\embedded\mbedtls
+
+Executing run_mutation_testing.py...
+------------------------------------------------------------
+============================================================
+RUNNING MUTATION TESTING HARNESS FOR PQCFIRM
+============================================================
+Base file: D:\Downloads\PQCFirm_artifact_FINAL_doublechecked\artifact\embedded\esp32_pio\src\main.cpp
+Total Mutants to Inject: 40
+------------------------------------------------------------
+Mutant 01: PASSED (Detected) - R04 mutant 1: unchecked keypair in setup
+Mutant 02: PASSED (Detected) - R04 mutant 2: unchecked enc in setup
+Mutant 03: PASSED (Detected) - R04 mutant 3: unchecked dec in setup
+Mutant 04: PASSED (Detected) - R04 mutant 4: unchecked ECDSA keygen
+Mutant 05: PASSED (Detected) - R04 mutant 5: unchecked ECDSA sign
+Mutant 06: PASSED (Detected) - R04 mutant 6: unchecked ECDSA verify
+Mutant 07: PASSED (Detected) - R04 mutant 7: unchecked ECDH gen public
+Mutant 08: PASSED (Detected) - R04 mutant 8: unchecked ECDH compute shared
+Mutant 09: PASSED (Detected) - R04 mutant 9: unchecked RSA gen key
+Mutant 10: PASSED (Detected) - R04 mutant 10: unchecked RSA sign
+Mutant 11: PASSED (Detected) - R04 mutant 11: unchecked RSA verify
+Mutant 12: PASSED (Detected) - R04 mutant 12: unchecked RSA OAEP encrypt
+Mutant 13: PASSED (Detected) - R04 mutant 13: unchecked RSA OAEP decrypt
+Mutant 14: PASSED (Detected) - R01 mutant 1: short public key buffer inside test_ecdsa
+Mutant 15: PASSED (Detected) - R01 mutant 2: short secret key buffer inside test_rsa_sig
+Mutant 16: PASSED (Detected) - R01 mutant 3: short authentication key buffer inside test_dilithium
+Mutant 17: PASSED (Detected) - R01 mutant 4: injected post-quantum public key buffer
+Mutant 18: PASSED (Detected) - R01 mutant 5: injected post-quantum ciphertext buffer
+Mutant 19: PASSED (Detected) - R01 mutant 6: injected post-quantum signature buffer
+Mutant 20: PASSED (Detected) - R01 mutant 7: injected generic pqc key buffer
+Mutant 21: PASSED (Detected) - R01 mutant 8: injected pqc secret key buffer
+Mutant 22: PASSED (Detected) - R01 mutant 9: injected kem ciphertext buffer
+Mutant 23: PASSED (Detected) - R01 mutant 10: injected dsa signature buffer
+Mutant 24: PASSED (Detected) - R01 mutant 11: injected oqs public key buffer
+Mutant 25: PASSED (Detected) - R01 mutant 12: injected oqs secret key buffer
+Mutant 26: PASSED (Detected) - R01 mutant 13: injected hybrid secret buffer
+Mutant 27: PASSED (Detected) - R01 mutant 14: short key array
+Mutant 28: PASSED (Detected) - R05 mutant 1: direct Kyber keypair call
+Mutant 29: PASSED (Detected) - R05 mutant 2: direct Dilithium sign call
+Mutant 30: PASSED (Detected) - R05 mutant 3: direct SPHINCS verify call
+Mutant 31: PASSED (Detected) - R05 mutant 4: direct Falcon decaps call
+Mutant 32: PASSED (Detected) - R05 mutant 5: direct McEliece encaps call
+Mutant 33: PASSED (Detected) - R05 mutant 6: direct HQC keygen call
+Mutant 34: PASSED (Detected) - R02 mutant 1: switch statement with classical crypto
+Mutant 35: PASSED (Detected) - R02 mutant 2: if-else chain with classical check
+Mutant 36: PASSED (Detected) - R02 mutant 3: switch checking symmetric ciphers
+Mutant 37: PASSED (Detected) - R02 mutant 4: if-else chain for classical algorithms
+Mutant 38: PASSED (Detected) - R07 mutant 1: unsafe keypair wrapper returning unvalidated variable
+Mutant 39: PASSED (Detected) - R07 mutant 2: unsafe sign wrapper returning unvalidated variable
+Mutant 40: PASSED (Detected) - R07 mutant 3: unsafe verify wrapper returning unvalidated variable
+------------------------------------------------------------
+MUTATION SUMMARY:
+  Total Mutants:            40
+  Detected:                 40
+  Missed:                   0
+  Mutation-detection score: 100.0%
+Detected 40/40 injected mutants under the mutation model; this is not a production recall estimate.
+============================================================
+
+Executing compute_grep_baseline.py...
+------------------------------------------------------------
+Grep Baseline on ESP32-S3 Firmware (361 unique findings):
+  True Positives:  330
+  False Positives: 31
+  Precision:       91.4%
+
+Per-rule breakdown:
+  R01: 257/263 TP (97.7%)
+  R04: 67/92 TP (72.8%)
+  R05: 6/6 TP (100.0%)
+
+--- Comparison ---
+PQCFirm actionable-mode precision on ESP32-S3: 98.5% (67/68)
+Grep baseline precision on ESP32-S3: 91.4% (330/361)
+
+Note on baseline comparison:
+  PQCFirm reports fewer findings (68 vs. 361) and higher precision in the current actionable mode.
+  Grep remains useful for keyword-heavy patterns, but it does not provide explicit AST rule IDs,
+  return-path checks, or structured migration-risk categories without ad hoc post-processing.
+
+Executing run_ground_truth_eval.py...
+------------------------------------------------------------
+Ground-truth manifest: 42 cases
+  Defective: 35
+  Clean: 7
+
+=== Ground-Truth Evaluation Results ===
+Scanner available: True
+Detection rate (defective): 100.0% (35/35)
+False positives (clean): 0/7 (0.0%)
+
+Per-rule detection:
+  R01: 100% (5/5) - avg findings: 1.0
+  R02: 100% (5/5) - avg findings: 2.0
+  R03: 100% (5/5) - avg findings: 1.4
+  R04: 100% (5/5) - avg findings: 1.0
+  R05: 100% (5/5) - avg findings: 1.0
+  R06: 100% (5/5) - avg findings: 1.0
+  R07: 100% (5/5) - avg findings: 1.0
+
+Wrote findings: D:\Downloads\PQCFirm_artifact_FINAL_doublechecked\artifact\ground_truth\results\ground_truth_findings.json (42 findings)
+Wrote summary: D:\Downloads\PQCFirm_artifact_FINAL_doublechecked\artifact\results\ground_truth_eval_summary.json
+
+Integrity Note:
+  This is a curated seeded ground-truth detection rate.
+  This is NOT a production recall estimate.
+
+Executing analyze_results.py...
+------------------------------------------------------------
+=== Analysis of in-scope candidates (N=137) ===
+Total in-scope: 137
+Detected (any hit): 113 (82.5%)
+Expected rule detected: 79 (57.7%)
+
+=== Detection breakdown by expected rule (in-scope) ===
+R01: Total=35, Any hit=31, Expected rule hit=24, Expected rule rate=68.6%
+R02: Total=9, Any hit=9, Expected rule hit=6, Expected rule rate=66.7%
+R03: Total=6, Any hit=2, Expected rule hit=1, Expected rule rate=16.7%
+R04: Total=38, Any hit=31, Expected rule hit=26, Expected rule rate=68.4%
+R05: Total=36, Any hit=28, Expected rule hit=22, Expected rule rate=61.1%
+R06: Total=13, Any hit=12, Expected rule hit=0, Expected rule rate=0.0%
+
+=== Analysis of out-of-scope candidates (N=63) ===
+Total out-scope: 63
+Detected (any hit): 45 (71.4%)
+Expected rule detected: 24 (38.1%)
+
+=== Overall stats ===
+Total candidates: 200
+Total detected (any hit): 158 (79.0%)
+Total expected rule detected: 103 (51.5%)
+
+=== Details of R06 expected candidates ===
+HF006: taxonomy=D5, any_hit=True, rules_detected=R04;R05, comment=Unsafe heap allocation or memory limit checks, maps to R06.
+HF037: taxonomy=D5, any_hit=True, rules_detected=R01, comment=Unsafe heap allocation or memory limit checks, maps to R06.
+HF040: taxonomy=D5, any_hit=True, rules_detected=R01;R02, comment=Unsafe heap allocation or memory limit checks, maps to R06.
+HF055: taxonomy=D5, any_hit=True, rules_detected=R01;R03, comment=Unsafe heap allocation or memory limit checks, maps to R06.
+HF083: taxonomy=D5, any_hit=True, rules_detected=R04, comment=Unsafe heap allocation or memory limit checks, maps to R06.
+HF084: taxonomy=D5, any_hit=True, rules_detected=R02;R03, comment=Unsafe heap allocation or memory limit checks, maps to R06.
+HF085: taxonomy=D5, any_hit=True, rules_detected=R01;R02;R04, comment=Unsafe heap allocation or memory limit checks, maps to R06.
+HF121: taxonomy=D5, any_hit=True, rules_detected=R02;R03;R04, comment=Unsafe heap allocation or memory limit checks, maps to R06.
+HF129: taxonomy=D5, any_hit=True, rules_detected=R01;R03;R04;R05;R07, comment=Unsafe heap allocation or memory limit checks, maps to R06.
+HF136: taxonomy=D5, any_hit=True, rules_detected=R01;R02;R04;R07, comment=Unsafe heap allocation or memory limit checks, maps to R06.
+HF139: taxonomy=D5, any_hit=False, rules_detected=, comment=Unsafe heap allocation or memory limit checks, maps to R06.
+HF142: taxonomy=D5, any_hit=True, rules_detected=R01, comment=Unsafe heap allocation or memory limit checks, maps to R06.
+HF156: taxonomy=D5, any_hit=True, rules_detected=R01;R02;R03;R04;R05;R07, comment=Unsafe heap allocation or memory limit checks, maps to R06.
+
+>>> PHASE 2: DIFFERENTIAL & CI COMPUTATION <<<
+
+Executing harness.py...
+------------------------------------------------------------
+[INFO] Running differential testing harness in hardware serial paired-trials mode.
+[INFO] Real paired hardware trials detected: 100 rows.
+[INFO] Completion/status mismatches in hardware trials: 0.
+Wrote differential report: D:\Downloads\PQCFirm_artifact_FINAL_doublechecked\artifact\differential\..\results\differential_divergences.json
+Wrote differential status: D:\Downloads\PQCFirm_artifact_FINAL_doublechecked\artifact\differential\..\results\differential_status.json
+Comparisons: 15
+Summary: {'timing': 9, 'stack': 3, 'completion_status': 0, 'total': 15}
+
+Executing check_repeatability_n30.py...
+------------------------------------------------------------
+Repeatability check: N=30 ESP32-S3 hardware_serial rows
+Completion/status mismatches: 0
+Classical successes: 30/30
+PQC successes: 30/30
+Summary written: D:\Downloads\PQCFirm_artifact_FINAL_doublechecked\artifact\results\repeatability_summary.json
+Selected rows written: D:\Downloads\PQCFirm_artifact_FINAL_doublechecked\artifact\results\repeatability_trials_n30.csv
+
+Executing compute_wilson_ci.py...
+------------------------------------------------------------
+ESP32-S3 Firmware Benchmark:
+  Classified TP/FP rows: 68 / total rows 68
+  Precision: 98.5% (67/68)
+  95% Wilson CI: [92.1%, 99.7%]
+
+Mbed TLS Raw Library Stress Test (LLM-assisted static audit; not human manual audit):
+  Classified TP/FP rows: 306 / total rows 500
+  Precision: 70.6% (216/306)
+  95% Wilson CI: [65.3%, 75.4%]
+
+Mbed TLS Production-Focused Filtered View (assisted triage-yield check; not human manual audit):
+  Raw findings: 1805
+  Filtered candidate findings: 1161
+  Triage reduction: 35.7%
+  Audit sample rows: 500
+  TP: 226
+  FP: 0
+  REVIEW: 274
+  Assisted candidate yield among TP/FP rows: 100.0%
+  No Wilson interval is reported for this filtered view because it is not an independent manual audit.
+
+
+Integrity Note:
+  ESP32-S3 precision: from human-labeled ground truth annotations.
+  Mbed TLS raw result: LLM-assisted static audit (not human manual audit).
+  Mbed TLS filtered result: heuristic triage-yield view,  .
+
+>>> PHASE 2B: OPTIONAL EXTERNAL CODEBASE EVALUATION <<<
+
+Executing run_external_codebase_eval.py...
+------------------------------------------------------------
+External-codebase evaluation summary:
+  liboqs: STORED_RESULT 6686 findings, sample 500 (download snapshots to reproduce)
+  wolfssl: STORED_RESULT 5902 findings, sample 500 (download snapshots to reproduce)
+
+>>> PHASE 3: CHECKING HIGH-LEVEL ARTIFACT CLAIMS <<<
+
+Executing verify_claim1.py...
+------------------------------------------------------------
+========================================================================
+VERIFYING CLAIM 1: Empirical Taxonomy & Annotation Consistency
+========================================================================
+
+--- Defect Taxonomy Distribution ---
+ID   | Category                         | Commits  | Percentage
+------------------------------------------------------------------------
+D1   | Buffer/key-size mismatch         | 66       | 6.33%
+D2   | API rigidity (non-crypto-agile)  | 108      | 10.35%
+D3   | Stack overflow / exhaustion      | 8        | 0.77%
+D4   | Timing regression                | 13       | 1.25%
+D5   | Memory fragmentation / OOM       | 25       | 2.40%
+D6   | Side-channel exposure            | 11       | 1.05%
+D7   | Error handling gaps              | 87       | 8.34%
+D8   | Build/toolchain incompatibility  | 81       | 7.77%
+D9   | Other/Refactoring                | 644      | 61.74%
+------------------------------------------------------------------------
+Total mined commits: 1043
+
+--- Four-pass Annotation Consistency Analysis ---
+Comparison file: D:\Downloads\PQCFirm_artifact_FINAL_doublechecked\artifact\results\annotation_consistency\PQCFirm_4LLM_full200_all_labels_comparison.csv
+Items compared: 200
+Annotation passes: 4
+Exact four-way agreement: 130/200 (65.0%)
+At least three-of-four agreement: 183/200 (91.5%)
+Two-vs-two ties: 12
+No three-of-four majority: 17
+Fleiss kappa: 0.727
+
+Pairwise Cohen kappa:
+  gemini_label vs gpt55_label: agreement=82.5%, kappa=0.759
+  gemini_label vs deepseek_label: agreement=75.0%, kappa=0.633
+  gemini_label vs claude_label: agreement=83.0%, kappa=0.756
+  gpt55_label vs deepseek_label: agreement=79.0%, kappa=0.710
+  gpt55_label vs claude_label: agreement=85.0%, kappa=0.796
+  deepseek_label vs claude_label: agreement=79.5%, kappa=0.704
+
+Majority-vote distribution:
+  D1: 3
+  D2: 30
+  D4: 8
+  D5: 5
+  D6: 7
+  D7: 7
+  D8: 39
+  D9: 84
+  NO_3PLUS_MAJORITY: 17
+Consensus file: D:\Downloads\PQCFirm_artifact_FINAL_doublechecked\artifact\results\annotation_consistency\PQCFirm_4LLM_full200_majority_consensus.csv
+
+Verification Complete.
+========================================================================
+
+Executing verify_claim2.py...
+------------------------------------------------------------
+============================================================
+VERIFYING CLAIM 2: PQCFirm Static Analyzer Findings & Precision
+============================================================
+
+--- Running Scanner on ESP32-S3 Source ---
+Total Findings Found: 68
+  Rule R01: 5 findings
+  Rule R02: 7 findings
+  Rule R03: 44 findings
+  Rule R04: 7 findings
+  Rule R05: 3 findings
+  Rule R07: 2 findings
+
+--- Precision Analysis: ESP32-S3 Benchmark (Table 4) ---
+Total Evaluated Findings: 68
+True Positives (TP):      67
+Overall Precision:        98.5%
+
+Per-Rule Detail:
+Rule   | Findings | TPs    | Precision 
+----------------------------------------
+R01    | 5        | 4      | 80.0%
+R02    | 7        | 7      | 100.0%
+R03    | 44       | 44     | 100.0%
+R04    | 7        | 7      | 100.0%
+R05    | 3        | 3      | 100.0%
+R07    | 2        | 2      | 100.0%
+
+--- Precision Analysis: Mbed TLS Library (LLM-Assisted Audit) ---
+Total Mbed TLS codebase findings: 1805
+Audit sample size: 500
+Review method: llm_assisted_static_audit
+Human audit available: False
+LLM-assisted audit available: True
+
+  TP: 216
+  FP: 90
+  REVIEW: 194
+  Assisted precision (TP/(TP+FP)): 70.6%
+  REVIEW rows excluded from precision calculation.
+
+Precision claim wording: LLM-assisted precision estimate, not human manual audit
+
+--- Production-Focused Filtered Mbed TLS View ---
+Raw findings: 1805
+Filtered candidate findings: 1161
+Finding reduction after filters: 35.7%
+Filtered audit sample size: 500
+  TP: 226
+  FP: 0
+  REVIEW: 274
+  Assisted candidate precision/yield: 100.0%
+Interpretation: Source-filtered assisted candidate precision/yield; not a human manual audit and not a production recall estimate.
+
+--- Optional External-Codebase Stress Checks ---
+liboqs: 6686 findings over 5712 files / 1107054 raw lines
+  sample=500 TP=237 FP=16 REVIEW=247 assisted_precision=93.7%
+  interpretation: deterministic assisted triage;  
+wolfssl: 5902 findings over 1240 files / 2245316 raw lines
+  sample=500 TP=416 FP=8 REVIEW=76 assisted_precision=98.1%
+  interpretation: deterministic assisted triage;  
+
+Verification Complete.
+============================================================
+
+Executing verify_claim3.py...
+------------------------------------------------------------
+============================================================
+VERIFYING CLAIM 3: Embedded Performance & Resource Footprint
+============================================================
+
+--- Physical Embedded Measurements on ESP32-S3 (Table 5) ---
+Algorithm       | Operation      | Avg Cycles  | Stack (B)  | Stack (KB)
+-----------------------------------------------------------------
+ECDSA-P256      | KeyGen         | 33.89M      | 7,232      | 7.06      
+ECDSA-P256      | Sign           | 15.54M      | 7,488      | 7.31      
+ECDSA-P256      | Verify         | 7.32M       | 8,768      | 8.56      
+ECDH-P256       | KeyGen         | 14.29M      | 6,848      | 6.69      
+ECDH-P256       | ComputeSecret  | 33.85M      | 7,104      | 6.94      
+ML-KEM-512      | KeyGen         | 1.48M       | 37,888     | 37.00     
+ML-KEM-512      | Encaps         | 1.61M       | 48,576     | 47.44     
+ML-KEM-512      | Decaps         | 1.76M       | 51,392     | 50.19     
+ML-KEM-768      | KeyGen         | 2.39M       | 55,296     | 54.00     
+ML-KEM-768      | Encaps         | 2.49M       | 68,032     | 66.44     
+ML-KEM-768      | Decaps         | 2.77M       | 72,128     | 70.44     
+ML-KEM-1024     | KeyGen         | 3.67M       | 76,864     | 75.06     
+ML-KEM-1024     | Encaps         | 3.85M       | 91,584     | 89.44     
+ML-KEM-1024     | Decaps         | 4.27M       | 97,600     | 95.31     
+Dilithium2      | KeyGen         | 5.44M       | 7,808      | 7.62      
+Dilithium2      | Sign           | 6.86M       | 9,024      | 8.81      
+Dilithium2      | Verify         | 5.09M       | 8,640      | 8.44      
+Dilithium3      | KeyGen         | 9.42M       | 7,808      | 7.62      
+Dilithium3      | Sign           | 16.46M      | 9,024      | 8.81      
+Dilithium3      | Verify         | 8.70M       | 8,640      | 8.44      
+Dilithium5      | KeyGen         | 15.91M      | 7,808      | 7.62      
+Dilithium5      | Sign           | 18.27M      | 9,024      | 8.81      
+Dilithium5      | Verify         | 15.13M      | 8,640      | 8.44      
+ML-DSA-65       | KeyGen         | 9.40M       | 7,808      | 7.62      
+ML-DSA-65       | Sign           | 13.71M      | 9,024      | 8.81      
+ML-DSA-65       | Verify         | 8.70M       | 8,640      | 8.44      
+-----------------------------------------------------------------
+
+--- Verification of Relative Resource Divergences ---
+1. ML-KEM-768 Decaps is 12.2x faster than ECDH-P256 ComputeSecret
+2. ML-KEM-768 Decaps consumes 10.2x more stack than ECDH-P256 ComputeSecret
+3. Maximum stack allocation: ML-KEM-1024 Decaps consumes 95.31 KB stack, exceeding typical task bounds.
+
+Verification Complete.
+============================================================
+
+Executing verify_claim4.py...
+------------------------------------------------------------
+============================================================
+VERIFYING CLAIM 4: Differential Testing & Behavioral Divergences
+============================================================
+
+--- Running Differential Testing Harness ---
+[INFO] Running differential testing harness in hardware serial paired-trials mode.
+[INFO] Real paired hardware trials detected: 100 rows.
+[INFO] Completion/status mismatches in hardware trials: 0.
+Wrote differential report: D:\Downloads\PQCFirm_artifact_FINAL_doublechecked\artifact\differential\..\results\differential_divergences.json
+Wrote differential status: D:\Downloads\PQCFirm_artifact_FINAL_doublechecked\artifact\differential\..\results\differential_status.json
+Comparisons: 15
+Summary: {'timing': 9, 'stack': 3, 'completion_status': 0, 'total': 15}
+
+--- Hardware Serial Paired-Trials Status ---
+Mode: hardware_serial_paired_trials
+Real paired hardware trials: 100 rows
+Completion/status mismatches: 0
+
+--- Divergence Analysis Summary (Section 7) ---
+Total Comparisons Analyzed:    15
+Timing Divergences Identified:  9
+Stack Divergences Identified:   3
+Completion/status mismatch count: 0
+
+Verification Passed: stored-result divergence comparison has 0 completion/status mismatches; hardware paired-trial completion/status status is reported separately above when available.
+
+--- Verification of Failure Reproduction Logs ---
+Hardware crash reproduction successfully verified via serial logs.
+
+Verification Complete.
+============================================================
+
+================================================================================
+ARTIFACT SUMMARY:
+  PASS: software replication completed
+  PASS: taxonomy files regenerated
+  PASS: 4-way annotation consistency analysis available
+  PASS: ESP32-S3 analyzer findings regenerated
+  PASS: ESP32-S3 assisted review reproduced 67/68 = 98.5%
+  PASS: Mbed TLS LLM-assisted triage audit completed
+  PASS: Mbed TLS production-focused filtered view generated
+  PASS: mutation harness ran (40/40)
+  PASS: curated seeded rule-sensitivity corpus evaluated (35/35 defective, 0/7 clean false positives)
+  PASS: benchmark table validated
+  PASS: packaged benchmark LOC count reproduced (1,715 raw source lines)
+  PASS: real hardware failure logs detected
+  PASS: real paired hardware trials detected
+  PASS: ESP32-S3 N=30 repeatability check (0 completion/status mismatches)
+  PASS: historical fix candidate pre-fix scan completed (113/137 scoped candidates had at least one finding; not real-bug recall)
+  PASS: raw Mbed TLS assisted triage estimate is 70.6% over TP/FP rows
+  PASS: external-codebase assisted triage summaries available (liboqs 6686 findings, wolfssl 5902 findings)
+  NOTE: filtered Mbed TLS view reduces obvious triage noise; it is not a human manual audit, automatic bug-discovery result, or recall estimate
+  WARN: no production recall estimate
+  NOTE: annotation consistency analysis supports stability/triage, not complete taxonomy validation
+================================================================================

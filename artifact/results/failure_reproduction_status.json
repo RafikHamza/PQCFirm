@@ -1,0 +1,7 @@
+{
+  "real_crash_log_available": true,
+  "real_success_log_available": true,
+  "hardware_failure_claim_supported": true,
+  "crash_signature": "Guru Meditation Error",
+  "success_signature": "[FAILURE_REPRO] TEST PASSED"
+}

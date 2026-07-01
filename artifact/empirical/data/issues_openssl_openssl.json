@@ -1,0 +1,2040 @@
+[
+  {
+    "repo": "openssl/openssl",
+    "number": 30109,
+    "title": "TLS 1.3 Key agreement group tuples flattened when used via `DEFAULT` keyword.",
+    "state": "closed",
+    "created_at": "2026-02-20T12:18:57Z",
+    "url": "https://github.com/openssl/openssl/issues/30109",
+    "labels": [
+      "issue: bug report",
+      "triaged: bug",
+      "severity: important",
+      "branch: 3.5",
+      "branch: 3.6"
+    ]
+  },
+  {
+    "repo": "openssl/openssl",
+    "number": 29941,
+    "title": "Access specific elements in hybrid PQC algorithms",
+    "state": "open",
+    "created_at": "2026-02-04T06:00:15Z",
+    "url": "https://github.com/openssl/openssl/issues/29941",
+    "labels": [
+      "triaged: feature"
+    ]
+  },
+  {
+    "repo": "openssl/openssl",
+    "number": 29505,
+    "title": "Make the SSL_CTX_set1_groups() support post-quantum groups.",
+    "state": "open",
+    "created_at": "2025-12-25T13:17:19Z",
+    "url": "https://github.com/openssl/openssl/issues/29505",
+    "labels": [
+      "resolved: wont fix",
+      "triaged: feature"
+    ]
+  },
+  {
+    "repo": "openssl/openssl",
+    "number": 29196,
+    "title": "Deduplication logic in SSL_CTX_set1_groups() is broken",
+    "state": "open",
+    "created_at": "2025-11-21T20:20:31Z",
+    "url": "https://github.com/openssl/openssl/issues/29196",
+    "labels": []
+  },
+  {
+    "repo": "openssl/openssl",
+    "number": 28720,
+    "title": "Update SSL_MAX_CERT_LIST_DEFAULT",
+    "state": "open",
+    "created_at": "2025-10-01T15:38:13Z",
+    "url": "https://github.com/openssl/openssl/issues/28720",
+    "labels": [
+      "triaged: feature"
+    ]
+  },
+  {
+    "repo": "openssl/openssl",
+    "number": 28659,
+    "title": "Integration Issue: LibSPDM with Linux-Provided OpenSSL 3.5.0",
+    "state": "closed",
+    "created_at": "2025-09-25T04:25:21Z",
+    "url": "https://github.com/openssl/openssl/issues/28659",
+    "labels": []
+  },
+  {
+    "repo": "openssl/openssl",
+    "number": 27787,
+    "title": "Add capability to show configuration of supported groups (or just the entire config)",
+    "state": "open",
+    "created_at": "2025-06-08T15:02:43Z",
+    "url": "https://github.com/openssl/openssl/issues/27787",
+    "labels": [
+      "branch: master",
+      "triaged: feature"
+    ]
+  },
+  {
+    "repo": "openssl/openssl",
+    "number": 27640,
+    "title": "DTLSv1_listen issue with DTLS fragments",
+    "state": "closed",
+    "created_at": "2025-05-16T14:34:59Z",
+    "url": "https://github.com/openssl/openssl/issues/27640",
+    "labels": [
+      "resolved: not a bug",
+      "triaged: bug",
+      "backlog fix"
+    ]
+  },
+  {
+    "repo": "openssl/openssl",
+    "number": 27557,
+    "title": "tls_client_method and sendmail/STARTTLS not working on a number of mail servers with TLS1.2 and TLS1.1",
+    "state": "open",
+    "created_at": "2025-05-04T18:51:16Z",
+    "url": "https://github.com/openssl/openssl/issues/27557",
+    "labels": [
+      "triaged: bug"
+    ]
+  },
+  {
+    "repo": "openssl/openssl",
+    "number": 27294,
+    "title": "Update PKCS7 / CMS Verification logic to support PQ and prevent downgrades",
+    "state": "open",
+    "created_at": "2025-04-08T03:08:50Z",
+    "url": "https://github.com/openssl/openssl/issues/27294",
+    "labels": [
+      "branch: master",
+      "triaged: feature"
+    ]
+  },
+  {
+    "repo": "openssl/openssl",
+    "number": 27162,
+    "title": "Addition for BIGNUM squareRoot API(BN_sqrt)",
+    "state": "closed",
+    "created_at": "2025-03-26T05:15:05Z",
+    "url": "https://github.com/openssl/openssl/issues/27162",
+    "labels": [
+      "resolved: wont fix",
+      "triaged: feature",
+      "backlog fix"
+    ]
+  },
+  {
+    "repo": "openssl/openssl",
+    "number": 27061,
+    "title": "FIPS indicator could be required for ML-KEM / x25519 hybrid KEM",
+    "state": "closed",
+    "created_at": "2025-03-14T02:13:50Z",
+    "url": "https://github.com/openssl/openssl/issues/27061",
+    "labels": [
+      "branch: master",
+      "triaged: bug",
+      "severity: fips change",
+      "investigation needed",
+      "branch: 3.5"
+    ]
+  },
+  {
+    "repo": "openssl/openssl",
+    "number": 26955,
+    "title": "We prefer RSA certs over ML-DSA certs in most cases",
+    "state": "closed",
+    "created_at": "2025-03-03T12:02:49Z",
+    "url": "https://github.com/openssl/openssl/issues/26955",
+    "labels": [
+      "branch: master",
+      "triaged: feature"
+    ]
+  },
+  {
+    "repo": "openssl/openssl",
+    "number": 26649,
+    "title": "Create externally loadable provider for PQC algorithms",
+    "state": "open",
+    "created_at": "2025-02-05T15:50:38Z",
+    "url": "https://github.com/openssl/openssl/issues/26649",
+    "labels": [
+      "triaged: feature"
+    ]
+  },
+  {
+    "repo": "openssl/openssl",
+    "number": 26358,
+    "title": "Streamline NTRU Prime ",
+    "state": "open",
+    "created_at": "2025-01-09T12:45:30Z",
+    "url": "https://github.com/openssl/openssl/issues/26358",
+    "labels": [
+      "branch: master",
+      "triaged: feature"
+    ]
+  },
+  {
+    "repo": "openssl/openssl",
+    "number": 26279,
+    "title": "Additional structure for hybrid Post-Quantum procedures",
+    "state": "closed",
+    "created_at": "2024-12-28T11:09:01Z",
+    "url": "https://github.com/openssl/openssl/issues/26279",
+    "labels": [
+      "resolved: wont fix",
+      "triaged: feature"
+    ]
+  },
+  {
+    "repo": "openssl/openssl",
+    "number": 26121,
+    "title": "Composite PQC signature algorithms",
+    "state": "open",
+    "created_at": "2024-12-05T11:35:22Z",
+    "url": "https://github.com/openssl/openssl/issues/26121",
+    "labels": [
+      "triaged: feature"
+    ]
+  },
+  {
+    "repo": "openssl/openssl",
+    "number": 26036,
+    "title": "Enable ML-KEM in FIPS provider",
+    "state": "closed",
+    "created_at": "2024-11-22T13:59:30Z",
+    "url": "https://github.com/openssl/openssl/issues/26036",
+    "labels": [
+      "triaged: feature"
+    ]
+  },
+  {
+    "repo": "openssl/openssl",
+    "number": 25900,
+    "title": "i2d_PublicKey() fails with -1 for DILITHIUM2 key while using OQS provider with OpenSSL 3.2.1",
+    "state": "closed",
+    "created_at": "2024-11-07T17:23:23Z",
+    "url": "https://github.com/openssl/openssl/issues/25900",
+    "labels": []
+  },
+  {
+    "repo": "openssl/openssl",
+    "number": 25884,
+    "title": "Review PR - Implement Generic Hybrid (KEM) support",
+    "state": "open",
+    "created_at": "2024-11-06T06:56:10Z",
+    "url": "https://github.com/openssl/openssl/issues/25884",
+    "labels": [
+      "triaged: feature"
+    ]
+  },
+  {
+    "repo": "openssl/openssl",
+    "number": 25316,
+    "title": "thoughts about DSA key generation",
+    "state": "open",
+    "created_at": "2024-08-29T07:10:22Z",
+    "url": "https://github.com/openssl/openssl/issues/25316",
+    "labels": [
+      "help wanted",
+      "triaged: feature",
+      "triaged: documentation"
+    ]
+  },
+  {
+    "repo": "openssl/openssl",
+    "number": 25277,
+    "title": "OpenSSL sends algorithm IDs incompatible with old protocol versions in CertificateRequest",
+    "state": "closed",
+    "created_at": "2024-08-22T16:36:00Z",
+    "url": "https://github.com/openssl/openssl/issues/25277",
+    "labels": [
+      "branch: master",
+      "triaged: bug",
+      "branch: 3.2",
+      "branch: 3.3",
+      "branch: 3.4",
+      "branch: 3.5"
+    ]
+  },
+  {
+    "repo": "openssl/openssl",
+    "number": 22932,
+    "title": "`OSSL_SIGNATURE_PARAM_ALGORITHM_ID` insufficiently documented and hard to use by provider authors",
+    "state": "open",
+    "created_at": "2023-12-04T11:45:30Z",
+    "url": "https://github.com/openssl/openssl/issues/22932",
+    "labels": [
+      "triaged: bug",
+      "triaged: documentation"
+    ]
+  },
+  {
+    "repo": "openssl/openssl",
+    "number": 22203,
+    "title": "key_share / supported_group selection algorithm needs changes for post-quantum",
+    "state": "closed",
+    "created_at": "2023-09-26T17:52:41Z",
+    "url": "https://github.com/openssl/openssl/issues/22203",
+    "labels": [
+      "branch: master",
+      "triaged: feature",
+      "triaged: documentation",
+      "severity: important"
+    ]
+  },
+  {
+    "repo": "openssl/openssl",
+    "number": 21633,
+    "title": "Need support for multiple key share entries in ClientHello ",
+    "state": "closed",
+    "created_at": "2023-08-02T11:11:54Z",
+    "url": "https://github.com/openssl/openssl/issues/21633",
+    "labels": [
+      "help wanted",
+      "triaged: feature"
+    ]
+  },
+  {
+    "repo": "openssl/openssl",
+    "number": 21052,
+    "title": "Using OpenSSL `openssl genpkey -algorithm rsa 2048` to generate a \"traditional\" RSA key",
+    "state": "closed",
+    "created_at": "2023-05-25T08:21:59Z",
+    "url": "https://github.com/openssl/openssl/issues/21052",
+    "labels": [
+      "issue: question"
+    ]
+  },
+  {
+    "repo": "openssl/openssl",
+    "number": 20286,
+    "title": "3.0 performance degraded due to locking",
+    "state": "closed",
+    "created_at": "2023-02-14T17:39:13Z",
+    "url": "https://github.com/openssl/openssl/issues/20286",
+    "labels": [
+      "branch: master",
+      "help wanted",
+      "triaged: bug",
+      "triaged: refactor",
+      "branch: 3.0",
+      "branch: 3.1",
+      "branch: 3.2",
+      "triaged: performance",
+      "backlog fix"
+    ]
+  },
+  {
+    "repo": "openssl/openssl",
+    "number": 19175,
+    "title": "Consider adding support for NTRU algorithm (sntrup761)",
+    "state": "closed",
+    "created_at": "2022-09-08T11:47:29Z",
+    "url": "https://github.com/openssl/openssl/issues/19175",
+    "labels": [
+      "triaged: feature"
+    ]
+  },
+  {
+    "repo": "openssl/openssl",
+    "number": 19046,
+    "title": "Add a way how to generate the public key from a private key",
+    "state": "open",
+    "created_at": "2022-08-23T12:45:14Z",
+    "url": "https://github.com/openssl/openssl/issues/19046",
+    "labels": [
+      "branch: master",
+      "triaged: feature"
+    ]
+  },
+  {
+    "repo": "openssl/openssl",
+    "number": 17774,
+    "title": "Post quantum key exchange",
+    "state": "closed",
+    "created_at": "2022-02-26T19:42:34Z",
+    "url": "https://github.com/openssl/openssl/issues/17774",
+    "labels": [
+      "branch: master",
+      "triaged: feature"
+    ]
+  },
+  {
+    "repo": "openssl/openssl",
+    "number": 17743,
+    "title": "PSK ciphersuites at SECLEVEL=3",
+    "state": "closed",
+    "created_at": "2022-02-21T14:30:32Z",
+    "url": "https://github.com/openssl/openssl/issues/17743",
+    "labels": [
+      "branch: master",
+      "branch: 1.1.1",
+      "triaged: bug",
+      "branch: 3.0"
+    ]
+  },
+  {
+    "repo": "openssl/openssl",
+    "number": 16267,
+    "title": "Fill in public key info from private key info?",
+    "state": "closed",
+    "created_at": "2021-08-09T08:14:24Z",
+    "url": "https://github.com/openssl/openssl/issues/16267",
+    "labels": [
+      "branch: master",
+      "triaged: bug",
+      "inactive"
+    ]
+  },
+  {
+    "repo": "openssl/openssl",
+    "number": 14748,
+    "title": "Feature Request: Hybrid Public Key Encryption",
+    "state": "closed",
+    "created_at": "2021-03-30T18:52:22Z",
+    "url": "https://github.com/openssl/openssl/issues/14748",
+    "labels": [
+      "help wanted",
+      "triaged: feature"
+    ]
+  },
+  {
+    "repo": "openssl/openssl",
+    "number": 13900,
+    "title": "DTLS 1.3",
+    "state": "open",
+    "created_at": "2021-01-19T12:17:09Z",
+    "url": "https://github.com/openssl/openssl/issues/13900",
+    "labels": [
+      "triaged: feature"
+    ]
+  },
+  {
+    "repo": "openssl/openssl",
+    "number": 13831,
+    "title": "Initialize default group list via providers",
+    "state": "closed",
+    "created_at": "2021-01-11T06:14:17Z",
+    "url": "https://github.com/openssl/openssl/issues/13831",
+    "labels": [
+      "branch: master",
+      "triaged: feature"
+    ]
+  },
+  {
+    "repo": "openssl/openssl",
+    "number": 13413,
+    "title": "Problem with loading shared libraries by tests",
+    "state": "closed",
+    "created_at": "2020-11-15T03:39:13Z",
+    "url": "https://github.com/openssl/openssl/issues/13413",
+    "labels": [
+      "branch: 1.1.1",
+      "triaged: bug"
+    ]
+  },
+  {
+    "repo": "openssl/openssl",
+    "number": 11533,
+    "title": "ECC Key Generation",
+    "state": "closed",
+    "created_at": "2020-04-13T13:40:26Z",
+    "url": "https://github.com/openssl/openssl/issues/11533",
+    "labels": [
+      "issue: question"
+    ]
+  },
+  {
+    "repo": "openssl/openssl",
+    "number": 10844,
+    "title": "duplicated key_share entries in TLS 1.3 ClientHello are not detected",
+    "state": "open",
+    "created_at": "2020-01-14T20:04:35Z",
+    "url": "https://github.com/openssl/openssl/issues/10844",
+    "labels": [
+      "help wanted",
+      "triaged: feature",
+      "backlog fix"
+    ]
+  },
+  {
+    "repo": "openssl/openssl",
+    "number": 10512,
+    "title": "Pluggable Signatures mechanism implementation approaches",
+    "state": "closed",
+    "created_at": "2019-11-25T08:15:54Z",
+    "url": "https://github.com/openssl/openssl/issues/10512",
+    "labels": [
+      "triaged: feature"
+    ]
+  },
+  {
+    "repo": "openssl/openssl",
+    "number": 10267,
+    "title": "Invalid TLS CertificateVerify max message length",
+    "state": "closed",
+    "created_at": "2019-10-26T11:41:37Z",
+    "url": "https://github.com/openssl/openssl/issues/10267",
+    "labels": [
+      "resolved: not a bug"
+    ]
+  },
+  {
+    "repo": "openssl/openssl",
+    "number": 10149,
+    "title": "OpenSSL Engine Implementation for post-quantum key exchange algorithms",
+    "state": "closed",
+    "created_at": "2019-10-11T10:59:23Z",
+    "url": "https://github.com/openssl/openssl/issues/10149",
+    "labels": []
+  },
+  {
+    "repo": "openssl/openssl",
+    "number": 10145,
+    "title": "PREEMPTIVE: Please do not remove '-md sha1' symmetric encryption key derivation",
+    "state": "closed",
+    "created_at": "2019-10-11T03:36:46Z",
+    "url": "https://github.com/openssl/openssl/issues/10145",
+    "labels": [
+      "triaged: question"
+    ]
+  },
+  {
+    "repo": "openssl/openssl",
+    "number": 9714,
+    "title": "PSK Usage",
+    "state": "closed",
+    "created_at": "2019-08-28T08:46:18Z",
+    "url": "https://github.com/openssl/openssl/issues/9714",
+    "labels": []
+  },
+  {
+    "repo": "openssl/openssl",
+    "number": 8000,
+    "title": "SSL_CTX_set_ciphersuites accepts TLS1.2 and below suite names",
+    "state": "closed",
+    "created_at": "2019-01-08T22:13:26Z",
+    "url": "https://github.com/openssl/openssl/issues/8000",
+    "labels": [
+      "resolved: wont fix",
+      "triaged: question"
+    ]
+  },
+  {
+    "repo": "openssl/openssl",
+    "number": 7616,
+    "title": "API support for Key Encapsulation Mechanisms",
+    "state": "closed",
+    "created_at": "2018-11-12T09:02:13Z",
+    "url": "https://github.com/openssl/openssl/issues/7616",
+    "labels": []
+  },
+  {
+    "repo": "openssl/openssl",
+    "number": 6617,
+    "title": "OpenSSL ignores groups in Encrypted Extensions",
+    "state": "open",
+    "created_at": "2018-06-29T18:20:42Z",
+    "url": "https://github.com/openssl/openssl/issues/6617",
+    "labels": [
+      "branch: master",
+      "help wanted",
+      "triaged: feature",
+      "backlog fix"
+    ]
+  },
+  {
+    "repo": "openssl/openssl",
+    "number": 6433,
+    "title": "Max message size for CertificateVerify too small",
+    "state": "closed",
+    "created_at": "2018-06-06T23:58:58Z",
+    "url": "https://github.com/openssl/openssl/issues/6433",
+    "labels": []
+  },
+  {
+    "repo": "openssl/openssl",
+    "number": 541,
+    "title": "Support bracketed equal-preference groups in SSL[_CTX]_set_cipher_list",
+    "state": "closed",
+    "created_at": "2016-01-11T03:55:23Z",
+    "url": "https://github.com/openssl/openssl/issues/541",
+    "labels": [
+      "issue: feature request"
+    ]
+  },
+  {
+    "repo": "openssl/openssl",
+    "number": 28762,
+    "title": "ML-DSA signatures with not matching schemes in TLS are accepted",
+    "state": "closed",
+    "created_at": "2025-10-06T12:51:09Z",
+    "url": "https://github.com/openssl/openssl/issues/28762",
+    "labels": [
+      "branch: master",
+      "triaged: bug",
+      "branch: 3.0",
+      "branch: 3.2",
+      "branch: 3.3",
+      "branch: 3.4",
+      "branch: 3.5",
+      "branch: 3.6"
+    ]
+  },
+  {
+    "repo": "openssl/openssl",
+    "number": 26599,
+    "title": "Unable to build openssl for liboqs",
+    "state": "closed",
+    "created_at": "2025-01-31T06:08:56Z",
+    "url": "https://github.com/openssl/openssl/issues/26599",
+    "labels": [
+      "issue: bug report"
+    ]
+  },
+  {
+    "repo": "openssl/openssl",
+    "number": 26111,
+    "title": "Improve speed measurement for KEM operations",
+    "state": "open",
+    "created_at": "2024-12-04T09:34:09Z",
+    "url": "https://github.com/openssl/openssl/issues/26111",
+    "labels": [
+      "triaged: feature"
+    ]
+  },
+  {
+    "repo": "openssl/openssl",
+    "number": 26006,
+    "title": "Support ML-KEM-1024 and ML-KEM-512",
+    "state": "closed",
+    "created_at": "2024-11-20T08:54:33Z",
+    "url": "https://github.com/openssl/openssl/issues/26006",
+    "labels": [
+      "triaged: feature"
+    ]
+  },
+  {
+    "repo": "openssl/openssl",
+    "number": 25885,
+    "title": "Add encode/decode logic for ML-KEM",
+    "state": "closed",
+    "created_at": "2024-11-06T07:24:28Z",
+    "url": "https://github.com/openssl/openssl/issues/25885",
+    "labels": [
+      "triaged: feature"
+    ]
+  },
+  {
+    "repo": "openssl/openssl",
+    "number": 25781,
+    "title": "Malformed hybrid ML-KEM key shares are not handled correctly",
+    "state": "open",
+    "created_at": "2024-10-23T18:05:57Z",
+    "url": "https://github.com/openssl/openssl/issues/25781",
+    "labels": [
+      "triaged: bug"
+    ]
+  },
+  {
+    "repo": "openssl/openssl",
+    "number": 25002,
+    "title": "Provide support for using KEMs in command line utils",
+    "state": "closed",
+    "created_at": "2024-07-25T11:53:46Z",
+    "url": "https://github.com/openssl/openssl/issues/25002",
+    "labels": [
+      "help wanted",
+      "triaged: feature"
+    ]
+  },
+  {
+    "repo": "openssl/openssl",
+    "number": 24622,
+    "title": "Support X25519Kyber768Draft00 or X25519Kyber768",
+    "state": "closed",
+    "created_at": "2024-06-12T06:53:56Z",
+    "url": "https://github.com/openssl/openssl/issues/24622",
+    "labels": [
+      "triaged: feature"
+    ]
+  },
+  {
+    "repo": "openssl/openssl",
+    "number": 24481,
+    "title": "ML-KEM in TLS",
+    "state": "closed",
+    "created_at": "2024-05-23T19:36:48Z",
+    "url": "https://github.com/openssl/openssl/issues/24481",
+    "labels": [
+      "triaged: feature"
+    ]
+  },
+  {
+    "repo": "openssl/openssl",
+    "number": 22203,
+    "title": "key_share / supported_group selection algorithm needs changes for post-quantum",
+    "state": "closed",
+    "created_at": "2023-09-26T17:52:41Z",
+    "url": "https://github.com/openssl/openssl/issues/22203",
+    "labels": [
+      "branch: master",
+      "triaged: feature",
+      "triaged: documentation",
+      "severity: important"
+    ]
+  },
+  {
+    "repo": "openssl/openssl",
+    "number": 20483,
+    "title": "How can I use riscv64-unknown-linux-gnu to compile a C file (with the Kyber encryption algorithm) that uses the OpenSSL library on Ubuntu? Also, how can I run the generated binary executable with PK?",
+    "state": "closed",
+    "created_at": "2023-03-10T14:16:50Z",
+    "url": "https://github.com/openssl/openssl/issues/20483",
+    "labels": [
+      "triaged: question",
+      "inactive"
+    ]
+  },
+  {
+    "repo": "openssl/openssl",
+    "number": 19175,
+    "title": "Consider adding support for NTRU algorithm (sntrup761)",
+    "state": "closed",
+    "created_at": "2022-09-08T11:47:29Z",
+    "url": "https://github.com/openssl/openssl/issues/19175",
+    "labels": [
+      "triaged: feature"
+    ]
+  },
+  {
+    "repo": "openssl/openssl",
+    "number": 13900,
+    "title": "DTLS 1.3",
+    "state": "open",
+    "created_at": "2021-01-19T12:17:09Z",
+    "url": "https://github.com/openssl/openssl/issues/13900",
+    "labels": [
+      "triaged: feature"
+    ]
+  },
+  {
+    "repo": "openssl/openssl",
+    "number": 7616,
+    "title": "API support for Key Encapsulation Mechanisms",
+    "state": "closed",
+    "created_at": "2018-11-12T09:02:13Z",
+    "url": "https://github.com/openssl/openssl/issues/7616",
+    "labels": []
+  },
+  {
+    "repo": "openssl/openssl",
+    "number": 31205,
+    "title": "HPKE interfaces lack certain utility functions",
+    "state": "open",
+    "created_at": "2026-05-17T18:27:03Z",
+    "url": "https://github.com/openssl/openssl/issues/31205",
+    "labels": [
+      "issue: feature request"
+    ]
+  },
+  {
+    "repo": "openssl/openssl",
+    "number": 29941,
+    "title": "Access specific elements in hybrid PQC algorithms",
+    "state": "open",
+    "created_at": "2026-02-04T06:00:15Z",
+    "url": "https://github.com/openssl/openssl/issues/29941",
+    "labels": [
+      "triaged: feature"
+    ]
+  },
+  {
+    "repo": "openssl/openssl",
+    "number": 29837,
+    "title": "Additional cryptographic policies to support more strict fips levels",
+    "state": "open",
+    "created_at": "2026-01-29T11:10:21Z",
+    "url": "https://github.com/openssl/openssl/issues/29837",
+    "labels": [
+      "triaged: feature"
+    ]
+  },
+  {
+    "repo": "openssl/openssl",
+    "number": 29355,
+    "title": "Naming difference of algorithms in `openssl speed` and `openssl list`",
+    "state": "closed",
+    "created_at": "2025-12-09T15:02:25Z",
+    "url": "https://github.com/openssl/openssl/issues/29355",
+    "labels": [
+      "issue: bug report"
+    ]
+  },
+  {
+    "repo": "openssl/openssl",
+    "number": 29196,
+    "title": "Deduplication logic in SSL_CTX_set1_groups() is broken",
+    "state": "open",
+    "created_at": "2025-11-21T20:20:31Z",
+    "url": "https://github.com/openssl/openssl/issues/29196",
+    "labels": []
+  },
+  {
+    "repo": "openssl/openssl",
+    "number": 29154,
+    "title": "Support for Coexistence of PQC Key Exchange and ECDHE in OpenSSL Server for Backward Compatibility",
+    "state": "closed",
+    "created_at": "2025-11-15T03:13:24Z",
+    "url": "https://github.com/openssl/openssl/issues/29154",
+    "labels": [
+      "triaged: question",
+      "waiting-for: contributor response"
+    ]
+  },
+  {
+    "repo": "openssl/openssl",
+    "number": 28720,
+    "title": "Update SSL_MAX_CERT_LIST_DEFAULT",
+    "state": "open",
+    "created_at": "2025-10-01T15:38:13Z",
+    "url": "https://github.com/openssl/openssl/issues/28720",
+    "labels": [
+      "triaged: feature"
+    ]
+  },
+  {
+    "repo": "openssl/openssl",
+    "number": 28659,
+    "title": "Integration Issue: LibSPDM with Linux-Provided OpenSSL 3.5.0",
+    "state": "closed",
+    "created_at": "2025-09-25T04:25:21Z",
+    "url": "https://github.com/openssl/openssl/issues/28659",
+    "labels": []
+  },
+  {
+    "repo": "openssl/openssl",
+    "number": 28476,
+    "title": "PQC TLS group names are printed as UNKNOWN",
+    "state": "closed",
+    "created_at": "2025-09-08T10:19:42Z",
+    "url": "https://github.com/openssl/openssl/issues/28476",
+    "labels": [
+      "branch: master",
+      "good first issue",
+      "help wanted",
+      "triaged: bug",
+      "branch: 3.5",
+      "branch: 3.6"
+    ]
+  },
+  {
+    "repo": "openssl/openssl",
+    "number": 28173,
+    "title": "building a lightweight client/server application using openssl 3.5.1",
+    "state": "closed",
+    "created_at": "2025-08-05T11:06:19Z",
+    "url": "https://github.com/openssl/openssl/issues/28173",
+    "labels": [
+      "triaged: question",
+      "backlog fix"
+    ]
+  },
+  {
+    "repo": "openssl/openssl",
+    "number": 28069,
+    "title": "Update recommended groups",
+    "state": "closed",
+    "created_at": "2025-07-21T11:15:49Z",
+    "url": "https://github.com/openssl/openssl/issues/28069",
+    "labels": [
+      "good first issue",
+      "help wanted",
+      "triaged: documentation"
+    ]
+  },
+  {
+    "repo": "openssl/openssl",
+    "number": 28057,
+    "title": "Legacy ENGINE binding for PQC algorithms",
+    "state": "closed",
+    "created_at": "2025-07-17T08:09:16Z",
+    "url": "https://github.com/openssl/openssl/issues/28057",
+    "labels": [
+      "triaged: feature"
+    ]
+  },
+  {
+    "repo": "openssl/openssl",
+    "number": 27787,
+    "title": "Add capability to show configuration of supported groups (or just the entire config)",
+    "state": "open",
+    "created_at": "2025-06-08T15:02:43Z",
+    "url": "https://github.com/openssl/openssl/issues/27787",
+    "labels": [
+      "branch: master",
+      "triaged: feature"
+    ]
+  },
+  {
+    "repo": "openssl/openssl",
+    "number": 27669,
+    "title": "Unable to load SLH-DSA public key from CSR",
+    "state": "closed",
+    "created_at": "2025-05-20T12:41:28Z",
+    "url": "https://github.com/openssl/openssl/issues/27669",
+    "labels": [
+      "resolved: not a bug",
+      "triaged: bug",
+      "backlog fix"
+    ]
+  },
+  {
+    "repo": "openssl/openssl",
+    "number": 27527,
+    "title": "Object long name inconsistency between pre-hash ML-DSA and and SLH-DSA",
+    "state": "closed",
+    "created_at": "2025-04-30T09:29:02Z",
+    "url": "https://github.com/openssl/openssl/issues/27527",
+    "labels": [
+      "resolved: wont fix",
+      "triaged: bug",
+      "triaged: feature",
+      "backlog fix"
+    ]
+  },
+  {
+    "repo": "openssl/openssl",
+    "number": 27415,
+    "title": "pkeyutl documentation needs updating for PQC algorithms",
+    "state": "closed",
+    "created_at": "2025-04-17T10:09:45Z",
+    "url": "https://github.com/openssl/openssl/issues/27415",
+    "labels": [
+      "branch: master",
+      "help wanted",
+      "triaged: documentation",
+      "branch: 3.5"
+    ]
+  },
+  {
+    "repo": "openssl/openssl",
+    "number": 27339,
+    "title": "OpenSSL 3.5.0: timestamp reply generation fails with ML-DSA and SLH-DSA",
+    "state": "open",
+    "created_at": "2025-04-10T14:18:47Z",
+    "url": "https://github.com/openssl/openssl/issues/27339",
+    "labels": [
+      "help wanted",
+      "triaged: feature"
+    ]
+  },
+  {
+    "repo": "openssl/openssl",
+    "number": 27137,
+    "title": "nginx not logging PQC groups by name",
+    "state": "closed",
+    "created_at": "2025-03-24T09:44:08Z",
+    "url": "https://github.com/openssl/openssl/issues/27137",
+    "labels": [
+      "branch: master",
+      "triaged: documentation",
+      "branch: 3.5"
+    ]
+  },
+  {
+    "repo": "openssl/openssl",
+    "number": 27061,
+    "title": "FIPS indicator could be required for ML-KEM / x25519 hybrid KEM",
+    "state": "closed",
+    "created_at": "2025-03-14T02:13:50Z",
+    "url": "https://github.com/openssl/openssl/issues/27061",
+    "labels": [
+      "branch: master",
+      "triaged: bug",
+      "severity: fips change",
+      "investigation needed",
+      "branch: 3.5"
+    ]
+  },
+  {
+    "repo": "openssl/openssl",
+    "number": 26955,
+    "title": "We prefer RSA certs over ML-DSA certs in most cases",
+    "state": "closed",
+    "created_at": "2025-03-03T12:02:49Z",
+    "url": "https://github.com/openssl/openssl/issues/26955",
+    "labels": [
+      "branch: master",
+      "triaged: feature"
+    ]
+  },
+  {
+    "repo": "openssl/openssl",
+    "number": 26757,
+    "title": "Add default signature algorithm list",
+    "state": "open",
+    "created_at": "2025-02-14T16:21:35Z",
+    "url": "https://github.com/openssl/openssl/issues/26757",
+    "labels": [
+      "branch: master",
+      "triaged: feature"
+    ]
+  },
+  {
+    "repo": "openssl/openssl",
+    "number": 26652,
+    "title": "Design decisions related to ML-KEM and ML-DSA keys.",
+    "state": "closed",
+    "created_at": "2025-02-06T00:22:20Z",
+    "url": "https://github.com/openssl/openssl/issues/26652",
+    "labels": [
+      "triaged: question"
+    ]
+  },
+  {
+    "repo": "openssl/openssl",
+    "number": 26649,
+    "title": "Create externally loadable provider for PQC algorithms",
+    "state": "open",
+    "created_at": "2025-02-05T15:50:38Z",
+    "url": "https://github.com/openssl/openssl/issues/26649",
+    "labels": [
+      "triaged: feature"
+    ]
+  },
+  {
+    "repo": "openssl/openssl",
+    "number": 26572,
+    "title": "Extra FIPS PCT required for all public key algorithms",
+    "state": "closed",
+    "created_at": "2025-01-28T02:09:27Z",
+    "url": "https://github.com/openssl/openssl/issues/26572",
+    "labels": [
+      "branch: master",
+      "triaged: feature"
+    ]
+  },
+  {
+    "repo": "openssl/openssl",
+    "number": 26386,
+    "title": "Remove oqsprovider from \"external\" testing",
+    "state": "closed",
+    "created_at": "2025-01-11T08:42:32Z",
+    "url": "https://github.com/openssl/openssl/issues/26386",
+    "labels": []
+  },
+  {
+    "repo": "openssl/openssl",
+    "number": 26156,
+    "title": "Algorithm Security Categories",
+    "state": "open",
+    "created_at": "2024-12-12T00:54:25Z",
+    "url": "https://github.com/openssl/openssl/issues/26156",
+    "labels": [
+      "help wanted",
+      "triaged: feature"
+    ]
+  },
+  {
+    "repo": "openssl/openssl",
+    "number": 26121,
+    "title": "Composite PQC signature algorithms",
+    "state": "open",
+    "created_at": "2024-12-05T11:35:22Z",
+    "url": "https://github.com/openssl/openssl/issues/26121",
+    "labels": [
+      "triaged: feature"
+    ]
+  },
+  {
+    "repo": "openssl/openssl",
+    "number": 25888,
+    "title": "s_client doesn't report used hybrid PQC group used in the connection",
+    "state": "closed",
+    "created_at": "2024-11-06T13:55:19Z",
+    "url": "https://github.com/openssl/openssl/issues/25888",
+    "labels": [
+      "branch: master",
+      "triaged: feature"
+    ]
+  },
+  {
+    "repo": "openssl/openssl",
+    "number": 25885,
+    "title": "Add encode/decode logic for ML-KEM",
+    "state": "closed",
+    "created_at": "2024-11-06T07:24:28Z",
+    "url": "https://github.com/openssl/openssl/issues/25885",
+    "labels": [
+      "triaged: feature"
+    ]
+  },
+  {
+    "repo": "openssl/openssl",
+    "number": 25781,
+    "title": "Malformed hybrid ML-KEM key shares are not handled correctly",
+    "state": "open",
+    "created_at": "2024-10-23T18:05:57Z",
+    "url": "https://github.com/openssl/openssl/issues/25781",
+    "labels": [
+      "triaged: bug"
+    ]
+  },
+  {
+    "repo": "openssl/openssl",
+    "number": 25277,
+    "title": "OpenSSL sends algorithm IDs incompatible with old protocol versions in CertificateRequest",
+    "state": "closed",
+    "created_at": "2024-08-22T16:36:00Z",
+    "url": "https://github.com/openssl/openssl/issues/25277",
+    "labels": [
+      "branch: master",
+      "triaged: bug",
+      "branch: 3.2",
+      "branch: 3.3",
+      "branch: 3.4",
+      "branch: 3.5"
+    ]
+  },
+  {
+    "repo": "openssl/openssl",
+    "number": 24196,
+    "title": "`openssl pkcs12` fails (but returns 0) when oqsprovider is not enabled in config file",
+    "state": "closed",
+    "created_at": "2024-04-18T16:35:41Z",
+    "url": "https://github.com/openssl/openssl/issues/24196",
+    "labels": [
+      "triaged: bug"
+    ]
+  },
+  {
+    "repo": "openssl/openssl",
+    "number": 22203,
+    "title": "key_share / supported_group selection algorithm needs changes for post-quantum",
+    "state": "closed",
+    "created_at": "2023-09-26T17:52:41Z",
+    "url": "https://github.com/openssl/openssl/issues/22203",
+    "labels": [
+      "branch: master",
+      "triaged: feature",
+      "triaged: documentation",
+      "severity: important"
+    ]
+  },
+  {
+    "repo": "openssl/openssl",
+    "number": 21633,
+    "title": "Need support for multiple key share entries in ClientHello ",
+    "state": "closed",
+    "created_at": "2023-08-02T11:11:54Z",
+    "url": "https://github.com/openssl/openssl/issues/21633",
+    "labels": [
+      "help wanted",
+      "triaged: feature"
+    ]
+  },
+  {
+    "repo": "openssl/openssl",
+    "number": 20820,
+    "title": "Interesting TCP-level segmentation behavior during handshake due to write buffer size and buffer management",
+    "state": "closed",
+    "created_at": "2023-04-24T16:50:45Z",
+    "url": "https://github.com/openssl/openssl/issues/20820",
+    "labels": [
+      "triaged: question",
+      "inactive"
+    ]
+  },
+  {
+    "repo": "openssl/openssl",
+    "number": 20478,
+    "title": "Support for large PQC signature algorithms",
+    "state": "closed",
+    "created_at": "2023-03-09T16:52:27Z",
+    "url": "https://github.com/openssl/openssl/issues/20478",
+    "labels": [
+      "triaged: feature"
+    ]
+  },
+  {
+    "repo": "openssl/openssl",
+    "number": 18428,
+    "title": "KEMs may not return explicit failure in EVP_PKEY_decapsulate.",
+    "state": "closed",
+    "created_at": "2022-05-30T07:43:37Z",
+    "url": "https://github.com/openssl/openssl/issues/18428",
+    "labels": [
+      "branch: master",
+      "good first issue",
+      "triaged: documentation",
+      "branch: 3.0",
+      "branch: 3.1",
+      "branch: 3.2",
+      "inactive"
+    ]
+  },
+  {
+    "repo": "openssl/openssl",
+    "number": 16697,
+    "title": "How to decode an X509 PUBKEY structure in an (external) provider?",
+    "state": "closed",
+    "created_at": "2021-09-28T09:26:01Z",
+    "url": "https://github.com/openssl/openssl/issues/16697",
+    "labels": [
+      "triaged: question",
+      "branch: 3.0",
+      "backlog fix"
+    ]
+  },
+  {
+    "repo": "openssl/openssl",
+    "number": 16267,
+    "title": "Fill in public key info from private key info?",
+    "state": "closed",
+    "created_at": "2021-08-09T08:14:24Z",
+    "url": "https://github.com/openssl/openssl/issues/16267",
+    "labels": [
+      "branch: master",
+      "triaged: bug",
+      "inactive"
+    ]
+  },
+  {
+    "repo": "openssl/openssl",
+    "number": 14069,
+    "title": "genpkey not working properly with (external) provider signature algorithm",
+    "state": "closed",
+    "created_at": "2021-02-04T14:13:29Z",
+    "url": "https://github.com/openssl/openssl/issues/14069",
+    "labels": [
+      "triaged: bug"
+    ]
+  },
+  {
+    "repo": "openssl/openssl",
+    "number": 13900,
+    "title": "DTLS 1.3",
+    "state": "open",
+    "created_at": "2021-01-19T12:17:09Z",
+    "url": "https://github.com/openssl/openssl/issues/13900",
+    "labels": [
+      "triaged: feature"
+    ]
+  },
+  {
+    "repo": "openssl/openssl",
+    "number": 13868,
+    "title": "Change SERVER_HELLO_MAX_LENGTH constant",
+    "state": "closed",
+    "created_at": "2021-01-14T10:00:08Z",
+    "url": "https://github.com/openssl/openssl/issues/13868",
+    "labels": [
+      "triaged: feature"
+    ]
+  },
+  {
+    "repo": "openssl/openssl",
+    "number": 13831,
+    "title": "Initialize default group list via providers",
+    "state": "closed",
+    "created_at": "2021-01-11T06:14:17Z",
+    "url": "https://github.com/openssl/openssl/issues/13831",
+    "labels": [
+      "branch: master",
+      "triaged: feature"
+    ]
+  },
+  {
+    "repo": "openssl/openssl",
+    "number": 13767,
+    "title": "Make (TLS) groups fully independent of (EC) curves",
+    "state": "closed",
+    "created_at": "2021-01-04T07:31:43Z",
+    "url": "https://github.com/openssl/openssl/issues/13767",
+    "labels": [
+      "branch: master",
+      "triaged: bug",
+      "triaged: feature"
+    ]
+  },
+  {
+    "repo": "openssl/openssl",
+    "number": 10512,
+    "title": "Pluggable Signatures mechanism implementation approaches",
+    "state": "closed",
+    "created_at": "2019-11-25T08:15:54Z",
+    "url": "https://github.com/openssl/openssl/issues/10512",
+    "labels": [
+      "triaged: feature"
+    ]
+  },
+  {
+    "repo": "openssl/openssl",
+    "number": 10149,
+    "title": "OpenSSL Engine Implementation for post-quantum key exchange algorithms",
+    "state": "closed",
+    "created_at": "2019-10-11T10:59:23Z",
+    "url": "https://github.com/openssl/openssl/issues/10149",
+    "labels": []
+  },
+  {
+    "repo": "openssl/openssl",
+    "number": 31242,
+    "title": "The \"constructor\" function attribute caused relocation overflow on ppc64le",
+    "state": "open",
+    "created_at": "2026-05-19T13:16:36Z",
+    "url": "https://github.com/openssl/openssl/issues/31242",
+    "labels": [
+      "help wanted",
+      "triaged: bug"
+    ]
+  },
+  {
+    "repo": "openssl/openssl",
+    "number": 31205,
+    "title": "HPKE interfaces lack certain utility functions",
+    "state": "open",
+    "created_at": "2026-05-17T18:27:03Z",
+    "url": "https://github.com/openssl/openssl/issues/31205",
+    "labels": [
+      "issue: feature request"
+    ]
+  },
+  {
+    "repo": "openssl/openssl",
+    "number": 31136,
+    "title": "OpenSSL 4.1.0-dev build failed on TCC compiler",
+    "state": "closed",
+    "created_at": "2026-05-10T19:34:48Z",
+    "url": "https://github.com/openssl/openssl/issues/31136",
+    "labels": [
+      "resolved: not a bug",
+      "triaged: bug"
+    ]
+  },
+  {
+    "repo": "openssl/openssl",
+    "number": 31114,
+    "title": "ML-KEM key duplication (EVP_PKEY_dup) fails with KEYPAIR selection",
+    "state": "open",
+    "created_at": "2026-05-08T01:25:01Z",
+    "url": "https://github.com/openssl/openssl/issues/31114",
+    "labels": [
+      "issue: bug report"
+    ]
+  },
+  {
+    "repo": "openssl/openssl",
+    "number": 31055,
+    "title": "EVP_DigestSign succeeds with SLH-DSA raw private keys that fail key_check/pairwise_check",
+    "state": "open",
+    "created_at": "2026-05-01T08:06:22Z",
+    "url": "https://github.com/openssl/openssl/issues/31055",
+    "labels": [
+      "help wanted",
+      "issue: bug report",
+      "triaged: bug",
+      "triaged: feature"
+    ]
+  },
+  {
+    "repo": "openssl/openssl",
+    "number": 30889,
+    "title": "Segfault in 'openssl pkey' for interactive encryption (v4.0.0)",
+    "state": "closed",
+    "created_at": "2026-04-18T00:15:36Z",
+    "url": "https://github.com/openssl/openssl/issues/30889",
+    "labels": [
+      "branch: master",
+      "triaged: bug",
+      "severity: regression",
+      "branch: 4.0"
+    ]
+  },
+  {
+    "repo": "openssl/openssl",
+    "number": 30811,
+    "title": "Why do Windows builds depend on both VCRuntime and UCRT? (Follow-up to #12210)",
+    "state": "closed",
+    "created_at": "2026-04-14T06:18:21Z",
+    "url": "https://github.com/openssl/openssl/issues/30811",
+    "labels": [
+      "issue: question"
+    ]
+  },
+  {
+    "repo": "openssl/openssl",
+    "number": 30588,
+    "title": "Memory leak in test_fipsinstall after commit \"Add IKEV2KDF implementation\"",
+    "state": "closed",
+    "created_at": "2026-03-26T14:26:59Z",
+    "url": "https://github.com/openssl/openssl/issues/30588",
+    "labels": [
+      "branch: master",
+      "triaged: bug"
+    ]
+  },
+  {
+    "repo": "openssl/openssl",
+    "number": 30306,
+    "title": "how to check speed of EC key generation with FIPS provider",
+    "state": "open",
+    "created_at": "2026-03-08T11:17:37Z",
+    "url": "https://github.com/openssl/openssl/issues/30306",
+    "labels": [
+      "issue: question"
+    ]
+  },
+  {
+    "repo": "openssl/openssl",
+    "number": 30012,
+    "title": "Bug: Inconsistent FIPS 140-3 Enforcement - HMAC 112-bit Key Strength check ignored in OpenSSL 3.5.5 despite explicit provider configuration",
+    "state": "closed",
+    "created_at": "2026-02-14T12:25:49Z",
+    "url": "https://github.com/openssl/openssl/issues/30012",
+    "labels": [
+      "triaged: bug"
+    ]
+  },
+  {
+    "repo": "openssl/openssl",
+    "number": 29837,
+    "title": "Additional cryptographic policies to support more strict fips levels",
+    "state": "open",
+    "created_at": "2026-01-29T11:10:21Z",
+    "url": "https://github.com/openssl/openssl/issues/29837",
+    "labels": [
+      "triaged: feature"
+    ]
+  },
+  {
+    "repo": "openssl/openssl",
+    "number": 29815,
+    "title": "Fails to build on big-endian ppc64 by trying to link ELFv1 to ELFv2 code",
+    "state": "closed",
+    "created_at": "2026-01-28T07:23:32Z",
+    "url": "https://github.com/openssl/openssl/issues/29815",
+    "labels": [
+      "help wanted",
+      "triaged: bug",
+      "severity: regression",
+      "branch: 3.3",
+      "branch: 3.4",
+      "branch: 3.5",
+      "branch: 3.6"
+    ]
+  },
+  {
+    "repo": "openssl/openssl",
+    "number": 29594,
+    "title": "`make check-format` fails",
+    "state": "closed",
+    "created_at": "2026-01-10T05:29:22Z",
+    "url": "https://github.com/openssl/openssl/issues/29594",
+    "labels": [
+      "issue: bug report"
+    ]
+  },
+  {
+    "repo": "openssl/openssl",
+    "number": 29562,
+    "title": "AIX 7.2 test_lhash unit test failure on OpenSSL 3.5.4",
+    "state": "open",
+    "created_at": "2026-01-06T23:32:35Z",
+    "url": "https://github.com/openssl/openssl/issues/29562",
+    "labels": [
+      "branch: master",
+      "help wanted",
+      "triaged: bug",
+      "branch: 3.5",
+      "branch: 3.6"
+    ]
+  },
+  {
+    "repo": "openssl/openssl",
+    "number": 29548,
+    "title": "The recent typedef modification broke cross-compiling with MinGW",
+    "state": "closed",
+    "created_at": "2026-01-05T14:33:16Z",
+    "url": "https://github.com/openssl/openssl/issues/29548",
+    "labels": [
+      "issue: bug report"
+    ]
+  },
+  {
+    "repo": "openssl/openssl",
+    "number": 29355,
+    "title": "Naming difference of algorithms in `openssl speed` and `openssl list`",
+    "state": "closed",
+    "created_at": "2025-12-09T15:02:25Z",
+    "url": "https://github.com/openssl/openssl/issues/29355",
+    "labels": [
+      "issue: bug report"
+    ]
+  },
+  {
+    "repo": "openssl/openssl",
+    "number": 29025,
+    "title": "Test Bioprint fails on NonStop at 4.0.0 (master)",
+    "state": "closed",
+    "created_at": "2025-10-28T23:00:12Z",
+    "url": "https://github.com/openssl/openssl/issues/29025",
+    "labels": [
+      "branch: master",
+      "triaged: bug",
+      "severity: regression"
+    ]
+  },
+  {
+    "repo": "openssl/openssl",
+    "number": 29014,
+    "title": "Failed to build on windows arm",
+    "state": "open",
+    "created_at": "2025-10-28T09:08:34Z",
+    "url": "https://github.com/openssl/openssl/issues/29014",
+    "labels": [
+      "help wanted",
+      "triaged: bug"
+    ]
+  },
+  {
+    "repo": "openssl/openssl",
+    "number": 28747,
+    "title": "3.6.0 fails to build on Solaris 10 with many undefined symbols",
+    "state": "open",
+    "created_at": "2025-10-04T18:11:24Z",
+    "url": "https://github.com/openssl/openssl/issues/28747",
+    "labels": [
+      "branch: master",
+      "help wanted",
+      "triaged: bug",
+      "branch: 3.6"
+    ]
+  },
+  {
+    "repo": "openssl/openssl",
+    "number": 28745,
+    "title": "openssl 3.6.0 build failed on `i686-unknown-linux-musl`: `undefined reference to 'ossl_aes_cfb128_vaes_enc'`",
+    "state": "closed",
+    "created_at": "2025-10-04T14:44:31Z",
+    "url": "https://github.com/openssl/openssl/issues/28745",
+    "labels": [
+      "issue: bug report"
+    ]
+  },
+  {
+    "repo": "openssl/openssl",
+    "number": 28721,
+    "title": "70-test_quic_tserver.t in v3.5.4 is non-deterministic on OS X",
+    "state": "open",
+    "created_at": "2025-10-01T16:32:10Z",
+    "url": "https://github.com/openssl/openssl/issues/28721",
+    "labels": [
+      "help wanted",
+      "triaged: bug"
+    ]
+  },
+  {
+    "repo": "openssl/openssl",
+    "number": 28659,
+    "title": "Integration Issue: LibSPDM with Linux-Provided OpenSSL 3.5.0",
+    "state": "closed",
+    "created_at": "2025-09-25T04:25:21Z",
+    "url": "https://github.com/openssl/openssl/issues/28659",
+    "labels": []
+  },
+  {
+    "repo": "openssl/openssl",
+    "number": 28610,
+    "title": "Build falis on Windiows",
+    "state": "closed",
+    "created_at": "2025-09-18T14:30:53Z",
+    "url": "https://github.com/openssl/openssl/issues/28610",
+    "labels": [
+      "resolved: not a bug",
+      "triaged: bug"
+    ]
+  },
+  {
+    "repo": "openssl/openssl",
+    "number": 28563,
+    "title": "The logic for comparing two ML-KEM public keys for equality is implemented incorrectly",
+    "state": "closed",
+    "created_at": "2025-09-16T11:12:58Z",
+    "url": "https://github.com/openssl/openssl/issues/28563",
+    "labels": [
+      "branch: master",
+      "triaged: bug",
+      "branch: 3.5",
+      "branch: 3.6"
+    ]
+  },
+  {
+    "repo": "openssl/openssl",
+    "number": 28476,
+    "title": "PQC TLS group names are printed as UNKNOWN",
+    "state": "closed",
+    "created_at": "2025-09-08T10:19:42Z",
+    "url": "https://github.com/openssl/openssl/issues/28476",
+    "labels": [
+      "branch: master",
+      "good first issue",
+      "help wanted",
+      "triaged: bug",
+      "branch: 3.5",
+      "branch: 3.6"
+    ]
+  },
+  {
+    "repo": "openssl/openssl",
+    "number": 28463,
+    "title": "SHA512/x86_64: insufficient detection of SHA512 Extensions availability",
+    "state": "closed",
+    "created_at": "2025-09-07T11:18:32Z",
+    "url": "https://github.com/openssl/openssl/issues/28463",
+    "labels": [
+      "branch: master",
+      "help wanted",
+      "triaged: bug",
+      "branch: 3.6"
+    ]
+  },
+  {
+    "repo": "openssl/openssl",
+    "number": 28457,
+    "title": "Possible infinite loop for 32-bit FIPS build on NonStop in 3.6.0-alpha1",
+    "state": "open",
+    "created_at": "2025-09-05T21:47:43Z",
+    "url": "https://github.com/openssl/openssl/issues/28457",
+    "labels": [
+      "triaged: bug"
+    ]
+  },
+  {
+    "repo": "openssl/openssl",
+    "number": 28326,
+    "title": "FIPS provider isn't consistent in what it does after a failed PCT",
+    "state": "closed",
+    "created_at": "2025-08-22T09:01:26Z",
+    "url": "https://github.com/openssl/openssl/issues/28326",
+    "labels": [
+      "branch: master",
+      "triaged: bug",
+      "hold: discussion",
+      "severity: fips change",
+      "investigation needed",
+      "branch: 3.5"
+    ]
+  },
+  {
+    "repo": "openssl/openssl",
+    "number": 28155,
+    "title": "test/testutil/helper.c:85:39: error: 'timezone' undeclared (first use in this function)",
+    "state": "closed",
+    "created_at": "2025-08-01T15:48:37Z",
+    "url": "https://github.com/openssl/openssl/issues/28155",
+    "labels": [
+      "help wanted",
+      "issue: bug report"
+    ]
+  },
+  {
+    "repo": "openssl/openssl",
+    "number": 28153,
+    "title": "OPENSSL_NO_POSIX_IO not defined on a Solaris 10 server",
+    "state": "closed",
+    "created_at": "2025-08-01T01:53:23Z",
+    "url": "https://github.com/openssl/openssl/issues/28153",
+    "labels": [
+      "branch: master",
+      "triaged: bug",
+      "severity: regression",
+      "branch: 3.5"
+    ]
+  },
+  {
+    "repo": "openssl/openssl",
+    "number": 28069,
+    "title": "Update recommended groups",
+    "state": "closed",
+    "created_at": "2025-07-21T11:15:49Z",
+    "url": "https://github.com/openssl/openssl/issues/28069",
+    "labels": [
+      "good first issue",
+      "help wanted",
+      "triaged: documentation"
+    ]
+  },
+  {
+    "repo": "openssl/openssl",
+    "number": 27769,
+    "title": "ML-KEM code comment & possible update when loading key material",
+    "state": "open",
+    "created_at": "2025-06-05T05:49:09Z",
+    "url": "https://github.com/openssl/openssl/issues/27769",
+    "labels": [
+      "branch: master",
+      "triaged: documentation"
+    ]
+  },
+  {
+    "repo": "openssl/openssl",
+    "number": 27746,
+    "title": "ML-KEM weirdness",
+    "state": "closed",
+    "created_at": "2025-06-03T00:50:09Z",
+    "url": "https://github.com/openssl/openssl/issues/27746",
+    "labels": [
+      "branch: master",
+      "triaged: bug",
+      "branch: 3.5",
+      "backlog fix"
+    ]
+  },
+  {
+    "repo": "openssl/openssl",
+    "number": 27743,
+    "title": "ML-KEM digest fetching",
+    "state": "open",
+    "created_at": "2025-06-02T17:40:09Z",
+    "url": "https://github.com/openssl/openssl/issues/27743",
+    "labels": [
+      "branch: master",
+      "triaged: bug",
+      "branch: 3.5"
+    ]
+  },
+  {
+    "repo": "openssl/openssl",
+    "number": 27679,
+    "title": "openssl speed with fips provider doesn't measure RSA with various key length",
+    "state": "open",
+    "created_at": "2025-05-21T15:00:53Z",
+    "url": "https://github.com/openssl/openssl/issues/27679",
+    "labels": [
+      "branch: master",
+      "help wanted",
+      "triaged: bug",
+      "branch: 3.5"
+    ]
+  },
+  {
+    "repo": "openssl/openssl",
+    "number": 27603,
+    "title": "ML-KEM and ML-DSA key generation/decoding implementations do not allocate private key structures into secure memory",
+    "state": "closed",
+    "created_at": "2025-05-12T15:42:42Z",
+    "url": "https://github.com/openssl/openssl/issues/27603",
+    "labels": [
+      "branch: master",
+      "help wanted",
+      "triaged: feature"
+    ]
+  },
+  {
+    "repo": "openssl/openssl",
+    "number": 27587,
+    "title": "Build error Openssl 3.5.0",
+    "state": "closed",
+    "created_at": "2025-05-09T03:12:09Z",
+    "url": "https://github.com/openssl/openssl/issues/27587",
+    "labels": [
+      "issue: bug report"
+    ]
+  },
+  {
+    "repo": "openssl/openssl",
+    "number": 27542,
+    "title": "Strange ML-DSA design decision - export keys",
+    "state": "closed",
+    "created_at": "2025-05-02T14:41:08Z",
+    "url": "https://github.com/openssl/openssl/issues/27542",
+    "labels": [
+      "branch: master",
+      "triaged: bug",
+      "hold: discussion",
+      "branch: 3.5"
+    ]
+  },
+  {
+    "repo": "openssl/openssl",
+    "number": 27527,
+    "title": "Object long name inconsistency between pre-hash ML-DSA and and SLH-DSA",
+    "state": "closed",
+    "created_at": "2025-04-30T09:29:02Z",
+    "url": "https://github.com/openssl/openssl/issues/27527",
+    "labels": [
+      "resolved: wont fix",
+      "triaged: bug",
+      "triaged: feature",
+      "backlog fix"
+    ]
+  },
+  {
+    "repo": "openssl/openssl",
+    "number": 27525,
+    "title": "-Wstringop-overflow warnings with gcc 14",
+    "state": "closed",
+    "created_at": "2025-04-30T08:21:48Z",
+    "url": "https://github.com/openssl/openssl/issues/27525",
+    "labels": [
+      "issue: bug report"
+    ]
+  },
+  {
+    "repo": "openssl/openssl",
+    "number": 27473,
+    "title": "no-static-engine always enabled",
+    "state": "open",
+    "created_at": "2025-04-22T19:48:32Z",
+    "url": "https://github.com/openssl/openssl/issues/27473",
+    "labels": [
+      "branch: master",
+      "triaged: documentation"
+    ]
+  },
+  {
+    "repo": "openssl/openssl",
+    "number": 27415,
+    "title": "pkeyutl documentation needs updating for PQC algorithms",
+    "state": "closed",
+    "created_at": "2025-04-17T10:09:45Z",
+    "url": "https://github.com/openssl/openssl/issues/27415",
+    "labels": [
+      "branch: master",
+      "help wanted",
+      "triaged: documentation",
+      "branch: 3.5"
+    ]
+  },
+  {
+    "repo": "openssl/openssl",
+    "number": 27413,
+    "title": "MLX keys using P-256 and P-384 cannot be exported",
+    "state": "open",
+    "created_at": "2025-04-16T23:54:06Z",
+    "url": "https://github.com/openssl/openssl/issues/27413",
+    "labels": [
+      "branch: master",
+      "triaged: bug",
+      "branch: 3.5"
+    ]
+  },
+  {
+    "repo": "openssl/openssl",
+    "number": 27356,
+    "title": "test_quic_multistream test failure on OS X 10.4 PowerPC when running on a G4",
+    "state": "closed",
+    "created_at": "2025-04-11T18:41:18Z",
+    "url": "https://github.com/openssl/openssl/issues/27356",
+    "labels": [
+      "triaged: bug"
+    ]
+  },
+  {
+    "repo": "openssl/openssl",
+    "number": 27317,
+    "title": "01-test_sanity.t from v3.5.0 fails on OS X 10.5 PowerPC",
+    "state": "closed",
+    "created_at": "2025-04-09T12:01:53Z",
+    "url": "https://github.com/openssl/openssl/issues/27317",
+    "labels": [
+      "resolved: wont fix",
+      "triaged: bug"
+    ]
+  },
+  {
+    "repo": "openssl/openssl",
+    "number": 27167,
+    "title": "OpenSSL 3.5 Tests ml_dsa_codecs and ml_kem_codecs fail for old perl",
+    "state": "closed",
+    "created_at": "2025-03-26T11:39:47Z",
+    "url": "https://github.com/openssl/openssl/issues/27167",
+    "labels": [
+      "branch: master",
+      "good first issue",
+      "triaged: bug",
+      "severity: regression",
+      "branch: 3.5"
+    ]
+  },
+  {
+    "repo": "openssl/openssl",
+    "number": 27165,
+    "title": "65-test_cmp_client.t test failures on Darwin/PowerPC with 3.5.0-beta1",
+    "state": "closed",
+    "created_at": "2025-03-26T10:47:39Z",
+    "url": "https://github.com/openssl/openssl/issues/27165",
+    "labels": [
+      "triaged: bug",
+      "branch: 3.5"
+    ]
+  },
+  {
+    "repo": "openssl/openssl",
+    "number": 27108,
+    "title": "speed measurement for ML-DSA fails",
+    "state": "closed",
+    "created_at": "2025-03-20T23:09:58Z",
+    "url": "https://github.com/openssl/openssl/issues/27108",
+    "labels": [
+      "branch: master",
+      "triaged: feature",
+      "branch: 3.5"
+    ]
+  },
+  {
+    "repo": "openssl/openssl",
+    "number": 27103,
+    "title": "Intermittent CI failure in test_noisy_dgram in quicapitest",
+    "state": "closed",
+    "created_at": "2025-03-20T09:27:12Z",
+    "url": "https://github.com/openssl/openssl/issues/27103",
+    "labels": [
+      "branch: master",
+      "triaged: bug",
+      "branch: 3.5"
+    ]
+  },
+  {
+    "repo": "openssl/openssl",
+    "number": 27083,
+    "title": "Intermittent CI failures due to stuck tests",
+    "state": "closed",
+    "created_at": "2025-03-18T10:41:47Z",
+    "url": "https://github.com/openssl/openssl/issues/27083",
+    "labels": [
+      "branch: master",
+      "triaged: bug",
+      "severity: regression",
+      "branch: 3.5"
+    ]
+  },
+  {
+    "repo": "openssl/openssl",
+    "number": 27061,
+    "title": "FIPS indicator could be required for ML-KEM / x25519 hybrid KEM",
+    "state": "closed",
+    "created_at": "2025-03-14T02:13:50Z",
+    "url": "https://github.com/openssl/openssl/issues/27061",
+    "labels": [
+      "branch: master",
+      "triaged: bug",
+      "severity: fips change",
+      "investigation needed",
+      "branch: 3.5"
+    ]
+  },
+  {
+    "repo": "openssl/openssl",
+    "number": 27050,
+    "title": "Build fails using Embarcadero C++Builder Community Edition 12.2 for a Win64 build",
+    "state": "open",
+    "created_at": "2025-03-13T09:10:09Z",
+    "url": "https://github.com/openssl/openssl/issues/27050",
+    "labels": [
+      "help wanted",
+      "triaged: bug"
+    ]
+  },
+  {
+    "repo": "openssl/openssl",
+    "number": 27047,
+    "title": "[3.5.0-alpha1] test failures on windows",
+    "state": "closed",
+    "created_at": "2025-03-12T23:27:22Z",
+    "url": "https://github.com/openssl/openssl/issues/27047",
+    "labels": [
+      "branch: master",
+      "triaged: bug",
+      "severity: regression",
+      "branch: 3.5"
+    ]
+  },
+  {
+    "repo": "openssl/openssl",
+    "number": 26955,
+    "title": "We prefer RSA certs over ML-DSA certs in most cases",
+    "state": "closed",
+    "created_at": "2025-03-03T12:02:49Z",
+    "url": "https://github.com/openssl/openssl/issues/26955",
+    "labels": [
+      "branch: master",
+      "triaged: feature"
+    ]
+  },
+  {
+    "repo": "openssl/openssl",
+    "number": 26945,
+    "title": "IKME param varies type depending on algorithm",
+    "state": "closed",
+    "created_at": "2025-03-03T01:01:16Z",
+    "url": "https://github.com/openssl/openssl/issues/26945",
+    "labels": [
+      "branch: master",
+      "triaged: documentation"
+    ]
+  },
+  {
+    "repo": "openssl/openssl",
+    "number": 26875,
+    "title": "Unexpected RCU torture test failure in unrelated CI run on linux-aarch64",
+    "state": "closed",
+    "created_at": "2025-02-23T23:52:28Z",
+    "url": "https://github.com/openssl/openssl/issues/26875",
+    "labels": [
+      "branch: master",
+      "triaged: bug"
+    ]
+  },
+  {
+    "repo": "openssl/openssl",
+    "number": 26780,
+    "title": "There is a memory leak defect at line 1834 in the file /openssl/crypto/ml_kem/ml_kem.c.",
+    "state": "closed",
+    "created_at": "2025-02-16T07:54:19Z",
+    "url": "https://github.com/openssl/openssl/issues/26780",
+    "labels": [
+      "issue: bug report"
+    ]
+  },
+  {
+    "repo": "openssl/openssl",
+    "number": 26729,
+    "title": "Fixes required after ml-kem/ml-dsa PR is merged to master",
+    "state": "closed",
+    "created_at": "2025-02-13T00:50:16Z",
+    "url": "https://github.com/openssl/openssl/issues/26729",
+    "labels": [
+      "branch: master",
+      "triaged: bug"
+    ]
+  },
+  {
+    "repo": "openssl/openssl",
+    "number": 26652,
+    "title": "Design decisions related to ML-KEM and ML-DSA keys.",
+    "state": "closed",
+    "created_at": "2025-02-06T00:22:20Z",
+    "url": "https://github.com/openssl/openssl/issues/26652",
+    "labels": [
+      "triaged: question"
+    ]
+  },
+  {
+    "repo": "openssl/openssl",
+    "number": 26649,
+    "title": "Create externally loadable provider for PQC algorithms",
+    "state": "open",
+    "created_at": "2025-02-05T15:50:38Z",
+    "url": "https://github.com/openssl/openssl/issues/26649",
+    "labels": [
+      "triaged: feature"
+    ]
+  }
+]

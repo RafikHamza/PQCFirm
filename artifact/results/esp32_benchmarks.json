@@ -1,0 +1,112 @@
+[
+  {
+    "schema_version": 1,
+    "algo": "ECDSA_P256",
+    "op": "KeyGen",
+    "avg_cycles": 33885427,
+    "min_cycles": 33778844,
+    "max_cycles": 33989789,
+    "stack_used_bytes": 7232,
+    "correctness": true
+  },
+  {
+    "schema_version": 1,
+    "algo": "ECDSA_P256",
+    "op": "Sign",
+    "avg_cycles": 15535610,
+    "min_cycles": 15376633,
+    "max_cycles": 15627435,
+    "stack_used_bytes": 7488,
+    "correctness": true
+  },
+  {
+    "schema_version": 1,
+    "algo": "ECDSA_P256",
+    "op": "Verify",
+    "avg_cycles": 7319925,
+    "min_cycles": 7246725,
+    "max_cycles": 7393124,
+    "stack_used_bytes": 8768,
+    "correctness": true
+  },
+  {
+    "schema_version": 1,
+    "algo": "ECDH_P256",
+    "op": "KeyGen",
+    "avg_cycles": 14293743,
+    "min_cycles": 13987707,
+    "max_cycles": 33886553,
+    "stack_used_bytes": 6848,
+    "correctness": true
+  },
+  {
+    "schema_version": 1,
+    "algo": "ECDH_P256",
+    "op": "ComputeSecret",
+    "avg_cycles": 33853554,
+    "min_cycles": 33756780,
+    "max_cycles": 33950367,
+    "stack_used_bytes": 7104,
+    "correctness": true
+  },
+  {
+    "schema_version": 1,
+    "algo": "ML_KEM_768",
+    "op": "KeyGen",
+    "avg_cycles": 2385649,
+    "min_cycles": 2367071,
+    "max_cycles": 2564022,
+    "stack_used_bytes": 55296,
+    "correctness": true
+  },
+  {
+    "schema_version": 1,
+    "algo": "ML_KEM_768",
+    "op": "Encaps",
+    "avg_cycles": 2493902,
+    "min_cycles": 2489390,
+    "max_cycles": 2525102,
+    "stack_used_bytes": 68032,
+    "correctness": true
+  },
+  {
+    "schema_version": 1,
+    "algo": "ML_KEM_768",
+    "op": "Decaps",
+    "avg_cycles": 2770101,
+    "min_cycles": 2765972,
+    "max_cycles": 2850494,
+    "stack_used_bytes": 72128,
+    "correctness": true
+  },
+  {
+    "schema_version": 1,
+    "algo": "ML_DSA_65",
+    "op": "KeyGen",
+    "avg_cycles": 9401088,
+    "min_cycles": 9397867,
+    "max_cycles": 9454975,
+    "stack_used_bytes": 7808,
+    "correctness": true
+  },
+  {
+    "schema_version": 1,
+    "algo": "ML_DSA_65",
+    "op": "Sign",
+    "avg_cycles": 13711462,
+    "min_cycles": 13706319,
+    "max_cycles": 13802202,
+    "stack_used_bytes": 9024,
+    "correctness": true
+  },
+  {
+    "schema_version": 1,
+    "algo": "ML_DSA_65",
+    "op": "Verify",
+    "avg_cycles": 8695297,
+    "min_cycles": 8689142,
+    "max_cycles": 8765505,
+    "stack_used_bytes": 8640,
+    "correctness": true
+  }
+]

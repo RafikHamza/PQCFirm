@@ -1,0 +1,1 @@
+CAPTURE REQUIRED: record ESP-IDF version reported by Arduino-ESP32/toolchain for the exact build.

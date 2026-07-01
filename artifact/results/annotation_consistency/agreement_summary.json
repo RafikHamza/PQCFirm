@@ -1,0 +1,109 @@
+{
+  "n_items": 200,
+  "n_coders": 4,
+  "coder_columns": [
+    "gemini_label",
+    "gpt55_label",
+    "deepseek_label",
+    "claude_label"
+  ],
+  "all_four_agree": 130,
+  "all_four_agree_rate": 0.65,
+  "at_least_three_agree": 183,
+  "at_least_three_agree_rate": 0.915,
+  "no_3plus_majority": 17,
+  "two_two_ties": 12,
+  "fleiss_kappa": 0.727006232082945,
+  "pairwise": [
+    {
+      "comparison": "gemini_label vs gpt55_label",
+      "n": 200,
+      "agreements": 165,
+      "agreement_rate": 0.825,
+      "expected_agreement": 0.272725,
+      "cohen_kappa": 0.7593757519507751
+    },
+    {
+      "comparison": "gemini_label vs deepseek_label",
+      "n": 200,
+      "agreements": 150,
+      "agreement_rate": 0.75,
+      "expected_agreement": 0.3184,
+      "cohen_kappa": 0.6332159624413145
+    },
+    {
+      "comparison": "gemini_label vs claude_label",
+      "n": 200,
+      "agreements": 166,
+      "agreement_rate": 0.83,
+      "expected_agreement": 0.301875,
+      "cohen_kappa": 0.7564905998209489
+    },
+    {
+      "comparison": "gpt55_label vs deepseek_label",
+      "n": 200,
+      "agreements": 158,
+      "agreement_rate": 0.79,
+      "expected_agreement": 0.27697499999999997,
+      "cohen_kappa": 0.7095536115625325
+    },
+    {
+      "comparison": "gpt55_label vs claude_label",
+      "n": 200,
+      "agreements": 170,
+      "agreement_rate": 0.85,
+      "expected_agreement": 0.265875,
+      "cohen_kappa": 0.7956751234462796
+    },
+    {
+      "comparison": "deepseek_label vs claude_label",
+      "n": 200,
+      "agreements": 159,
+      "agreement_rate": 0.795,
+      "expected_agreement": 0.307525,
+      "cohen_kappa": 0.703960431784541
+    }
+  ],
+  "label_counts": {
+    "gemini_label": {
+      "D9": 99,
+      "D8": 43,
+      "D4": 8,
+      "D6": 6,
+      "D1": 6,
+      "D2": 26,
+      "D5": 7,
+      "D7": 5
+    },
+    "gpt55_label": {
+      "D9": 77,
+      "D8": 47,
+      "D4": 8,
+      "D7": 12,
+      "D1": 4,
+      "D2": 40,
+      "D6": 7,
+      "D5": 5
+    },
+    "deepseek_label": {
+      "D9": 103,
+      "D8": 37,
+      "D4": 6,
+      "D6": 8,
+      "D1": 3,
+      "D2": 29,
+      "D5": 5,
+      "D7": 9
+    },
+    "claude_label": {
+      "D9": 94,
+      "D8": 41,
+      "D4": 9,
+      "D6": 8,
+      "D1": 4,
+      "D2": 30,
+      "D5": 6,
+      "D7": 8
+    }
+  }
+}

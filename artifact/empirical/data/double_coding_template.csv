@@ -1,0 +1,11 @@
+sha,repo,message_first_line,annotator1_label,annotator2_label,adjudicated_label,notes
+78278727,wolfSSL/wolfssl,Merge pull request #10497 from Frauschi/mldsa_rename,,,,fill this file only after real independent double coding
+2db2bedd,wolfSSL/wolfssl,Merge pull request #8027 from SparkiDev/kyber_original_fix,,,,fill this file only after real independent double coding
+f5a04487,open-quantum-safe/liboqs,Ensure that building against liboqs build directory works (#2086),,,,fill this file only after real independent double coding
+9cf61710,open-quantum-safe/liboqs,Dilithium 3.1 update; partially autogenerating docs (#923),,,,fill this file only after real independent double coding
+aeac3a44,open-quantum-safe/liboqs,Pull new HQC implementation from upstream (#1585),,,,fill this file only after real independent double coding
+5b268c08,wolfSSL/wolfssl,Merge pull request #4960 from anhu/stm32_pq_bench,,,,fill this file only after real independent double coding
+074a3dbc,wolfSSL/wolfssl,ML-KEM: derive secret fix,,,,fill this file only after real independent double coding
+fc433b25,wolfSSL/wolfssl,ASM files: generation script refactor output,,,,fill this file only after real independent double coding
+0888bdcd,aws/s2n-tls,Add a readme for the post-quantum crypto directory,,,,fill this file only after real independent double coding
+21484ec7,wolfSSL/wolfssl,linuxkm: add asm support for Kyber.,,,,fill this file only after real independent double coding

@@ -1,0 +1,255 @@
+{
+  "schema_version": "1.0",
+  "mode": "replication",
+  "timestamp_utc": "2026-07-01T07:23:22.850221Z",
+  "command": "run_replication.bat / run_replication.sh -> artifact/verify_all.py",
+  "exit_code": 0,
+  "overall_status": "PASS",
+  "environment": {
+    "python": "3.11.9",
+    "platform": "Windows-10-10.0.26200-SP0",
+    "cwd": "<ARTIFACT_ROOT>"
+  },
+  "key_results": {
+    "taxonomy_commits": 1043,
+    "annotation_consistency": {
+      "items": 200,
+      "coders": 4,
+      "all_four_agree_rate": 0.65,
+      "at_least_three_agree_rate": 0.915,
+      "fleiss_kappa": 0.727006232082945
+    },
+    "esp32_precision": {
+      "true_positives": 67,
+      "findings": 68,
+      "precision": 0.9852941176470589
+    },
+    "mbedtls_raw": {
+      "findings": 1805,
+      "sample_size": 500,
+      "assisted_precision": 0.7059,
+      "note": "LLM-assisted static audit, not human manual audit."
+    },
+    "mbedtls_filtered": {
+      "raw_findings": 1805,
+      "filtered_candidates": 1161,
+      "triage_reduction": 0.3568,
+      "assisted_candidate_yield": 1.0,
+      "note": "Source-filtered assisted triage-yield view, not production recall."
+    },
+    "mutation_testing": {
+      "mutants_total": 40,
+      "mutants_detected": 40,
+      "mutation_detection_score": 1.0,
+      "production_recall_estimate": false
+    },
+    "ground_truth_corpus": {
+      "corpus_type": "curated_seeded_ground_truth",
+      "production_recall_estimate": false,
+      "cases_total": 42,
+      "defective_cases": 35,
+      "clean_negative_cases": 7,
+      "detected_defective_cases": 35,
+      "ground_truth_detection_rate": 1.0,
+      "false_positives_on_clean_cases": 0,
+      "per_rule": {
+        "R01": {
+          "total": 5,
+          "detected": 5,
+          "detection_rate": 1.0
+        },
+        "R02": {
+          "total": 5,
+          "detected": 5,
+          "detection_rate": 1.0
+        },
+        "R03": {
+          "total": 5,
+          "detected": 5,
+          "detection_rate": 1.0
+        },
+        "R04": {
+          "total": 5,
+          "detected": 5,
+          "detection_rate": 1.0
+        },
+        "R05": {
+          "total": 5,
+          "detected": 5,
+          "detection_rate": 1.0
+        },
+        "R06": {
+          "total": 5,
+          "detected": 5,
+          "detection_rate": 1.0
+        },
+        "R07": {
+          "total": 5,
+          "detected": 5,
+          "detection_rate": 1.0
+        }
+      }
+    },
+    "benchmark_validation": {
+      "generated_by": "validate_benchmark_json.py",
+      "results_dir": "D:\\Downloads\\PQCFirm_artifact_FINAL_doublechecked\\artifact\\results",
+      "files_checked": 5,
+      "issue_count": 0,
+      "issues": []
+    },
+    "benchmark_loc_count": {
+      "schema_version": "1.0",
+      "timestamp_utc": "2026-07-01T07:23:08.040049Z",
+      "benchmark_scope": "top-level application benchmark files under artifact/embedded/esp32_pio/src",
+      "excluded_from_loc_claim": [
+        "artifact/embedded/esp32_pio/src/kyber_internal/",
+        "artifact/embedded/esp32_pio/src/dilithium_internal/",
+        "artifact/embedded/mbedtls/",
+        "artifact/embedded/failure_reproduction/"
+      ],
+      "files_counted": 6,
+      "raw_source_lines": 1715,
+      "nonblank_source_lines": 1491,
+      "physical_sloc_no_blank_no_comments": 1389,
+      "files": [
+        {
+          "path": "embedded/esp32_pio/src/aes256ctr.c",
+          "raw_lines": 56,
+          "nonblank_lines": 51,
+          "physical_sloc_no_blank_no_comments": 51
+        },
+        {
+          "path": "embedded/esp32_pio/src/aes256ctr.h",
+          "raw_lines": 20,
+          "nonblank_lines": 15,
+          "physical_sloc_no_blank_no_comments": 15
+        },
+        {
+          "path": "embedded/esp32_pio/src/main.cpp",
+          "raw_lines": 1095,
+          "nonblank_lines": 945,
+          "physical_sloc_no_blank_no_comments": 868
+        },
+        {
+          "path": "embedded/esp32_pio/src/mlk_config_esp32.h",
+          "raw_lines": 23,
+          "nonblank_lines": 17,
+          "physical_sloc_no_blank_no_comments": 7
+        },
+        {
+          "path": "embedded/esp32_pio/src/randombytes_esp32.c",
+          "raw_lines": 50,
+          "nonblank_lines": 37,
+          "physical_sloc_no_blank_no_comments": 34
+        },
+        {
+          "path": "embedded/esp32_pio/src/tiny_sha3.c",
+          "raw_lines": 471,
+          "nonblank_lines": 426,
+          "physical_sloc_no_blank_no_comments": 414
+        }
+      ],
+      "interpretation": "The paper uses raw_source_lines for the packaged application-level ESP32-S3 benchmark size. This is a reproducibility count, not a claim about vendored PQC library LOC or the optional Mbed TLS source tree."
+    },
+    "hardware_failure_logs": {
+      "real_crash_log_available": true,
+      "real_success_log_available": true,
+      "hardware_failure_claim_supported": true,
+      "crash_signature": "Guru Meditation Error",
+      "success_signature": "[FAILURE_REPRO] TEST PASSED"
+    },
+    "paired_trials": {
+      "mode": "hardware_serial_paired_trials",
+      "live_paired_trials_available": true,
+      "paired_trial_count": 100,
+      "completion_status_mismatch_claim_supported": true,
+      "completion_status_mismatches": 0,
+      "source": "hardware_serial",
+      "paired_trials_file": "artifact/results/paired_trials.csv"
+    },
+    "repeatability_n30": {
+      "schema_version": "1.0",
+      "check": "ESP32-S3 N=30 repeatability check over included hardware serial paired trials",
+      "hardware_target": "ESP32-S3",
+      "n_requested": 30,
+      "n_selected": 30,
+      "selection_rule": "First N rows by trial_id among rows with source=hardware_serial in artifact/results/paired_trials.csv.",
+      "source_csv": "artifact/results/paired_trials.csv",
+      "subset_csv": "artifact/results/repeatability_trials_n30.csv",
+      "status": "PASS",
+      "completion_status_mismatches": 0,
+      "classical_success_count": 30,
+      "pqc_success_count": 30,
+      "paired_success_count": 30,
+      "metrics": {
+        "classical_cycles": {
+          "n": 30,
+          "mean": 33919890.2,
+          "std_population": 54677.68667954659,
+          "min": 33803001.0,
+          "max": 34010644.0,
+          "cv_population": 0.0016119653205583367
+        },
+        "pqc_cycles": {
+          "n": 30,
+          "mean": 2768729.5,
+          "std_population": 16056.698537266828,
+          "min": 2762012.0,
+          "max": 2854773.0,
+          "cv_population": 0.005799302003777122
+        },
+        "timing_ratio": {
+          "n": 30,
+          "mean": 0.08162586666666667,
+          "std_population": 0.0005133886593561989,
+          "min": 0.081306,
+          "max": 0.084286,
+          "cv_population": 0.006289533947035566
+        },
+        "classical_stack_bytes": {
+          "n": 30,
+          "mean": 1744.0,
+          "std_population": 0.0,
+          "min": 1744.0,
+          "max": 1744.0,
+          "cv_population": 0.0
+        },
+        "pqc_stack_bytes": {
+          "n": 30,
+          "mean": 18032.0,
+          "std_population": 0.0,
+          "min": 18032.0,
+          "max": 18032.0,
+          "cv_population": 0.0
+        },
+        "stack_ratio": {
+          "n": 30,
+          "mean": 10.33945,
+          "std_population": 0.0,
+          "min": 10.33945,
+          "max": 10.33945,
+          "cv_population": 0.0
+        }
+      },
+      "interpretation_limit": "This is a fixed repeatability check over the included ESP32-S3 serial paired-trial evidence. It is not a new device experiment, not a Raspberry Pi experiment, and not a proof of semantic equivalence between classical and PQC protocols."
+    }
+  },
+  "artifact_files": {
+    "claim_matrix": "artifact/results/claim_matrix.json",
+    "claims_supported": "artifact/CLAIMS_SUPPORTED.md",
+    "raw_mbedtls_status": "artifact/results/mbedtls_audit_status.json",
+    "filtered_mbedtls_summary": "artifact/results/mbedtls_filtered/filtered_summary.json",
+    "failure_status": "artifact/results/failure_reproduction_status.json",
+    "differential_status": "artifact/results/differential_status.json",
+    "repeatability_summary": "artifact/results/repeatability_summary.json",
+    "loc_count": "artifact/results/loc_count.json"
+  },
+  "passes_seen_in_claim_matrix": [],
+  "warnings_seen_in_claim_matrix": [],
+  "notes": [
+    "The Mbed TLS audit is LLM-assisted triage, not a human manual audit.",
+    "The filtered Mbed TLS view measures triage reduction and candidate yield, not recall.",
+    "Hardware reproduction can be refreshed with run_hardware.bat or run_hardware_capture.py.",
+    "The N=30 repeatability check is a fixed subset over included ESP32-S3 hardware serial rows, not a separate device experiment."
+  ]
+}

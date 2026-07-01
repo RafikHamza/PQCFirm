@@ -1,0 +1,10 @@
+# PQCFirm - ICSE 2027 Replication Package
+# Python Dependencies
+
+tree-sitter>=0.23.2
+tree-sitter-c>=0.23.0
+tree-sitter-cpp>=0.23.0
+requests>=2.31.0
+pyserial>=3.5
+esptool>=4.7
+platformio>=6.1.15

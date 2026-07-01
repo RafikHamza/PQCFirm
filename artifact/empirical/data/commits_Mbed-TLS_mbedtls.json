@@ -1,0 +1,46 @@
+[
+  {
+    "repo": "Mbed-TLS/mbedtls",
+    "sha": "c744d99386adda801ea879814e47a08f73a94cc0",
+    "message": "Limit keys to 65528 bits\n\n65528 bits is more than any reasonable key until we start supporting\npost-quantum cryptography.\n\nThis limit is chosen to allow bit-sizes to be stored in 16 bits, with\n65535 left to indicate an invalid value. It's a whole number of bytes,\nwhich facilitates some calculations, in particular allowing a key of\nexactly PSA_CRYPTO_MAX_STORAGE_SIZE to be created but not one bit\nmore.\n\nAs a resource usage limit, this is arguably too large, but that's out\nof scope of the current commit.\n\nTest that key import, generation and derivation reject overly large\nsizes.",
+    "author": "Gilles Peskine",
+    "date": "2019-07-30T17:26:54.000+02:00",
+    "url": "https://github.com/Mbed-TLS/mbedtls/commit/c744d99386adda801ea879814e47a08f73a94cc0",
+    "files_changed": [],
+    "defect_category": "",
+    "notes": ""
+  },
+  {
+    "repo": "Mbed-TLS/mbedtls",
+    "sha": "e0edc8407b7df1467036b9b8706e37e99e6dfc22",
+    "message": "Add mbedtls_ssl_conf_groups to API\n\nmbedtls_ssl_conf_groups allows supported groups for key\nsharing to be configured via their IANA NamedGroup ID.\n\nThis is added in anticipation of PQC and Hybrid key\nsharing algorithms being integrated into Mbed TLS.\n\nmbedtls_ssl_conf_curves is deprecated in favor of\nmbedtls_ssl_conf_groups. handshake_init has been\nmodified to translate and copy curves configured\nvia conf_curves into a heap allocatied array of\nNamedGroup IDs. This allows the refactoring of code\ninteracting with conf_curve related variables (such\nas curve_list) to use NamedGroup IDs while retaining\nthe deprecated API.\n\nSigned-off-by: Brett Warren <brett.warren@arm.com>",
+    "author": "Brett Warren",
+    "date": "2021-08-17T09:53:13.000+01:00",
+    "url": "https://github.com/Mbed-TLS/mbedtls/commit/e0edc8407b7df1467036b9b8706e37e99e6dfc22",
+    "files_changed": [],
+    "defect_category": "",
+    "notes": ""
+  },
+  {
+    "repo": "Mbed-TLS/mbedtls",
+    "sha": "38a5d3564633f1e74aff0124f05d1f8e9895f74b",
+    "message": "PSA PAKE: Add type for representing primitives\n\nIn most of the PAKEs the primitives are prime order groups, but some of\nthem might need the ring structure or just are using completely different\nalgebraic structures (eg. SRP or PQC schemes).\n\nSigned-off-by: Janos Follath <janos.follath@arm.com>",
+    "author": "Janos Follath",
+    "date": "2021-03-21T07:01:53.000Z",
+    "url": "https://github.com/Mbed-TLS/mbedtls/commit/38a5d3564633f1e74aff0124f05d1f8e9895f74b",
+    "files_changed": [],
+    "defect_category": "",
+    "notes": ""
+  },
+  {
+    "repo": "Mbed-TLS/mbedtls",
+    "sha": "a4aa89b16eb655999e45d873563e6712eece1c36",
+    "message": "Fix leakage of projective coordinates in ECC\n\nSee the comments in the code for how an attack would go, and the ChangeLog\nentry for an impact assessment. (For ECDSA, leaking a few bits of the scalar\nover several signatures translates to full private key recovery using a\nlattice attack.)\n\nSigned-off-by: Manuel P\u00e9gouri\u00e9-Gonnard <manuel.pegourie-gonnard@arm.com>",
+    "author": "Manuel P\u00e9gouri\u00e9-Gonnard",
+    "date": "2020-03-25T12:41:29.000+01:00",
+    "url": "https://github.com/Mbed-TLS/mbedtls/commit/a4aa89b16eb655999e45d873563e6712eece1c36",
+    "files_changed": [],
+    "defect_category": "",
+    "notes": ""
+  }
+]

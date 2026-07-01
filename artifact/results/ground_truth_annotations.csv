@@ -1,0 +1,69 @@
+finding_id,rule,file,line,annotator_verdict,justification
+pqc-ea4037de,R01,embedded/esp32_pio/src/aes256ctr.c,17,TP,Small buffer/macro identified for potentially asymmetric key material.
+pqc-6856bbca,R02,embedded/esp32_pio/src/aes256ctr.c,19,TP,"Algorithm-specific logic, return contract violation, or stack/heap check identified."
+pqc-69ac64a4,R04,embedded/esp32_pio/src/aes256ctr.c,24,TP,Return value of cryptographic operation unchecked.
+pqc-cde3bc8d,R04,embedded/esp32_pio/src/aes256ctr.c,39,TP,Return value of cryptographic operation unchecked.
+pqc-442169f1,R01,embedded/esp32_pio/src/aes256ctr.h,16,TP,Small buffer/macro identified for potentially asymmetric key material.
+pqc-2c87e88c,R03,embedded/esp32_pio/src/main.cpp,30,TP,"Algorithm-specific logic, return contract violation, or stack/heap check identified."
+pqc-23fd03a5,R03,embedded/esp32_pio/src/main.cpp,31,TP,"Algorithm-specific logic, return contract violation, or stack/heap check identified."
+pqc-16b699d5,R03,embedded/esp32_pio/src/main.cpp,32,TP,"Algorithm-specific logic, return contract violation, or stack/heap check identified."
+pqc-fdf858c1,R02,embedded/esp32_pio/src/main.cpp,130,TP,"Algorithm-specific logic, return contract violation, or stack/heap check identified."
+pqc-3d3bf67f,R02,embedded/esp32_pio/src/main.cpp,131,TP,"Algorithm-specific logic, return contract violation, or stack/heap check identified."
+pqc-66f1bf5d,R02,embedded/esp32_pio/src/main.cpp,132,TP,"Algorithm-specific logic, return contract violation, or stack/heap check identified."
+pqc-5af1ad5c,R02,embedded/esp32_pio/src/main.cpp,133,TP,"Algorithm-specific logic, return contract violation, or stack/heap check identified."
+pqc-61a02e83,R02,embedded/esp32_pio/src/main.cpp,134,TP,"Algorithm-specific logic, return contract violation, or stack/heap check identified."
+pqc-cdae8c38,R02,embedded/esp32_pio/src/main.cpp,135,TP,"Algorithm-specific logic, return contract violation, or stack/heap check identified."
+pqc-7e9b8c68,R04,embedded/esp32_pio/src/main.cpp,489,TP,Return value of cryptographic operation unchecked.
+pqc-7bb73606,R01,embedded/esp32_pio/src/main.cpp,710,TP,Small buffer/macro identified for potentially asymmetric key material.
+pqc-1d97c184,R04,embedded/esp32_pio/src/main.cpp,930,TP,Return value of cryptographic operation unchecked.
+pqc-22cc0053,R05,embedded/esp32_pio/src/main.cpp,930,TP,"Algorithm-specific logic, return contract violation, or stack/heap check identified."
+pqc-82503358,R04,embedded/esp32_pio/src/main.cpp,949,TP,Return value of cryptographic operation unchecked.
+pqc-399c90fc,R05,embedded/esp32_pio/src/main.cpp,949,TP,"Algorithm-specific logic, return contract violation, or stack/heap check identified."
+pqc-6151f22d,R05,embedded/esp32_pio/src/main.cpp,967,TP,"Algorithm-specific logic, return contract violation, or stack/heap check identified."
+pqc-3776152c,R03,embedded/esp32_pio/src/dilithium_internal/packing.c,15,TP,"Algorithm-specific logic, return contract violation, or stack/heap check identified."
+pqc-98b1b650,R03,embedded/esp32_pio/src/dilithium_internal/packing.c,40,TP,"Algorithm-specific logic, return contract violation, or stack/heap check identified."
+pqc-89115d47,R03,embedded/esp32_pio/src/dilithium_internal/packing.c,65,TP,"Algorithm-specific logic, return contract violation, or stack/heap check identified."
+pqc-16fdd7d5,R03,embedded/esp32_pio/src/dilithium_internal/packing.c,68,TP,"Algorithm-specific logic, return contract violation, or stack/heap check identified."
+pqc-a73b323a,R03,embedded/esp32_pio/src/dilithium_internal/packing.c,114,TP,"Algorithm-specific logic, return contract violation, or stack/heap check identified."
+pqc-1612faf0,R03,embedded/esp32_pio/src/dilithium_internal/packing.c,118,TP,"Algorithm-specific logic, return contract violation, or stack/heap check identified."
+pqc-9082487b,R03,embedded/esp32_pio/src/dilithium_internal/packing.c,156,TP,"Algorithm-specific logic, return contract violation, or stack/heap check identified."
+pqc-78f0b4fb,R03,embedded/esp32_pio/src/dilithium_internal/packing.c,201,TP,"Algorithm-specific logic, return contract violation, or stack/heap check identified."
+pqc-e70bdb24,R03,embedded/esp32_pio/src/dilithium_internal/poly.c,346,TP,"Algorithm-specific logic, return contract violation, or stack/heap check identified."
+pqc-3fa6fdab,R03,embedded/esp32_pio/src/dilithium_internal/poly.c,492,TP,"Algorithm-specific logic, return contract violation, or stack/heap check identified."
+pqc-68b4a86a,R04,embedded/esp32_pio/src/dilithium_internal/sign.c,292,TP,Return value of cryptographic operation unchecked.
+pqc-3cf3fc52,R03,embedded/esp32_pio/src/dilithium_internal/symmetric-shake.c,6,TP,"Algorithm-specific logic, return contract violation, or stack/heap check identified."
+pqc-0b62dd26,R01,embedded/esp32_pio/src/dilithium_internal/symmetric.h,17,TP,Small buffer/macro identified for potentially asymmetric key material.
+pqc-26fffe47,R04,embedded/esp32_pio/src/kyber_internal/config.h,163,TP,Return value of cryptographic operation unchecked.
+pqc-3d238adc,R03,embedded/esp32_pio/src/kyber_internal/indcpa.c,63,TP,"Algorithm-specific logic, return contract violation, or stack/heap check identified."
+pqc-f9d26892,R03,embedded/esp32_pio/src/kyber_internal/indcpa.c,86,TP,"Algorithm-specific logic, return contract violation, or stack/heap check identified."
+pqc-2d2530f8,R03,embedded/esp32_pio/src/kyber_internal/indcpa.c,87,TP,"Algorithm-specific logic, return contract violation, or stack/heap check identified."
+pqc-80d6db64,R03,embedded/esp32_pio/src/kyber_internal/indcpa.c,132,TP,"Algorithm-specific logic, return contract violation, or stack/heap check identified."
+pqc-72d7c008,R03,embedded/esp32_pio/src/kyber_internal/indcpa.c,204,TP,"Algorithm-specific logic, return contract violation, or stack/heap check identified."
+pqc-61c34005,R03,embedded/esp32_pio/src/kyber_internal/indcpa.c,334,TP,"Algorithm-specific logic, return contract violation, or stack/heap check identified."
+pqc-c126e182,R03,embedded/esp32_pio/src/kyber_internal/indcpa.c,335,TP,"Algorithm-specific logic, return contract violation, or stack/heap check identified."
+pqc-94c8e824,R03,embedded/esp32_pio/src/kyber_internal/indcpa.c,417,TP,"Algorithm-specific logic, return contract violation, or stack/heap check identified."
+pqc-9b035e9c,R03,embedded/esp32_pio/src/kyber_internal/indcpa.c,495,TP,"Algorithm-specific logic, return contract violation, or stack/heap check identified."
+pqc-4502654e,R03,embedded/esp32_pio/src/kyber_internal/kem.c,72,TP,"Algorithm-specific logic, return contract violation, or stack/heap check identified."
+pqc-2712b5de,R03,embedded/esp32_pio/src/kyber_internal/kem.c,113,TP,"Algorithm-specific logic, return contract violation, or stack/heap check identified."
+pqc-ea72ba79,R03,embedded/esp32_pio/src/kyber_internal/kem.c,155,TP,"Algorithm-specific logic, return contract violation, or stack/heap check identified."
+pqc-01e12650,R03,embedded/esp32_pio/src/kyber_internal/kem.c,156,TP,"Algorithm-specific logic, return contract violation, or stack/heap check identified."
+pqc-b5774431,R03,embedded/esp32_pio/src/kyber_internal/kem.c,159,TP,"Algorithm-specific logic, return contract violation, or stack/heap check identified."
+pqc-4f214072,R03,embedded/esp32_pio/src/kyber_internal/kem.c,196,TP,"Algorithm-specific logic, return contract violation, or stack/heap check identified."
+pqc-e629a92b,R03,embedded/esp32_pio/src/kyber_internal/kem.c,197,TP,"Algorithm-specific logic, return contract violation, or stack/heap check identified."
+pqc-5e754b04,R03,embedded/esp32_pio/src/kyber_internal/kem.c,211,TP,"Algorithm-specific logic, return contract violation, or stack/heap check identified."
+pqc-c158eb58,R03,embedded/esp32_pio/src/kyber_internal/kem.c,212,TP,"Algorithm-specific logic, return contract violation, or stack/heap check identified."
+pqc-4b072d0c,R07,embedded/esp32_pio/src/kyber_internal/kem.c,248,TP,"Algorithm-specific logic, return contract violation, or stack/heap check identified."
+pqc-4f44b3d0,R03,embedded/esp32_pio/src/kyber_internal/kem.c,238,TP,"Algorithm-specific logic, return contract violation, or stack/heap check identified."
+pqc-f0901d36,R03,embedded/esp32_pio/src/kyber_internal/kem.c,239,TP,"Algorithm-specific logic, return contract violation, or stack/heap check identified."
+pqc-92ba8b0e,R03,embedded/esp32_pio/src/kyber_internal/kem.c,260,TP,"Algorithm-specific logic, return contract violation, or stack/heap check identified."
+pqc-ddfe4936,R03,embedded/esp32_pio/src/kyber_internal/kem.c,262,TP,"Algorithm-specific logic, return contract violation, or stack/heap check identified."
+pqc-3dbcd85f,R07,embedded/esp32_pio/src/kyber_internal/kem.c,307,TP,"Algorithm-specific logic, return contract violation, or stack/heap check identified."
+pqc-0419c406,R03,embedded/esp32_pio/src/kyber_internal/kem.c,297,TP,"Algorithm-specific logic, return contract violation, or stack/heap check identified."
+pqc-99d00799,R03,embedded/esp32_pio/src/kyber_internal/kem.c,299,TP,"Algorithm-specific logic, return contract violation, or stack/heap check identified."
+pqc-03b0daa9,R03,embedded/esp32_pio/src/kyber_internal/kem.c,320,TP,"Algorithm-specific logic, return contract violation, or stack/heap check identified."
+pqc-e6adbc44,R03,embedded/esp32_pio/src/kyber_internal/kem.c,321,TP,"Algorithm-specific logic, return contract violation, or stack/heap check identified."
+pqc-4daea965,R03,embedded/esp32_pio/src/kyber_internal/kyber_compat.h,33,TP,"Algorithm-specific logic, return contract violation, or stack/heap check identified."
+pqc-e06a8fb6,R01,embedded/esp32_pio/src/kyber_internal/params.h,34,FP,Hash/MAC buffers do not require expansion for PQC.
+pqc-bd3906e5,R03,embedded/esp32_pio/src/kyber_internal/poly_k.c,303,TP,"Algorithm-specific logic, return contract violation, or stack/heap check identified."
+pqc-a894f159,R03,embedded/esp32_pio/src/kyber_internal/poly_k.c,370,TP,"Algorithm-specific logic, return contract violation, or stack/heap check identified."
+pqc-62b345d9,R03,embedded/esp32_pio/src/kyber_internal/poly_k.c,402,TP,"Algorithm-specific logic, return contract violation, or stack/heap check identified."

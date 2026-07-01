@@ -1,0 +1,66 @@
+{
+  "schema_version": "1.0",
+  "check": "ESP32-S3 N=30 repeatability check over included hardware serial paired trials",
+  "hardware_target": "ESP32-S3",
+  "n_requested": 30,
+  "n_selected": 30,
+  "selection_rule": "First N rows by trial_id among rows with source=hardware_serial in artifact/results/paired_trials.csv.",
+  "source_csv": "artifact/results/paired_trials.csv",
+  "subset_csv": "artifact/results/repeatability_trials_n30.csv",
+  "status": "PASS",
+  "completion_status_mismatches": 0,
+  "classical_success_count": 30,
+  "pqc_success_count": 30,
+  "paired_success_count": 30,
+  "metrics": {
+    "classical_cycles": {
+      "n": 30,
+      "mean": 33919890.2,
+      "std_population": 54677.68667954659,
+      "min": 33803001.0,
+      "max": 34010644.0,
+      "cv_population": 0.0016119653205583367
+    },
+    "pqc_cycles": {
+      "n": 30,
+      "mean": 2768729.5,
+      "std_population": 16056.698537266828,
+      "min": 2762012.0,
+      "max": 2854773.0,
+      "cv_population": 0.005799302003777122
+    },
+    "timing_ratio": {
+      "n": 30,
+      "mean": 0.08162586666666667,
+      "std_population": 0.0005133886593561989,
+      "min": 0.081306,
+      "max": 0.084286,
+      "cv_population": 0.006289533947035566
+    },
+    "classical_stack_bytes": {
+      "n": 30,
+      "mean": 1744.0,
+      "std_population": 0.0,
+      "min": 1744.0,
+      "max": 1744.0,
+      "cv_population": 0.0
+    },
+    "pqc_stack_bytes": {
+      "n": 30,
+      "mean": 18032.0,
+      "std_population": 0.0,
+      "min": 18032.0,
+      "max": 18032.0,
+      "cv_population": 0.0
+    },
+    "stack_ratio": {
+      "n": 30,
+      "mean": 10.33945,
+      "std_population": 0.0,
+      "min": 10.33945,
+      "max": 10.33945,
+      "cv_population": 0.0
+    }
+  },
+  "interpretation_limit": "This is a fixed repeatability check over the included ESP32-S3 serial paired-trial evidence. It is not a new device experiment, not a Raspberry Pi experiment, and not a proof of semantic equivalence between classical and PQC protocols."
+}

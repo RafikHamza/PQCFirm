@@ -1,0 +1,8 @@
+{
+  "grep_findings_unique": 361,
+  "grep_true_positives": 330,
+  "grep_precision": 91.41,
+  "pqcfirm_findings": 68,
+  "pqcfirm_true_positives": 67,
+  "pqcfirm_precision": 98.53
+}

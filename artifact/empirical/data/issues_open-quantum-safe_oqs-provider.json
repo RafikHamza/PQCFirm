@@ -1,0 +1,1457 @@
+[
+  {
+    "repo": "open-quantum-safe/oqs-provider",
+    "number": 770,
+    "title": "Which of the following outputs represents the actual key material? How should I extract the keys for the traditional algorithm and the PQC algorithm separately in order to test them individually?",
+    "state": "closed",
+    "created_at": "2026-04-15T06:17:14Z",
+    "url": "https://github.com/open-quantum-safe/oqs-provider/issues/770",
+    "labels": [
+      "question"
+    ]
+  },
+  {
+    "repo": "open-quantum-safe/oqs-provider",
+    "number": 755,
+    "title": "The sigx_cmp interface has crashed.",
+    "state": "open",
+    "created_at": "2026-03-06T09:41:01Z",
+    "url": "https://github.com/open-quantum-safe/oqs-provider/issues/755",
+    "labels": [
+      "bug"
+    ]
+  },
+  {
+    "repo": "open-quantum-safe/oqs-provider",
+    "number": 729,
+    "title": "Performance anomaly observed in hybrid KEM operations with oqs-provider",
+    "state": "open",
+    "created_at": "2025-12-13T08:00:52Z",
+    "url": "https://github.com/open-quantum-safe/oqs-provider/issues/729",
+    "labels": [
+      "question"
+    ]
+  },
+  {
+    "repo": "open-quantum-safe/oqs-provider",
+    "number": 727,
+    "title": "Key generation performance of EC-P hybrids drops significantly when OQS_KEM_ENCODERS is set to ON",
+    "state": "open",
+    "created_at": "2025-11-24T07:35:52Z",
+    "url": "https://github.com/open-quantum-safe/oqs-provider/issues/727",
+    "labels": [
+      "help wanted"
+    ]
+  },
+  {
+    "repo": "open-quantum-safe/oqs-provider",
+    "number": 690,
+    "title": "oqs-provider not ready for prime time",
+    "state": "closed",
+    "created_at": "2025-07-28T12:57:37Z",
+    "url": "https://github.com/open-quantum-safe/oqs-provider/issues/690",
+    "labels": [
+      "question"
+    ]
+  },
+  {
+    "repo": "open-quantum-safe/oqs-provider",
+    "number": 684,
+    "title": "Activating OQS-Provider Breaks MySQL",
+    "state": "closed",
+    "created_at": "2025-06-07T07:00:36Z",
+    "url": "https://github.com/open-quantum-safe/oqs-provider/issues/684",
+    "labels": [
+      "bug"
+    ]
+  },
+  {
+    "repo": "open-quantum-safe/oqs-provider",
+    "number": 639,
+    "title": "Server not recognizing public key algorithm.",
+    "state": "closed",
+    "created_at": "2025-02-12T18:17:39Z",
+    "url": "https://github.com/open-quantum-safe/oqs-provider/issues/639",
+    "labels": [
+      "bug"
+    ]
+  },
+  {
+    "repo": "open-quantum-safe/oqs-provider",
+    "number": 623,
+    "title": "Current \"main\" fails to work with OpenSSL-3.5.0-dev",
+    "state": "closed",
+    "created_at": "2025-01-11T23:46:53Z",
+    "url": "https://github.com/open-quantum-safe/oqs-provider/issues/623",
+    "labels": [
+      "bug"
+    ]
+  },
+  {
+    "repo": "open-quantum-safe/oqs-provider",
+    "number": 612,
+    "title": "Add cross-provider interop tests",
+    "state": "open",
+    "created_at": "2025-01-03T10:57:49Z",
+    "url": "https://github.com/open-quantum-safe/oqs-provider/issues/612",
+    "labels": [
+      "help wanted",
+      "futurework"
+    ]
+  },
+  {
+    "repo": "open-quantum-safe/oqs-provider",
+    "number": 579,
+    "title": "key component order in hybrid keys",
+    "state": "closed",
+    "created_at": "2024-11-30T13:56:56Z",
+    "url": "https://github.com/open-quantum-safe/oqs-provider/issues/579",
+    "labels": [
+      "enhancement",
+      "question"
+    ]
+  },
+  {
+    "repo": "open-quantum-safe/oqs-provider",
+    "number": 573,
+    "title": "OpenSSL OQS unable to open mlddsa44 key from pkcs12 that is created with IAIK-PQ (Post-Quantum) library ",
+    "state": "closed",
+    "created_at": "2024-11-22T09:16:27Z",
+    "url": "https://github.com/open-quantum-safe/oqs-provider/issues/573",
+    "labels": [
+      "enhancement"
+    ]
+  },
+  {
+    "repo": "open-quantum-safe/oqs-provider",
+    "number": 572,
+    "title": "content of hybrid public key",
+    "state": "closed",
+    "created_at": "2024-11-19T21:19:09Z",
+    "url": "https://github.com/open-quantum-safe/oqs-provider/issues/572",
+    "labels": [
+      "question"
+    ]
+  },
+  {
+    "repo": "open-quantum-safe/oqs-provider",
+    "number": 562,
+    "title": "i2d_PublicKey() fails with -1 for DILITHIUM2 key while using OQS provider with OpenSSL 3.2.1",
+    "state": "closed",
+    "created_at": "2024-11-03T19:42:24Z",
+    "url": "https://github.com/open-quantum-safe/oqs-provider/issues/562",
+    "labels": [
+      "enhancement",
+      "help wanted"
+    ]
+  },
+  {
+    "repo": "open-quantum-safe/oqs-provider",
+    "number": 560,
+    "title": "Multiple names for an algorithm",
+    "state": "open",
+    "created_at": "2024-10-31T08:08:44Z",
+    "url": "https://github.com/open-quantum-safe/oqs-provider/issues/560",
+    "labels": [
+      "enhancement",
+      "good first issue"
+    ]
+  },
+  {
+    "repo": "open-quantum-safe/oqs-provider",
+    "number": 536,
+    "title": "Issue with Loading oqsprovider.so on Android using OSSL_PROVIDER_load",
+    "state": "closed",
+    "created_at": "2024-10-08T19:06:34Z",
+    "url": "https://github.com/open-quantum-safe/oqs-provider/issues/536",
+    "labels": [
+      "question"
+    ]
+  },
+  {
+    "repo": "open-quantum-safe/oqs-provider",
+    "number": 509,
+    "title": "How can we get the part of the elliptic curve from the PKEY and use it as the public key of a digital certificat",
+    "state": "closed",
+    "created_at": "2024-09-04T02:40:23Z",
+    "url": "https://github.com/open-quantum-safe/oqs-provider/issues/509",
+    "labels": [
+      "enhancement",
+      "question"
+    ]
+  },
+  {
+    "repo": "open-quantum-safe/oqs-provider",
+    "number": 503,
+    "title": "Implement new ML-KEM hybrid key exchange in TLS",
+    "state": "closed",
+    "created_at": "2024-08-26T17:32:17Z",
+    "url": "https://github.com/open-quantum-safe/oqs-provider/issues/503",
+    "labels": [
+      "enhancement"
+    ]
+  },
+  {
+    "repo": "open-quantum-safe/oqs-provider",
+    "number": 494,
+    "title": "Unknown certificate type",
+    "state": "closed",
+    "created_at": "2024-08-24T09:04:53Z",
+    "url": "https://github.com/open-quantum-safe/oqs-provider/issues/494",
+    "labels": [
+      "question"
+    ]
+  },
+  {
+    "repo": "open-quantum-safe/oqs-provider",
+    "number": 492,
+    "title": "Cannot use dilithium certificates with s_server",
+    "state": "closed",
+    "created_at": "2024-08-23T13:38:04Z",
+    "url": "https://github.com/open-quantum-safe/oqs-provider/issues/492",
+    "labels": [
+      "question"
+    ]
+  },
+  {
+    "repo": "open-quantum-safe/oqs-provider",
+    "number": 485,
+    "title": "Document & test the new/3.4.0 encap/decap feature",
+    "state": "open",
+    "created_at": "2024-08-19T11:04:02Z",
+    "url": "https://github.com/open-quantum-safe/oqs-provider/issues/485",
+    "labels": [
+      "good first issue"
+    ]
+  },
+  {
+    "repo": "open-quantum-safe/oqs-provider",
+    "number": 481,
+    "title": "Handshake Failures with Post-Quantum Certificates on SCTP & DTLS 1.2",
+    "state": "closed",
+    "created_at": "2024-08-14T20:48:12Z",
+    "url": "https://github.com/open-quantum-safe/oqs-provider/issues/481",
+    "labels": [
+      "question"
+    ]
+  },
+  {
+    "repo": "open-quantum-safe/oqs-provider",
+    "number": 453,
+    "title": "Example of adding more hybrid algorithms to generate.yaml",
+    "state": "closed",
+    "created_at": "2024-07-23T16:29:47Z",
+    "url": "https://github.com/open-quantum-safe/oqs-provider/issues/453",
+    "labels": []
+  },
+  {
+    "repo": "open-quantum-safe/oqs-provider",
+    "number": 399,
+    "title": "Too many advertised sig algs cause TLS server hang-up",
+    "state": "closed",
+    "created_at": "2024-04-18T00:00:07Z",
+    "url": "https://github.com/open-quantum-safe/oqs-provider/issues/399",
+    "labels": [
+      "bug"
+    ]
+  },
+  {
+    "repo": "open-quantum-safe/oqs-provider",
+    "number": 395,
+    "title": "Linux x64 binary incorrect",
+    "state": "closed",
+    "created_at": "2024-04-12T09:14:08Z",
+    "url": "https://github.com/open-quantum-safe/oqs-provider/issues/395",
+    "labels": [
+      "bug"
+    ]
+  },
+  {
+    "repo": "open-quantum-safe/oqs-provider",
+    "number": 372,
+    "title": "How to separate the post-quantum algorithmic key and the classical key in the generated pkey",
+    "state": "closed",
+    "created_at": "2024-03-14T04:01:25Z",
+    "url": "https://github.com/open-quantum-safe/oqs-provider/issues/372",
+    "labels": [
+      "enhancement",
+      "help wanted"
+    ]
+  },
+  {
+    "repo": "open-quantum-safe/oqs-provider",
+    "number": 370,
+    "title": "tlstest_helpers.c can\u2018t recognize pem files signed by the post-quantum algorithm",
+    "state": "closed",
+    "created_at": "2024-03-11T00:53:01Z",
+    "url": "https://github.com/open-quantum-safe/oqs-provider/issues/370",
+    "labels": [
+      "bug"
+    ]
+  },
+  {
+    "repo": "open-quantum-safe/oqs-provider",
+    "number": 358,
+    "title": "oqs_tlssig fails against OpenSSL 3.2.1",
+    "state": "closed",
+    "created_at": "2024-02-29T13:00:51Z",
+    "url": "https://github.com/open-quantum-safe/oqs-provider/issues/358",
+    "labels": [
+      "bug"
+    ]
+  },
+  {
+    "repo": "open-quantum-safe/oqs-provider",
+    "number": 251,
+    "title": "Using PKCS#7 OpenSSL API",
+    "state": "closed",
+    "created_at": "2023-09-08T14:40:38Z",
+    "url": "https://github.com/open-quantum-safe/oqs-provider/issues/251",
+    "labels": [
+      "upstream"
+    ]
+  },
+  {
+    "repo": "open-quantum-safe/oqs-provider",
+    "number": 247,
+    "title": "Usage of oqsprovider with OpenSSL 3.0.2 and nginx 1.18.0 on Ubuntu 22.04",
+    "state": "closed",
+    "created_at": "2023-09-05T22:38:11Z",
+    "url": "https://github.com/open-quantum-safe/oqs-provider/issues/247",
+    "labels": []
+  },
+  {
+    "repo": "open-quantum-safe/oqs-provider",
+    "number": 231,
+    "title": "No QSC TLS signature support",
+    "state": "closed",
+    "created_at": "2023-08-11T13:51:04Z",
+    "url": "https://github.com/open-quantum-safe/oqs-provider/issues/231",
+    "labels": []
+  },
+  {
+    "repo": "open-quantum-safe/oqs-provider",
+    "number": 229,
+    "title": "Compilation ERR: Missing `/include` directory on Arch-based distros",
+    "state": "closed",
+    "created_at": "2023-08-08T13:10:33Z",
+    "url": "https://github.com/open-quantum-safe/oqs-provider/issues/229",
+    "labels": []
+  },
+  {
+    "repo": "open-quantum-safe/oqs-provider",
+    "number": 218,
+    "title": "Provider signing with CMS silently fails ... I thought the change was upstreamed in OpenSSL 3.2-dev?",
+    "state": "closed",
+    "created_at": "2023-07-18T21:05:37Z",
+    "url": "https://github.com/open-quantum-safe/oqs-provider/issues/218",
+    "labels": []
+  },
+  {
+    "repo": "open-quantum-safe/oqs-provider",
+    "number": 202,
+    "title": "Change build (back) to \"MODULE\"",
+    "state": "closed",
+    "created_at": "2023-07-01T04:53:26Z",
+    "url": "https://github.com/open-quantum-safe/oqs-provider/issues/202",
+    "labels": []
+  },
+  {
+    "repo": "open-quantum-safe/oqs-provider",
+    "number": 194,
+    "title": "Implement KEM en-/decoders",
+    "state": "closed",
+    "created_at": "2023-06-22T12:06:33Z",
+    "url": "https://github.com/open-quantum-safe/oqs-provider/issues/194",
+    "labels": [
+      "enhancement"
+    ]
+  },
+  {
+    "repo": "open-quantum-safe/oqs-provider",
+    "number": 193,
+    "title": "Groups configuration is silently ignored for TLS versions prior to 1.3",
+    "state": "closed",
+    "created_at": "2023-06-21T09:46:25Z",
+    "url": "https://github.com/open-quantum-safe/oqs-provider/issues/193",
+    "labels": []
+  },
+  {
+    "repo": "open-quantum-safe/oqs-provider",
+    "number": 171,
+    "title": "MacOS: fails to find liboqs",
+    "state": "closed",
+    "created_at": "2023-05-24T15:51:30Z",
+    "url": "https://github.com/open-quantum-safe/oqs-provider/issues/171",
+    "labels": []
+  },
+  {
+    "repo": "open-quantum-safe/oqs-provider",
+    "number": 155,
+    "title": "Improve (heap) memory consumption",
+    "state": "open",
+    "created_at": "2023-05-06T04:28:06Z",
+    "url": "https://github.com/open-quantum-safe/oqs-provider/issues/155",
+    "labels": [
+      "bug",
+      "enhancement"
+    ]
+  },
+  {
+    "repo": "open-quantum-safe/oqs-provider",
+    "number": 144,
+    "title": "Improve test guards for downlevel OpenSSL versions",
+    "state": "closed",
+    "created_at": "2023-04-26T18:35:40Z",
+    "url": "https://github.com/open-quantum-safe/oqs-provider/issues/144",
+    "labels": []
+  },
+  {
+    "repo": "open-quantum-safe/oqs-provider",
+    "number": 115,
+    "title": "Enable correct operation of openssl ca",
+    "state": "closed",
+    "created_at": "2023-02-16T06:19:56Z",
+    "url": "https://github.com/open-quantum-safe/oqs-provider/issues/115",
+    "labels": []
+  },
+  {
+    "repo": "open-quantum-safe/oqs-provider",
+    "number": 47,
+    "title": "Windows support",
+    "state": "closed",
+    "created_at": "2022-01-12T06:14:10Z",
+    "url": "https://github.com/open-quantum-safe/oqs-provider/issues/47",
+    "labels": []
+  },
+  {
+    "repo": "open-quantum-safe/oqs-provider",
+    "number": 19,
+    "title": "Information on extending openssl 1",
+    "state": "closed",
+    "created_at": "2021-05-11T14:01:50Z",
+    "url": "https://github.com/open-quantum-safe/oqs-provider/issues/19",
+    "labels": []
+  },
+  {
+    "repo": "open-quantum-safe/oqs-provider",
+    "number": 759,
+    "title": "Cannot generate a key using kyber512 algorithm",
+    "state": "closed",
+    "created_at": "2026-03-16T23:16:49Z",
+    "url": "https://github.com/open-quantum-safe/oqs-provider/issues/759",
+    "labels": [
+      "question"
+    ]
+  },
+  {
+    "repo": "open-quantum-safe/oqs-provider",
+    "number": 627,
+    "title": "Set the KEM Kyber through \"groups\" fails",
+    "state": "closed",
+    "created_at": "2025-01-22T03:12:39Z",
+    "url": "https://github.com/open-quantum-safe/oqs-provider/issues/627",
+    "labels": [
+      "question"
+    ]
+  },
+  {
+    "repo": "open-quantum-safe/oqs-provider",
+    "number": 613,
+    "title": "ML-KEM private keys not compatible with draft-ietf-lamps-kyber-certificates-06 (seed as private key)",
+    "state": "open",
+    "created_at": "2025-01-03T14:49:06Z",
+    "url": "https://github.com/open-quantum-safe/oqs-provider/issues/613",
+    "labels": [
+      "enhancement"
+    ]
+  },
+  {
+    "repo": "open-quantum-safe/oqs-provider",
+    "number": 589,
+    "title": "Q: How to generate ML-KEM and ML-DSA key pairs?",
+    "state": "closed",
+    "created_at": "2024-12-10T16:39:59Z",
+    "url": "https://github.com/open-quantum-safe/oqs-provider/issues/589",
+    "labels": []
+  },
+  {
+    "repo": "open-quantum-safe/oqs-provider",
+    "number": 574,
+    "title": "Extract tmp ciphertext from TLS (Kem) handshake",
+    "state": "closed",
+    "created_at": "2024-11-22T11:49:48Z",
+    "url": "https://github.com/open-quantum-safe/oqs-provider/issues/574",
+    "labels": [
+      "question"
+    ]
+  },
+  {
+    "repo": "open-quantum-safe/oqs-provider",
+    "number": 566,
+    "title": "Build oqs-provider with only kyber tls key exchange functionality",
+    "state": "closed",
+    "created_at": "2024-11-08T10:44:50Z",
+    "url": "https://github.com/open-quantum-safe/oqs-provider/issues/566",
+    "labels": [
+      "help wanted"
+    ]
+  },
+  {
+    "repo": "open-quantum-safe/oqs-provider",
+    "number": 564,
+    "title": "PQ Key generation with kem-algorithms",
+    "state": "closed",
+    "created_at": "2024-11-05T14:41:50Z",
+    "url": "https://github.com/open-quantum-safe/oqs-provider/issues/564",
+    "labels": [
+      "question"
+    ]
+  },
+  {
+    "repo": "open-quantum-safe/oqs-provider",
+    "number": 561,
+    "title": "Re-assign all code points",
+    "state": "open",
+    "created_at": "2024-11-03T07:05:35Z",
+    "url": "https://github.com/open-quantum-safe/oqs-provider/issues/561",
+    "labels": [
+      "help wanted"
+    ]
+  },
+  {
+    "repo": "open-quantum-safe/oqs-provider",
+    "number": 553,
+    "title": "Error handling in TLS is incorrect or missing",
+    "state": "open",
+    "created_at": "2024-10-22T17:05:07Z",
+    "url": "https://github.com/open-quantum-safe/oqs-provider/issues/553",
+    "labels": [
+      "bug"
+    ]
+  },
+  {
+    "repo": "open-quantum-safe/oqs-provider",
+    "number": 503,
+    "title": "Implement new ML-KEM hybrid key exchange in TLS",
+    "state": "closed",
+    "created_at": "2024-08-26T17:32:17Z",
+    "url": "https://github.com/open-quantum-safe/oqs-provider/issues/503",
+    "labels": [
+      "enhancement"
+    ]
+  },
+  {
+    "repo": "open-quantum-safe/oqs-provider",
+    "number": 494,
+    "title": "Unknown certificate type",
+    "state": "closed",
+    "created_at": "2024-08-24T09:04:53Z",
+    "url": "https://github.com/open-quantum-safe/oqs-provider/issues/494",
+    "labels": [
+      "question"
+    ]
+  },
+  {
+    "repo": "open-quantum-safe/oqs-provider",
+    "number": 482,
+    "title": "Windows: Build fails when using OQS_MINIMAL_BUILD",
+    "state": "closed",
+    "created_at": "2024-08-15T13:33:36Z",
+    "url": "https://github.com/open-quantum-safe/oqs-provider/issues/482",
+    "labels": [
+      "bug",
+      "help wanted"
+    ]
+  },
+  {
+    "repo": "open-quantum-safe/oqs-provider",
+    "number": 459,
+    "title": "OQS Provider Falis with \"-DUSE_ENCODING_LIB=ON\" ",
+    "state": "closed",
+    "created_at": "2024-08-02T08:38:26Z",
+    "url": "https://github.com/open-quantum-safe/oqs-provider/issues/459",
+    "labels": [
+      "question"
+    ]
+  },
+  {
+    "repo": "open-quantum-safe/oqs-provider",
+    "number": 450,
+    "title": "Generate a Kyber Certificate",
+    "state": "closed",
+    "created_at": "2024-07-15T07:18:17Z",
+    "url": "https://github.com/open-quantum-safe/oqs-provider/issues/450",
+    "labels": [
+      "question"
+    ]
+  },
+  {
+    "repo": "open-quantum-safe/oqs-provider",
+    "number": 425,
+    "title": "Dilithium cert is not recognized",
+    "state": "closed",
+    "created_at": "2024-06-06T14:53:19Z",
+    "url": "https://github.com/open-quantum-safe/oqs-provider/issues/425",
+    "labels": [
+      "question"
+    ]
+  },
+  {
+    "repo": "open-quantum-safe/oqs-provider",
+    "number": 399,
+    "title": "Too many advertised sig algs cause TLS server hang-up",
+    "state": "closed",
+    "created_at": "2024-04-18T00:00:07Z",
+    "url": "https://github.com/open-quantum-safe/oqs-provider/issues/399",
+    "labels": [
+      "bug"
+    ]
+  },
+  {
+    "repo": "open-quantum-safe/oqs-provider",
+    "number": 351,
+    "title": "Document & curate (O)IDs",
+    "state": "closed",
+    "created_at": "2024-02-22T07:17:55Z",
+    "url": "https://github.com/open-quantum-safe/oqs-provider/issues/351",
+    "labels": [
+      "help wanted"
+    ]
+  },
+  {
+    "repo": "open-quantum-safe/oqs-provider",
+    "number": 340,
+    "title": "on replacing a pqc algorithm with a custom implementation",
+    "state": "closed",
+    "created_at": "2024-01-22T10:52:22Z",
+    "url": "https://github.com/open-quantum-safe/oqs-provider/issues/340",
+    "labels": [
+      "question"
+    ]
+  },
+  {
+    "repo": "open-quantum-safe/oqs-provider",
+    "number": 320,
+    "title": "How to integrate  a new algorithm in openssl-OQS-OpenSSL_1_1_1_stable",
+    "state": "closed",
+    "created_at": "2023-12-20T10:08:50Z",
+    "url": "https://github.com/open-quantum-safe/oqs-provider/issues/320",
+    "labels": [
+      "question"
+    ]
+  },
+  {
+    "repo": "open-quantum-safe/oqs-provider",
+    "number": 261,
+    "title": "liboqs \"standard\" branch: YML format breakage",
+    "state": "closed",
+    "created_at": "2023-09-21T16:30:54Z",
+    "url": "https://github.com/open-quantum-safe/oqs-provider/issues/261",
+    "labels": []
+  },
+  {
+    "repo": "open-quantum-safe/oqs-provider",
+    "number": 247,
+    "title": "Usage of oqsprovider with OpenSSL 3.0.2 and nginx 1.18.0 on Ubuntu 22.04",
+    "state": "closed",
+    "created_at": "2023-09-05T22:38:11Z",
+    "url": "https://github.com/open-quantum-safe/oqs-provider/issues/247",
+    "labels": []
+  },
+  {
+    "repo": "open-quantum-safe/oqs-provider",
+    "number": 236,
+    "title": "Issues building oqsprovider statically",
+    "state": "closed",
+    "created_at": "2023-08-25T14:39:25Z",
+    "url": "https://github.com/open-quantum-safe/oqs-provider/issues/236",
+    "labels": []
+  },
+  {
+    "repo": "open-quantum-safe/oqs-provider",
+    "number": 229,
+    "title": "Compilation ERR: Missing `/include` directory on Arch-based distros",
+    "state": "closed",
+    "created_at": "2023-08-08T13:10:33Z",
+    "url": "https://github.com/open-quantum-safe/oqs-provider/issues/229",
+    "labels": []
+  },
+  {
+    "repo": "open-quantum-safe/oqs-provider",
+    "number": 203,
+    "title": "Investigate algorithm set supported on different platforms",
+    "state": "closed",
+    "created_at": "2023-07-03T05:55:33Z",
+    "url": "https://github.com/open-quantum-safe/oqs-provider/issues/203",
+    "labels": []
+  },
+  {
+    "repo": "open-quantum-safe/oqs-provider",
+    "number": 194,
+    "title": "Implement KEM en-/decoders",
+    "state": "closed",
+    "created_at": "2023-06-22T12:06:33Z",
+    "url": "https://github.com/open-quantum-safe/oqs-provider/issues/194",
+    "labels": [
+      "enhancement"
+    ]
+  },
+  {
+    "repo": "open-quantum-safe/oqs-provider",
+    "number": 154,
+    "title": "QSC encoder library build loses cross-compilation settings",
+    "state": "closed",
+    "created_at": "2023-05-02T19:33:00Z",
+    "url": "https://github.com/open-quantum-safe/oqs-provider/issues/154",
+    "labels": [
+      "futurework"
+    ]
+  },
+  {
+    "repo": "open-quantum-safe/oqs-provider",
+    "number": 147,
+    "title": "Cannot benchmark with \"openssl speed\"?",
+    "state": "closed",
+    "created_at": "2023-04-28T14:26:10Z",
+    "url": "https://github.com/open-quantum-safe/oqs-provider/issues/147",
+    "labels": []
+  },
+  {
+    "repo": "open-quantum-safe/oqs-provider",
+    "number": 89,
+    "title": "Abstraction for ASN.1 encoding subjectPublicKey and privateKey",
+    "state": "closed",
+    "created_at": "2022-11-09T14:08:36Z",
+    "url": "https://github.com/open-quantum-safe/oqs-provider/issues/89",
+    "labels": []
+  },
+  {
+    "repo": "open-quantum-safe/oqs-provider",
+    "number": 27,
+    "title": "Remove default algs, BIKEr2; add BIKEr3",
+    "state": "closed",
+    "created_at": "2021-07-08T07:11:38Z",
+    "url": "https://github.com/open-quantum-safe/oqs-provider/issues/27",
+    "labels": []
+  },
+  {
+    "repo": "open-quantum-safe/oqs-provider",
+    "number": 23,
+    "title": "2 hybrid KEMs failing",
+    "state": "closed",
+    "created_at": "2021-06-03T13:51:56Z",
+    "url": "https://github.com/open-quantum-safe/oqs-provider/issues/23",
+    "labels": []
+  },
+  {
+    "repo": "open-quantum-safe/oqs-provider",
+    "number": 770,
+    "title": "Which of the following outputs represents the actual key material? How should I extract the keys for the traditional algorithm and the PQC algorithm separately in order to test them individually?",
+    "state": "closed",
+    "created_at": "2026-04-15T06:17:14Z",
+    "url": "https://github.com/open-quantum-safe/oqs-provider/issues/770",
+    "labels": [
+      "question"
+    ]
+  },
+  {
+    "repo": "open-quantum-safe/oqs-provider",
+    "number": 761,
+    "title": "TLS startup failed.",
+    "state": "closed",
+    "created_at": "2026-03-18T06:17:41Z",
+    "url": "https://github.com/open-quantum-safe/oqs-provider/issues/761",
+    "labels": [
+      "question"
+    ]
+  },
+  {
+    "repo": "open-quantum-safe/oqs-provider",
+    "number": 756,
+    "title": "Implement PQC algorithm inside the Openssl core libraray",
+    "state": "closed",
+    "created_at": "2026-03-10T03:21:32Z",
+    "url": "https://github.com/open-quantum-safe/oqs-provider/issues/756",
+    "labels": [
+      "question"
+    ]
+  },
+  {
+    "repo": "open-quantum-safe/oqs-provider",
+    "number": 723,
+    "title": "Enforce the use of context strings only for PQC algorithms that actually support it?",
+    "state": "closed",
+    "created_at": "2025-11-21T23:59:47Z",
+    "url": "https://github.com/open-quantum-safe/oqs-provider/issues/723",
+    "labels": [
+      "question"
+    ]
+  },
+  {
+    "repo": "open-quantum-safe/oqs-provider",
+    "number": 719,
+    "title": "Performance degradation, no_store/no_cache flag set",
+    "state": "closed",
+    "created_at": "2025-11-07T16:22:06Z",
+    "url": "https://github.com/open-quantum-safe/oqs-provider/issues/719",
+    "labels": []
+  },
+  {
+    "repo": "open-quantum-safe/oqs-provider",
+    "number": 684,
+    "title": "Activating OQS-Provider Breaks MySQL",
+    "state": "closed",
+    "created_at": "2025-06-07T07:00:36Z",
+    "url": "https://github.com/open-quantum-safe/oqs-provider/issues/684",
+    "labels": [
+      "bug"
+    ]
+  },
+  {
+    "repo": "open-quantum-safe/oqs-provider",
+    "number": 682,
+    "title": "Lack of dilithiumX algorithm",
+    "state": "closed",
+    "created_at": "2025-05-21T03:56:15Z",
+    "url": "https://github.com/open-quantum-safe/oqs-provider/issues/682",
+    "labels": [
+      "question"
+    ]
+  },
+  {
+    "repo": "open-quantum-safe/oqs-provider",
+    "number": 675,
+    "title": "Use of a 'seed' parameter for deterministic key pair generation",
+    "state": "open",
+    "created_at": "2025-05-06T10:18:54Z",
+    "url": "https://github.com/open-quantum-safe/oqs-provider/issues/675",
+    "labels": [
+      "enhancement"
+    ]
+  },
+  {
+    "repo": "open-quantum-safe/oqs-provider",
+    "number": 643,
+    "title": "MLDSA CMS signatures are not created using pure-mode",
+    "state": "closed",
+    "created_at": "2025-02-19T09:56:49Z",
+    "url": "https://github.com/open-quantum-safe/oqs-provider/issues/643",
+    "labels": [
+      "bug"
+    ]
+  },
+  {
+    "repo": "open-quantum-safe/oqs-provider",
+    "number": 638,
+    "title": "Combine two keys into a hybrid key",
+    "state": "closed",
+    "created_at": "2025-02-05T16:40:34Z",
+    "url": "https://github.com/open-quantum-safe/oqs-provider/issues/638",
+    "labels": [
+      "question"
+    ]
+  },
+  {
+    "repo": "open-quantum-safe/oqs-provider",
+    "number": 637,
+    "title": "Conversion of decapsulation ML-KEM to encapsulation key fails with NOPUBKEY_IN_PRIVKEY",
+    "state": "open",
+    "created_at": "2025-02-05T13:01:10Z",
+    "url": "https://github.com/open-quantum-safe/oqs-provider/issues/637",
+    "labels": [
+      "bug"
+    ]
+  },
+  {
+    "repo": "open-quantum-safe/oqs-provider",
+    "number": 631,
+    "title": "Use other providers' functionality",
+    "state": "open",
+    "created_at": "2025-01-27T05:59:27Z",
+    "url": "https://github.com/open-quantum-safe/oqs-provider/issues/631",
+    "labels": [
+      "help wanted",
+      "futurework"
+    ]
+  },
+  {
+    "repo": "open-quantum-safe/oqs-provider",
+    "number": 623,
+    "title": "Current \"main\" fails to work with OpenSSL-3.5.0-dev",
+    "state": "closed",
+    "created_at": "2025-01-11T23:46:53Z",
+    "url": "https://github.com/open-quantum-safe/oqs-provider/issues/623",
+    "labels": [
+      "bug"
+    ]
+  },
+  {
+    "repo": "open-quantum-safe/oqs-provider",
+    "number": 622,
+    "title": "Build failure on FreeBSD 15 arm64",
+    "state": "closed",
+    "created_at": "2025-01-11T10:20:41Z",
+    "url": "https://github.com/open-quantum-safe/oqs-provider/issues/622",
+    "labels": [
+      "bug"
+    ]
+  },
+  {
+    "repo": "open-quantum-safe/oqs-provider",
+    "number": 617,
+    "title": "Add naming aliases for standardized algorithms and groups",
+    "state": "open",
+    "created_at": "2025-01-07T08:03:15Z",
+    "url": "https://github.com/open-quantum-safe/oqs-provider/issues/617",
+    "labels": [
+      "enhancement",
+      "help wanted",
+      "futurework"
+    ]
+  },
+  {
+    "repo": "open-quantum-safe/oqs-provider",
+    "number": 574,
+    "title": "Extract tmp ciphertext from TLS (Kem) handshake",
+    "state": "closed",
+    "created_at": "2024-11-22T11:49:48Z",
+    "url": "https://github.com/open-quantum-safe/oqs-provider/issues/574",
+    "labels": [
+      "question"
+    ]
+  },
+  {
+    "repo": "open-quantum-safe/oqs-provider",
+    "number": 553,
+    "title": "Error handling in TLS is incorrect or missing",
+    "state": "open",
+    "created_at": "2024-10-22T17:05:07Z",
+    "url": "https://github.com/open-quantum-safe/oqs-provider/issues/553",
+    "labels": [
+      "bug"
+    ]
+  },
+  {
+    "repo": "open-quantum-safe/oqs-provider",
+    "number": 539,
+    "title": "Issue with Loading oqsprovider.so on Android using OSSL_PROVIDER_load",
+    "state": "closed",
+    "created_at": "2024-10-10T16:58:29Z",
+    "url": "https://github.com/open-quantum-safe/oqs-provider/issues/539",
+    "labels": [
+      "bug"
+    ]
+  },
+  {
+    "repo": "open-quantum-safe/oqs-provider",
+    "number": 482,
+    "title": "Windows: Build fails when using OQS_MINIMAL_BUILD",
+    "state": "closed",
+    "created_at": "2024-08-15T13:33:36Z",
+    "url": "https://github.com/open-quantum-safe/oqs-provider/issues/482",
+    "labels": [
+      "bug",
+      "help wanted"
+    ]
+  },
+  {
+    "repo": "open-quantum-safe/oqs-provider",
+    "number": 481,
+    "title": "Handshake Failures with Post-Quantum Certificates on SCTP & DTLS 1.2",
+    "state": "closed",
+    "created_at": "2024-08-14T20:48:12Z",
+    "url": "https://github.com/open-quantum-safe/oqs-provider/issues/481",
+    "labels": [
+      "question"
+    ]
+  },
+  {
+    "repo": "open-quantum-safe/oqs-provider",
+    "number": 446,
+    "title": "Interoperablity issue. - Unable to load Dilithium2 Public key in OpenSSL with OQSP Provider created by thirdparty CA",
+    "state": "closed",
+    "created_at": "2024-06-28T14:56:49Z",
+    "url": "https://github.com/open-quantum-safe/oqs-provider/issues/446",
+    "labels": [
+      "bug"
+    ]
+  },
+  {
+    "repo": "open-quantum-safe/oqs-provider",
+    "number": 443,
+    "title": "Not able to read dilithium private key using PEM_read_bio_PrivateKey routine ",
+    "state": "closed",
+    "created_at": "2024-06-26T17:53:27Z",
+    "url": "https://github.com/open-quantum-safe/oqs-provider/issues/443",
+    "labels": [
+      "question"
+    ]
+  },
+  {
+    "repo": "open-quantum-safe/oqs-provider",
+    "number": 438,
+    "title": "Not able to decrypt certificate private key (generated using PQC algorithm)  ",
+    "state": "closed",
+    "created_at": "2024-06-19T10:27:45Z",
+    "url": "https://github.com/open-quantum-safe/oqs-provider/issues/438",
+    "labels": [
+      "question"
+    ]
+  },
+  {
+    "repo": "open-quantum-safe/oqs-provider",
+    "number": 399,
+    "title": "Too many advertised sig algs cause TLS server hang-up",
+    "state": "closed",
+    "created_at": "2024-04-18T00:00:07Z",
+    "url": "https://github.com/open-quantum-safe/oqs-provider/issues/399",
+    "labels": [
+      "bug"
+    ]
+  },
+  {
+    "repo": "open-quantum-safe/oqs-provider",
+    "number": 351,
+    "title": "Document & curate (O)IDs",
+    "state": "closed",
+    "created_at": "2024-02-22T07:17:55Z",
+    "url": "https://github.com/open-quantum-safe/oqs-provider/issues/351",
+    "labels": [
+      "help wanted"
+    ]
+  },
+  {
+    "repo": "open-quantum-safe/oqs-provider",
+    "number": 340,
+    "title": "on replacing a pqc algorithm with a custom implementation",
+    "state": "closed",
+    "created_at": "2024-01-22T10:52:22Z",
+    "url": "https://github.com/open-quantum-safe/oqs-provider/issues/340",
+    "labels": [
+      "question"
+    ]
+  },
+  {
+    "repo": "open-quantum-safe/oqs-provider",
+    "number": 331,
+    "title": "Supporting Stateful Signatures",
+    "state": "open",
+    "created_at": "2024-01-10T00:43:02Z",
+    "url": "https://github.com/open-quantum-safe/oqs-provider/issues/331",
+    "labels": [
+      "enhancement",
+      "help wanted"
+    ]
+  },
+  {
+    "repo": "open-quantum-safe/oqs-provider",
+    "number": 320,
+    "title": "How to integrate  a new algorithm in openssl-OQS-OpenSSL_1_1_1_stable",
+    "state": "closed",
+    "created_at": "2023-12-20T10:08:50Z",
+    "url": "https://github.com/open-quantum-safe/oqs-provider/issues/320",
+    "labels": [
+      "question"
+    ]
+  },
+  {
+    "repo": "open-quantum-safe/oqs-provider",
+    "number": 270,
+    "title": "Falcon and SPHINCS+ interop with BC",
+    "state": "closed",
+    "created_at": "2023-10-03T20:11:41Z",
+    "url": "https://github.com/open-quantum-safe/oqs-provider/issues/270",
+    "labels": []
+  },
+  {
+    "repo": "open-quantum-safe/oqs-provider",
+    "number": 239,
+    "title": "Missing support for hash-n-sign",
+    "state": "open",
+    "created_at": "2023-08-30T23:51:35Z",
+    "url": "https://github.com/open-quantum-safe/oqs-provider/issues/239",
+    "labels": [
+      "enhancement",
+      "help wanted",
+      "futurework"
+    ]
+  },
+  {
+    "repo": "open-quantum-safe/oqs-provider",
+    "number": 211,
+    "title": "Programmatically load provider",
+    "state": "closed",
+    "created_at": "2023-07-10T15:48:57Z",
+    "url": "https://github.com/open-quantum-safe/oqs-provider/issues/211",
+    "labels": [
+      "question"
+    ]
+  },
+  {
+    "repo": "open-quantum-safe/oqs-provider",
+    "number": 194,
+    "title": "Implement KEM en-/decoders",
+    "state": "closed",
+    "created_at": "2023-06-22T12:06:33Z",
+    "url": "https://github.com/open-quantum-safe/oqs-provider/issues/194",
+    "labels": [
+      "enhancement"
+    ]
+  },
+  {
+    "repo": "open-quantum-safe/oqs-provider",
+    "number": 169,
+    "title": "CMS signing fails (Openssl is not able to use oqsprovider) if CMS_NOATTR is specified in CMS_add1_signer",
+    "state": "closed",
+    "created_at": "2023-05-22T14:57:46Z",
+    "url": "https://github.com/open-quantum-safe/oqs-provider/issues/169",
+    "labels": []
+  },
+  {
+    "repo": "open-quantum-safe/oqs-provider",
+    "number": 115,
+    "title": "Enable correct operation of openssl ca",
+    "state": "closed",
+    "created_at": "2023-02-16T06:19:56Z",
+    "url": "https://github.com/open-quantum-safe/oqs-provider/issues/115",
+    "labels": []
+  },
+  {
+    "repo": "open-quantum-safe/oqs-provider",
+    "number": 105,
+    "title": "error when compiling oqs-provider in windows Using msys2 and mingw32",
+    "state": "closed",
+    "created_at": "2023-01-28T15:05:01Z",
+    "url": "https://github.com/open-quantum-safe/oqs-provider/issues/105",
+    "labels": []
+  },
+  {
+    "repo": "open-quantum-safe/oqs-provider",
+    "number": 92,
+    "title": "Memory leaks during key creation and signing",
+    "state": "closed",
+    "created_at": "2022-12-07T22:17:50Z",
+    "url": "https://github.com/open-quantum-safe/oqs-provider/issues/92",
+    "labels": []
+  },
+  {
+    "repo": "open-quantum-safe/oqs-provider",
+    "number": 47,
+    "title": "Windows support",
+    "state": "closed",
+    "created_at": "2022-01-12T06:14:10Z",
+    "url": "https://github.com/open-quantum-safe/oqs-provider/issues/47",
+    "labels": []
+  },
+  {
+    "repo": "open-quantum-safe/oqs-provider",
+    "number": 32,
+    "title": "Interoperability with oqs-openssl?",
+    "state": "closed",
+    "created_at": "2021-10-07T05:29:51Z",
+    "url": "https://github.com/open-quantum-safe/oqs-provider/issues/32",
+    "labels": []
+  },
+  {
+    "repo": "open-quantum-safe/oqs-provider",
+    "number": 756,
+    "title": "Implement PQC algorithm inside the Openssl core libraray",
+    "state": "closed",
+    "created_at": "2026-03-10T03:21:32Z",
+    "url": "https://github.com/open-quantum-safe/oqs-provider/issues/756",
+    "labels": [
+      "question"
+    ]
+  },
+  {
+    "repo": "open-quantum-safe/oqs-provider",
+    "number": 729,
+    "title": "Performance anomaly observed in hybrid KEM operations with oqs-provider",
+    "state": "open",
+    "created_at": "2025-12-13T08:00:52Z",
+    "url": "https://github.com/open-quantum-safe/oqs-provider/issues/729",
+    "labels": [
+      "question"
+    ]
+  },
+  {
+    "repo": "open-quantum-safe/oqs-provider",
+    "number": 719,
+    "title": "Performance degradation, no_store/no_cache flag set",
+    "state": "closed",
+    "created_at": "2025-11-07T16:22:06Z",
+    "url": "https://github.com/open-quantum-safe/oqs-provider/issues/719",
+    "labels": []
+  },
+  {
+    "repo": "open-quantum-safe/oqs-provider",
+    "number": 690,
+    "title": "oqs-provider not ready for prime time",
+    "state": "closed",
+    "created_at": "2025-07-28T12:57:37Z",
+    "url": "https://github.com/open-quantum-safe/oqs-provider/issues/690",
+    "labels": [
+      "question"
+    ]
+  },
+  {
+    "repo": "open-quantum-safe/oqs-provider",
+    "number": 675,
+    "title": "Use of a 'seed' parameter for deterministic key pair generation",
+    "state": "open",
+    "created_at": "2025-05-06T10:18:54Z",
+    "url": "https://github.com/open-quantum-safe/oqs-provider/issues/675",
+    "labels": [
+      "enhancement"
+    ]
+  },
+  {
+    "repo": "open-quantum-safe/oqs-provider",
+    "number": 667,
+    "title": "Standalone ml-kem and ml-dsa along with openssl-3.5.0",
+    "state": "open",
+    "created_at": "2025-04-12T13:05:37Z",
+    "url": "https://github.com/open-quantum-safe/oqs-provider/issues/667",
+    "labels": [
+      "enhancement",
+      "futurework"
+    ]
+  },
+  {
+    "repo": "open-quantum-safe/oqs-provider",
+    "number": 647,
+    "title": "OpenSSL 3.3.0 with OQS Provider: Ml-DSA-87 Algorithms Not Supported Correctly",
+    "state": "closed",
+    "created_at": "2025-02-26T15:00:23Z",
+    "url": "https://github.com/open-quantum-safe/oqs-provider/issues/647",
+    "labels": []
+  },
+  {
+    "repo": "open-quantum-safe/oqs-provider",
+    "number": 637,
+    "title": "Conversion of decapsulation ML-KEM to encapsulation key fails with NOPUBKEY_IN_PRIVKEY",
+    "state": "open",
+    "created_at": "2025-02-05T13:01:10Z",
+    "url": "https://github.com/open-quantum-safe/oqs-provider/issues/637",
+    "labels": [
+      "bug"
+    ]
+  },
+  {
+    "repo": "open-quantum-safe/oqs-provider",
+    "number": 623,
+    "title": "Current \"main\" fails to work with OpenSSL-3.5.0-dev",
+    "state": "closed",
+    "created_at": "2025-01-11T23:46:53Z",
+    "url": "https://github.com/open-quantum-safe/oqs-provider/issues/623",
+    "labels": [
+      "bug"
+    ]
+  },
+  {
+    "repo": "open-quantum-safe/oqs-provider",
+    "number": 617,
+    "title": "Add naming aliases for standardized algorithms and groups",
+    "state": "open",
+    "created_at": "2025-01-07T08:03:15Z",
+    "url": "https://github.com/open-quantum-safe/oqs-provider/issues/617",
+    "labels": [
+      "enhancement",
+      "help wanted",
+      "futurework"
+    ]
+  },
+  {
+    "repo": "open-quantum-safe/oqs-provider",
+    "number": 613,
+    "title": "ML-KEM private keys not compatible with draft-ietf-lamps-kyber-certificates-06 (seed as private key)",
+    "state": "open",
+    "created_at": "2025-01-03T14:49:06Z",
+    "url": "https://github.com/open-quantum-safe/oqs-provider/issues/613",
+    "labels": [
+      "enhancement"
+    ]
+  },
+  {
+    "repo": "open-quantum-safe/oqs-provider",
+    "number": 612,
+    "title": "Add cross-provider interop tests",
+    "state": "open",
+    "created_at": "2025-01-03T10:57:49Z",
+    "url": "https://github.com/open-quantum-safe/oqs-provider/issues/612",
+    "labels": [
+      "help wanted",
+      "futurework"
+    ]
+  },
+  {
+    "repo": "open-quantum-safe/oqs-provider",
+    "number": 600,
+    "title": "Addition of Brainpool curves to KEM procedures",
+    "state": "closed",
+    "created_at": "2024-12-22T15:38:24Z",
+    "url": "https://github.com/open-quantum-safe/oqs-provider/issues/600",
+    "labels": [
+      "enhancement",
+      "help wanted",
+      "futurework"
+    ]
+  },
+  {
+    "repo": "open-quantum-safe/oqs-provider",
+    "number": 592,
+    "title": "OQS provider interferes with PKCS11 provider",
+    "state": "closed",
+    "created_at": "2024-12-12T22:20:24Z",
+    "url": "https://github.com/open-quantum-safe/oqs-provider/issues/592",
+    "labels": [
+      "bug"
+    ]
+  },
+  {
+    "repo": "open-quantum-safe/oqs-provider",
+    "number": 589,
+    "title": "Q: How to generate ML-KEM and ML-DSA key pairs?",
+    "state": "closed",
+    "created_at": "2024-12-10T16:39:59Z",
+    "url": "https://github.com/open-quantum-safe/oqs-provider/issues/589",
+    "labels": []
+  },
+  {
+    "repo": "open-quantum-safe/oqs-provider",
+    "number": 579,
+    "title": "key component order in hybrid keys",
+    "state": "closed",
+    "created_at": "2024-11-30T13:56:56Z",
+    "url": "https://github.com/open-quantum-safe/oqs-provider/issues/579",
+    "labels": [
+      "enhancement",
+      "question"
+    ]
+  },
+  {
+    "repo": "open-quantum-safe/oqs-provider",
+    "number": 569,
+    "title": "cannot \"print\" either public or private key",
+    "state": "closed",
+    "created_at": "2024-11-19T20:59:05Z",
+    "url": "https://github.com/open-quantum-safe/oqs-provider/issues/569",
+    "labels": [
+      "bug",
+      "enhancement",
+      "help wanted"
+    ]
+  },
+  {
+    "repo": "open-quantum-safe/oqs-provider",
+    "number": 564,
+    "title": "PQ Key generation with kem-algorithms",
+    "state": "closed",
+    "created_at": "2024-11-05T14:41:50Z",
+    "url": "https://github.com/open-quantum-safe/oqs-provider/issues/564",
+    "labels": [
+      "question"
+    ]
+  },
+  {
+    "repo": "open-quantum-safe/oqs-provider",
+    "number": 561,
+    "title": "Re-assign all code points",
+    "state": "open",
+    "created_at": "2024-11-03T07:05:35Z",
+    "url": "https://github.com/open-quantum-safe/oqs-provider/issues/561",
+    "labels": [
+      "help wanted"
+    ]
+  },
+  {
+    "repo": "open-quantum-safe/oqs-provider",
+    "number": 556,
+    "title": "IANA assigned codepoints for draft-connolly-tls-mlkem-key-agreement",
+    "state": "closed",
+    "created_at": "2024-10-29T16:11:25Z",
+    "url": "https://github.com/open-quantum-safe/oqs-provider/issues/556",
+    "labels": [
+      "enhancement",
+      "good first issue"
+    ]
+  },
+  {
+    "repo": "open-quantum-safe/oqs-provider",
+    "number": 553,
+    "title": "Error handling in TLS is incorrect or missing",
+    "state": "open",
+    "created_at": "2024-10-22T17:05:07Z",
+    "url": "https://github.com/open-quantum-safe/oqs-provider/issues/553",
+    "labels": [
+      "bug"
+    ]
+  },
+  {
+    "repo": "open-quantum-safe/oqs-provider",
+    "number": 503,
+    "title": "Implement new ML-KEM hybrid key exchange in TLS",
+    "state": "closed",
+    "created_at": "2024-08-26T17:32:17Z",
+    "url": "https://github.com/open-quantum-safe/oqs-provider/issues/503",
+    "labels": [
+      "enhancement"
+    ]
+  },
+  {
+    "repo": "open-quantum-safe/oqs-provider",
+    "number": 466,
+    "title": "The privateKey encoding for pure ml-dsa differs from the privateKey encoding for the ml-dsa part in composite ml-dsa-xxxx",
+    "state": "closed",
+    "created_at": "2024-08-06T04:25:53Z",
+    "url": "https://github.com/open-quantum-safe/oqs-provider/issues/466",
+    "labels": [
+      "bug"
+    ]
+  },
+  {
+    "repo": "open-quantum-safe/oqs-provider",
+    "number": 447,
+    "title": "Support deterministic key generation",
+    "state": "closed",
+    "created_at": "2024-07-03T18:11:45Z",
+    "url": "https://github.com/open-quantum-safe/oqs-provider/issues/447",
+    "labels": [
+      "enhancement"
+    ]
+  },
+  {
+    "repo": "open-quantum-safe/oqs-provider",
+    "number": 399,
+    "title": "Too many advertised sig algs cause TLS server hang-up",
+    "state": "closed",
+    "created_at": "2024-04-18T00:00:07Z",
+    "url": "https://github.com/open-quantum-safe/oqs-provider/issues/399",
+    "labels": [
+      "bug"
+    ]
+  },
+  {
+    "repo": "open-quantum-safe/oqs-provider",
+    "number": 355,
+    "title": "Current main fails . . .",
+    "state": "closed",
+    "created_at": "2024-02-28T19:55:27Z",
+    "url": "https://github.com/open-quantum-safe/oqs-provider/issues/355",
+    "labels": [
+      "bug"
+    ]
+  },
+  {
+    "repo": "open-quantum-safe/oqs-provider",
+    "number": 351,
+    "title": "Document & curate (O)IDs",
+    "state": "closed",
+    "created_at": "2024-02-22T07:17:55Z",
+    "url": "https://github.com/open-quantum-safe/oqs-provider/issues/351",
+    "labels": [
+      "help wanted"
+    ]
+  }
+]

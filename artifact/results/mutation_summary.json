@@ -1,0 +1,6 @@
+{
+  "mutants_total": 40,
+  "mutants_detected": 40,
+  "mutation_detection_score": 1.0,
+  "production_recall_estimate": false
+}

@@ -1,0 +1,54 @@
+{
+  "schema_version": "1.0",
+  "timestamp_utc": "2026-07-01T07:23:08.040049Z",
+  "benchmark_scope": "top-level application benchmark files under artifact/embedded/esp32_pio/src",
+  "excluded_from_loc_claim": [
+    "artifact/embedded/esp32_pio/src/kyber_internal/",
+    "artifact/embedded/esp32_pio/src/dilithium_internal/",
+    "artifact/embedded/mbedtls/",
+    "artifact/embedded/failure_reproduction/"
+  ],
+  "files_counted": 6,
+  "raw_source_lines": 1715,
+  "nonblank_source_lines": 1491,
+  "physical_sloc_no_blank_no_comments": 1389,
+  "files": [
+    {
+      "path": "embedded/esp32_pio/src/aes256ctr.c",
+      "raw_lines": 56,
+      "nonblank_lines": 51,
+      "physical_sloc_no_blank_no_comments": 51
+    },
+    {
+      "path": "embedded/esp32_pio/src/aes256ctr.h",
+      "raw_lines": 20,
+      "nonblank_lines": 15,
+      "physical_sloc_no_blank_no_comments": 15
+    },
+    {
+      "path": "embedded/esp32_pio/src/main.cpp",
+      "raw_lines": 1095,
+      "nonblank_lines": 945,
+      "physical_sloc_no_blank_no_comments": 868
+    },
+    {
+      "path": "embedded/esp32_pio/src/mlk_config_esp32.h",
+      "raw_lines": 23,
+      "nonblank_lines": 17,
+      "physical_sloc_no_blank_no_comments": 7
+    },
+    {
+      "path": "embedded/esp32_pio/src/randombytes_esp32.c",
+      "raw_lines": 50,
+      "nonblank_lines": 37,
+      "physical_sloc_no_blank_no_comments": 34
+    },
+    {
+      "path": "embedded/esp32_pio/src/tiny_sha3.c",
+      "raw_lines": 471,
+      "nonblank_lines": 426,
+      "physical_sloc_no_blank_no_comments": 414
+    }
+  ],
+  "interpretation": "The paper uses raw_source_lines for the packaged application-level ESP32-S3 benchmark size. This is a reproducibility count, not a claim about vendored PQC library LOC or the optional Mbed TLS source tree."
+}

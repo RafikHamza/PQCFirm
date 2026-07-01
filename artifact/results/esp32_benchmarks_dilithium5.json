@@ -1,0 +1,112 @@
+[
+  {
+    "schema_version": 1,
+    "algo": "ECDSA_P256",
+    "op": "KeyGen",
+    "avg_cycles": 33975524,
+    "min_cycles": 33872672,
+    "max_cycles": 34078613,
+    "stack_used_bytes": 7168,
+    "correctness": true
+  },
+  {
+    "schema_version": 1,
+    "algo": "ECDSA_P256",
+    "op": "Sign",
+    "avg_cycles": 15624787,
+    "min_cycles": 15498570,
+    "max_cycles": 15725873,
+    "stack_used_bytes": 7552,
+    "correctness": true
+  },
+  {
+    "schema_version": 1,
+    "algo": "ECDSA_P256",
+    "op": "Verify",
+    "avg_cycles": 7475943,
+    "min_cycles": 7401183,
+    "max_cycles": 7550702,
+    "stack_used_bytes": 8768,
+    "correctness": true
+  },
+  {
+    "schema_version": 1,
+    "algo": "ECDH_P256",
+    "op": "KeyGen",
+    "avg_cycles": 14384560,
+    "min_cycles": 14061312,
+    "max_cycles": 34040696,
+    "stack_used_bytes": 6784,
+    "correctness": true
+  },
+  {
+    "schema_version": 1,
+    "algo": "ECDH_P256",
+    "op": "ComputeSecret",
+    "avg_cycles": 34008297,
+    "min_cycles": 33926091,
+    "max_cycles": 34126728,
+    "stack_used_bytes": 7104,
+    "correctness": true
+  },
+  {
+    "schema_version": 1,
+    "algo": "ML_KEM_768",
+    "op": "KeyGen",
+    "avg_cycles": 2380078,
+    "min_cycles": 2366810,
+    "max_cycles": 2554782,
+    "stack_used_bytes": 55296,
+    "correctness": true
+  },
+  {
+    "schema_version": 1,
+    "algo": "ML_KEM_768",
+    "op": "Encaps",
+    "avg_cycles": 2500340,
+    "min_cycles": 2496656,
+    "max_cycles": 2528231,
+    "stack_used_bytes": 68032,
+    "correctness": true
+  },
+  {
+    "schema_version": 1,
+    "algo": "ML_KEM_768",
+    "op": "Decaps",
+    "avg_cycles": 2773968,
+    "min_cycles": 2770112,
+    "max_cycles": 2855558,
+    "stack_used_bytes": 72128,
+    "correctness": true
+  },
+  {
+    "schema_version": 1,
+    "algo": "Dilithium5",
+    "op": "KeyGen",
+    "avg_cycles": 15906919,
+    "min_cycles": 15755131,
+    "max_cycles": 16041010,
+    "stack_used_bytes": 7808,
+    "correctness": true
+  },
+  {
+    "schema_version": 1,
+    "algo": "Dilithium5",
+    "op": "Sign",
+    "avg_cycles": 18268062,
+    "min_cycles": 18262549,
+    "max_cycles": 18348317,
+    "stack_used_bytes": 9024,
+    "correctness": true
+  },
+  {
+    "schema_version": 1,
+    "algo": "Dilithium5",
+    "op": "Verify",
+    "avg_cycles": 15133525,
+    "min_cycles": 15129930,
+    "max_cycles": 15204456,
+    "stack_used_bytes": 8640,
+    "correctness": true
+  }
+]

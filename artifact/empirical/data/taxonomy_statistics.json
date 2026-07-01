@@ -1,0 +1,95 @@
+{
+  "total_commits": 1043,
+  "categories": {
+    "D1": {
+      "name": "Buffer/key-size mismatch",
+      "count": 66,
+      "percentage": 6.33,
+      "severities": {
+        "high": 66,
+        "medium": 0,
+        "low": 0
+      }
+    },
+    "D2": {
+      "name": "API rigidity (non-crypto-agile)",
+      "count": 108,
+      "percentage": 10.35,
+      "severities": {
+        "high": 0,
+        "medium": 108,
+        "low": 0
+      }
+    },
+    "D3": {
+      "name": "Stack overflow / exhaustion",
+      "count": 8,
+      "percentage": 0.77,
+      "severities": {
+        "high": 8,
+        "medium": 0,
+        "low": 0
+      }
+    },
+    "D4": {
+      "name": "Timing regression",
+      "count": 13,
+      "percentage": 1.25,
+      "severities": {
+        "high": 0,
+        "medium": 13,
+        "low": 0
+      }
+    },
+    "D5": {
+      "name": "Memory fragmentation / OOM",
+      "count": 25,
+      "percentage": 2.4,
+      "severities": {
+        "high": 25,
+        "medium": 0,
+        "low": 0
+      }
+    },
+    "D6": {
+      "name": "Side-channel exposure",
+      "count": 11,
+      "percentage": 1.05,
+      "severities": {
+        "high": 11,
+        "medium": 0,
+        "low": 0
+      }
+    },
+    "D7": {
+      "name": "Error handling gaps",
+      "count": 87,
+      "percentage": 8.34,
+      "severities": {
+        "high": 0,
+        "medium": 87,
+        "low": 0
+      }
+    },
+    "D8": {
+      "name": "Build/toolchain incompatibility",
+      "count": 81,
+      "percentage": 7.77,
+      "severities": {
+        "high": 0,
+        "medium": 0,
+        "low": 81
+      }
+    },
+    "D9": {
+      "name": "Other/Refactoring",
+      "count": 644,
+      "percentage": 61.74,
+      "severities": {
+        "high": 0,
+        "medium": 0,
+        "low": 644
+      }
+    }
+  }
+}

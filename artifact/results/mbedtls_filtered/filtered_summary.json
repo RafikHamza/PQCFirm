@@ -1,0 +1,28 @@
+{
+  "label": "production_focused_filtered_mbedtls",
+  "raw_findings_total": 1805,
+  "filtered_candidate_findings": 1161,
+  "filtered_reduction_rate": 0.3568,
+  "filter_exclusion_counts": {
+    "excluded_non_core_path": 42,
+    "excluded_non_production_path": 477,
+    "excluded_r01_symmetric_hash_or_config_context": 90,
+    "excluded_r04_cleanup_or_utility_call": 35
+  },
+  "filtered_rule_counts": {
+    "R01": 135,
+    "R02": 606,
+    "R04": 259,
+    "R07": 101,
+    "R03": 60
+  },
+  "audit_sample_size": 500,
+  "tp": 226,
+  "fp": 0,
+  "review_rows": 274,
+  "classified_rows": 226,
+  "assisted_candidate_precision": 1.0,
+  "source_available": true,
+  "review_method": "filtered_llm_assisted_static_audit",
+  "precision_claim_wording": "Source-filtered assisted candidate precision/yield; not a human manual audit and not a production recall estimate."
+}

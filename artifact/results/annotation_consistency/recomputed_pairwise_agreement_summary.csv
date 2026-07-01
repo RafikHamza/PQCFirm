@@ -1,0 +1,7 @@
+comparison,n,agreements,agreement_rate,expected_agreement,cohen_kappa
+gemini_label vs gpt55_label,200,165,0.825,0.272725,0.7593757519507751
+gemini_label vs deepseek_label,200,150,0.75,0.3184,0.6332159624413145
+gemini_label vs claude_label,200,166,0.83,0.301875,0.7564905998209489
+gpt55_label vs deepseek_label,200,158,0.79,0.27697499999999997,0.7095536115625325
+gpt55_label vs claude_label,200,170,0.85,0.265875,0.7956751234462796
+deepseek_label vs claude_label,200,159,0.795,0.307525,0.703960431784541

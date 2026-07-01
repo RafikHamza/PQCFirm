@@ -1,0 +1,9 @@
+{
+  "mode": "hardware_serial_paired_trials",
+  "live_paired_trials_available": true,
+  "paired_trial_count": 100,
+  "completion_status_mismatch_claim_supported": true,
+  "completion_status_mismatches": 0,
+  "source": "hardware_serial",
+  "paired_trials_file": "artifact/results/paired_trials.csv"
+}

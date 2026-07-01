@@ -1,0 +1,68 @@
+{
+  "status": "PASS",
+  "summaries": [
+    {
+      "codebase": "liboqs",
+      "status": "STORED_RESULT",
+      "snapshot_path": "artifact/external_codebases/snapshots/liboqs",
+      "scan_roots": [
+        "src",
+        "tests"
+      ],
+      "source_files": 5712,
+      "raw_source_lines": 1107054,
+      "findings_total": 6686,
+      "rule_counts": {
+        "R01": 2216,
+        "R02": 108,
+        "R03": 2531,
+        "R04": 803,
+        "R05": 339,
+        "R06": 2,
+        "R07": 687
+      },
+      "audit_sample_size": 500,
+      "tp": 237,
+      "fp": 16,
+      "review_rows": 247,
+      "classified_rows": 253,
+      "assisted_precision": 0.9368,
+      "review_method": "deterministic_external_assisted_triage",
+      "claim_wording": "Optional external-codebase assisted triage with conservative REVIEW handling; not human manual audit and not production recall.",
+      "snapshot_ref": "aa294f56bd3bb902c8986202ce37a42e9f0f18cf",
+      "reason": "snapshot missing; using bundled stored result. Re-run download_external_snapshots before this script to reproduce."
+    },
+    {
+      "codebase": "wolfssl",
+      "status": "STORED_RESULT",
+      "snapshot_path": "artifact/external_codebases/snapshots/wolfssl",
+      "scan_roots": [
+        "src",
+        "wolfcrypt/src",
+        "wolfssl/wolfcrypt",
+        "tests"
+      ],
+      "source_files": 1240,
+      "raw_source_lines": 2245316,
+      "findings_total": 5902,
+      "rule_counts": {
+        "R01": 276,
+        "R02": 4454,
+        "R03": 576,
+        "R04": 321,
+        "R05": 41,
+        "R07": 234
+      },
+      "audit_sample_size": 500,
+      "tp": 416,
+      "fp": 8,
+      "review_rows": 76,
+      "classified_rows": 424,
+      "assisted_precision": 0.9811,
+      "review_method": "deterministic_external_assisted_triage",
+      "claim_wording": "Optional external-codebase assisted triage with conservative REVIEW handling; not human manual audit and not production recall.",
+      "snapshot_ref": "0cecccdf6e0504100c78126a558b6cbbcc486247",
+      "reason": "snapshot missing; using bundled stored result. Re-run download_external_snapshots before this script to reproduce."
+    }
+  ]
+}

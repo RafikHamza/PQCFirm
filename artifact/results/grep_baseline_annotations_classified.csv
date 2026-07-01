@@ -1,0 +1,362 @@
+finding_id,rule,file,line,matched_text,annotator_verdict,justification
+grep-280552af,R01,embedded\esp32_pio\src\aes256ctr.c,17,"void dilithium_aes256ctr_init(aes256ctr_ctx *state, const uint8_t key[32], uint16_t nonce) {",FP,Symmetric key buffers do not require expansion for PQC.
+grep-9d018671,R04,embedded\esp32_pio\src\aes256ctr.c,23,mbedtls_aes_init(aes);,TP,Return value of cryptographic operation unchecked.
+grep-c8693f16,R04,embedded\esp32_pio\src\aes256ctr.c,24,"mbedtls_aes_setkey_enc(aes, key, 256);",TP,Return value of cryptographic operation unchecked.
+grep-7050b658,R01,embedded\esp32_pio\src\aes256ctr.c,29,state->counter[14] = (uint8_t)(nonce & 0xff);,TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-869f84ce,R01,embedded\esp32_pio\src\aes256ctr.c,30,state->counter[15] = (uint8_t)(nonce >> 8);,TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-d74801b6,R04,embedded\esp32_pio\src\aes256ctr.c,39,"mbedtls_aes_crypt_ecb(aes, MBEDTLS_AES_ENCRYPT, state->counter, state->buffer);",TP,Return value of cryptographic operation unchecked.
+grep-11cfd5bb,R04,embedded\esp32_pio\src\aes256ctr.c,50,mbedtls_aes_free(aes);,FP,Cleanup/free functions do not require error checking.
+grep-b1d80592,R01,embedded\esp32_pio\src\aes256ctr.h,7,#define AES256CTR_BLOCKBYTES 16,FP,Symmetric key buffers do not require expansion for PQC.
+grep-f99d2a5e,R01,embedded\esp32_pio\src\aes256ctr.h,16,"void aes256ctr_init(aes256ctr_ctx *state, const uint8_t key[32], uint16_t nonce);",FP,Symmetric key buffers do not require expansion for PQC.
+grep-793a96d1,R05,embedded\esp32_pio\src\main.cpp,25,#define DILITHIUM_KEYPAIR DILITHIUM_NAMESPACE(keypair),TP,Algorithm-specific API call used instead of agile interface.
+grep-20aa83f6,R05,embedded\esp32_pio\src\main.cpp,26,#define DILITHIUM_SIGNATURE DILITHIUM_NAMESPACE(signature),TP,Algorithm-specific API call used instead of agile interface.
+grep-409ddbe8,R05,embedded\esp32_pio\src\main.cpp,27,#define DILITHIUM_VERIFY DILITHIUM_NAMESPACE(verify),TP,Algorithm-specific API call used instead of agile interface.
+grep-8ca8d082,R04,embedded\esp32_pio\src\main.cpp,65,mbedtls_entropy_init(&entropy);,TP,Return value of cryptographic operation unchecked.
+grep-786add17,R04,embedded\esp32_pio\src\main.cpp,66,mbedtls_ctr_drbg_init(&ctr_drbg);,TP,Return value of cryptographic operation unchecked.
+grep-0aeb6b3b,R04,embedded\esp32_pio\src\main.cpp,238,mbedtls_ecdsa_init(&ctx);,TP,Return value of cryptographic operation unchecked.
+grep-355bcb77,R04,embedded\esp32_pio\src\main.cpp,254,mbedtls_ecdsa_free(&ctx);,FP,Cleanup/free functions do not require error checking.
+grep-ac8bc37d,R01,embedded\esp32_pio\src\main.cpp,259,uint8_t hash[32] = { 0xAA };,FP,Hash/MAC buffers do not require expansion for PQC.
+grep-7d6d627e,R04,embedded\esp32_pio\src\main.cpp,261,mbedtls_mpi_init(&r);,TP,Return value of cryptographic operation unchecked.
+grep-19cdac65,R04,embedded\esp32_pio\src\main.cpp,262,mbedtls_mpi_init(&s);,TP,Return value of cryptographic operation unchecked.
+grep-6ea5ec9d,R04,embedded\esp32_pio\src\main.cpp,293,mbedtls_mpi_free(&r);,FP,Cleanup/free functions do not require error checking.
+grep-ba112667,R04,embedded\esp32_pio\src\main.cpp,294,mbedtls_mpi_free(&s);,FP,Cleanup/free functions do not require error checking.
+grep-07328a87,R04,embedded\esp32_pio\src\main.cpp,295,mbedtls_ecdsa_free(&ctx);,FP,Cleanup/free functions do not require error checking.
+grep-99ce6255,R04,embedded\esp32_pio\src\main.cpp,350,mbedtls_ecdh_init(&client_ctx);,TP,Return value of cryptographic operation unchecked.
+grep-35119443,R04,embedded\esp32_pio\src\main.cpp,351,mbedtls_ecdh_init(&server_ctx);,TP,Return value of cryptographic operation unchecked.
+grep-a121d607,R04,embedded\esp32_pio\src\main.cpp,356,mbedtls_ecdh_free(&client_ctx);,FP,Cleanup/free functions do not require error checking.
+grep-f9f9e1f8,R04,embedded\esp32_pio\src\main.cpp,357,mbedtls_ecdh_free(&server_ctx);,FP,Cleanup/free functions do not require error checking.
+grep-b0bf7b59,R04,embedded\esp32_pio\src\main.cpp,363,mbedtls_ecdh_free(&client_ctx);,FP,Cleanup/free functions do not require error checking.
+grep-45d82d57,R04,embedded\esp32_pio\src\main.cpp,364,mbedtls_ecdh_free(&server_ctx);,FP,Cleanup/free functions do not require error checking.
+grep-82b6b366,R04,embedded\esp32_pio\src\main.cpp,385,mbedtls_ecdh_free(&client_ctx);,FP,Cleanup/free functions do not require error checking.
+grep-d61eb82d,R04,embedded\esp32_pio\src\main.cpp,386,mbedtls_ecdh_free(&server_ctx);,FP,Cleanup/free functions do not require error checking.
+grep-208d6e7b,R04,embedded\esp32_pio\src\main.cpp,391,"mbedtls_ecdh_gen_public(&server_ctx.grp, &server_ctx.d, &server_ctx.Q, mbedtls_ctr_drbg_random, &ctr_drbg);",TP,Return value of cryptographic operation unchecked.
+grep-ce7620c7,R04,embedded\esp32_pio\src\main.cpp,404,mbedtls_ecdh_free(&client_ctx);,FP,Cleanup/free functions do not require error checking.
+grep-1eab5aff,R04,embedded\esp32_pio\src\main.cpp,405,mbedtls_ecdh_free(&server_ctx);,FP,Cleanup/free functions do not require error checking.
+grep-7e6ad7c8,R04,embedded\esp32_pio\src\main.cpp,508,"mbedtls_rsa_init(&rsa, MBEDTLS_RSA_PKCS_V21, MBEDTLS_MD_SHA256);",TP,Return value of cryptographic operation unchecked.
+grep-ec30b70a,R01,embedded\esp32_pio\src\main.cpp,511,uint8_t hash[32] = { 0xBA };,FP,Hash/MAC buffers do not require expansion for PQC.
+grep-9558f46c,R01,embedded\esp32_pio\src\main.cpp,512,uint8_t sig[512] = {0};,TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-c0430722,R04,embedded\esp32_pio\src\main.cpp,532,mbedtls_rsa_free(&rsa);,FP,Cleanup/free functions do not require error checking.
+grep-d35eb4a2,R04,embedded\esp32_pio\src\main.cpp,558,mbedtls_rsa_free(&rsa);,FP,Cleanup/free functions do not require error checking.
+grep-36a72e60,R04,embedded\esp32_pio\src\main.cpp,608,"mbedtls_rsa_init(&rsa, MBEDTLS_RSA_PKCS_V21, MBEDTLS_MD_SHA256);",TP,Return value of cryptographic operation unchecked.
+grep-57ce4553,R01,embedded\esp32_pio\src\main.cpp,611,uint8_t plaintext[32] = { 0xCD };,TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-6e650443,R01,embedded\esp32_pio\src\main.cpp,612,uint8_t ciphertext[256] = {0};,TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-381d8702,R01,embedded\esp32_pio\src\main.cpp,613,uint8_t decrypted[256] = {0};,TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-e6d3a077,R04,embedded\esp32_pio\src\main.cpp,635,mbedtls_rsa_free(&rsa);,FP,Cleanup/free functions do not require error checking.
+grep-a057b9bd,R04,embedded\esp32_pio\src\main.cpp,664,mbedtls_rsa_free(&rsa);,FP,Cleanup/free functions do not require error checking.
+grep-7d5fd4a1,R04,embedded\esp32_pio\src\main.cpp,832,"DILITHIUM_KEYPAIR(args->pk, args->sk);",TP,Return value of cryptographic operation unchecked.
+grep-b4b430f6,R05,embedded\esp32_pio\src\main.cpp,832,"DILITHIUM_KEYPAIR(args->pk, args->sk);",TP,Algorithm-specific API call used instead of agile interface.
+grep-2b17359a,R04,embedded\esp32_pio\src\main.cpp,851,"DILITHIUM_SIGNATURE(args->sig, args->siglen, args->msg, args->msglen, args->sk);",TP,Return value of cryptographic operation unchecked.
+grep-e09facfc,R05,embedded\esp32_pio\src\main.cpp,851,"DILITHIUM_SIGNATURE(args->sig, args->siglen, args->msg, args->msglen, args->sk);",TP,Algorithm-specific API call used instead of agile interface.
+grep-ddabc7e5,R05,embedded\esp32_pio\src\main.cpp,869,"int ret = DILITHIUM_VERIFY(args->sig, *args->siglen, args->msg, args->msglen, args->pk);",TP,Algorithm-specific API call used instead of agile interface.
+grep-52354d54,R01,embedded\esp32_pio\src\main.cpp,886,uint8_t msg[32] = { 0x55 };,TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-ee875193,R01,embedded\esp32_pio\src\randombytes_esp32.c,23,uint8_t seed[32];,TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-ace6b4f4,R04,embedded\esp32_pio\src\randombytes_esp32.c,27,mbedtls_hmac_drbg_init(&vh_drbg_ctx);,TP,Return value of cryptographic operation unchecked.
+grep-cc1fb355,R01,embedded\esp32_pio\src\tiny_sha3.c,7,static const uint64_t KeccakF_RoundConstants[24] = {,TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-fa54108f,R01,embedded\esp32_pio\src\tiny_sha3.c,20,static void keccak_f1600_state_permute(uint64_t state[25]) {,TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-f3a3053e,R01,embedded\esp32_pio\src\tiny_sha3.c,38,aka = state[10]; ake = state[11]; aki = state[12]; ako = state[13]; aku = state[14];,TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-41fbf057,R01,embedded\esp32_pio\src\tiny_sha3.c,39,ama = state[15]; ame = state[16]; ami = state[17]; amo = state[18]; amu = state[19];,TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-2abfd631,R01,embedded\esp32_pio\src\tiny_sha3.c,40,asa = state[20]; ase = state[21]; asi = state[22]; aso = state[23]; asu = state[24];,TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-0f5d058c,R01,embedded\esp32_pio\src\tiny_sha3.c,184,state[10] = aka; state[11] = ake; state[12] = aki; state[13] = ako; state[14] = aku;,TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-907164eb,R01,embedded\esp32_pio\src\tiny_sha3.c,185,state[15] = ama; state[16] = ame; state[17] = ami; state[18] = amo; state[19] = amu;,TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-e8c39788,R01,embedded\esp32_pio\src\tiny_sha3.c,186,state[20] = asa; state[21] = ase; state[22] = asi; state[23] = aso; state[24] = asu;,TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-d189b453,R04,embedded\esp32_pio\src\tiny_sha3.c,268,OQS_SHA3_sha3_256_inc_init(&ctx);,TP,Return value of cryptographic operation unchecked.
+grep-f19adfcc,R04,embedded\esp32_pio\src\tiny_sha3.c,269,"OQS_SHA3_sha3_256_inc_absorb(&ctx, input, inplen);",TP,Return value of cryptographic operation unchecked.
+grep-700faa34,R04,embedded\esp32_pio\src\tiny_sha3.c,270,"OQS_SHA3_sha3_256_inc_finalize(output, &ctx);",TP,Return value of cryptographic operation unchecked.
+grep-36b0f3a4,R04,embedded\esp32_pio\src\tiny_sha3.c,288,OQS_SHA3_sha3_512_inc_init(&ctx);,TP,Return value of cryptographic operation unchecked.
+grep-a19f4604,R04,embedded\esp32_pio\src\tiny_sha3.c,289,"OQS_SHA3_sha3_512_inc_absorb(&ctx, input, inplen);",TP,Return value of cryptographic operation unchecked.
+grep-de5c59ee,R04,embedded\esp32_pio\src\tiny_sha3.c,290,"OQS_SHA3_sha3_512_inc_finalize(output, &ctx);",TP,Return value of cryptographic operation unchecked.
+grep-7f8a6727,R04,embedded\esp32_pio\src\tiny_sha3.c,317,OQS_SHA3_shake128_inc_init(&ctx);,TP,Return value of cryptographic operation unchecked.
+grep-dde23434,R04,embedded\esp32_pio\src\tiny_sha3.c,318,"OQS_SHA3_shake128_inc_absorb(&ctx, input, inlen);",TP,Return value of cryptographic operation unchecked.
+grep-630e4107,R04,embedded\esp32_pio\src\tiny_sha3.c,319,OQS_SHA3_shake128_inc_finalize(&ctx);,TP,Return value of cryptographic operation unchecked.
+grep-7e7cb177,R04,embedded\esp32_pio\src\tiny_sha3.c,320,"OQS_SHA3_shake128_inc_squeeze(output, outlen, &ctx);",TP,Return value of cryptographic operation unchecked.
+grep-eb9d6c3f,R04,embedded\esp32_pio\src\tiny_sha3.c,347,OQS_SHA3_shake256_inc_init(&ctx);,TP,Return value of cryptographic operation unchecked.
+grep-909cc1a9,R04,embedded\esp32_pio\src\tiny_sha3.c,348,"OQS_SHA3_shake256_inc_absorb(&ctx, input, inlen);",TP,Return value of cryptographic operation unchecked.
+grep-1193b20f,R04,embedded\esp32_pio\src\tiny_sha3.c,349,OQS_SHA3_shake256_inc_finalize(&ctx);,TP,Return value of cryptographic operation unchecked.
+grep-af82b2ff,R04,embedded\esp32_pio\src\tiny_sha3.c,350,"OQS_SHA3_shake256_inc_squeeze(output, outlen, &ctx);",TP,Return value of cryptographic operation unchecked.
+grep-ab6175fb,R01,embedded\esp32_pio\src\tiny_sha3.c,365,"keccak_inc_absorb(state->s[1], &p, OQS_SHA3_SHAKE128_RATE, in1, inlen);",TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-9f751aa9,R01,embedded\esp32_pio\src\tiny_sha3.c,367,"keccak_inc_absorb(state->s[2], &p, OQS_SHA3_SHAKE128_RATE, in2, inlen);",TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-7e3f58b9,R01,embedded\esp32_pio\src\tiny_sha3.c,369,"keccak_inc_absorb(state->s[3], &p, OQS_SHA3_SHAKE128_RATE, in3, inlen);",TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-30fe9109,R01,embedded\esp32_pio\src\tiny_sha3.c,377,"keccak_inc_finalize(state->s[1], &p, OQS_SHA3_SHAKE128_RATE, 0x1F);",TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-643f8b68,R01,embedded\esp32_pio\src\tiny_sha3.c,379,"keccak_inc_finalize(state->s[2], &p, OQS_SHA3_SHAKE128_RATE, 0x1F);",TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-c86e41f9,R01,embedded\esp32_pio\src\tiny_sha3.c,381,"keccak_inc_finalize(state->s[3], &p, OQS_SHA3_SHAKE128_RATE, 0x1F);",TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-a2d4b407,R01,embedded\esp32_pio\src\tiny_sha3.c,389,"keccak_inc_squeeze(state->s[1], &p, OQS_SHA3_SHAKE128_RATE, out1, outlen);",TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-0e25a4ff,R01,embedded\esp32_pio\src\tiny_sha3.c,391,"keccak_inc_squeeze(state->s[2], &p, OQS_SHA3_SHAKE128_RATE, out2, outlen);",TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-047c8621,R01,embedded\esp32_pio\src\tiny_sha3.c,393,"keccak_inc_squeeze(state->s[3], &p, OQS_SHA3_SHAKE128_RATE, out3, outlen);",TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-356d09d3,R04,embedded\esp32_pio\src\tiny_sha3.c,399,OQS_SHA3_shake128_x4_inc_init(state);,TP,Return value of cryptographic operation unchecked.
+grep-817b4873,R04,embedded\esp32_pio\src\tiny_sha3.c,407,OQS_SHA3_shake128_x4_inc_init(&ctx);,TP,Return value of cryptographic operation unchecked.
+grep-bf754461,R04,embedded\esp32_pio\src\tiny_sha3.c,408,"OQS_SHA3_shake128_x4_inc_absorb(&ctx, in0, in1, in2, in3, inlen);",TP,Return value of cryptographic operation unchecked.
+grep-d2360381,R04,embedded\esp32_pio\src\tiny_sha3.c,409,OQS_SHA3_shake128_x4_inc_finalize(&ctx);,TP,Return value of cryptographic operation unchecked.
+grep-6b771e0d,R04,embedded\esp32_pio\src\tiny_sha3.c,410,"OQS_SHA3_shake128_x4_inc_squeeze(out0, out1, out2, out3, outlen, &ctx);",TP,Return value of cryptographic operation unchecked.
+grep-cf07f0c1,R01,embedded\esp32_pio\src\tiny_sha3.c,425,"keccak_inc_absorb(state->s[1], &p, OQS_SHA3_SHAKE256_RATE, in1, inlen);",TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-cf480cda,R01,embedded\esp32_pio\src\tiny_sha3.c,427,"keccak_inc_absorb(state->s[2], &p, OQS_SHA3_SHAKE256_RATE, in2, inlen);",TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-2180bd14,R01,embedded\esp32_pio\src\tiny_sha3.c,429,"keccak_inc_absorb(state->s[3], &p, OQS_SHA3_SHAKE256_RATE, in3, inlen);",TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-636b7618,R01,embedded\esp32_pio\src\tiny_sha3.c,437,"keccak_inc_finalize(state->s[1], &p, OQS_SHA3_SHAKE256_RATE, 0x1F);",TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-aacad824,R01,embedded\esp32_pio\src\tiny_sha3.c,439,"keccak_inc_finalize(state->s[2], &p, OQS_SHA3_SHAKE256_RATE, 0x1F);",TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-5e118ec9,R01,embedded\esp32_pio\src\tiny_sha3.c,441,"keccak_inc_finalize(state->s[3], &p, OQS_SHA3_SHAKE256_RATE, 0x1F);",TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-1ed545a0,R01,embedded\esp32_pio\src\tiny_sha3.c,449,"keccak_inc_squeeze(state->s[1], &p, OQS_SHA3_SHAKE256_RATE, out1, outlen);",TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-72121351,R01,embedded\esp32_pio\src\tiny_sha3.c,451,"keccak_inc_squeeze(state->s[2], &p, OQS_SHA3_SHAKE256_RATE, out2, outlen);",TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-b45ab4d0,R01,embedded\esp32_pio\src\tiny_sha3.c,453,"keccak_inc_squeeze(state->s[3], &p, OQS_SHA3_SHAKE256_RATE, out3, outlen);",TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-997fdd8e,R04,embedded\esp32_pio\src\tiny_sha3.c,459,OQS_SHA3_shake256_x4_inc_init(state);,TP,Return value of cryptographic operation unchecked.
+grep-766dd897,R04,embedded\esp32_pio\src\tiny_sha3.c,467,OQS_SHA3_shake256_x4_inc_init(&ctx);,TP,Return value of cryptographic operation unchecked.
+grep-3d492d96,R04,embedded\esp32_pio\src\tiny_sha3.c,468,"OQS_SHA3_shake256_x4_inc_absorb(&ctx, in0, in1, in2, in3, inlen);",TP,Return value of cryptographic operation unchecked.
+grep-1f825924,R04,embedded\esp32_pio\src\tiny_sha3.c,469,OQS_SHA3_shake256_x4_inc_finalize(&ctx);,TP,Return value of cryptographic operation unchecked.
+grep-5be8f352,R04,embedded\esp32_pio\src\tiny_sha3.c,470,"OQS_SHA3_shake256_x4_inc_squeeze(out0, out1, out2, out3, outlen, &ctx);",TP,Return value of cryptographic operation unchecked.
+grep-59cc8e5a,R01,embedded\esp32_pio\src\dilithium_internal\params.h,6,#define SEEDBYTES 32,TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-9bd2e9a6,R01,embedded\esp32_pio\src\dilithium_internal\params.h,7,#define CRHBYTES 64,TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-e7b2ef87,R01,embedded\esp32_pio\src\dilithium_internal\params.h,45,#define POLYT1_PACKEDBYTES  320,TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-5723b801,R01,embedded\esp32_pio\src\dilithium_internal\params.h,46,#define POLYT0_PACKEDBYTES  416,TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-23adf046,R01,embedded\esp32_pio\src\dilithium_internal\params.h,50,#define POLYZ_PACKEDBYTES   576,TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-7015b10e,R01,embedded\esp32_pio\src\dilithium_internal\params.h,52,#define POLYZ_PACKEDBYTES   640,TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-2781b78a,R01,embedded\esp32_pio\src\dilithium_internal\params.h,56,#define POLYW1_PACKEDBYTES  192,TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-5228e76b,R01,embedded\esp32_pio\src\dilithium_internal\params.h,58,#define POLYW1_PACKEDBYTES  128,TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-11daa22b,R01,embedded\esp32_pio\src\dilithium_internal\params.h,62,#define POLYETA_PACKEDBYTES  96,TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-5797f71f,R01,embedded\esp32_pio\src\dilithium_internal\params.h,64,#define POLYETA_PACKEDBYTES 128,TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-e00a78ba,R01,embedded\esp32_pio\src\dilithium_internal\poly.c,538,uint8_t t[8];,TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-b0260606,R01,embedded\esp32_pio\src\dilithium_internal\poly.c,544,t[1] = ETA - a->coeffs[8*i+1];,TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-4398ffcd,R01,embedded\esp32_pio\src\dilithium_internal\poly.c,545,t[2] = ETA - a->coeffs[8*i+2];,TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-ec81165a,R01,embedded\esp32_pio\src\dilithium_internal\poly.c,546,t[3] = ETA - a->coeffs[8*i+3];,TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-b4c1db6e,R01,embedded\esp32_pio\src\dilithium_internal\poly.c,547,t[4] = ETA - a->coeffs[8*i+4];,TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-46c8b531,R01,embedded\esp32_pio\src\dilithium_internal\poly.c,548,t[5] = ETA - a->coeffs[8*i+5];,TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-fe052a69,R01,embedded\esp32_pio\src\dilithium_internal\poly.c,549,t[6] = ETA - a->coeffs[8*i+6];,TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-384dc5f5,R01,embedded\esp32_pio\src\dilithium_internal\poly.c,550,t[7] = ETA - a->coeffs[8*i+7];,TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-ab8e086f,R01,embedded\esp32_pio\src\dilithium_internal\poly.c,552,r[3*i+0]  = (t[0] >> 0) | (t[1] << 3) | (t[2] << 6);,TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-ed2d94ba,R01,embedded\esp32_pio\src\dilithium_internal\poly.c,553,r[3*i+1]  = (t[2] >> 2) | (t[3] << 1) | (t[4] << 4) | (t[5] << 7);,TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-bd05102a,R01,embedded\esp32_pio\src\dilithium_internal\poly.c,554,r[3*i+2]  = (t[5] >> 1) | (t[6] << 2) | (t[7] << 5);,TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-2ec59827,R01,embedded\esp32_pio\src\dilithium_internal\poly.c,559,t[1] = ETA - a->coeffs[2*i+1];,TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-78f6a162,R01,embedded\esp32_pio\src\dilithium_internal\poly.c,560,r[i] = t[0] | (t[1] << 4);,TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-5d852879,R01,embedded\esp32_pio\src\dilithium_internal\poly.c,670,uint32_t t[8];,TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-85f3ee2c,R01,embedded\esp32_pio\src\dilithium_internal\poly.c,675,t[1] = (1 << (D-1)) - a->coeffs[8*i+1];,TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-89afab61,R01,embedded\esp32_pio\src\dilithium_internal\poly.c,676,t[2] = (1 << (D-1)) - a->coeffs[8*i+2];,TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-e502f49b,R01,embedded\esp32_pio\src\dilithium_internal\poly.c,677,t[3] = (1 << (D-1)) - a->coeffs[8*i+3];,TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-08c9a689,R01,embedded\esp32_pio\src\dilithium_internal\poly.c,678,t[4] = (1 << (D-1)) - a->coeffs[8*i+4];,TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-7fcfcaad,R01,embedded\esp32_pio\src\dilithium_internal\poly.c,679,t[5] = (1 << (D-1)) - a->coeffs[8*i+5];,TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-cbadd289,R01,embedded\esp32_pio\src\dilithium_internal\poly.c,680,t[6] = (1 << (D-1)) - a->coeffs[8*i+6];,TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-6c03cdaa,R01,embedded\esp32_pio\src\dilithium_internal\poly.c,681,t[7] = (1 << (D-1)) - a->coeffs[8*i+7];,TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-ff3bcd91,R01,embedded\esp32_pio\src\dilithium_internal\poly.c,685,r[13*i+ 1] |=  t[1] <<  5;,TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-ce24886b,R01,embedded\esp32_pio\src\dilithium_internal\poly.c,686,r[13*i+ 2]  =  t[1] >>  3;,TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-4f2485c0,R01,embedded\esp32_pio\src\dilithium_internal\poly.c,687,r[13*i+ 3]  =  t[1] >> 11;,TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-d57e0042,R01,embedded\esp32_pio\src\dilithium_internal\poly.c,688,r[13*i+ 3] |=  t[2] <<  2;,TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-18a71c13,R01,embedded\esp32_pio\src\dilithium_internal\poly.c,689,r[13*i+ 4]  =  t[2] >>  6;,TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-47672c2a,R01,embedded\esp32_pio\src\dilithium_internal\poly.c,690,r[13*i+ 4] |=  t[3] <<  7;,TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-628b2e2f,R01,embedded\esp32_pio\src\dilithium_internal\poly.c,691,r[13*i+ 5]  =  t[3] >>  1;,TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-0dda2676,R01,embedded\esp32_pio\src\dilithium_internal\poly.c,692,r[13*i+ 6]  =  t[3] >>  9;,TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-d7cb789e,R01,embedded\esp32_pio\src\dilithium_internal\poly.c,693,r[13*i+ 6] |=  t[4] <<  4;,TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-64ea0864,R01,embedded\esp32_pio\src\dilithium_internal\poly.c,694,r[13*i+ 7]  =  t[4] >>  4;,TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-686cda85,R01,embedded\esp32_pio\src\dilithium_internal\poly.c,695,r[13*i+ 8]  =  t[4] >> 12;,TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-8ebc9012,R01,embedded\esp32_pio\src\dilithium_internal\poly.c,696,r[13*i+ 8] |=  t[5] <<  1;,TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-fcb03062,R01,embedded\esp32_pio\src\dilithium_internal\poly.c,697,r[13*i+ 9]  =  t[5] >>  7;,TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-1c159983,R01,embedded\esp32_pio\src\dilithium_internal\poly.c,698,r[13*i+ 9] |=  t[6] <<  6;,TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-50873cc9,R01,embedded\esp32_pio\src\dilithium_internal\poly.c,699,r[13*i+10]  =  t[6] >>  2;,TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-faf675f5,R01,embedded\esp32_pio\src\dilithium_internal\poly.c,700,r[13*i+11]  =  t[6] >> 10;,TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-71760e0f,R01,embedded\esp32_pio\src\dilithium_internal\poly.c,701,r[13*i+11] |=  t[7] <<  3;,TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-a4aa45c9,R01,embedded\esp32_pio\src\dilithium_internal\poly.c,702,r[13*i+12]  =  t[7] >>  5;,TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-af0a2e4f,R01,embedded\esp32_pio\src\dilithium_internal\poly.c,782,uint32_t t[4];,TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-a07d8cb9,R01,embedded\esp32_pio\src\dilithium_internal\poly.c,788,t[1] = GAMMA1 - a->coeffs[4*i+1];,TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-6d31155f,R01,embedded\esp32_pio\src\dilithium_internal\poly.c,789,t[2] = GAMMA1 - a->coeffs[4*i+2];,TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-b550d97f,R01,embedded\esp32_pio\src\dilithium_internal\poly.c,790,t[3] = GAMMA1 - a->coeffs[4*i+3];,TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-192e9e16,R01,embedded\esp32_pio\src\dilithium_internal\poly.c,795,r[9*i+2] |= t[1] << 2;,TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-936ca7d7,R01,embedded\esp32_pio\src\dilithium_internal\poly.c,796,r[9*i+3]  = t[1] >> 6;,TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-c06f49eb,R01,embedded\esp32_pio\src\dilithium_internal\poly.c,797,r[9*i+4]  = t[1] >> 14;,TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-828c9415,R01,embedded\esp32_pio\src\dilithium_internal\poly.c,798,r[9*i+4] |= t[2] << 4;,TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-a5d1f089,R01,embedded\esp32_pio\src\dilithium_internal\poly.c,799,r[9*i+5]  = t[2] >> 4;,TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-50e7ca69,R01,embedded\esp32_pio\src\dilithium_internal\poly.c,800,r[9*i+6]  = t[2] >> 12;,TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-0bf74392,R01,embedded\esp32_pio\src\dilithium_internal\poly.c,801,r[9*i+6] |= t[3] << 6;,TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-8f12825c,R01,embedded\esp32_pio\src\dilithium_internal\poly.c,802,r[9*i+7]  = t[3] >> 2;,TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-6757ed05,R01,embedded\esp32_pio\src\dilithium_internal\poly.c,803,r[9*i+8]  = t[3] >> 10;,TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-ad1d2d2e,R01,embedded\esp32_pio\src\dilithium_internal\poly.c,808,t[1] = GAMMA1 - a->coeffs[2*i+1];,TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-c254dab2,R01,embedded\esp32_pio\src\dilithium_internal\poly.c,813,r[5*i+2] |= t[1] << 4;,TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-54643281,R01,embedded\esp32_pio\src\dilithium_internal\poly.c,814,r[5*i+3]  = t[1] >> 4;,TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-3518d8ab,R01,embedded\esp32_pio\src\dilithium_internal\poly.c,815,r[5*i+4]  = t[1] >> 12;,TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-b8a0a1ff,R04,embedded\esp32_pio\src\dilithium_internal\polyvec.h,32,DILITHIUM_NAMESPACE(polyvecl_pointwise_acc_montgomery),TP,Return value of cryptographic operation unchecked.
+grep-de306026,R04,embedded\esp32_pio\src\dilithium_internal\sign.c,292,"crypto_sign_signature(sm, smlen, sm + CRYPTO_BYTES, mlen, sk);",TP,Return value of cryptographic operation unchecked.
+grep-0807fb41,R01,embedded\esp32_pio\src\dilithium_internal\symmetric-shake.c,8,uint8_t t[2];,TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-6e42c901,R01,embedded\esp32_pio\src\dilithium_internal\symmetric-shake.c,10,t[1] = nonce >> 8;,TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-3362e529,R01,embedded\esp32_pio\src\dilithium_internal\symmetric-shake.c,20,uint8_t t[2];,TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-d159c145,R01,embedded\esp32_pio\src\dilithium_internal\symmetric-shake.c,22,t[1] = nonce >> 8;,TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-2c9f7fb7,R01,embedded\esp32_pio\src\dilithium_internal\symmetric.h,17,"const uint8_t key[32],",TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-4577d07c,R01,embedded\esp32_pio\src\kyber_internal\compress.c,49,uint8_t t[8] = {0};,TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-0eb0809a,R01,embedded\esp32_pio\src\kyber_internal\compress.c,58,r[i * 4] = t[0] | (t[1] << 4);,TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-a4ea09ba,R01,embedded\esp32_pio\src\kyber_internal\compress.c,59,r[i * 4 + 1] = t[2] | (t[3] << 4);,TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-8d0a0015,R01,embedded\esp32_pio\src\kyber_internal\compress.c,60,r[i * 4 + 2] = t[4] | (t[5] << 4);,TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-09e73d3b,R01,embedded\esp32_pio\src\kyber_internal\compress.c,61,r[i * 4 + 3] = t[6] | (t[7] << 4);,TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-6549c2fe,R01,embedded\esp32_pio\src\kyber_internal\compress.c,91,uint16_t t[4];,TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-e69a1fe3,R01,embedded\esp32_pio\src\kyber_internal\compress.c,105,r[5 * j + 1] = (t[0] >> 8) | ((t[1] << 2) & 0xFF);,TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-82243046,R01,embedded\esp32_pio\src\kyber_internal\compress.c,106,r[5 * j + 2] = (t[1] >> 6) | ((t[2] << 4) & 0xFF);,TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-74ad28cb,R01,embedded\esp32_pio\src\kyber_internal\compress.c,107,r[5 * j + 3] = (t[2] >> 4) | ((t[3] << 6) & 0xFF);,TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-adc9fddb,R01,embedded\esp32_pio\src\kyber_internal\compress.c,108,r[5 * j + 4] = (t[3] >> 2);,TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-aa1ca592,R01,embedded\esp32_pio\src\kyber_internal\compress.c,164,uint16_t t[4];,TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-a3cdd221,R01,embedded\esp32_pio\src\kyber_internal\compress.c,167,t[0] = 0x3FF & ((base[0] >> 0) | ((uint16_t)base[1] << 8));,TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-cad4bea6,R01,embedded\esp32_pio\src\kyber_internal\compress.c,168,t[1] = 0x3FF & ((base[1] >> 2) | ((uint16_t)base[2] << 6));,TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-785f574a,R01,embedded\esp32_pio\src\kyber_internal\compress.c,169,t[2] = 0x3FF & ((base[2] >> 4) | ((uint16_t)base[3] << 4));,TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-d81331a5,R01,embedded\esp32_pio\src\kyber_internal\compress.c,170,t[3] = 0x3FF & ((base[3] >> 6) | ((uint16_t)base[4] << 2));,TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-20e81a9c,R01,embedded\esp32_pio\src\kyber_internal\compress.c,213,uint8_t t[8] = {0};,TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-69af4fec,R01,embedded\esp32_pio\src\kyber_internal\compress.c,227,r[i * 5] = 0xFF & ((t[0] >> 0) | (t[1] << 5));,TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-6b404a2c,R01,embedded\esp32_pio\src\kyber_internal\compress.c,228,r[i * 5 + 1] = 0xFF & ((t[1] >> 3) | (t[2] << 2) | (t[3] << 7));,TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-a5ee9e41,R01,embedded\esp32_pio\src\kyber_internal\compress.c,229,r[i * 5 + 2] = 0xFF & ((t[3] >> 1) | (t[4] << 4));,TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-6a4958e5,R01,embedded\esp32_pio\src\kyber_internal\compress.c,230,r[i * 5 + 3] = 0xFF & ((t[4] >> 4) | (t[5] << 1) | (t[6] << 6));,TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-cbe9163c,R01,embedded\esp32_pio\src\kyber_internal\compress.c,231,r[i * 5 + 4] = 0xFF & ((t[6] >> 2) | (t[7] << 3));,TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-028140c9,R01,embedded\esp32_pio\src\kyber_internal\compress.c,262,uint16_t t[8];,TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-ad16483b,R01,embedded\esp32_pio\src\kyber_internal\compress.c,276,r[11 * j + 1] = (t[0] >> 8) | ((t[1] << 3) & 0xFF);,TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-5c249517,R01,embedded\esp32_pio\src\kyber_internal\compress.c,277,r[11 * j + 2] = (t[1] >> 5) | ((t[2] << 6) & 0xFF);,TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-b38e4333,R01,embedded\esp32_pio\src\kyber_internal\compress.c,278,r[11 * j + 3] = (t[2] >> 2) & 0xFF;,TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-cdc47e47,R01,embedded\esp32_pio\src\kyber_internal\compress.c,279,r[11 * j + 4] = (t[2] >> 10) | ((t[3] << 1) & 0xFF);,TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-65dbcb10,R01,embedded\esp32_pio\src\kyber_internal\compress.c,280,r[11 * j + 5] = (t[3] >> 7) | ((t[4] << 4) & 0xFF);,TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-c997bdc3,R01,embedded\esp32_pio\src\kyber_internal\compress.c,281,r[11 * j + 6] = (t[4] >> 4) | ((t[5] << 7) & 0xFF);,TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-8b34ac72,R01,embedded\esp32_pio\src\kyber_internal\compress.c,282,r[11 * j + 7] = (t[5] >> 1) & 0xFF;,TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-02df56a0,R01,embedded\esp32_pio\src\kyber_internal\compress.c,283,r[11 * j + 8] = (t[5] >> 9) | ((t[6] << 2) & 0xFF);,TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-1ebc740e,R01,embedded\esp32_pio\src\kyber_internal\compress.c,284,r[11 * j + 9] = (t[6] >> 6) | ((t[7] << 5) & 0xFF);,TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-ef3ee154,R01,embedded\esp32_pio\src\kyber_internal\compress.c,285,r[11 * j + 10] = (t[7] >> 3);,TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-6a95f8a4,R01,embedded\esp32_pio\src\kyber_internal\compress.c,312,uint8_t t[8];,TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-46bf4516,R01,embedded\esp32_pio\src\kyber_internal\compress.c,325,t[1] = 0x1F & ((a[offset + 0] >> 5) | (a[offset + 1] << 3));,TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-6c612d7b,R01,embedded\esp32_pio\src\kyber_internal\compress.c,326,t[2] = 0x1F & (a[offset + 1] >> 2);,TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-2072bd90,R01,embedded\esp32_pio\src\kyber_internal\compress.c,327,t[3] = 0x1F & ((a[offset + 1] >> 7) | (a[offset + 2] << 1));,TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-c9008217,R01,embedded\esp32_pio\src\kyber_internal\compress.c,328,t[4] = 0x1F & ((a[offset + 2] >> 4) | (a[offset + 3] << 4));,TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-24721a45,R01,embedded\esp32_pio\src\kyber_internal\compress.c,329,t[5] = 0x1F & (a[offset + 3] >> 1);,TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-04bb4bfd,R01,embedded\esp32_pio\src\kyber_internal\compress.c,330,t[6] = 0x1F & ((a[offset + 3] >> 6) | (a[offset + 4] << 2));,TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-cf0fe5dc,R01,embedded\esp32_pio\src\kyber_internal\compress.c,331,t[7] = 0x1F & (a[offset + 4] >> 3);,TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-56fe9b4a,R01,embedded\esp32_pio\src\kyber_internal\compress.c,369,uint16_t t[8];,TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-79fd8e2c,R01,embedded\esp32_pio\src\kyber_internal\compress.c,371,t[0] = 0x7FF & ((base[0] >> 0) | ((uint16_t)base[1] << 8));,TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-8fd3c2fc,R01,embedded\esp32_pio\src\kyber_internal\compress.c,372,t[1] = 0x7FF & ((base[1] >> 3) | ((uint16_t)base[2] << 5));,TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-8cb75b0e,R01,embedded\esp32_pio\src\kyber_internal\compress.c,373,t[2] = 0x7FF & ((base[2] >> 6) | ((uint16_t)base[3] << 2) |,TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-ca4b6718,R01,embedded\esp32_pio\src\kyber_internal\compress.c,374,((uint16_t)base[4] << 10));,TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-21e08ae4,R01,embedded\esp32_pio\src\kyber_internal\compress.c,375,t[3] = 0x7FF & ((base[4] >> 1) | ((uint16_t)base[5] << 7));,TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-9656be78,R01,embedded\esp32_pio\src\kyber_internal\compress.c,376,t[4] = 0x7FF & ((base[5] >> 4) | ((uint16_t)base[6] << 4));,TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-9218786b,R01,embedded\esp32_pio\src\kyber_internal\compress.c,377,t[5] = 0x7FF & ((base[6] >> 7) | ((uint16_t)base[7] << 1) |,TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-af51c1d9,R01,embedded\esp32_pio\src\kyber_internal\compress.c,378,((uint16_t)base[8] << 9));,TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-3a664d16,R01,embedded\esp32_pio\src\kyber_internal\compress.c,379,t[6] = 0x7FF & ((base[8] >> 2) | ((uint16_t)base[9] << 6));,TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-f42356bf,R01,embedded\esp32_pio\src\kyber_internal\compress.c,380,t[7] = 0x7FF & ((base[9] >> 5) | ((uint16_t)base[10] << 3));,TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-d98d5e00,R04,embedded\esp32_pio\src\kyber_internal\config.h,163,"OQS_randombytes(ptr, len);",TP,Return value of cryptographic operation unchecked.
+grep-e34c770b,R04,embedded\esp32_pio\src\kyber_internal\fips202.h,64,"OQS_SHA3_shake128_inc_squeeze(OUT, (NBLOCKS)*OQS_SHA3_SHAKE128_RATE, STATE)",TP,Return value of cryptographic operation unchecked.
+grep-64b23697,R04,embedded\esp32_pio\src\kyber_internal\fips202.h,67,"OQS_SHA3_shake256_inc_squeeze(OUT, (NBLOCKS)*OQS_SHA3_SHAKE256_RATE, STATE)",TP,Return value of cryptographic operation unchecked.
+grep-0d9ecd18,R04,embedded\esp32_pio\src\kyber_internal\fips202x4.h,46,"OQS_SHA3_shake128_x4_inc_squeeze(OUT0, OUT1, OUT2, OUT3, (NBLOCKS)*OQS_SHA3_SHAKE128_RATE, STATE)",TP,Return value of cryptographic operation unchecked.
+grep-7d7e4b4c,R04,embedded\esp32_pio\src\kyber_internal\fips202x4.h,49,"OQS_SHA3_shake256_x4_inc_squeeze(OUT0, OUT1, OUT2, OUT3, (NBLOCKS)*OQS_SHA3_SHAKE256_RATE, STATE)",TP,Return value of cryptographic operation unchecked.
+grep-47a642c3,R01,embedded\esp32_pio\src\kyber_internal\fips202x4_stub.h,19,shake128incctx s[4];,TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-26599104,R04,embedded\esp32_pio\src\kyber_internal\fips202x4_stub.h,23,OQS_SHA3_shake128_inc_init(&ctx->s[0]);,TP,Return value of cryptographic operation unchecked.
+grep-8a1167f1,R01,embedded\esp32_pio\src\kyber_internal\fips202x4_stub.h,24,OQS_SHA3_shake128_inc_init(&ctx->s[1]);,TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-2bd42a6e,R04,embedded\esp32_pio\src\kyber_internal\fips202x4_stub.h,24,OQS_SHA3_shake128_inc_init(&ctx->s[1]);,TP,Return value of cryptographic operation unchecked.
+grep-57840939,R01,embedded\esp32_pio\src\kyber_internal\fips202x4_stub.h,25,OQS_SHA3_shake128_inc_init(&ctx->s[2]);,TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-43987616,R04,embedded\esp32_pio\src\kyber_internal\fips202x4_stub.h,25,OQS_SHA3_shake128_inc_init(&ctx->s[2]);,TP,Return value of cryptographic operation unchecked.
+grep-7039fb19,R01,embedded\esp32_pio\src\kyber_internal\fips202x4_stub.h,26,OQS_SHA3_shake128_inc_init(&ctx->s[3]);,TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-39f90f21,R04,embedded\esp32_pio\src\kyber_internal\fips202x4_stub.h,26,OQS_SHA3_shake128_inc_init(&ctx->s[3]);,TP,Return value of cryptographic operation unchecked.
+grep-8e38ba49,R04,embedded\esp32_pio\src\kyber_internal\fips202x4_stub.h,35,OQS_SHA3_shake128_inc_ctx_reset(&ctx->s[0]);,FP,Reset function returns void.
+grep-8a40df26,R01,embedded\esp32_pio\src\kyber_internal\fips202x4_stub.h,36,OQS_SHA3_shake128_inc_ctx_reset(&ctx->s[1]);,TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-da923783,R04,embedded\esp32_pio\src\kyber_internal\fips202x4_stub.h,36,OQS_SHA3_shake128_inc_ctx_reset(&ctx->s[1]);,FP,Reset function returns void.
+grep-e7ab4975,R01,embedded\esp32_pio\src\kyber_internal\fips202x4_stub.h,37,OQS_SHA3_shake128_inc_ctx_reset(&ctx->s[2]);,TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-6713325d,R04,embedded\esp32_pio\src\kyber_internal\fips202x4_stub.h,37,OQS_SHA3_shake128_inc_ctx_reset(&ctx->s[2]);,FP,Reset function returns void.
+grep-fa71a911,R01,embedded\esp32_pio\src\kyber_internal\fips202x4_stub.h,38,OQS_SHA3_shake128_inc_ctx_reset(&ctx->s[3]);,TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-c28272d1,R04,embedded\esp32_pio\src\kyber_internal\fips202x4_stub.h,38,OQS_SHA3_shake128_inc_ctx_reset(&ctx->s[3]);,FP,Reset function returns void.
+grep-bae0c456,R04,embedded\esp32_pio\src\kyber_internal\fips202x4_stub.h,40,"OQS_SHA3_shake128_inc_absorb(&ctx->s[0], in0, inlen);",TP,Return value of cryptographic operation unchecked.
+grep-e9ec3dbe,R01,embedded\esp32_pio\src\kyber_internal\fips202x4_stub.h,41,"OQS_SHA3_shake128_inc_absorb(&ctx->s[1], in1, inlen);",TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-15091e81,R04,embedded\esp32_pio\src\kyber_internal\fips202x4_stub.h,41,"OQS_SHA3_shake128_inc_absorb(&ctx->s[1], in1, inlen);",TP,Return value of cryptographic operation unchecked.
+grep-2893fbdf,R01,embedded\esp32_pio\src\kyber_internal\fips202x4_stub.h,42,"OQS_SHA3_shake128_inc_absorb(&ctx->s[2], in2, inlen);",TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-96d19f53,R04,embedded\esp32_pio\src\kyber_internal\fips202x4_stub.h,42,"OQS_SHA3_shake128_inc_absorb(&ctx->s[2], in2, inlen);",TP,Return value of cryptographic operation unchecked.
+grep-5caff6e8,R01,embedded\esp32_pio\src\kyber_internal\fips202x4_stub.h,43,"OQS_SHA3_shake128_inc_absorb(&ctx->s[3], in3, inlen);",TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-7fa5a067,R04,embedded\esp32_pio\src\kyber_internal\fips202x4_stub.h,43,"OQS_SHA3_shake128_inc_absorb(&ctx->s[3], in3, inlen);",TP,Return value of cryptographic operation unchecked.
+grep-72c94253,R04,embedded\esp32_pio\src\kyber_internal\fips202x4_stub.h,45,OQS_SHA3_shake128_inc_finalize(&ctx->s[0]);,TP,Return value of cryptographic operation unchecked.
+grep-90df941d,R01,embedded\esp32_pio\src\kyber_internal\fips202x4_stub.h,46,OQS_SHA3_shake128_inc_finalize(&ctx->s[1]);,TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-8019c568,R04,embedded\esp32_pio\src\kyber_internal\fips202x4_stub.h,46,OQS_SHA3_shake128_inc_finalize(&ctx->s[1]);,TP,Return value of cryptographic operation unchecked.
+grep-171f264a,R01,embedded\esp32_pio\src\kyber_internal\fips202x4_stub.h,47,OQS_SHA3_shake128_inc_finalize(&ctx->s[2]);,TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-2c85566a,R04,embedded\esp32_pio\src\kyber_internal\fips202x4_stub.h,47,OQS_SHA3_shake128_inc_finalize(&ctx->s[2]);,TP,Return value of cryptographic operation unchecked.
+grep-03906079,R01,embedded\esp32_pio\src\kyber_internal\fips202x4_stub.h,48,OQS_SHA3_shake128_inc_finalize(&ctx->s[3]);,TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-a90df80f,R04,embedded\esp32_pio\src\kyber_internal\fips202x4_stub.h,48,OQS_SHA3_shake128_inc_finalize(&ctx->s[3]);,TP,Return value of cryptographic operation unchecked.
+grep-44efae37,R04,embedded\esp32_pio\src\kyber_internal\fips202x4_stub.h,58,"OQS_SHA3_shake128_inc_squeeze(out0, outlen, &ctx->s[0]);",TP,Return value of cryptographic operation unchecked.
+grep-cd28e82b,R01,embedded\esp32_pio\src\kyber_internal\fips202x4_stub.h,59,"OQS_SHA3_shake128_inc_squeeze(out1, outlen, &ctx->s[1]);",TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-15ac6fd8,R04,embedded\esp32_pio\src\kyber_internal\fips202x4_stub.h,59,"OQS_SHA3_shake128_inc_squeeze(out1, outlen, &ctx->s[1]);",TP,Return value of cryptographic operation unchecked.
+grep-e99897cd,R01,embedded\esp32_pio\src\kyber_internal\fips202x4_stub.h,60,"OQS_SHA3_shake128_inc_squeeze(out2, outlen, &ctx->s[2]);",TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-27d5dea8,R04,embedded\esp32_pio\src\kyber_internal\fips202x4_stub.h,60,"OQS_SHA3_shake128_inc_squeeze(out2, outlen, &ctx->s[2]);",TP,Return value of cryptographic operation unchecked.
+grep-a44b7237,R01,embedded\esp32_pio\src\kyber_internal\fips202x4_stub.h,61,"OQS_SHA3_shake128_inc_squeeze(out3, outlen, &ctx->s[3]);",TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-bc3a6c26,R04,embedded\esp32_pio\src\kyber_internal\fips202x4_stub.h,61,"OQS_SHA3_shake128_inc_squeeze(out3, outlen, &ctx->s[3]);",TP,Return value of cryptographic operation unchecked.
+grep-cb9ba959,R04,embedded\esp32_pio\src\kyber_internal\fips202x4_stub.h,65,OQS_SHA3_shake128_inc_ctx_release(&ctx->s[0]);,FP,Cleanup/free functions do not require error checking.
+grep-fcad0bac,R01,embedded\esp32_pio\src\kyber_internal\fips202x4_stub.h,66,OQS_SHA3_shake128_inc_ctx_release(&ctx->s[1]);,TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-6efcb494,R04,embedded\esp32_pio\src\kyber_internal\fips202x4_stub.h,66,OQS_SHA3_shake128_inc_ctx_release(&ctx->s[1]);,FP,Cleanup/free functions do not require error checking.
+grep-af51cf53,R01,embedded\esp32_pio\src\kyber_internal\fips202x4_stub.h,67,OQS_SHA3_shake128_inc_ctx_release(&ctx->s[2]);,TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-a6df803f,R04,embedded\esp32_pio\src\kyber_internal\fips202x4_stub.h,67,OQS_SHA3_shake128_inc_ctx_release(&ctx->s[2]);,FP,Cleanup/free functions do not require error checking.
+grep-90111843,R01,embedded\esp32_pio\src\kyber_internal\fips202x4_stub.h,68,OQS_SHA3_shake128_inc_ctx_release(&ctx->s[3]);,TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-145cf580,R04,embedded\esp32_pio\src\kyber_internal\fips202x4_stub.h,68,OQS_SHA3_shake128_inc_ctx_release(&ctx->s[3]);,FP,Cleanup/free functions do not require error checking.
+grep-9a26ddcc,R04,embedded\esp32_pio\src\kyber_internal\fips202x4_stub.h,81,"OQS_SHA3_shake256(out0, outlen, in0, inlen);",TP,Return value of cryptographic operation unchecked.
+grep-183032e4,R04,embedded\esp32_pio\src\kyber_internal\fips202x4_stub.h,82,"OQS_SHA3_shake256(out1, outlen, in1, inlen);",TP,Return value of cryptographic operation unchecked.
+grep-e222f673,R04,embedded\esp32_pio\src\kyber_internal\fips202x4_stub.h,83,"OQS_SHA3_shake256(out2, outlen, in2, inlen);",TP,Return value of cryptographic operation unchecked.
+grep-55ccd5f8,R04,embedded\esp32_pio\src\kyber_internal\fips202x4_stub.h,84,"OQS_SHA3_shake256(out3, outlen, in3, inlen);",TP,Return value of cryptographic operation unchecked.
+grep-c6b259d5,R01,embedded\esp32_pio\src\kyber_internal\indcpa.c,214,MLK_ALIGN uint8_t seed_ext[4][MLK_ALIGN_UP(MLKEM_SYMBYTES + 2)];,TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-4532a504,R01,embedded\esp32_pio\src\kyber_internal\indcpa.c,363,"mlk_poly_getnoise_eta1_4x(&skpv[0], &skpv[1], &e[0], &e[1], noiseseed, 0, 1,",TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-9a623831,R01,embedded\esp32_pio\src\kyber_internal\indcpa.c,370,"mlk_poly_getnoise_eta1_4x(&skpv[0], &skpv[1], &skpv[2],",TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-aae345f5,R01,embedded\esp32_pio\src\kyber_internal\indcpa.c,374,"mlk_poly_getnoise_eta1_4x(&e[0], &e[1], &e[2], &pkpv[0] /* irrelevant */,",TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-ca387041,R01,embedded\esp32_pio\src\kyber_internal\indcpa.c,377,"mlk_poly_getnoise_eta1_4x(&skpv[0], &skpv[1], &skpv[2], &skpv[3], noiseseed,",TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-5873af68,R01,embedded\esp32_pio\src\kyber_internal\indcpa.c,379,"mlk_poly_getnoise_eta1_4x(&e[0], &e[1], &e[2], &e[3], noiseseed, 4, 5, 6, 7);",TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-e2660457,R01,embedded\esp32_pio\src\kyber_internal\indcpa.c,440,"mlk_poly_getnoise_eta1122_4x(&sp[0], &sp[1], &ep[0], &ep[1], coins, 0, 1, 2,",TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-a7a7ee75,R01,embedded\esp32_pio\src\kyber_internal\indcpa.c,448,"mlk_poly_getnoise_eta1_4x(&sp[0], &sp[1], &sp[2], &b[0], coins, 0, 1, 2,",TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-597f0b44,R01,embedded\esp32_pio\src\kyber_internal\indcpa.c,451,"mlk_poly_getnoise_eta2_4x(&ep[0], &ep[1], &ep[2], &epp, coins, 3, 4, 5, 6);",TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-7c474bd5,R01,embedded\esp32_pio\src\kyber_internal\indcpa.c,453,"mlk_poly_getnoise_eta1_4x(&sp[0], &sp[1], &sp[2], &sp[3], coins, 0, 1, 2, 3);",TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-0d011d0b,R01,embedded\esp32_pio\src\kyber_internal\indcpa.c,454,"mlk_poly_getnoise_eta2_4x(&ep[0], &ep[1], &ep[2], &ep[3], coins, 4, 5, 6, 7);",TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-c1f17494,R01,embedded\esp32_pio\src\kyber_internal\params.h,33,"#define MLKEM_SYMBYTES 32 /* size in bytes of hashes, and seeds */",FP,Hash/MAC buffers do not require expansion for PQC.
+grep-1dcec72d,R01,embedded\esp32_pio\src\kyber_internal\params.h,34,#define MLKEM_SSBYTES 32  /* size in bytes of shared key */,TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-d3478246,R01,embedded\esp32_pio\src\kyber_internal\params.h,36,#define MLKEM_POLYBYTES 384,TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-2f78ed07,R01,embedded\esp32_pio\src\kyber_internal\poly.h,33,* coeffs[0] + X*coeffs[1] + X^2*coeffs[2] + ... + X^{n-1}*coeffs[n-1],TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-f6f77515,R01,embedded\esp32_pio\src\kyber_internal\poly_k.c,157,int32_t t[2] = {0};,TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-24a288b9,R01,embedded\esp32_pio\src\kyber_internal\poly_k.c,163,t[1] <=   ((int32_t) k * 2 * MLKEM_UINT12_LIMIT * 32768) &&,TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-924f2c20,R01,embedded\esp32_pio\src\kyber_internal\poly_k.c,164,t[1] >= - ((int32_t) k * 2 * MLKEM_UINT12_LIMIT * 32768))),TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-71e19ac4,R01,embedded\esp32_pio\src\kyber_internal\poly_k.c,168,t[1] += (int32_t)a[k].coeffs[2 * i] * b[k].coeffs[2 * i + 1];,TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-bd8a76d1,R01,embedded\esp32_pio\src\kyber_internal\poly_k.c,169,t[1] += (int32_t)a[k].coeffs[2 * i + 1] * b[k].coeffs[2 * i];,TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-1b747168,R01,embedded\esp32_pio\src\kyber_internal\poly_k.c,172,r->coeffs[2 * i + 1] = mlk_montgomery_reduce(t[1]);,TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-9708250a,R01,embedded\esp32_pio\src\kyber_internal\poly_k.c,307,MLK_ALIGN uint8_t buf[4][MLK_ALIGN_UP(MLKEM_ETA1 * MLKEM_N / 4)];,TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-427d735d,R01,embedded\esp32_pio\src\kyber_internal\poly_k.c,308,MLK_ALIGN uint8_t extkey[4][MLK_ALIGN_UP(MLKEM_SYMBYTES + 1)];,TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-9092a6cd,R01,embedded\esp32_pio\src\kyber_internal\poly_k.c,310,"memcpy(extkey[1], seed, MLKEM_SYMBYTES);",TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-0aed14bf,R01,embedded\esp32_pio\src\kyber_internal\poly_k.c,311,"memcpy(extkey[2], seed, MLKEM_SYMBYTES);",TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-f28a6812,R01,embedded\esp32_pio\src\kyber_internal\poly_k.c,312,"memcpy(extkey[3], seed, MLKEM_SYMBYTES);",TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-7bac10c6,R01,embedded\esp32_pio\src\kyber_internal\poly_k.c,314,extkey[1][MLKEM_SYMBYTES] = nonce1;,TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-7fd649e9,R01,embedded\esp32_pio\src\kyber_internal\poly_k.c,315,extkey[2][MLKEM_SYMBYTES] = nonce2;,TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-122dc559,R01,embedded\esp32_pio\src\kyber_internal\poly_k.c,316,extkey[3][MLKEM_SYMBYTES] = nonce3;,TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-ff2c79c4,R01,embedded\esp32_pio\src\kyber_internal\poly_k.c,319,"mlk_poly_cbd_eta1(r1, buf[1]);",TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-2389eb6e,R01,embedded\esp32_pio\src\kyber_internal\poly_k.c,320,"mlk_poly_cbd_eta1(r2, buf[2]);",TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-ddb42477,R01,embedded\esp32_pio\src\kyber_internal\poly_k.c,321,"mlk_poly_cbd_eta1(r3, buf[3]);",TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-911c70d1,R01,embedded\esp32_pio\src\kyber_internal\poly_k.c,409,MLK_ALIGN uint8_t buf[4][MLK_ALIGN_UP(MLKEM_ETA1 * MLKEM_N / 4)];,TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-717fab56,R01,embedded\esp32_pio\src\kyber_internal\poly_k.c,410,MLK_ALIGN uint8_t extkey[4][MLK_ALIGN_UP(MLKEM_SYMBYTES + 1)];,TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-61fa7192,R01,embedded\esp32_pio\src\kyber_internal\poly_k.c,413,"memcpy(extkey[1], seed, MLKEM_SYMBYTES);",TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-8cb5631e,R01,embedded\esp32_pio\src\kyber_internal\poly_k.c,414,"memcpy(extkey[2], seed, MLKEM_SYMBYTES);",TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-ee0348c1,R01,embedded\esp32_pio\src\kyber_internal\poly_k.c,415,"memcpy(extkey[3], seed, MLKEM_SYMBYTES);",TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-af396f2c,R01,embedded\esp32_pio\src\kyber_internal\poly_k.c,417,extkey[1][MLKEM_SYMBYTES] = nonce1;,TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-443665a0,R01,embedded\esp32_pio\src\kyber_internal\poly_k.c,418,extkey[2][MLKEM_SYMBYTES] = nonce2;,TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-286a2bc0,R01,embedded\esp32_pio\src\kyber_internal\poly_k.c,419,extkey[3][MLKEM_SYMBYTES] = nonce3;,TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-2b97d57f,R01,embedded\esp32_pio\src\kyber_internal\poly_k.c,422,* even though that means generating more random data in buf[2] and buf[3],TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-7d7fdcc6,R01,embedded\esp32_pio\src\kyber_internal\poly_k.c,428,"mlk_prf_eta1(buf[1], extkey[1]);",TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-b4246cdf,R01,embedded\esp32_pio\src\kyber_internal\poly_k.c,429,"mlk_prf_eta2(buf[2], extkey[2]);",TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-0b71e313,R01,embedded\esp32_pio\src\kyber_internal\poly_k.c,430,"mlk_prf_eta2(buf[3], extkey[3]);",TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-543bb1d0,R01,embedded\esp32_pio\src\kyber_internal\poly_k.c,434,"mlk_poly_cbd_eta1(r1, buf[1]);",TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-85515960,R01,embedded\esp32_pio\src\kyber_internal\poly_k.c,435,"mlk_poly_cbd_eta2(r2, buf[2]);",TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-5674f2b0,R01,embedded\esp32_pio\src\kyber_internal\poly_k.c,436,"mlk_poly_cbd_eta2(r3, buf[3]);",TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-e7be41a5,R01,embedded\esp32_pio\src\kyber_internal\sampling.c,150,uint8_t seed[4][MLK_ALIGN_UP(MLKEM_SYMBYTES + 2)]),TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-3f2ee147,R01,embedded\esp32_pio\src\kyber_internal\sampling.c,154,buf[4][MLK_ALIGN_UP(MLKEM_GEN_MATRIX_NBLOCKS * MLK_XOF_RATE)];,TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-c6c0f4a9,R01,embedded\esp32_pio\src\kyber_internal\sampling.c,157,unsigned ctr[4];,TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-893f7dc0,R01,embedded\esp32_pio\src\kyber_internal\sampling.c,171,"ctr[1] = mlk_rej_uniform(vec[1].coeffs, MLKEM_N, 0, buf[1], buflen);",TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-c3336b42,R01,embedded\esp32_pio\src\kyber_internal\sampling.c,172,"ctr[2] = mlk_rej_uniform(vec[2].coeffs, MLKEM_N, 0, buf[2], buflen);",TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-edb5e980,R01,embedded\esp32_pio\src\kyber_internal\sampling.c,173,"ctr[3] = mlk_rej_uniform(vec[3].coeffs, MLKEM_N, 0, buf[3], buflen);",TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-829bc403,R01,embedded\esp32_pio\src\kyber_internal\sampling.c,180,while (ctr[0] < MLKEM_N || ctr[1] < MLKEM_N || ctr[2] < MLKEM_N ||,TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-d0cabe74,R01,embedded\esp32_pio\src\kyber_internal\sampling.c,181,ctr[3] < MLKEM_N),TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-b2a509a9,R01,embedded\esp32_pio\src\kyber_internal\sampling.c,184,"object_whole(buf[1]), object_whole(buf[2]), object_whole(buf[3]))",TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-b60d106c,R01,embedded\esp32_pio\src\kyber_internal\sampling.c,185,invariant(ctr[0] <= MLKEM_N && ctr[1] <= MLKEM_N),TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-dac214d0,R01,embedded\esp32_pio\src\kyber_internal\sampling.c,186,invariant(ctr[2] <= MLKEM_N && ctr[3] <= MLKEM_N),TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-03d25ec4,R01,embedded\esp32_pio\src\kyber_internal\sampling.c,188,"invariant(array_bound(vec[1].coeffs, 0, ctr[1], 0, MLKEM_Q))",TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-4254c61c,R01,embedded\esp32_pio\src\kyber_internal\sampling.c,189,"invariant(array_bound(vec[2].coeffs, 0, ctr[2], 0, MLKEM_Q))",TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-b621c5c0,R01,embedded\esp32_pio\src\kyber_internal\sampling.c,190,"invariant(array_bound(vec[3].coeffs, 0, ctr[3], 0, MLKEM_Q)))",TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-d586b041,R01,embedded\esp32_pio\src\kyber_internal\sampling.c,194,"ctr[1] = mlk_rej_uniform(vec[1].coeffs, MLKEM_N, ctr[1], buf[1], buflen);",TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-ceb34e38,R01,embedded\esp32_pio\src\kyber_internal\sampling.c,195,"ctr[2] = mlk_rej_uniform(vec[2].coeffs, MLKEM_N, ctr[2], buf[2], buflen);",TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-485b5eba,R01,embedded\esp32_pio\src\kyber_internal\sampling.c,196,"ctr[3] = mlk_rej_uniform(vec[3].coeffs, MLKEM_N, ctr[3], buf[3], buflen);",TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-60ab1103,R01,embedded\esp32_pio\src\kyber_internal\sampling.c,255,static uint32_t mlk_load32_littleendian(const uint8_t x[4]),TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-c883d103,R01,embedded\esp32_pio\src\kyber_internal\sampling.c,259,r |= (uint32_t)x[1] << 8;,TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-920d9577,R01,embedded\esp32_pio\src\kyber_internal\sampling.c,260,r |= (uint32_t)x[2] << 16;,TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-a7c14d36,R01,embedded\esp32_pio\src\kyber_internal\sampling.c,261,r |= (uint32_t)x[3] << 24;,TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-30429a6e,R01,embedded\esp32_pio\src\kyber_internal\sampling.c,307,static uint32_t mlk_load24_littleendian(const uint8_t x[3]),TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-f793e290,R01,embedded\esp32_pio\src\kyber_internal\sampling.c,311,r |= (uint32_t)x[1] << 8;,TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-f6369f1b,R01,embedded\esp32_pio\src\kyber_internal\sampling.c,312,r |= (uint32_t)x[2] << 16;,TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-45ad0be5,R01,embedded\esp32_pio\src\kyber_internal\sampling.h,70,*              - uint8_t seed[4][MLK_ALIGN_UP(MLKEM_SYMBYTES + 2)]:,TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-8f209f5a,R01,embedded\esp32_pio\src\kyber_internal\sampling.h,79,uint8_t seed[4][MLK_ALIGN_UP(MLKEM_SYMBYTES + 2)]),TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-c15c5e4a,R01,embedded\esp32_pio\src\kyber_internal\sampling.h,85,"ensures(array_bound(vec[1].coeffs, 0, MLKEM_N, 0, MLKEM_Q))",TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-fb5bc86e,R01,embedded\esp32_pio\src\kyber_internal\sampling.h,86,"ensures(array_bound(vec[2].coeffs, 0, MLKEM_N, 0, MLKEM_Q))",TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-ad406584,R01,embedded\esp32_pio\src\kyber_internal\sampling.h,87,"ensures(array_bound(vec[3].coeffs, 0, MLKEM_N, 0, MLKEM_Q)));",TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-fbe2e22e,R01,embedded\esp32_pio\src\kyber_internal\sha3.h,23,uint64_t s[25];,TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-35949cf6,R01,embedded\esp32_pio\src\kyber_internal\sha3x4.h,23,uint64_t s[4][25];,TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-fac92139,R01,embedded\esp32_pio\src\kyber_internal\symmetric.h,44,"mlk_shake256x4((OUT)[0], (OUT)[1], (OUT)[2], (OUT)[3],                \",TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-36aed3a6,R01,embedded\esp32_pio\src\kyber_internal\symmetric.h,45,"(MLKEM_ETA1 * MLKEM_N / 4), (IN)[0], (IN)[1], (IN)[2], \",TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-242ea73a,R01,embedded\esp32_pio\src\kyber_internal\symmetric.h,46,"(IN)[3], MLKEM_SYMBYTES + 1)",TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-32809984,R01,embedded\esp32_pio\src\kyber_internal\symmetric.h,60,"mlk_shake128x4_absorb_once((CTX), (IN)[0], (IN)[1], (IN)[2], (IN)[3], \",TP,Small buffer/macro identified for potentially asymmetric key material.
+grep-0526a223,R01,embedded\esp32_pio\src\kyber_internal\symmetric.h,63,"mlk_shake128x4_squeezeblocks((BUF)[0], (BUF)[1], (BUF)[2], (BUF)[3], \",TP,Small buffer/macro identified for potentially asymmetric key material.

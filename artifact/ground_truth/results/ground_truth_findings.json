@@ -1,0 +1,380 @@
+[
+  {
+    "case_id": "r01_short_public_key",
+    "file": "r01_short_public_key.c",
+    "rule": "R01",
+    "line": 2,
+    "col": 0,
+    "message": "Hardcoded key/buffer size macro 'PUBLIC_KEY_BYTES' value (32) is below PQC minimum requirements.",
+    "expected": "true"
+  },
+  {
+    "case_id": "r01_short_signature",
+    "file": "r01_short_signature.c",
+    "rule": "R01",
+    "line": 2,
+    "col": 0,
+    "message": "Hardcoded key/buffer size macro 'SIGNATURE_BYTES' value (64) is below PQC minimum requirements.",
+    "expected": "true"
+  },
+  {
+    "case_id": "r01_short_psk",
+    "file": "r01_short_psk.c",
+    "rule": "R01",
+    "line": 2,
+    "col": 0,
+    "message": "Hardcoded key/buffer size macro 'PSK_MAX_LEN' value (64) is below PQC minimum requirements.",
+    "expected": "true"
+  },
+  {
+    "case_id": "r01_small_certificate",
+    "file": "r01_small_certificate.c",
+    "rule": "R01",
+    "line": 2,
+    "col": 0,
+    "message": "Hardcoded key/buffer size macro 'CERTIFICATE_BUFFER_SIZE' value (1024) is below PQC minimum requirements.",
+    "expected": "true"
+  },
+  {
+    "case_id": "r01_small_handshake",
+    "file": "r01_small_handshake.c",
+    "rule": "R01",
+    "line": 2,
+    "col": 0,
+    "message": "Hardcoded key/buffer size macro 'HANDSHAKE_BUFFER_SIZE' value (2048) is below PQC minimum requirements.",
+    "expected": "true"
+  },
+  {
+    "case_id": "r02_ecdsa_if_chain",
+    "file": "r02_ecdsa_if_chain.c",
+    "rule": "R02",
+    "line": 5,
+    "col": 4,
+    "message": "Algorithm if-else chain contains classical checks but lacks post-quantum cryptography options.",
+    "expected": "true"
+  },
+  {
+    "case_id": "r02_ecdh_if_chain",
+    "file": "r02_ecdh_if_chain.c",
+    "rule": "R01",
+    "line": 2,
+    "col": 0,
+    "message": "Hardcoded key/buffer size macro 'KEX_ECDH_P256' value (10) is below PQC minimum requirements.",
+    "expected": "true"
+  },
+  {
+    "case_id": "r02_ecdh_if_chain",
+    "file": "r02_ecdh_if_chain.c",
+    "rule": "R01",
+    "line": 3,
+    "col": 0,
+    "message": "Hardcoded key/buffer size macro 'KEX_ECDH_P384' value (11) is below PQC minimum requirements.",
+    "expected": "true"
+  },
+  {
+    "case_id": "r02_ecdh_if_chain",
+    "file": "r02_ecdh_if_chain.c",
+    "rule": "R02",
+    "line": 5,
+    "col": 4,
+    "message": "Algorithm if-else chain contains classical checks but lacks post-quantum cryptography options.",
+    "expected": "true"
+  },
+  {
+    "case_id": "r02_ecdh_if_chain",
+    "file": "r02_ecdh_if_chain.c",
+    "rule": "R02",
+    "line": 6,
+    "col": 4,
+    "message": "Algorithm if-else chain contains classical checks but lacks post-quantum cryptography options.",
+    "expected": "true"
+  },
+  {
+    "case_id": "r02_rsa_switch",
+    "file": "r02_rsa_switch.c",
+    "rule": "R01",
+    "line": 2,
+    "col": 0,
+    "message": "Hardcoded key/buffer size macro 'KEX_RSA' value (1) is below PQC minimum requirements.",
+    "expected": "true"
+  },
+  {
+    "case_id": "r02_rsa_switch",
+    "file": "r02_rsa_switch.c",
+    "rule": "R01",
+    "line": 3,
+    "col": 0,
+    "message": "Hardcoded key/buffer size macro 'KEX_ECDHE' value (2) is below PQC minimum requirements.",
+    "expected": "true"
+  },
+  {
+    "case_id": "r02_rsa_switch",
+    "file": "r02_rsa_switch.c",
+    "rule": "R02",
+    "line": 5,
+    "col": 4,
+    "message": "Algorithm switch statement contains classical crypto but lacks post-quantum cryptography cases.",
+    "expected": "true"
+  },
+  {
+    "case_id": "r02_cipher_suite_switch",
+    "file": "r02_cipher_suite_switch.c",
+    "rule": "R02",
+    "line": 5,
+    "col": 4,
+    "message": "Algorithm switch statement contains classical crypto but lacks post-quantum cryptography cases.",
+    "expected": "true"
+  },
+  {
+    "case_id": "r02_curve_selection",
+    "file": "r02_curve_selection.c",
+    "rule": "R02",
+    "line": 5,
+    "col": 4,
+    "message": "Algorithm if-else chain contains classical checks but lacks post-quantum cryptography options.",
+    "expected": "true"
+  },
+  {
+    "case_id": "r03_stack_pk_sk_ct",
+    "file": "r03_stack_pk_sk_ct.c",
+    "rule": "R03",
+    "line": 6,
+    "col": 12,
+    "message": "Stack-allocated crypto buffer 'pk' of large size (MLKEM_INDCCA_PUBLICKEYBYTES) detected.",
+    "expected": "true"
+  },
+  {
+    "case_id": "r03_stack_pk_sk_ct",
+    "file": "r03_stack_pk_sk_ct.c",
+    "rule": "R03",
+    "line": 7,
+    "col": 12,
+    "message": "Stack-allocated crypto buffer 'sk' of large size (MLKEM_INDCCA_SECRETKEYBYTES) detected.",
+    "expected": "true"
+  },
+  {
+    "case_id": "r03_stack_pk_sk_ct",
+    "file": "r03_stack_pk_sk_ct.c",
+    "rule": "R03",
+    "line": 8,
+    "col": 12,
+    "message": "Stack-allocated crypto buffer 'ct' of large size (MLKEM_INDCCA_CIPHERTEXTBYTES) detected.",
+    "expected": "true"
+  },
+  {
+    "case_id": "r03_stack_signature",
+    "file": "r03_stack_signature.c",
+    "rule": "R03",
+    "line": 3,
+    "col": 12,
+    "message": "Stack-allocated crypto buffer 'signature' of large size (3309) detected.",
+    "expected": "true"
+  },
+  {
+    "case_id": "r03_stack_secret",
+    "file": "r03_stack_secret.c",
+    "rule": "R03",
+    "line": 3,
+    "col": 12,
+    "message": "Stack-allocated crypto buffer 'secret_key' of large size (4096) detected.",
+    "expected": "true"
+  },
+  {
+    "case_id": "r03_stack_ciphertext",
+    "file": "r03_stack_ciphertext.c",
+    "rule": "R03",
+    "line": 3,
+    "col": 12,
+    "message": "Stack-allocated crypto buffer 'ciphertext' of large size (1568) detected.",
+    "expected": "true"
+  },
+  {
+    "case_id": "r03_stack_fallback_key",
+    "file": "r03_stack_fallback_key.c",
+    "rule": "R03",
+    "line": 4,
+    "col": 12,
+    "message": "Stack-allocated crypto buffer 'fallback_key' of large size (4096) detected.",
+    "expected": "true"
+  },
+  {
+    "case_id": "r04_unchecked_keypair",
+    "file": "r04_unchecked_keypair.c",
+    "rule": "R04",
+    "line": 2,
+    "col": 18,
+    "message": "Return value of cryptographic function 'OQS_KEM_keypair' is unchecked.",
+    "expected": "true"
+  },
+  {
+    "case_id": "r04_unchecked_sign",
+    "file": "r04_unchecked_sign.c",
+    "rule": "R04",
+    "line": 2,
+    "col": 20,
+    "message": "Return value of cryptographic function 'crypto_sign_signature' is unchecked.",
+    "expected": "true"
+  },
+  {
+    "case_id": "r04_unchecked_verify",
+    "file": "r04_unchecked_verify.c",
+    "rule": "R04",
+    "line": 2,
+    "col": 22,
+    "message": "Return value of cryptographic function 'psa_verify_hash' is unchecked.",
+    "expected": "true"
+  },
+  {
+    "case_id": "r04_unchecked_import",
+    "file": "r04_unchecked_import.c",
+    "rule": "R04",
+    "line": 2,
+    "col": 48,
+    "message": "Return value of cryptographic function 'psa_import_key' is unchecked.",
+    "expected": "true"
+  },
+  {
+    "case_id": "r04_unchecked_handshake",
+    "file": "r04_unchecked_handshake.c",
+    "rule": "R04",
+    "line": 2,
+    "col": 22,
+    "message": "Return value of cryptographic function 'mbedtls_ssl_handshake_step' is unchecked.",
+    "expected": "true"
+  },
+  {
+    "case_id": "r05_direct_kyber_keypair",
+    "file": "r05_direct_kyber_keypair.c",
+    "rule": "R05",
+    "line": 2,
+    "col": 41,
+    "message": "Direct call to algorithm-specific API 'kyber_keypair'.",
+    "expected": "true"
+  },
+  {
+    "case_id": "r05_direct_dilithium_sign",
+    "file": "r05_direct_dilithium_sign.c",
+    "rule": "R05",
+    "line": 2,
+    "col": 21,
+    "message": "Direct call to algorithm-specific API 'dilithium_sign'.",
+    "expected": "true"
+  },
+  {
+    "case_id": "r05_direct_sphincs_verify",
+    "file": "r05_direct_sphincs_verify.c",
+    "rule": "R05",
+    "line": 2,
+    "col": 21,
+    "message": "Direct call to algorithm-specific API 'sphincs_verify'.",
+    "expected": "true"
+  },
+  {
+    "case_id": "r05_direct_falcon_decaps",
+    "file": "r05_direct_falcon_decaps.c",
+    "rule": "R05",
+    "line": 2,
+    "col": 21,
+    "message": "Direct call to algorithm-specific API 'falcon_decaps'.",
+    "expected": "true"
+  },
+  {
+    "case_id": "r05_direct_mceliece_encaps",
+    "file": "r05_direct_mceliece_encaps.c",
+    "rule": "R05",
+    "line": 2,
+    "col": 21,
+    "message": "Direct call to algorithm-specific API 'mceliece_encaps'.",
+    "expected": "true"
+  },
+  {
+    "case_id": "r06_malloc_key_sig_sum",
+    "file": "r06_malloc_key_sig_sum.c",
+    "rule": "R06",
+    "line": 3,
+    "col": 49,
+    "message": "Memory allocation 'malloc' size calculation uses arithmetic on key/buffer sizes without overflow checks.",
+    "expected": "true"
+  },
+  {
+    "case_id": "r06_calloc_keys_product",
+    "file": "r06_calloc_keys_product.c",
+    "rule": "R06",
+    "line": 3,
+    "col": 48,
+    "message": "Memory allocation 'calloc' size calculation uses arithmetic on key/buffer sizes without overflow checks.",
+    "expected": "true"
+  },
+  {
+    "case_id": "r06_realloc_pk_ct_sum",
+    "file": "r06_realloc_pk_ct_sum.c",
+    "rule": "R06",
+    "line": 3,
+    "col": 58,
+    "message": "Memory allocation 'realloc' size calculation uses arithmetic on key/buffer sizes without overflow checks.",
+    "expected": "true"
+  },
+  {
+    "case_id": "r06_pvportmalloc_signature_product",
+    "file": "r06_pvportmalloc_signature_product.c",
+    "rule": "R06",
+    "line": 3,
+    "col": 59,
+    "message": "Memory allocation 'pvPortMalloc' size calculation uses arithmetic on key/buffer sizes without overflow checks.",
+    "expected": "true"
+  },
+  {
+    "case_id": "r06_malloc_secret_tag_sum",
+    "file": "r06_malloc_secret_tag_sum.c",
+    "rule": "R06",
+    "line": 3,
+    "col": 52,
+    "message": "Memory allocation 'malloc' size calculation uses arithmetic on key/buffer sizes without overflow checks.",
+    "expected": "true"
+  },
+  {
+    "case_id": "r07_return_keypair_status",
+    "file": "r07_return_keypair_status.c",
+    "rule": "R07",
+    "line": 2,
+    "col": 0,
+    "message": "Return contract violation: variable 'ret' stores crypto result but is returned without validation.",
+    "expected": "true"
+  },
+  {
+    "case_id": "r07_return_sign_status",
+    "file": "r07_return_sign_status.c",
+    "rule": "R07",
+    "line": 2,
+    "col": 0,
+    "message": "Return contract violation: variable 'status' stores crypto result but is returned without validation.",
+    "expected": "true"
+  },
+  {
+    "case_id": "r07_return_verify_status",
+    "file": "r07_return_verify_status.c",
+    "rule": "R07",
+    "line": 2,
+    "col": 0,
+    "message": "Return contract violation: variable 'rc' stores crypto result but is returned without validation.",
+    "expected": "true"
+  },
+  {
+    "case_id": "r07_return_decaps_status",
+    "file": "r07_return_decaps_status.c",
+    "rule": "R07",
+    "line": 2,
+    "col": 0,
+    "message": "Return contract violation: variable 'res' stores crypto result but is returned without validation.",
+    "expected": "true"
+  },
+  {
+    "case_id": "r07_return_import_status",
+    "file": "r07_return_import_status.c",
+    "rule": "R07",
+    "line": 2,
+    "col": 0,
+    "message": "Return contract violation: variable 'ret' stores crypto result but is returned without validation.",
+    "expected": "true"
+  }
+]

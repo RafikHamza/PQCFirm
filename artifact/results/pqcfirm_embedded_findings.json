@@ -1,0 +1,614 @@
+[
+  {
+    "file": "embedded/esp32_pio/src/aes256ctr.c",
+    "line": 17,
+    "col": 66,
+    "rule": "R01",
+    "severity": "high",
+    "message": "Hardcoded key array size (32 bytes) for 'key' is insufficient for PQC.",
+    "suggestion": "Increase array size to hold PQC public/private keys or signatures, or parameterize it."
+  },
+  {
+    "file": "embedded/esp32_pio/src/aes256ctr.c",
+    "line": 19,
+    "col": 4,
+    "rule": "R02",
+    "severity": "medium",
+    "message": "Algorithm if-else chain contains classical checks but lacks post-quantum cryptography options.",
+    "suggestion": "Refactor to support post-quantum algorithms."
+  },
+  {
+    "file": "embedded/esp32_pio/src/aes256ctr.c",
+    "line": 24,
+    "col": 4,
+    "rule": "R04",
+    "severity": "high",
+    "message": "Return value of cryptographic function 'mbedtls_aes_setkey_enc' is unchecked.",
+    "suggestion": "Check the return value for errors (e.g. decapsulation failure) to prevent security gaps."
+  },
+  {
+    "file": "embedded/esp32_pio/src/aes256ctr.c",
+    "line": 39,
+    "col": 8,
+    "rule": "R04",
+    "severity": "high",
+    "message": "Return value of cryptographic function 'mbedtls_aes_crypt_ecb' is unchecked.",
+    "suggestion": "Check the return value for errors (e.g. decapsulation failure) to prevent security gaps."
+  },
+  {
+    "file": "embedded/esp32_pio/src/aes256ctr.h",
+    "line": 16,
+    "col": 56,
+    "rule": "R01",
+    "severity": "high",
+    "message": "Hardcoded key array size (32 bytes) for 'key' is insufficient for PQC.",
+    "suggestion": "Increase array size to hold PQC public/private keys or signatures, or parameterize it."
+  },
+  {
+    "file": "embedded/esp32_pio/src/main.cpp",
+    "line": 30,
+    "col": 12,
+    "rule": "R03",
+    "severity": "high",
+    "message": "Stack-allocated crypto buffer 'pk' of large size (MLKEM_INDCCA_PUBLICKEYBYTES) detected.",
+    "suggestion": "PQC keys/buffers are large; allocate on the heap or use caller-provided memory to prevent stack exhaustion."
+  },
+  {
+    "file": "embedded/esp32_pio/src/main.cpp",
+    "line": 31,
+    "col": 12,
+    "rule": "R03",
+    "severity": "high",
+    "message": "Stack-allocated crypto buffer 'sk' of large size (MLKEM_INDCCA_SECRETKEYBYTES) detected.",
+    "suggestion": "PQC keys/buffers are large; allocate on the heap or use caller-provided memory to prevent stack exhaustion."
+  },
+  {
+    "file": "embedded/esp32_pio/src/main.cpp",
+    "line": 32,
+    "col": 12,
+    "rule": "R03",
+    "severity": "high",
+    "message": "Stack-allocated crypto buffer 'ct' of large size (MLKEM_INDCCA_CIPHERTEXTBYTES) detected.",
+    "suggestion": "PQC keys/buffers are large; allocate on the heap or use caller-provided memory to prevent stack exhaustion."
+  },
+  {
+    "file": "embedded/esp32_pio/src/main.cpp",
+    "line": 130,
+    "col": 4,
+    "rule": "R02",
+    "severity": "medium",
+    "message": "Algorithm if-else chain contains classical checks but lacks post-quantum cryptography options.",
+    "suggestion": "Refactor to support post-quantum algorithms."
+  },
+  {
+    "file": "embedded/esp32_pio/src/main.cpp",
+    "line": 131,
+    "col": 4,
+    "rule": "R02",
+    "severity": "medium",
+    "message": "Algorithm if-else chain contains classical checks but lacks post-quantum cryptography options.",
+    "suggestion": "Refactor to support post-quantum algorithms."
+  },
+  {
+    "file": "embedded/esp32_pio/src/main.cpp",
+    "line": 132,
+    "col": 4,
+    "rule": "R02",
+    "severity": "medium",
+    "message": "Algorithm if-else chain contains classical checks but lacks post-quantum cryptography options.",
+    "suggestion": "Refactor to support post-quantum algorithms."
+  },
+  {
+    "file": "embedded/esp32_pio/src/main.cpp",
+    "line": 133,
+    "col": 4,
+    "rule": "R02",
+    "severity": "medium",
+    "message": "Algorithm if-else chain contains classical checks but lacks post-quantum cryptography options.",
+    "suggestion": "Refactor to support post-quantum algorithms."
+  },
+  {
+    "file": "embedded/esp32_pio/src/main.cpp",
+    "line": 134,
+    "col": 4,
+    "rule": "R02",
+    "severity": "medium",
+    "message": "Algorithm if-else chain contains classical checks but lacks post-quantum cryptography options.",
+    "suggestion": "Refactor to support post-quantum algorithms."
+  },
+  {
+    "file": "embedded/esp32_pio/src/main.cpp",
+    "line": 135,
+    "col": 4,
+    "rule": "R02",
+    "severity": "medium",
+    "message": "Algorithm if-else chain contains classical checks but lacks post-quantum cryptography options.",
+    "suggestion": "Refactor to support post-quantum algorithms."
+  },
+  {
+    "file": "embedded/esp32_pio/src/main.cpp",
+    "line": 489,
+    "col": 4,
+    "rule": "R04",
+    "severity": "high",
+    "message": "Return value of cryptographic function 'mbedtls_ecdh_gen_public' is unchecked.",
+    "suggestion": "Check the return value for errors (e.g. decapsulation failure) to prevent security gaps."
+  },
+  {
+    "file": "embedded/esp32_pio/src/main.cpp",
+    "line": 710,
+    "col": 12,
+    "rule": "R01",
+    "severity": "high",
+    "message": "Hardcoded key array size (256 bytes) for 'ciphertext' is insufficient for PQC.",
+    "suggestion": "Increase array size to hold PQC public/private keys or signatures, or parameterize it."
+  },
+  {
+    "file": "embedded/esp32_pio/src/main.cpp",
+    "line": 930,
+    "col": 8,
+    "rule": "R04",
+    "severity": "high",
+    "message": "Return value of cryptographic function 'DILITHIUM_KEYPAIR' is unchecked.",
+    "suggestion": "Check the return value for errors (e.g. decapsulation failure) to prevent security gaps."
+  },
+  {
+    "file": "embedded/esp32_pio/src/main.cpp",
+    "line": 930,
+    "col": 8,
+    "rule": "R05",
+    "severity": "low",
+    "message": "Direct call to algorithm-specific API 'DILITHIUM_KEYPAIR'.",
+    "suggestion": "Use parameterized generic APIs (e.g., OQS_KEM_decaps or wrapper functions) to maintain crypto-agility."
+  },
+  {
+    "file": "embedded/esp32_pio/src/main.cpp",
+    "line": 949,
+    "col": 8,
+    "rule": "R04",
+    "severity": "high",
+    "message": "Return value of cryptographic function 'DILITHIUM_SIGNATURE' is unchecked.",
+    "suggestion": "Check the return value for errors (e.g. decapsulation failure) to prevent security gaps."
+  },
+  {
+    "file": "embedded/esp32_pio/src/main.cpp",
+    "line": 949,
+    "col": 8,
+    "rule": "R05",
+    "severity": "low",
+    "message": "Direct call to algorithm-specific API 'DILITHIUM_SIGNATURE'.",
+    "suggestion": "Use parameterized generic APIs (e.g., OQS_KEM_decaps or wrapper functions) to maintain crypto-agility."
+  },
+  {
+    "file": "embedded/esp32_pio/src/main.cpp",
+    "line": 967,
+    "col": 18,
+    "rule": "R05",
+    "severity": "low",
+    "message": "Direct call to algorithm-specific API 'DILITHIUM_VERIFY'.",
+    "suggestion": "Use parameterized generic APIs (e.g., OQS_KEM_decaps or wrapper functions) to maintain crypto-agility."
+  },
+  {
+    "file": "embedded/esp32_pio/src/dilithium_internal/packing.c",
+    "line": 15,
+    "col": 21,
+    "rule": "R03",
+    "severity": "high",
+    "message": "Stack-allocated crypto buffer 'pk' of large size (CRYPTO_PUBLICKEYBYTES) detected.",
+    "suggestion": "PQC keys/buffers are large; allocate on the heap or use caller-provided memory to prevent stack exhaustion."
+  },
+  {
+    "file": "embedded/esp32_pio/src/dilithium_internal/packing.c",
+    "line": 40,
+    "col": 29,
+    "rule": "R03",
+    "severity": "high",
+    "message": "Stack-allocated crypto buffer 'pk' of large size (CRYPTO_PUBLICKEYBYTES) detected.",
+    "suggestion": "PQC keys/buffers are large; allocate on the heap or use caller-provided memory to prevent stack exhaustion."
+  },
+  {
+    "file": "embedded/esp32_pio/src/dilithium_internal/packing.c",
+    "line": 65,
+    "col": 21,
+    "rule": "R03",
+    "severity": "high",
+    "message": "Stack-allocated crypto buffer 'sk' of large size (CRYPTO_SECRETKEYBYTES) detected.",
+    "suggestion": "PQC keys/buffers are large; allocate on the heap or use caller-provided memory to prevent stack exhaustion."
+  },
+  {
+    "file": "embedded/esp32_pio/src/dilithium_internal/packing.c",
+    "line": 68,
+    "col": 27,
+    "rule": "R03",
+    "severity": "high",
+    "message": "Stack-allocated crypto buffer 'key' of large size (SEEDBYTES) detected.",
+    "suggestion": "PQC keys/buffers are large; allocate on the heap or use caller-provided memory to prevent stack exhaustion."
+  },
+  {
+    "file": "embedded/esp32_pio/src/dilithium_internal/packing.c",
+    "line": 114,
+    "col": 23,
+    "rule": "R03",
+    "severity": "high",
+    "message": "Stack-allocated crypto buffer 'key' of large size (SEEDBYTES) detected.",
+    "suggestion": "PQC keys/buffers are large; allocate on the heap or use caller-provided memory to prevent stack exhaustion."
+  },
+  {
+    "file": "embedded/esp32_pio/src/dilithium_internal/packing.c",
+    "line": 118,
+    "col": 29,
+    "rule": "R03",
+    "severity": "high",
+    "message": "Stack-allocated crypto buffer 'sk' of large size (CRYPTO_SECRETKEYBYTES) detected.",
+    "suggestion": "PQC keys/buffers are large; allocate on the heap or use caller-provided memory to prevent stack exhaustion."
+  },
+  {
+    "file": "embedded/esp32_pio/src/dilithium_internal/packing.c",
+    "line": 156,
+    "col": 22,
+    "rule": "R03",
+    "severity": "high",
+    "message": "Stack-allocated crypto buffer 'sig' of large size (CRYPTO_BYTES) detected.",
+    "suggestion": "PQC keys/buffers are large; allocate on the heap or use caller-provided memory to prevent stack exhaustion."
+  },
+  {
+    "file": "embedded/esp32_pio/src/dilithium_internal/packing.c",
+    "line": 201,
+    "col": 29,
+    "rule": "R03",
+    "severity": "high",
+    "message": "Stack-allocated crypto buffer 'sig' of large size (CRYPTO_BYTES) detected.",
+    "suggestion": "PQC keys/buffers are large; allocate on the heap or use caller-provided memory to prevent stack exhaustion."
+  },
+  {
+    "file": "embedded/esp32_pio/src/dilithium_internal/poly.c",
+    "line": 346,
+    "col": 32,
+    "rule": "R03",
+    "severity": "high",
+    "message": "Stack-allocated crypto buffer 'seed' of large size (SEEDBYTES) detected.",
+    "suggestion": "PQC keys/buffers are large; allocate on the heap or use caller-provided memory to prevent stack exhaustion."
+  },
+  {
+    "file": "embedded/esp32_pio/src/dilithium_internal/poly.c",
+    "line": 492,
+    "col": 43,
+    "rule": "R03",
+    "severity": "high",
+    "message": "Stack-allocated crypto buffer 'seed' of large size (SEEDBYTES) detected.",
+    "suggestion": "PQC keys/buffers are large; allocate on the heap or use caller-provided memory to prevent stack exhaustion."
+  },
+  {
+    "file": "embedded/esp32_pio/src/dilithium_internal/sign.c",
+    "line": 292,
+    "col": 2,
+    "rule": "R04",
+    "severity": "high",
+    "message": "Return value of cryptographic function 'crypto_sign_signature' is unchecked.",
+    "suggestion": "Check the return value for errors (e.g. decapsulation failure) to prevent security gaps."
+  },
+  {
+    "file": "embedded/esp32_pio/src/dilithium_internal/symmetric-shake.c",
+    "line": 6,
+    "col": 73,
+    "rule": "R03",
+    "severity": "high",
+    "message": "Stack-allocated crypto buffer 'seed' of large size (SEEDBYTES) detected.",
+    "suggestion": "PQC keys/buffers are large; allocate on the heap or use caller-provided memory to prevent stack exhaustion."
+  },
+  {
+    "file": "embedded/esp32_pio/src/dilithium_internal/symmetric.h",
+    "line": 17,
+    "col": 44,
+    "rule": "R01",
+    "severity": "high",
+    "message": "Hardcoded key array size (32 bytes) for 'key' is insufficient for PQC.",
+    "suggestion": "Increase array size to hold PQC public/private keys or signatures, or parameterize it."
+  },
+  {
+    "file": "embedded/esp32_pio/src/kyber_internal/config.h",
+    "line": 163,
+    "col": 2,
+    "rule": "R04",
+    "severity": "high",
+    "message": "Return value of cryptographic function 'OQS_randombytes' is unchecked.",
+    "suggestion": "Check the return value for errors (e.g. decapsulation failure) to prevent security gaps."
+  },
+  {
+    "file": "embedded/esp32_pio/src/kyber_internal/indcpa.c",
+    "line": 63,
+    "col": 38,
+    "rule": "R03",
+    "severity": "high",
+    "message": "Stack-allocated crypto buffer 'seed' of large size (MLKEM_SYMBYTES) detected.",
+    "suggestion": "PQC keys/buffers are large; allocate on the heap or use caller-provided memory to prevent stack exhaustion."
+  },
+  {
+    "file": "embedded/esp32_pio/src/kyber_internal/indcpa.c",
+    "line": 86,
+    "col": 50,
+    "rule": "R03",
+    "severity": "high",
+    "message": "Stack-allocated crypto buffer 'seed' of large size (MLKEM_SYMBYTES) detected.",
+    "suggestion": "PQC keys/buffers are large; allocate on the heap or use caller-provided memory to prevent stack exhaustion."
+  },
+  {
+    "file": "embedded/esp32_pio/src/kyber_internal/indcpa.c",
+    "line": 87,
+    "col": 40,
+    "rule": "R03",
+    "severity": "high",
+    "message": "Stack-allocated crypto buffer 'packedpk' of large size (MLKEM_INDCPA_PUBLICKEYBYTES) detected.",
+    "suggestion": "PQC keys/buffers are large; allocate on the heap or use caller-provided memory to prevent stack exhaustion."
+  },
+  {
+    "file": "embedded/esp32_pio/src/kyber_internal/indcpa.c",
+    "line": 132,
+    "col": 40,
+    "rule": "R03",
+    "severity": "high",
+    "message": "Stack-allocated crypto buffer 'packedsk' of large size (MLKEM_INDCPA_SECRETKEYBYTES) detected.",
+    "suggestion": "PQC keys/buffers are large; allocate on the heap or use caller-provided memory to prevent stack exhaustion."
+  },
+  {
+    "file": "embedded/esp32_pio/src/kyber_internal/indcpa.c",
+    "line": 204,
+    "col": 49,
+    "rule": "R03",
+    "severity": "high",
+    "message": "Stack-allocated crypto buffer 'seed' of large size (MLKEM_SYMBYTES) detected.",
+    "suggestion": "PQC keys/buffers are large; allocate on the heap or use caller-provided memory to prevent stack exhaustion."
+  },
+  {
+    "file": "embedded/esp32_pio/src/kyber_internal/indcpa.c",
+    "line": 334,
+    "col": 39,
+    "rule": "R03",
+    "severity": "high",
+    "message": "Stack-allocated crypto buffer 'pk' of large size (MLKEM_INDCPA_PUBLICKEYBYTES) detected.",
+    "suggestion": "PQC keys/buffers are large; allocate on the heap or use caller-provided memory to prevent stack exhaustion."
+  },
+  {
+    "file": "embedded/esp32_pio/src/kyber_internal/indcpa.c",
+    "line": 335,
+    "col": 39,
+    "rule": "R03",
+    "severity": "high",
+    "message": "Stack-allocated crypto buffer 'sk' of large size (MLKEM_INDCPA_SECRETKEYBYTES) detected.",
+    "suggestion": "PQC keys/buffers are large; allocate on the heap or use caller-provided memory to prevent stack exhaustion."
+  },
+  {
+    "file": "embedded/esp32_pio/src/kyber_internal/indcpa.c",
+    "line": 417,
+    "col": 34,
+    "rule": "R03",
+    "severity": "high",
+    "message": "Stack-allocated crypto buffer 'pk' of large size (MLKEM_INDCPA_PUBLICKEYBYTES) detected.",
+    "suggestion": "PQC keys/buffers are large; allocate on the heap or use caller-provided memory to prevent stack exhaustion."
+  },
+  {
+    "file": "embedded/esp32_pio/src/kyber_internal/indcpa.c",
+    "line": 495,
+    "col": 34,
+    "rule": "R03",
+    "severity": "high",
+    "message": "Stack-allocated crypto buffer 'sk' of large size (MLKEM_INDCPA_SECRETKEYBYTES) detected.",
+    "suggestion": "PQC keys/buffers are large; allocate on the heap or use caller-provided memory to prevent stack exhaustion."
+  },
+  {
+    "file": "embedded/esp32_pio/src/kyber_internal/kem.c",
+    "line": 72,
+    "col": 38,
+    "rule": "R03",
+    "severity": "high",
+    "message": "Stack-allocated crypto buffer 'pk' of large size (MLKEM_INDCCA_PUBLICKEYBYTES) detected.",
+    "suggestion": "PQC keys/buffers are large; allocate on the heap or use caller-provided memory to prevent stack exhaustion."
+  },
+  {
+    "file": "embedded/esp32_pio/src/kyber_internal/kem.c",
+    "line": 113,
+    "col": 38,
+    "rule": "R03",
+    "severity": "high",
+    "message": "Stack-allocated crypto buffer 'sk' of large size (MLKEM_INDCCA_SECRETKEYBYTES) detected.",
+    "suggestion": "PQC keys/buffers are large; allocate on the heap or use caller-provided memory to prevent stack exhaustion."
+  },
+  {
+    "file": "embedded/esp32_pio/src/kyber_internal/kem.c",
+    "line": 155,
+    "col": 39,
+    "rule": "R03",
+    "severity": "high",
+    "message": "Stack-allocated crypto buffer 'pk' of large size (MLKEM_INDCCA_PUBLICKEYBYTES) detected.",
+    "suggestion": "PQC keys/buffers are large; allocate on the heap or use caller-provided memory to prevent stack exhaustion."
+  },
+  {
+    "file": "embedded/esp32_pio/src/kyber_internal/kem.c",
+    "line": 156,
+    "col": 39,
+    "rule": "R03",
+    "severity": "high",
+    "message": "Stack-allocated crypto buffer 'sk' of large size (MLKEM_INDCCA_SECRETKEYBYTES) detected.",
+    "suggestion": "PQC keys/buffers are large; allocate on the heap or use caller-provided memory to prevent stack exhaustion."
+  },
+  {
+    "file": "embedded/esp32_pio/src/kyber_internal/kem.c",
+    "line": 159,
+    "col": 10,
+    "rule": "R03",
+    "severity": "high",
+    "message": "Stack-allocated crypto buffer 'ct' of large size (MLKEM_INDCCA_CIPHERTEXTBYTES) detected.",
+    "suggestion": "PQC keys/buffers are large; allocate on the heap or use caller-provided memory to prevent stack exhaustion."
+  },
+  {
+    "file": "embedded/esp32_pio/src/kyber_internal/kem.c",
+    "line": 196,
+    "col": 39,
+    "rule": "R03",
+    "severity": "high",
+    "message": "Stack-allocated crypto buffer 'pk' of large size (MLKEM_INDCCA_PUBLICKEYBYTES) detected.",
+    "suggestion": "PQC keys/buffers are large; allocate on the heap or use caller-provided memory to prevent stack exhaustion."
+  },
+  {
+    "file": "embedded/esp32_pio/src/kyber_internal/kem.c",
+    "line": 197,
+    "col": 39,
+    "rule": "R03",
+    "severity": "high",
+    "message": "Stack-allocated crypto buffer 'sk' of large size (MLKEM_INDCCA_SECRETKEYBYTES) detected.",
+    "suggestion": "PQC keys/buffers are large; allocate on the heap or use caller-provided memory to prevent stack exhaustion."
+  },
+  {
+    "file": "embedded/esp32_pio/src/kyber_internal/kem.c",
+    "line": 211,
+    "col": 38,
+    "rule": "R03",
+    "severity": "high",
+    "message": "Stack-allocated crypto buffer 'pk' of large size (MLKEM_INDCCA_PUBLICKEYBYTES) detected.",
+    "suggestion": "PQC keys/buffers are large; allocate on the heap or use caller-provided memory to prevent stack exhaustion."
+  },
+  {
+    "file": "embedded/esp32_pio/src/kyber_internal/kem.c",
+    "line": 212,
+    "col": 38,
+    "rule": "R03",
+    "severity": "high",
+    "message": "Stack-allocated crypto buffer 'sk' of large size (MLKEM_INDCCA_SECRETKEYBYTES) detected.",
+    "suggestion": "PQC keys/buffers are large; allocate on the heap or use caller-provided memory to prevent stack exhaustion."
+  },
+  {
+    "file": "embedded/esp32_pio/src/kyber_internal/kem.c",
+    "line": 248,
+    "col": 0,
+    "rule": "R07",
+    "severity": "medium",
+    "message": "Return contract violation: variable 'res' stores crypto result but is returned without validation.",
+    "suggestion": "Ensure the return value contract is validated (e.g. checking for non-zero status) before returning."
+  },
+  {
+    "file": "embedded/esp32_pio/src/kyber_internal/kem.c",
+    "line": 238,
+    "col": 31,
+    "rule": "R03",
+    "severity": "high",
+    "message": "Stack-allocated crypto buffer 'pk' of large size (MLKEM_INDCCA_PUBLICKEYBYTES) detected.",
+    "suggestion": "PQC keys/buffers are large; allocate on the heap or use caller-provided memory to prevent stack exhaustion."
+  },
+  {
+    "file": "embedded/esp32_pio/src/kyber_internal/kem.c",
+    "line": 239,
+    "col": 31,
+    "rule": "R03",
+    "severity": "high",
+    "message": "Stack-allocated crypto buffer 'sk' of large size (MLKEM_INDCCA_SECRETKEYBYTES) detected.",
+    "suggestion": "PQC keys/buffers are large; allocate on the heap or use caller-provided memory to prevent stack exhaustion."
+  },
+  {
+    "file": "embedded/esp32_pio/src/kyber_internal/kem.c",
+    "line": 260,
+    "col": 34,
+    "rule": "R03",
+    "severity": "high",
+    "message": "Stack-allocated crypto buffer 'ct' of large size (MLKEM_INDCCA_CIPHERTEXTBYTES) detected.",
+    "suggestion": "PQC keys/buffers are large; allocate on the heap or use caller-provided memory to prevent stack exhaustion."
+  },
+  {
+    "file": "embedded/esp32_pio/src/kyber_internal/kem.c",
+    "line": 262,
+    "col": 40,
+    "rule": "R03",
+    "severity": "high",
+    "message": "Stack-allocated crypto buffer 'pk' of large size (MLKEM_INDCCA_PUBLICKEYBYTES) detected.",
+    "suggestion": "PQC keys/buffers are large; allocate on the heap or use caller-provided memory to prevent stack exhaustion."
+  },
+  {
+    "file": "embedded/esp32_pio/src/kyber_internal/kem.c",
+    "line": 307,
+    "col": 0,
+    "rule": "R07",
+    "severity": "medium",
+    "message": "Return contract violation: variable 'res' stores crypto result but is returned without validation.",
+    "suggestion": "Ensure the return value contract is validated (e.g. checking for non-zero status) before returning."
+  },
+  {
+    "file": "embedded/esp32_pio/src/kyber_internal/kem.c",
+    "line": 297,
+    "col": 27,
+    "rule": "R03",
+    "severity": "high",
+    "message": "Stack-allocated crypto buffer 'ct' of large size (MLKEM_INDCCA_CIPHERTEXTBYTES) detected.",
+    "suggestion": "PQC keys/buffers are large; allocate on the heap or use caller-provided memory to prevent stack exhaustion."
+  },
+  {
+    "file": "embedded/esp32_pio/src/kyber_internal/kem.c",
+    "line": 299,
+    "col": 33,
+    "rule": "R03",
+    "severity": "high",
+    "message": "Stack-allocated crypto buffer 'pk' of large size (MLKEM_INDCCA_PUBLICKEYBYTES) detected.",
+    "suggestion": "PQC keys/buffers are large; allocate on the heap or use caller-provided memory to prevent stack exhaustion."
+  },
+  {
+    "file": "embedded/esp32_pio/src/kyber_internal/kem.c",
+    "line": 320,
+    "col": 33,
+    "rule": "R03",
+    "severity": "high",
+    "message": "Stack-allocated crypto buffer 'ct' of large size (MLKEM_INDCCA_CIPHERTEXTBYTES) detected.",
+    "suggestion": "PQC keys/buffers are large; allocate on the heap or use caller-provided memory to prevent stack exhaustion."
+  },
+  {
+    "file": "embedded/esp32_pio/src/kyber_internal/kem.c",
+    "line": 321,
+    "col": 33,
+    "rule": "R03",
+    "severity": "high",
+    "message": "Stack-allocated crypto buffer 'sk' of large size (MLKEM_INDCCA_SECRETKEYBYTES) detected.",
+    "suggestion": "PQC keys/buffers are large; allocate on the heap or use caller-provided memory to prevent stack exhaustion."
+  },
+  {
+    "file": "embedded/esp32_pio/src/kyber_internal/kyber_compat.h",
+    "line": 33,
+    "col": 65,
+    "rule": "R03",
+    "severity": "high",
+    "message": "Stack-allocated crypto buffer 'seed' of large size (MLKEM_SYMBYTES) detected.",
+    "suggestion": "PQC keys/buffers are large; allocate on the heap or use caller-provided memory to prevent stack exhaustion."
+  },
+  {
+    "file": "embedded/esp32_pio/src/kyber_internal/params.h",
+    "line": 34,
+    "col": 0,
+    "rule": "R01",
+    "severity": "medium",
+    "message": "Hardcoded key/buffer size macro 'MLKEM_SSBYTES' value (32) is below PQC minimum requirements.",
+    "suggestion": "Use a parameterized constant or a post-quantum size constant (e.g. ML-KEM key sizes > 800 bytes)."
+  },
+  {
+    "file": "embedded/esp32_pio/src/kyber_internal/poly_k.c",
+    "line": 303,
+    "col": 59,
+    "rule": "R03",
+    "severity": "high",
+    "message": "Stack-allocated crypto buffer 'seed' of large size (MLKEM_SYMBYTES) detected.",
+    "suggestion": "PQC keys/buffers are large; allocate on the heap or use caller-provided memory to prevent stack exhaustion."
+  },
+  {
+    "file": "embedded/esp32_pio/src/kyber_internal/poly_k.c",
+    "line": 370,
+    "col": 55,
+    "rule": "R03",
+    "severity": "high",
+    "message": "Stack-allocated crypto buffer 'seed' of large size (MLKEM_SYMBYTES) detected.",
+    "suggestion": "PQC keys/buffers are large; allocate on the heap or use caller-provided memory to prevent stack exhaustion."
+  },
+  {
+    "file": "embedded/esp32_pio/src/kyber_internal/poly_k.c",
+    "line": 402,
+    "col": 48,
+    "rule": "R03",
+    "severity": "high",
+    "message": "Stack-allocated crypto buffer 'seed' of large size (MLKEM_SYMBYTES) detected.",
+    "suggestion": "PQC keys/buffers are large; allocate on the heap or use caller-provided memory to prevent stack exhaustion."
+  }
+]

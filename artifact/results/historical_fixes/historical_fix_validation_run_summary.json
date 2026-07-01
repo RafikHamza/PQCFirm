@@ -1,0 +1,7 @@
+{
+  "validated_rows_attempted": 200,
+  "completed": 200,
+  "important_note": "Automated evidence only; manual review required before reporting recall.",
+  "interpretation": "Automated parent-revision scan over historical fix candidates; not independently validated real-bug recall.",
+  "safe_reporting": "Report as candidate-level signal only unless each row is manually validated."
+}

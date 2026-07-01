@@ -1,0 +1,9 @@
+{
+  "historical_fix_candidate_dataset_prepared": true,
+  "n_candidates": 200,
+  "candidate_tiers": {
+    "A_strong_fix_signal": 200
+  },
+  "validation_status": "not_claimed_as_validated_real_bugs",
+  "important_note": "These are historical fix candidates for validation, not validated recall results."
+}

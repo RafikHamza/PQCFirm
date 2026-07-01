@@ -1,0 +1,31 @@
+{
+  "codebase": "wolfssl",
+  "status": "PASS",
+  "snapshot_path": "artifact/external_codebases/snapshots/wolfssl",
+  "scan_roots": [
+    "src",
+    "wolfcrypt/src",
+    "wolfssl/wolfcrypt",
+    "tests"
+  ],
+  "source_files": 1240,
+  "raw_source_lines": 2245316,
+  "findings_total": 5902,
+  "rule_counts": {
+    "R01": 276,
+    "R02": 4454,
+    "R03": 576,
+    "R04": 321,
+    "R05": 41,
+    "R07": 234
+  },
+  "audit_sample_size": 500,
+  "tp": 416,
+  "fp": 8,
+  "review_rows": 76,
+  "classified_rows": 424,
+  "assisted_precision": 0.9811,
+  "review_method": "deterministic_external_assisted_triage",
+  "claim_wording": "Optional external-codebase assisted triage with conservative REVIEW handling; not human manual audit and not production recall.",
+  "snapshot_ref": "0cecccdf6e0504100c78126a558b6cbbcc486247"
+}

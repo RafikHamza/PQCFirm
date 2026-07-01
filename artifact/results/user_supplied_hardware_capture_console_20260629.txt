@@ -1,0 +1,222 @@
+Serial port: COM8
+
+======================================================================
+TASK C: CAPTURE FAILURE REPRODUCTION LOGS
+======================================================================
+
+--- Building esp32s3-crash-tiny in failure_reproduction ---
+  Compiling <artifact-root>\.pb\esp32s3-crash-tiny\FrameworkArduino\esp32-hal-rgb-led.c.o
+  Compiling <artifact-root>\.pb\esp32s3-crash-tiny\FrameworkArduino\esp32-hal-rmt.c.o
+  Compiling <artifact-root>\.pb\esp32s3-crash-tiny\FrameworkArduino\esp32-hal-sigmadelta.c.o
+  Compiling <artifact-root>\.pb\esp32s3-crash-tiny\FrameworkArduino\esp32-hal-spi.c.o
+  Compiling <artifact-root>\.pb\esp32s3-crash-tiny\FrameworkArduino\esp32-hal-time.c.o
+  Compiling <artifact-root>\.pb\esp32s3-crash-tiny\FrameworkArduino\esp32-hal-timer.c.o
+  Compiling <artifact-root>\.pb\esp32s3-crash-tiny\FrameworkArduino\esp32-hal-tinyusb.c.o
+  Compiling <artifact-root>\.pb\esp32s3-crash-tiny\FrameworkArduino\esp32-hal-touch.c.o
+  Compiling <artifact-root>\.pb\esp32s3-crash-tiny\FrameworkArduino\esp32-hal-uart.c.o
+  Compiling <artifact-root>\.pb\esp32s3-crash-tiny\FrameworkArduino\firmware_msc_fat.c.o
+  Compiling <artifact-root>\.pb\esp32s3-crash-tiny\FrameworkArduino\libb64\cdecode.c.o
+  Compiling <artifact-root>\.pb\esp32s3-crash-tiny\FrameworkArduino\libb64\cencode.c.o
+  Compiling <artifact-root>\.pb\esp32s3-crash-tiny\FrameworkArduino\main.cpp.o
+  Compiling <artifact-root>\.pb\esp32s3-crash-tiny\FrameworkArduino\stdlib_noniso.c.o
+  Compiling <artifact-root>\.pb\esp32s3-crash-tiny\FrameworkArduino\wiring_pulse.c.o
+  Compiling <artifact-root>\.pb\esp32s3-crash-tiny\FrameworkArduino\wiring_shift.c.o
+  Archiving <artifact-root>\.pb\esp32s3-crash-tiny\libFrameworkArduino.a
+  Indexing <artifact-root>\.pb\esp32s3-crash-tiny\libFrameworkArduino.a
+  Linking <artifact-root>\.pb\esp32s3-crash-tiny\firmware.elf
+  Retrieving maximum program size <artifact-root>\.pb\esp32s3-crash-tiny\firmware.elf
+  Checking size <artifact-root>\.pb\esp32s3-crash-tiny\firmware.elf
+  Advanced Memory Usage is available via "PlatformIO Home > Project Inspect"
+  RAM:   [=         ]   5.7% (used 18548 bytes from 327680 bytes)
+  Flash: [=         ]   8.4% (used 279777 bytes from 3342336 bytes)
+  Building <artifact-root>\.pb\esp32s3-crash-tiny\firmware.bin
+  esptool.py v4.9.0
+  Creating esp32s3 image...
+  Merged 2 ELF sections
+  Successfully created esp32s3 image.
+  ========================= [SUCCESS] Took 15.73 seconds =========================
+  
+  Environment         Status    Duration
+  ------------------  --------  ------------
+  esp32s3-crash-tiny  SUCCESS   00:00:15.733
+  ========================= 1 succeeded in 00:00:15.733 =========================
+  Build SUCCEEDED
+
+--- Uploading esp32s3-crash-tiny ---
+  SHA digest in image updated
+  Compressed 15104 bytes to 10430...
+  Writing at 0x00000000... (100 %)
+  Wrote 15104 bytes (10430 compressed) at 0x00000000 in 1.0 seconds (effective 119.2 kbit/s)...
+  Hash of data verified.
+  Compressed 3072 bytes to 146...
+  Writing at 0x00008000... (100 %)
+  Wrote 3072 bytes (146 compressed) at 0x00008000 in 0.0 seconds (effective 614.5 kbit/s)...
+  Hash of data verified.
+  Compressed 8192 bytes to 47...
+  Writing at 0x0000e000... (100 %)
+  Wrote 8192 bytes (47 compressed) at 0x0000e000 in 0.1 seconds (effective 1162.9 kbit/s)...
+  Hash of data verified.
+  Compressed 280144 bytes to 159549...
+  Writing at 0x00010000... (10 %)
+  Writing at 0x0001bf0c... (20 %)
+  Writing at 0x00024312... (30 %)
+  Writing at 0x00029ab6... (40 %)
+  Writing at 0x0002f06f... (50 %)
+  Writing at 0x000344c8... (60 %)
+  Writing at 0x0003a7aa... (70 %)
+  Writing at 0x00044cf2... (80 %)
+  Writing at 0x0004a907... (90 %)
+  Writing at 0x0004ffd4... (100 %)
+  Wrote 280144 bytes (159549 compressed) at 0x00010000 in 14.1 seconds (effective 159.1 kbit/s)...
+  Hash of data verified.
+  
+  Leaving...
+  Hard resetting via RTS pin...
+  ========================= [SUCCESS] Took 20.80 seconds =========================
+  
+  Environment         Status    Duration
+  ------------------  --------  ------------
+  esp32s3-crash-tiny  SUCCESS   00:00:20.797
+  ========================= 1 succeeded in 00:00:20.797 =========================
+  Upload SUCCEEDED
+
+  Capturing crash output (30s timeout)...
+  [1] ESP-ROM:esp32s3-20210327
+  [2] Build:Mar 27 2021
+  [3] rst:0x1 (POWERON),boot:0x8 (SPI_FAST_FLASH_BOOT)
+  [4] SPIWP:0xee
+  [5] mode:DIO, clock div:1
+  [6] load:0x3fce3808,len:0x4bc
+  [7] load:0x403c9700,len:0xbd8
+  [8] load:0x403cc700,len:0x2a0c
+  [9] entry 0x403c98d0
+  [10] 
+  [11] ========================================
+  [12]   PQCFirm Failure-Reproduction Demo
+  [13]   ML-KEM-768 keypair/encaps/decaps
+  [14]   Task stack: 8 KB (CRASH expected)
+  [15] ========================================
+  [16] 
+  [17] [FAILURE_REPRO] Starting ML-KEM-768 keypair/encaps/decaps...
+  [18] Guru Meditation Error: Core  0 panic'ed (Unhandled debug exception). 
+  -> STOP on 'Guru Meditation' (18 lines)
+  Saved crash log: <artifact-root>\artifact\embedded\failure_reproduction\results\tiny_stack_crash.log (18 lines)
+
+--- Building esp32s3-crash-large in failure_reproduction ---
+  Compiling <artifact-root>\.pb\esp32s3-crash-large\FrameworkArduino\esp32-hal-rgb-led.c.o
+  Compiling <artifact-root>\.pb\esp32s3-crash-large\FrameworkArduino\esp32-hal-rmt.c.o
+  Compiling <artifact-root>\.pb\esp32s3-crash-large\FrameworkArduino\esp32-hal-sigmadelta.c.o
+  Compiling <artifact-root>\.pb\esp32s3-crash-large\FrameworkArduino\esp32-hal-spi.c.o
+  Compiling <artifact-root>\.pb\esp32s3-crash-large\FrameworkArduino\esp32-hal-time.c.o
+  Compiling <artifact-root>\.pb\esp32s3-crash-large\FrameworkArduino\esp32-hal-timer.c.o
+  Compiling <artifact-root>\.pb\esp32s3-crash-large\FrameworkArduino\esp32-hal-tinyusb.c.o
+  Compiling <artifact-root>\.pb\esp32s3-crash-large\FrameworkArduino\esp32-hal-touch.c.o
+  Compiling <artifact-root>\.pb\esp32s3-crash-large\FrameworkArduino\esp32-hal-uart.c.o
+  Compiling <artifact-root>\.pb\esp32s3-crash-large\FrameworkArduino\firmware_msc_fat.c.o
+  Compiling <artifact-root>\.pb\esp32s3-crash-large\FrameworkArduino\libb64\cdecode.c.o
+  Compiling <artifact-root>\.pb\esp32s3-crash-large\FrameworkArduino\libb64\cencode.c.o
+  Compiling <artifact-root>\.pb\esp32s3-crash-large\FrameworkArduino\main.cpp.o
+  Compiling <artifact-root>\.pb\esp32s3-crash-large\FrameworkArduino\stdlib_noniso.c.o
+  Compiling <artifact-root>\.pb\esp32s3-crash-large\FrameworkArduino\wiring_pulse.c.o
+  Compiling <artifact-root>\.pb\esp32s3-crash-large\FrameworkArduino\wiring_shift.c.o
+  Archiving <artifact-root>\.pb\esp32s3-crash-large\libFrameworkArduino.a
+  Indexing <artifact-root>\.pb\esp32s3-crash-large\libFrameworkArduino.a
+  Linking <artifact-root>\.pb\esp32s3-crash-large\firmware.elf
+  Retrieving maximum program size <artifact-root>\.pb\esp32s3-crash-large\firmware.elf
+  Checking size <artifact-root>\.pb\esp32s3-crash-large\firmware.elf
+  Advanced Memory Usage is available via "PlatformIO Home > Project Inspect"
+  RAM:   [=         ]   5.7% (used 18548 bytes from 327680 bytes)
+  Flash: [=         ]   8.4% (used 279781 bytes from 3342336 bytes)
+  Building <artifact-root>\.pb\esp32s3-crash-large\firmware.bin
+  esptool.py v4.9.0
+  Creating esp32s3 image...
+  Merged 2 ELF sections
+  Successfully created esp32s3 image.
+  ========================= [SUCCESS] Took 15.88 seconds =========================
+  
+  Environment          Status    Duration
+  -------------------  --------  ------------
+  esp32s3-crash-large  SUCCESS   00:00:15.882
+  ========================= 1 succeeded in 00:00:15.882 =========================
+  Build SUCCEEDED
+
+--- Uploading esp32s3-crash-large ---
+  SHA digest in image updated
+  Compressed 15104 bytes to 10430...
+  Writing at 0x00000000... (100 %)
+  Wrote 15104 bytes (10430 compressed) at 0x00000000 in 1.0 seconds (effective 119.3 kbit/s)...
+  Hash of data verified.
+  Compressed 3072 bytes to 146...
+  Writing at 0x00008000... (100 %)
+  Wrote 3072 bytes (146 compressed) at 0x00008000 in 0.0 seconds (effective 626.1 kbit/s)...
+  Hash of data verified.
+  Compressed 8192 bytes to 47...
+  Writing at 0x0000e000... (100 %)
+  Wrote 8192 bytes (47 compressed) at 0x0000e000 in 0.1 seconds (effective 1141.9 kbit/s)...
+  Hash of data verified.
+  Compressed 280144 bytes to 159527...
+  Writing at 0x00010000... (10 %)
+  Writing at 0x0001bf9d... (20 %)
+  Writing at 0x0002431d... (30 %)
+  Writing at 0x00029ad9... (40 %)
+  Writing at 0x0002f083... (50 %)
+  Writing at 0x000344df... (60 %)
+  Writing at 0x0003a7c4... (70 %)
+  Writing at 0x00044d18... (80 %)
+  Writing at 0x0004a930... (90 %)
+  Writing at 0x0004fff1... (100 %)
+  Wrote 280144 bytes (159527 compressed) at 0x00010000 in 14.1 seconds (effective 159.1 kbit/s)...
+  Hash of data verified.
+  
+  Leaving...
+  Hard resetting via RTS pin...
+  ========================= [SUCCESS] Took 20.73 seconds =========================
+  
+  Environment          Status    Duration
+  -------------------  --------  ------------
+  esp32s3-crash-large  SUCCESS   00:00:20.731
+  ========================= 1 succeeded in 00:00:20.731 =========================
+  Upload SUCCEEDED
+
+  Capturing success output (30s timeout)...
+  [1] ESP-ROM:esp32s3-20210327
+  [2] Build:Mar 27 2021
+  [3] rst:0x1 (POWERON),boot:0x8 (SPI_FAST_FLASH_BOOT)
+  [4] SPIWP:0xee
+  [5] mode:DIO, clock div:1
+  [6] load:0x3fce3808,len:0x4bc
+  [7] load:0x403c9700,len:0xbd8
+  [8] load:0x403cc700,len:0x2a0c
+  [9] entry 0x403c98d0
+  [10] 
+  [11] ========================================
+  [12]   PQCFirm Failure-Reproduction Demo
+  [13]   ML-KEM-768 keypair/encaps/decaps
+  [14]   Task stack: 96 KB (SAFE expected)
+  [15] ========================================
+  [16] 
+  [17] [FAILURE_REPRO] Starting ML-KEM-768 keypair/encaps/decaps...
+  [18] [FAILURE_REPRO] Completed successfully: stack_hwm_raw=9296 stack_hwm_bytes=9296
+  [19] [FAILURE_REPRO] TEST PASSED
+  -> STOP on 'TEST PASSED' (19 lines)
+  Saved success log: <artifact-root>\artifact\embedded\failure_reproduction\results\large_stack_success.log (19 lines)
+
+Failure repro status: {
+  "real_crash_log_available": true,
+  "real_success_log_available": true,
+  "hardware_failure_claim_supported": true,
+  "crash_signature": "Guru Meditation Error",
+  "success_signature": "[FAILURE_REPRO] TEST PASSED",
+  "port": "COM8",
+  "baud": 115200
+}
+
+======================================================================
+HARDWARE CAPTURE SUMMARY
+======================================================================
+  Failure reproduction: PASS
+    Crash log: OK
+    Success log: OK
+  Paired trials: 100 hardware-rows
+    Mode: hardware_serial_paired_trials
+  Hardware summary JSON: <artifact-root>\artifact\results\hardware_capture_summary.json

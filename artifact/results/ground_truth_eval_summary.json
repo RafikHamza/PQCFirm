@@ -1,0 +1,47 @@
+{
+  "corpus_type": "curated_seeded_ground_truth",
+  "production_recall_estimate": false,
+  "cases_total": 42,
+  "defective_cases": 35,
+  "clean_negative_cases": 7,
+  "detected_defective_cases": 35,
+  "ground_truth_detection_rate": 1.0,
+  "false_positives_on_clean_cases": 0,
+  "per_rule": {
+    "R01": {
+      "total": 5,
+      "detected": 5,
+      "detection_rate": 1.0
+    },
+    "R02": {
+      "total": 5,
+      "detected": 5,
+      "detection_rate": 1.0
+    },
+    "R03": {
+      "total": 5,
+      "detected": 5,
+      "detection_rate": 1.0
+    },
+    "R04": {
+      "total": 5,
+      "detected": 5,
+      "detection_rate": 1.0
+    },
+    "R05": {
+      "total": 5,
+      "detected": 5,
+      "detection_rate": 1.0
+    },
+    "R06": {
+      "total": 5,
+      "detected": 5,
+      "detection_rate": 1.0
+    },
+    "R07": {
+      "total": 5,
+      "detected": 5,
+      "detection_rate": 1.0
+    }
+  }
+}

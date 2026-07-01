@@ -1,0 +1,43 @@
+case_id,file,rule,expected_detection,defect_type,description,source_type
+r01_short_public_key,r01_short_public_key.c,R01,true,r01,Short public-key buffer,seeded_current_rule
+r01_short_signature,r01_short_signature.c,R01,true,r01,Short signature output buffer,seeded_current_rule
+r01_short_psk,r01_short_psk.c,R01,true,r01,Short PSK/key storage,seeded_current_rule
+r01_small_certificate,r01_small_certificate.c,R01,true,r01,Certificate buffer below PQC certificate scale,seeded_current_rule
+r01_small_handshake,r01_small_handshake.c,R01,true,r01,Handshake buffer below hybrid/PQC handshake scale,seeded_current_rule
+r02_ecdsa_if_chain,r02_ecdsa_if_chain.c,R02,true,r02,Classical signature branch lacks ML-DSA,seeded_current_rule
+r02_ecdh_if_chain,r02_ecdh_if_chain.c,R02,true,r02,Classical key-exchange branch lacks ML-KEM,seeded_current_rule
+r02_rsa_switch,r02_rsa_switch.c,R02,true,r02,Classical switch lacks PQC branch,seeded_current_rule
+r02_cipher_suite_switch,r02_cipher_suite_switch.c,R02,true,r02,Classical TLS ciphersuite switch,seeded_current_rule
+r02_curve_selection,r02_curve_selection.c,R02,true,r02,Curve-only selection lacks PQC option,seeded_current_rule
+r03_stack_pk_sk_ct,r03_stack_pk_sk_ct.c,R03,true,r03,ML-KEM buffers on stack,seeded_current_rule
+r03_stack_signature,r03_stack_signature.c,R03,true,r03,Large signature buffer on stack,seeded_current_rule
+r03_stack_secret,r03_stack_secret.c,R03,true,r03,Large secret buffer on stack,seeded_current_rule
+r03_stack_ciphertext,r03_stack_ciphertext.c,R03,true,r03,Large ciphertext buffer on stack,seeded_current_rule
+r03_stack_fallback_key,r03_stack_fallback_key.c,R03,true,r03,Stack fallback after heap failure,seeded_current_rule
+r04_unchecked_keypair,r04_unchecked_keypair.c,R04,true,r04,Unchecked keypair result,seeded_current_rule
+r04_unchecked_sign,r04_unchecked_sign.c,R04,true,r04,Unchecked sign result,seeded_current_rule
+r04_unchecked_verify,r04_unchecked_verify.c,R04,true,r04,Unchecked verify result,seeded_current_rule
+r04_unchecked_import,r04_unchecked_import.c,R04,true,r04,Unchecked import result,seeded_current_rule
+r04_unchecked_handshake,r04_unchecked_handshake.c,R04,true,r04,Unchecked handshake step,seeded_current_rule
+r05_direct_kyber_keypair,r05_direct_kyber_keypair.c,R05,true,r05,Direct Kyber keypair call,seeded_current_rule
+r05_direct_dilithium_sign,r05_direct_dilithium_sign.c,R05,true,r05,Direct Dilithium sign call,seeded_current_rule
+r05_direct_sphincs_verify,r05_direct_sphincs_verify.c,R05,true,r05,Direct SPHINCS verify call,seeded_current_rule
+r05_direct_falcon_decaps,r05_direct_falcon_decaps.c,R05,true,r05,Direct Falcon decapsulation-like call,seeded_current_rule
+r05_direct_mceliece_encaps,r05_direct_mceliece_encaps.c,R05,true,r05,Direct McEliece encapsulation call,seeded_current_rule
+r06_malloc_key_sig_sum,r06_malloc_key_sig_sum.c,R06,true,r06,malloc with unchecked key/signature sum,seeded_current_rule
+r06_calloc_keys_product,r06_calloc_keys_product.c,R06,true,r06,calloc with unchecked key product,seeded_current_rule
+r06_realloc_pk_ct_sum,r06_realloc_pk_ct_sum.c,R06,true,r06,realloc with unchecked public-key/ciphertext sum,seeded_current_rule
+r06_pvportmalloc_signature_product,r06_pvportmalloc_signature_product.c,R06,true,r06,RTOS allocation with signature product,seeded_current_rule
+r06_malloc_secret_tag_sum,r06_malloc_secret_tag_sum.c,R06,true,r06,malloc with unchecked secret/tag sum,seeded_current_rule
+r07_return_keypair_status,r07_return_keypair_status.c,R07,true,r07,Returned keypair status without validation,seeded_current_rule
+r07_return_sign_status,r07_return_sign_status.c,R07,true,r07,Returned sign status without validation,seeded_current_rule
+r07_return_verify_status,r07_return_verify_status.c,R07,true,r07,Returned verify status without validation,seeded_current_rule
+r07_return_decaps_status,r07_return_decaps_status.c,R07,true,r07,Returned decapsulation status without validation,seeded_current_rule
+r07_return_import_status,r07_return_import_status.c,R07,true,r07,Returned import status without validation,seeded_current_rule
+clean_dynamic_buffer,clean_dynamic_buffer.c,R00,false,none,Clean dynamic buffer management,clean_negative
+clean_pqc_algorithm_branch,clean_pqc_algorithm_branch.c,R00,false,none,Clean selection includes a PQC option,clean_negative
+clean_heap_crypto_buffer,clean_heap_crypto_buffer.c,R00,false,none,Clean heap allocation without unchecked arithmetic,clean_negative
+clean_checked_return,clean_checked_return.c,R00,false,none,Clean checked cryptographic return,clean_negative
+clean_generic_api,clean_generic_api.c,R00,false,none,Clean generic algorithm API,clean_negative
+clean_safe_allocation,clean_safe_allocation.c,R00,false,none,Clean allocation after overflow check,clean_negative
+clean_validated_return_path,clean_validated_return_path.c,R00,false,none,Clean return path validates status,clean_negative

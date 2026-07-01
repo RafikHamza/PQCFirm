@@ -1,0 +1,11 @@
+{
+  "review_sample_size": 200,
+  "review_method": "llm_assisted_codebook_review",
+  "human_double_coding_available": false,
+  "llm_assisted_review_available": true,
+  "supports_taxonomy_validation": false,
+  "reason": "Agreement too low to support validation; use as triage/disagreement analysis only. The assisted labeler sees only the commit message, while original labels used full PR context (descriptions, issue links, code diffs).",
+  "agreement_rate": 0.38,
+  "kappa_between_original_and_assisted_labels": 0.1525,
+  "claim_wording": "LLM-assisted codebook review (message-only). Not independent human double-coding. Not validation of original labels. Use as disagreement/triage analysis only."
+}

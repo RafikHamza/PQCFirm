@@ -1,0 +1,304 @@
+{
+  "generated": "2026-07-01T16:23:22.638803",
+  "results_dir": "D:\\Downloads\\PQCFirm_artifact_FINAL_doublechecked\\artifact\\results",
+  "output_path": "D:\\Downloads\\PQCFirm_artifact_FINAL_doublechecked\\artifact\\results\\differential_divergences.json",
+  "comparisons": [
+    {
+      "classical_algo": "ECDSA_P256",
+      "pqc_algo": "Dilithium2",
+      "op": "KeyGen",
+      "classical": {
+        "avg_cycles": 33889728,
+        "stack_used_bytes": 7168,
+        "correctness": true
+      },
+      "pqc": {
+        "avg_cycles": 5437735,
+        "stack_used_bytes": 7808,
+        "correctness": true
+      },
+      "ratio_cycles": 0.1604537811575236,
+      "ratio_stack": 1.0892857142857142,
+      "divergence_annotations": [
+        "timing divergence"
+      ]
+    },
+    {
+      "classical_algo": "ECDSA_P256",
+      "pqc_algo": "Dilithium2",
+      "op": "Sign",
+      "classical": {
+        "avg_cycles": 15532987,
+        "stack_used_bytes": 7424,
+        "correctness": true
+      },
+      "pqc": {
+        "avg_cycles": 6859693,
+        "stack_used_bytes": 9024,
+        "correctness": true
+      },
+      "ratio_cycles": 0.441620983781162,
+      "ratio_stack": 1.2155172413793103,
+      "divergence_annotations": [
+        "timing divergence"
+      ]
+    },
+    {
+      "classical_algo": "ECDSA_P256",
+      "pqc_algo": "Dilithium2",
+      "op": "Verify",
+      "classical": {
+        "avg_cycles": 7518700,
+        "stack_used_bytes": 8768,
+        "correctness": true
+      },
+      "pqc": {
+        "avg_cycles": 5086929,
+        "stack_used_bytes": 8640,
+        "correctness": true
+      },
+      "ratio_cycles": 0.6765702847566734,
+      "ratio_stack": 0.9854014598540146,
+      "divergence_annotations": []
+    },
+    {
+      "classical_algo": "ECDSA_P256",
+      "pqc_algo": "Dilithium3",
+      "op": "KeyGen",
+      "classical": {
+        "avg_cycles": 33889728,
+        "stack_used_bytes": 7168,
+        "correctness": true
+      },
+      "pqc": {
+        "avg_cycles": 9415181,
+        "stack_used_bytes": 7808,
+        "correctness": true
+      },
+      "ratio_cycles": 0.2778181341555766,
+      "ratio_stack": 1.0892857142857142,
+      "divergence_annotations": [
+        "timing divergence"
+      ]
+    },
+    {
+      "classical_algo": "ECDSA_P256",
+      "pqc_algo": "Dilithium3",
+      "op": "Sign",
+      "classical": {
+        "avg_cycles": 15532987,
+        "stack_used_bytes": 7424,
+        "correctness": true
+      },
+      "pqc": {
+        "avg_cycles": 16457294,
+        "stack_used_bytes": 9024,
+        "correctness": true
+      },
+      "ratio_cycles": 1.0595060692447629,
+      "ratio_stack": 1.2155172413793103,
+      "divergence_annotations": []
+    },
+    {
+      "classical_algo": "ECDSA_P256",
+      "pqc_algo": "Dilithium3",
+      "op": "Verify",
+      "classical": {
+        "avg_cycles": 7518700,
+        "stack_used_bytes": 8768,
+        "correctness": true
+      },
+      "pqc": {
+        "avg_cycles": 8701649,
+        "stack_used_bytes": 8640,
+        "correctness": true
+      },
+      "ratio_cycles": 1.1573342466117813,
+      "ratio_stack": 0.9854014598540146,
+      "divergence_annotations": []
+    },
+    {
+      "classical_algo": "ECDSA_P256",
+      "pqc_algo": "Dilithium5",
+      "op": "KeyGen",
+      "classical": {
+        "avg_cycles": 33889728,
+        "stack_used_bytes": 7168,
+        "correctness": true
+      },
+      "pqc": {
+        "avg_cycles": 15906919,
+        "stack_used_bytes": 7808,
+        "correctness": true
+      },
+      "ratio_cycles": 0.4693728731018437,
+      "ratio_stack": 1.0892857142857142,
+      "divergence_annotations": [
+        "timing divergence"
+      ]
+    },
+    {
+      "classical_algo": "ECDSA_P256",
+      "pqc_algo": "Dilithium5",
+      "op": "Sign",
+      "classical": {
+        "avg_cycles": 15532987,
+        "stack_used_bytes": 7424,
+        "correctness": true
+      },
+      "pqc": {
+        "avg_cycles": 18268062,
+        "stack_used_bytes": 9024,
+        "correctness": true
+      },
+      "ratio_cycles": 1.1760817156416856,
+      "ratio_stack": 1.2155172413793103,
+      "divergence_annotations": []
+    },
+    {
+      "classical_algo": "ECDSA_P256",
+      "pqc_algo": "Dilithium5",
+      "op": "Verify",
+      "classical": {
+        "avg_cycles": 7518700,
+        "stack_used_bytes": 8768,
+        "correctness": true
+      },
+      "pqc": {
+        "avg_cycles": 15133525,
+        "stack_used_bytes": 8640,
+        "correctness": true
+      },
+      "ratio_cycles": 2.01278478992379,
+      "ratio_stack": 0.9854014598540146,
+      "divergence_annotations": [
+        "timing divergence"
+      ]
+    },
+    {
+      "classical_algo": "ECDSA_P256",
+      "pqc_algo": "ML_DSA_65",
+      "op": "KeyGen",
+      "classical": {
+        "avg_cycles": 33889728,
+        "stack_used_bytes": 7168,
+        "correctness": true
+      },
+      "pqc": {
+        "avg_cycles": 9401088,
+        "stack_used_bytes": 7808,
+        "correctness": true
+      },
+      "ratio_cycles": 0.27740228543587014,
+      "ratio_stack": 1.0892857142857142,
+      "divergence_annotations": [
+        "timing divergence"
+      ]
+    },
+    {
+      "classical_algo": "ECDSA_P256",
+      "pqc_algo": "ML_DSA_65",
+      "op": "Sign",
+      "classical": {
+        "avg_cycles": 15532987,
+        "stack_used_bytes": 7424,
+        "correctness": true
+      },
+      "pqc": {
+        "avg_cycles": 13711462,
+        "stack_used_bytes": 9024,
+        "correctness": true
+      },
+      "ratio_cycles": 0.8827318274328048,
+      "ratio_stack": 1.2155172413793103,
+      "divergence_annotations": []
+    },
+    {
+      "classical_algo": "ECDSA_P256",
+      "pqc_algo": "ML_DSA_65",
+      "op": "Verify",
+      "classical": {
+        "avg_cycles": 7518700,
+        "stack_used_bytes": 8768,
+        "correctness": true
+      },
+      "pqc": {
+        "avg_cycles": 8695297,
+        "stack_used_bytes": 8640,
+        "correctness": true
+      },
+      "ratio_cycles": 1.1564894197135143,
+      "ratio_stack": 0.9854014598540146,
+      "divergence_annotations": []
+    },
+    {
+      "classical_algo": "ECDH_P256",
+      "pqc_algo": "ML_KEM_512",
+      "op": "KeyGen",
+      "classical": {
+        "avg_cycles": 14294515,
+        "stack_used_bytes": 6784,
+        "correctness": true
+      },
+      "pqc": {
+        "avg_cycles": 1475157,
+        "stack_used_bytes": 37888,
+        "correctness": true
+      },
+      "ratio_cycles": 0.10319741523234612,
+      "ratio_stack": 5.584905660377358,
+      "divergence_annotations": [
+        "timing divergence",
+        "stack divergence"
+      ]
+    },
+    {
+      "classical_algo": "ECDH_P256",
+      "pqc_algo": "ML_KEM_768",
+      "op": "KeyGen",
+      "classical": {
+        "avg_cycles": 14294515,
+        "stack_used_bytes": 6784,
+        "correctness": true
+      },
+      "pqc": {
+        "avg_cycles": 2380078,
+        "stack_used_bytes": 55296,
+        "correctness": true
+      },
+      "ratio_cycles": 0.16650288589714307,
+      "ratio_stack": 8.150943396226415,
+      "divergence_annotations": [
+        "timing divergence",
+        "stack divergence"
+      ]
+    },
+    {
+      "classical_algo": "ECDH_P256",
+      "pqc_algo": "ML_KEM_1024",
+      "op": "KeyGen",
+      "classical": {
+        "avg_cycles": 14294515,
+        "stack_used_bytes": 6784,
+        "correctness": true
+      },
+      "pqc": {
+        "avg_cycles": 3668335,
+        "stack_used_bytes": 76864,
+        "correctness": true
+      },
+      "ratio_cycles": 0.25662535594946734,
+      "ratio_stack": 11.330188679245284,
+      "divergence_annotations": [
+        "timing divergence",
+        "stack divergence"
+      ]
+    }
+  ],
+  "summary": {
+    "timing": 9,
+    "stack": 3,
+    "completion_status": 0,
+    "total": 15
+  }
+}
